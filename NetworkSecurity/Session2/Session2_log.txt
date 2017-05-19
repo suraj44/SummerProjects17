@@ -1,0 +1,370 @@
+swathi : hello everyone!
+swathi : I see very few people online. Please do remind your friends
+swathi : We'll start off in another 10 minutes
+aryanhimanshu : Ok:ok_hand:
+adwait1_g : ok
+chinmay_dd : Cool :+1::skin-tone-2:
+swathi : Okay! Let's begin :wink:
+swathi : Today we'll be covering the basics of cryptography and then come back to a bit of networking
+swathi : Once <@U5B105XAM> finishes the network layers, we'll move on to some tools
+swathi : Basic question - What is cryptography?
+gauravud : encrypting and decrypting files?
+nihalh55 : science of encryption
+nihalh55 : and decryption
+swathi : Yes! The basic idea behind cryptography is secure transmission of your message in the presence of 3rd party adverseries
+swathi : Also it of utmost importance that our message is not tampered with
+swathi : This property is called message integrity
+swathi : We must define our encryption such that messages changed by an outsider is recognizable to the receiver
+swathi : Starting off: There are 2 major types of cryptographic functions
+swathi : 1. Secret key or symmetric key
+swathi : 2. Public key or asymmetric
+swathi : Any ideas about what these might mean?
+swathi : Take a guess using their names
+nihalh55 : im actually clueless
+swathi : No problem! Make a wild guess
+gauravud : secret key means only the sender and reciever know how to encrypt or decrypt??
+swathi : you dont have to be right
+architp4ndey : secret key is when a transmitter encodes a message and only the receiver knows the key?
+swathi : <@U5DCK8ZDX> you're getting there
+swathi : Awesome! So i guess many have a fair idea about secret key cryptography
+swathi : Let's introduce a few characters for today's session who will help us understand the above terms better
+swathi : Alice and Bob are the intended sender and receiver pair
+swathi : Eve is the bad one trying to get a hold of what Alice and Bob are communicating
+swathi : Now coming to secret key,
+swathi : Alice and Bob share a common secret key that is known ONLY to them.
+swathi : Alice encrypts the message(plain text) using this key and sends the encrypted message(cipher text) to Bob
+swathi : Since Bob knows the secret key he decrypts the cipher text to obtain the original message'
+swathi : Any doubts till here?
+architp4ndey : nope
+supreethg : no
+suraj7 : No
+tk11 : no
+adwait1_g : no
+nihalh55 : cool
+swathi : Cool!
+swathi : Can you guys tell me how this method provides authentication?
+swathi : that is, how does alice know she's communicating with bob and vice versa?
+tk11 : its one to one encryption
+architp4ndey : Alice doesn't know?
+architp4ndey : as in there's no authentication inbuilt
+tk11 : ok
+swathi : <@U5C5G61MH> Exactly! How is that inbuilt authentication built :stuck_out_tongue:
+gauravud : she will know it is bob given that no one else knows their common key
+swathi : <@U5DCK8ZDX> Good!
+gauravud : coz only he can decrypt and encrypt
+swathi : To provide strong authentication,
+swathi : Alice sends a text called a challenge (denoted by r)
+swathi : Let the challenge sent by alice be Ra
+swathi : Bob has challenge Rb
+swathi : Alice sends Ra to Bob.
+swathi : Now bob encrypts Ra using their common key (say Kab)
+swathi : Bob sends Ra encrypted with Kab to alice
+swathi : Alice can now decrypt the message to get back Ra using Kab
+swathi : The same can happen from bob to alice using Rb and Kab
+adwait1_g : when alice sends Ra to bob,it should already be in encrypted form right?
+swathi : Once these challenges are verified, alice and bob can be sure that they are communicating with the right person
+architp4ndey : Doubt :  is the challenge part of the encrypted message or seperate?
+swathi : <@U5AUG5J8Y>  Need not. Alice can verify Ra with the message she decrypts
+adwait1_g : oh is this a part of  initial connection establishent process.?
+swathi : <@U5C5G61MH>  Challenge is sent before actual communication starts
+architp4ndey : Cool :+1:
+swathi : This method is a crude way of verifying the user's authentication
+gauravud : so basically bob encrypts the message and sends it back to alice which she decrypts to get her original message??
+swathi : Yes
+gauravud : ok
+swathi : Any more doubts?
+adwait1_g : got it
+architp4ndey : None
+nihalh55 : :+1:
+swathi : Moving on, we have public key or asymmetric key crypto
+swathi : Any random ideas?
+swathi : :stuck_out_tongue:
+nihalh55 : dont tell me the public knows the key
+nihalh55 : or wait
+nihalh55 : a group of people know the key?
+nihalh55 : instead of one to one...its one to many
+swathi : I'll give you a hint- This method uses 2 keys
+swathi : <@U5BNQKM53> Yes, 1 of them is public
+ashrit26 : <@U5EEPUZ36|ashrit26> has joined the channel
+nihalh55 : idk:(
+gauravud : if there r two keys there will be 2 different decrypted messages right?
+nihalh55 : not necessary
+nihalh55 : u can double ecrypt a file na?
+nihalh55 : *encrypt
+swathi : <@U5DCK8ZDX> Nope :slightly_smiling_face:
+swathi : I'll explain :slightly_smiling_face:
+swathi : Here, alice and bob have a pair of keys
+aryanhimanshu : Private
+gautamrk : <@U5B3HALU9|gautamrk> has joined the channel
+swathi : Each pair contains a private key for decryption and a public key for encryption
+swathi : d= private
+swathi : e= public
+swathi : So alice's pair will be (da,ea) bob's (db,eb)
+swathi : The public key literally is public
+swathi : So everyone including Eve knows ea,eb
+swathi : Alice encrypts her message , say ma using bob's public key
+swathi : bob decrypts ma using his private key db
+swathi : Any doubts till here?
+nihalh55 : no
+tk11 : no
+gauravud : no
+adwait1_g : no
+suraj7 : No
+architp4ndey : Every individual has an unique public key?
+adwait1_g : then ea and eb need not be the same right?
+swathi : <@U5CCNE9P1|swathi> uploaded a file: <https://networksecurity-ieee.slack.com/files/swathi/F5EN5F2A0/public_key.jpeg|public key.jpeg>
+swathi : <@U5AUG5J8Y>  correct
+swathi : Similarly bob can encrypt message mb using ea and send it to alice
+swathi : alice decrypts using her private key
+swathi : Question: How is this better than secret key encryption?
+adwait1_g : but then if Bob is using ea as his encryption key,then alice should have db with her ?
+gauravud : da
+architp4ndey : Is it better cause there are a fewer number of keys needed to communicate in a group?
+swathi : <@U5AUG5J8Y>  No. If bob uses ea for encrytion alice requires her private key da for decryption
+nihalh55 : <@U5C5G61MH> true :open_mouth:
+architp4ndey : <@U5BNQKM53> :stuck_out_tongue:
+swathi : <@U5C5G61MH> Good!
+swathi : One point I forgot to mention: Alice and Bob only know their respective private keys
+swathi : i.e Alice knows da Bob knows db
+mat123 : Ohh ok
+swathi : Can  you come up with another advantage now?
+nihalh55 : what if ea and eb are same?
+nihalh55 : da and db is the same then?
+nihalh55 : *are the
+swathi : <@U5BNQKM53> da and db need not be same. It doesn't matter anyways as everyone knows it
+adwait1_g : can a single public key have more than one private key?
+gautamrk : advantage of this can be that they dont have to communicate before itself to share a secret key?
+swathi : <@U5BNQKM53> if ea and eb are same your encrytion sucks! :wink:
+nihalh55 : <@U5CCNE9P1> exactly
+swathi : <@U5B3HALU9> You're right!
+nihalh55 : <@U5AUG5J8Y> same doubt
+gauravud : public keys can be same but private cannot be same right?
+nihalh55 : <@U5DCK8ZDX> only then its a good encryption
+architp4ndey : I guess public keys can't be the same either
+nihalh55 : but can one public have two private keys
+nihalh55 : is the doubt
+architp4ndey : Wait isn't each individual assigned a public key and a private key? So no two keys can be common otherwise the encryption will be flawed
+adwait1_g : a public key is public
+architp4ndey : Does being public mean the publicly visible or publicly common?
+architp4ndey : Gosh so many doubts
+nihalh55 : ikr
+nihalh55 : list them down?
+gauravud : i guess publicly visible
+nihalh55 : so we dont miss any
+architp4ndey : <@U5BNQKM53> good idea
+jeshventh : <@U5C5G61MH>  it is publicly visible
+swathi : <@U5AUG5J8Y> <@U5BNQKM53>  No
+swathi : There is a 1-1 correspondance between private and public key pair
+swathi : This result is from math theorems like fermat's little theorem , euler's totient function etc (we'll see about these later)
+swathi : Any more questions?
+swathi : Sorry, my connection got interrupted
+swathi : Doubts are welcome :slightly_smiling_face:
+aryanhimanshu : No questions
+adwait1_g : so instead of using same pair of encryption and decryption keys,here we are using 2 diffenent pairs
+nihalh55 : thanks u :slightly_smiling_face:
+swathi : So as an answer to your questions public and private keys must be unique
+nihalh55 : *thank
+swathi : <@U5AUG5J8Y> yes. This provides better security
+adwait1_g : thanks
+gauravud : how r the public and private keys related?
+swathi : <@U5DCK8ZDX> good question
+swathi : The pairs are such that e*d=1mod(m)
+swathi : (refer : modular multiplicative inverse)
+nihalh55 : ok i ddint understand that
+gauravud : can one be derived from the other??:stuck_out_tongue:
+swathi : I'll give an example
+swathi : mod here is NOT the remainder but the number you are dividing by
+swathi : ex- 17=11mod3
+gautamrk : how is m chosen?
+swathi : this means both 17 and 11 leave the same remainder when divided by 3
+swathi : <@U5B3HALU9>  I'll  explain in a while
+swathi : Any questions till here?
+architp4ndey : No
+adwait1_g : no
+nihalh55 : 18=6mod3
+nihalh55 : this is right?
+swathi : yes
+swathi : The basic requirements include: 
+    Bob wants to receive a coded message from Alice
+    EVERYBODY knows how to write the message in code.
+    Bob is the ONLY person who knows how to decode the coded message.
+or vice versa
+gauravud : then how does bob know the message is from alice only
+gauravud : again they send challenge?
+swathi : The Details
+
+    1. Bob chooses two very large (distinct) prime numbers p and q;
+    2. n=pq, m= lcm {p−1, q−1} (lcm is the least common multiple );
+    3. Bob chooses r, where r&gt;1 and r is coprime with m (i.e. r and m have no factors in common);
+    4. Bob then finds the unique s such that rs≡1(modm)
+    5. Bob now tells everyone what n and r are, but does NOT say what p, q or s are.
+    6. Alice wants to send the message M (a single number) where M and n are coprime and 0&lt;M&lt;n.
+    7. Alice finds Mc, where Mc≡Mr(modn), and sends the message Mc to Bob.
+    8. Bob receives the message Mc from Alice and decodes it.
+swathi : NOTE Typo- Mr = M^r
+swathi : Also Note: The mod expression I told above is denoted by  ≡ and not =
+swathi : Before you guys start asking doubts,
+swathi : Lets take an example and work it out
+nihalh55 : please
+nihalh55 : be4 that
+nihalh55 : 12*3=1modm means?
+swathi : (1) Alice wishes to send the message M to Bob
+
+(2) Bob chooses p=17, q=23; so n=391, m=176, r=3 and s=59.
+
+(3) Bob then tells Alice that n=391 and r=3.
+
+(4) Note: It does not matter how many people have this information, they still won't be able to find s.
+
+(5) Alice computes Mc and finds that Mc=180.
+
+(5) Bob receives the coded message 180 from Alice
+
+(6) Bob now calculates M≡18059(mod391), and finds Alice's secret message M. Can you find it?
+nihalh55 : 36 and 1 leave the same remainder when divided by m?
+swathi : yes
+swathi : a*x≡1modm x is called modular multiplicative inverse of 'a' under modulo 'm'
+swathi : Can everyone follow the example?
+gauravud : whats c there?
+swathi : M subscript c is cipher txt
+gauravud : ok:smile:
+swathi : Are you able to understand what's happening till step 5?
+gauravud : ya
+swathi : Can I go ahead?
+adwait1_g : M^3=391*x+180
+adwait1_g : is this right?
+adwait1_g : x is a positive integer
+swathi : Yes!
+adwait1_g : M=13
+adwait1_g : i did hit and trial method
+swathi : Even I do that :stuck_out_tongue:
+swathi : However, the extended euclidean algo helps
+adwait1_g : oh ok
+swathi : We can't do hit and trial for practical cases
+swathi : The primes are very large
+swathi : usually 200 digits or more
+swathi : Any doubts till step 5?
+nihalh55 : im figuring it out
+nihalh55 : how do u find
+nihalh55 : modular multiplicative inverse
+nihalh55 : basically how is s=59?
+adwait1_g : bob choses s=59
+nihalh55 : u could have chosen anything he likes??
+nihalh55 : wait
+nihalh55 : i got it
+swathi : <@U5BNQKM53> once bob chooses r there is just 1 unique s
+nihalh55 : sorry
+nihalh55 : yes understood
+swathi : (6) Bob now calculates M≡180^59(mod391), and finds Alice's secret message M. Can you find it?
+swathi : Any more questions?
+gauravud : Mc calculated as M^3 mod391??
+swathi : yes
+nihalh55 : cool
+swathi : Before you ponder about step 6
+nihalh55 : hmm?
+swathi : note that now Bob knows p,q,m,n,r,s, and he uses these to decode the message Mc from Alice so as to find M. To do this Bob uses the theorem that (Mc)^s≡M(modn)
+swathi : Also some modular arithmetic theorems will be useful here
+swathi : You need to use the following facts:
+
+(1) If a≡b(modn) then ac≡bc(modn)
+
+(2) If a≡b(modn) then a^k≡b^k(modn)
+nihalh55 : so is r the public key and s the private key
+adwait1_g : one doubt in step 4 of the explaination given before the example.
+adwait1_g : 3*s=1mod(176)
+swathi : What's the doubt?
+adwait1_g : s=59 he chooses.but s can also be 235
+gauravud : 236 or 235?
+adwait1_g : 3*235=1+176*4
+gauravud : ok..got it
+swathi : Good question! Modular multiplicative inverse can belong only to the set {0,1,....,176-1}
+adwait1_g : oh didnt know that.
+adwait1_g : thanks
+swathi : Any questions?
+swathi : Can I go on?
+gauravud : yes
+adwait1_g : i sec,in the theorems given,that ac=bc(modn),c is a constant right?
+swathi : Yes
+swathi : So the last step of finding alice's message strictly follows this: (Mc)^s≡M(modn)
+swathi : The calculation may not be supported on calculators :stuck_out_tongue:
+swathi : Any questions till here?
+nihalh55 : no
+swathi : So, <@U5BNQKM53> can you tell me which is the public key and private key here?
+nihalh55 : r is public cause he is giving it out\
+nihalh55 : and s has to be private
+swathi : Correct!
+swathi : The private key is not easy to find even with n and r because it is computationally infeasible to factorize n as a product of 2 primes
+swathi : p and q are chosen such that they're close to each other and almost same number of digits long
+nihalh55 : but
+nihalh55 : its possible to find it
+nihalh55 : it will take a long time
+nihalh55 : but with a faster system which is able to handle big data, the key can be cracked into fast
+nihalh55 : right?
+nihalh55 : or is it still hard :open_mouth:
+swathi : It is hard.
+swathi : The problem of generating huge prime numbers is itself very time consuming
+nihalh55 : ohk true
+swathi : So factorization takes even more time
+swathi : There's no efficient algo that has been able to generate large primes
+swathi : Any questions
+swathi : ?
+nihalh55 : nop
+swathi : We'll go deeper into the math later. For now I hope everyone has an idea about public and private key encryption
+adwait1_g : yes
+swathi : Awesome!
+swathi : Now, let's see what hashing is
+swathi : Does anybody have an idea?
+adwait1_g : one way encrypton
+adwait1_g : there is no decryption key
+swathi : <@U5AUG5J8Y>  good!
+swathi : The properties of a hash function are:
+swathi : 1. For any message m, it is easy to compute h(m). Given h(m) there is no efficient way to find an m that hashes to h(m)
+swathi : h(x)=hash function
+swathi : However it is possible that 2 messages have the same hash
+swathi : The hash function is such that this type of collision occurs very very very rarely :stuck_out_tongue:
+swathi : questions?
+gauravud : no
+adwait1_g : no
+swathi : Does anyone have an idea as to how our mail stores passwords for verification?
+adwait1_g : it stores the hash of our password.when we enter the password,it will hash it again and if the 2 hashses match,then we can get in
+swathi : Correct!
+swathi : So if an attacker lays his hands on the hashed passwords, there's little he can do with it
+swathi : Can any of you guys list some other applications where hashing might prove useful?
+gautamrk : checksums
+swathi : <@U5B3HALU9> Awesome! Can you explain how?
+gautamrk : the hashed document is made public
+gautamrk : so when someone downloads or recieves the document, they can hash it and compare checksum values
+gautamrk : for authencity
+swathi : Exactly! Message integrity can be verified using hashing
+swathi : Alice wants to send a message to bob and also wants to make sure its not tampered in between
+swathi : Alice uses a secret key (password known to alice and bob) and sends the message along with its hash to bob
+swathi : bob receives the hashed message along with the message
+swathi : Once bob uses the password, he creates a hashed version of the message
+swathi : He then verifies the hashed message from alice and the one he obtained
+swathi : If they match, message has not been changed
+swathi : So basically,
+swathi : Sends the original message and its hash
+swathi : Alice sends
+swathi : Bob directly access the hash from alice and creates the hash for the received message using the password
+swathi : If both match, message is intact
+swathi : Any doubts?
+gauravud : no
+supreethg : no
+adwait1_g : no
+swathi : Cool! That's it for today.
+swathi : Hope you guys learnt something today
+swathi : Also : Assignment- Read about various ciphers
+adwait1_g : The session was too good!
+adwait1_g : Thank you
+gauravud : yes.thank u...
+swathi : Example - vigenere, playfair etc
+swathi : Also, do find out why each of these fail
+swathi : Just a fun fact - The german enigma used a primitive hash function. It appended to the message the number of characters in the message
+swathi : :slightly_smiling_face:
+swathi : Examples of hash functions- SHA2, MD5
+swathi : In case you're interested read up about the recent SHA1 collision
+swathi : So assignments include: 1. ciphers and why they fail 2. How do you achieve message confidentiality using symmetric and asymmetric encryption methods (i.e come up with an idea as to how you can use the best of both these methods to achieve confidentiality)
+gautamrk : thanks for the session
+swathi : Keep the assignments ready, we'll let you know how to submit them
+swathi : Thank you! :slightly_smiling_face:
+
