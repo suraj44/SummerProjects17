@@ -1,0 +1,374 @@
+himadrip : Hey
+surajsingh : Hey
+himadrip : please ping your friends so that we can start off the session
+architp4ndey : Hey
+himadrip : So, let's start off today's session then !:+1:
+surajsingh : Cool
+himadrip : Did you guys learn about DNS?
+aryanhimanshu : Yes
+surajsingh : Yeah it tells the browser the IP address corresponding to the URL 
+himadrip : <@U5BFS7Q2X> : so can you give an intro about it?
+himadrip : <@U5ATP83CG> : good!
+himadrip : Can you guys be a little more descriptive?
+aryanhimanshu : Yep exactly as surah said
+aryanhimanshu : *suraj
+surajsingh : When you enter a URL into your browser, it'll contact the DNS server and ask for the IP address corresponding to the URL you've entered 
+amalbyju98 : Well, the browser in computer checks in its cache memory for the IP address of the website otherwise the query is sent to the DNS server
+himadrip : Good!
+himadrip : please add to the answer if you have more information to share
+himadrip : :slightly_smiling_face:
+himadrip : So everyone understood right?
+amalbyju98 : Yes
+gpn : Yes
+himadrip : Okay, so moving on
+himadrip : let's discuss a few terms before talking about the OSI model
+himadrip : have you uys heard about the *default gateway* ?
+himadrip : *guys
+aryanhimanshu : Yup
+himadrip : <@U5BFS7Q2X> : what is it?
+surajsingh : Nope xP
+aryanhimanshu : It is type of access point
+aryanhimanshu : And by default it implies 
+aryanhimanshu : That it shall be used unless specified by other application
+himadrip : good
+himadrip : An access point connects users to other users within the network and also can serve as the point of interconnection between the WLAN and a fixed wire network.
+surajsingh : Oh it acts as a path for a computer on one network to send information to a computer on another network
+surajsingh : That's what a gateway is
+himadrip : <@U5ATP83CG> : right!
+himadrip : So whenever we connect to the internet, all our packets goes to the router in our homes(default gateway) and from there the packets are forwarded
+architp4ndey : So default gateway is the router's IP?
+himadrip : So the default gateway for usually homes has an ip address of 192.168.1.1 which is the router's ip
+himadrip : <@U5C5G61MH> : nice!
+himadrip : There is another term called the *loopback address* which as the name suggests is nothing but a reference which points to our computer itself
+himadrip : Loopback address has a fixed value of 127.0.0.1
+aryanhimanshu : Ok
+himadrip : This address is used to test our own node
+himadrip : to chech whether the NIC card is working properly
+himadrip : *check
+himadrip : Have you guys ever used the ping coommad?
+aryanhimanshu : Yes
+
+mnaveenkumar2009 : No
+architp4ndey : Yes
+architp4ndey : But what exactly does the ping command do?
+amalbyju98 : That command is used to find IP addresses of other computers in this same network
+mnaveenkumar2009 : Oh , I have used it then
+aryanhimanshu : It sends data packet and wait for reply and gives milliseconds taken for reply..
+mnaveenkumar2009 : But in CMD I type trace rt command after some other command .. not ping
+himadrip : <@U5E8J6VAA> : that could be one use of it
+aryanhimanshu : And timeout If no reply
+himadrip : <@U5BFS7Q2X> : correct!
+himadrip : <@U5B85LK4H> : yeah I was getting to that later :stuck_out_tongue:
+himadrip : ping command is used to usually test if some other node is active or not and is capable of communication
+himadrip : Let's try some ping commands then
+himadrip : FIre up your terminals and your cmds
+himadrip : let's first ping our own computer
+himadrip : using the loopback address
+himadrip : `ping 127.0.0.1`
+himadrip : terminal users, use ctrl + c to stop the ping command :stuck_out_tongue:
+architp4ndey : What are the other uses of the ping command?
+himadrip : I actually don't think it has any other uses
+architp4ndey : OK :stuck_out_tongue:
+himadrip : Cool <@U5C5G61MH> : you can actually find our if there are any other uses and share it with us on the doubts channel :stuck_out_tongue_closed_eyes:
+himadrip : Later
+architp4ndey : So we can ping specific IP addresses using the command and that's all?
+architp4ndey : <@U5B105XAM> ok ok :stuck_out_tongue:
+himadrip : which helps us in checking the connectivity
+himadrip : It is one of the basic tools of debugging
+himadrip : networks
+himadrip : lets ping the default gateway next
+himadrip : `ping 192.168.1.1`
+himadrip : It's basically and echo request
+himadrip : *an
+himadrip : So when the destination gets this ping packet it just echoes it back to us
+himadrip : `ping <http://www.google.com|www.google.com>`
+himadrip : We can also use domain names here
+himadrip : Let's try out something to verify if this actually works
+himadrip : IF you have Wi-Fi, Which i am guessing most of you do
+himadrip : find the ip address of your phone
+himadrip : now my phone's ip address is : 192.168.1.100
+himadrip : You can find the ip address of your phone under the advance settings under the Wifi tab in options
+himadrip : *advanced
+himadrip : So, now since my phone is connected to the router i'll ping my phone
+himadrip : Now, after you are done with that, switch off wifi on your phones and try pinging again
+amalbyju98 : Is 172.217.26.228 the IP address of <http://google.com|google.com> ?
+himadrip : It would either show Destination Host Unreachable or it wouldn't show anything (on terminal)
+himadrip : <@U5E8J6VAA> : if that's what you observed after your ping command , then yeah
+architp4ndey : <@U5E8J6VAA> exactly?
+amalbyju98 : Ok thanks
+himadrip : It is *one of the ip addresses* of google
+himadrip : servers
+himadrip : Hmm, public ip addresses 172 I think is used for India
+himadrip : Actually don't trust me on this! xP
+himadrip : Because my ISP had an ip address with 172 so I thought maybe those are Indian
+himadrip : :sweat_smile:
+himadrip : So, for those who couldn't execute the ping commands
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5GSURXL7/image.png|ping.png>
+himadrip : Next we move onto tracert/traceroute
+himadrip : <@U5B85LK4H> : intro please :stuck_out_tongue:
+mnaveenkumar2009 : Lol 
+mnaveenkumar2009 : Idk much .. but I used it to trace the IP of other people
+himadrip : No problem
+mnaveenkumar2009 : Connected to same network
+himadrip : :slightly_smiling_face:
+mnaveenkumar2009 : Like Nitk
+himadrip : Actually it is a pretty cool command used to trace the route taken by the packets to reach the destination
+mnaveenkumar2009 : We get the ipv6 address by default and if we need ipv4 I think we must use some tracert -4
+himadrip : So, you get to know how many intermediate nodes are there
+himadrip : The number of hops it took the packet
+himadrip : <@U5B85LK4H> : on terminal its ipv4 only :open_mouth:
+mnaveenkumar2009 : Oh
+mnaveenkumar2009 : I use windows
+himadrip : So, is anyone working on linux right now?
+architp4ndey : me
+gautamrk : me
+himadrip : Btw, guys install ubuntu please xD The introductory courses are at an end, you would need it later :stuck_out_tongue:
+himadrip : <@U5C5G61MH> <@U5B3HALU9> : cool!
+himadrip : So, for people working on ubuntu the command is *traceroute*
+himadrip : and you would need to install it
+mnaveenkumar2009 : Ok
+himadrip : using:
+himadrip : `sudo apt-get install traceroute`
+himadrip : or
+himadrip : `sudo apt install traceroute`
+himadrip : Windows users user tracert
+himadrip : *users use
+himadrip : Some examples
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5GSVU695/image.png|Traceroute>
+aryanhimanshu : I guess Google is 72.something
+himadrip : Oh okay
+himadrip : Then I was wrong about 172 being an India thing :stuck_out_tongue:
+aryanhimanshu : Haha OK:see_no_evil:
+himadrip : In the above image I have given some examples you guys can try
+aryanhimanshu : Ya traceroute is ok
+himadrip : Now I would show you a trick which might be useful for IT and CS people next year during their labs (if you want to scam) xP
+himadrip : So python provides this module called SimpleHTTPServer Which creates a server which is used to share files
+himadrip : People on windows, if you have python installed on your systems and you have updated the path variable
+himadrip : Then you guys can try this out as well
+himadrip : Ubuntu people : chill ubuntu ships with python pre-installed :sunglasses:
+himadrip : Now:
+himadrip : Steps
+himadrip : &gt; 1. using ifconfig/ipconfig find your ip address (ex. for wireless users its under wlo1 : inet addr || for ethernet under eno1)
+&gt; 2. go to the folder you want to share over a network :: use this command `python -m SimpleHTTPServer` on your terminals or cmd
+&gt; 3. notice that it says on port 8000 server starting, do not close the terminal
+&gt; 4. Open a new tab on your browser , use the url : ipaddress:8000 for example - 192.168.1.103:8000
+&gt; 5. You can also try it on your mobile browser
+&gt; 6. on your browser screens you can now see the files within the folder shared
+himadrip : Don't close the terminals on which you run the command(server)
+himadrip : So this can be used to share your files in a local network (withn your lab)
+architp4ndey : Wow
+himadrip : Also you can send files quickly to your phone using this! :smile:
+architp4ndey : <@U5B105XAM> Explain the phone part please it would be like a geeky shareit :stuck_out_tongue:
+mnaveenkumar2009 : Ya , I do the same thing​ .. but I use IIS .. it's there by default in windows
+mnaveenkumar2009 : Useful when we forget usb
+himadrip : I'll give you 5 minutes to try this out after that we go to the boring part(theory) : last part :stuck_out_tongue:
+himadrip : If you aren't able to do it now, it's fine. "ping" me later xP
+himadrip : <@U5B85LK4H> : cool!
+himadrip : <@U5B85LK4H> : maybe you can teach us some windows tricks later :+1:
+architp4ndey : <@U5C5G61MH|architp4ndey> uploaded a file: <https://networksecurity-ieee.slack.com/files/architp4ndey/F5G0K1MD1/screenshot_from_2017-05-21_21-23-45.png|Working>
+himadrip : <@U5C5G61MH> : NIce! you got it to work!
+himadrip : People don't be intimidated by all those files, <@U5C5G61MH> : shared his home directory :see_no_evil:
+mnaveenkumar2009 : Lol
+architp4ndey : Haha :'D Ubuntu newbie saving everything to home so
+himadrip : All those files with start with a . are hidden files :stuck_out_tongue: You can research about the different types of files. Mostly they are used to configure the environment or software
+himadrip : <@U5C5G61MH> : chill! try opening it on your phone browser too later! :slightly_smiling_face:
+himadrip : Okay guys Let's move on!
+himadrip : You guys with me?
+himadrip : xD
+architp4ndey : Yep
+mnaveenkumar2009 : Yes
+himadrip : others? xP
+himadrip : Lol xD from the 3rd session itself
+mnaveenkumar2009 : :sweat_smile: 
+gautamrk : go on
+himadrip : <@U5B3HALU9> : :+1:
+himadrip : someone woke up :stuck_out_tongue: kidding
+himadrip : Now comes some hard theory part, but it forms the very basics of networks so its important
+architp4ndey : All ears
+himadrip : Now, Our entire network is structured and based on some models having various layers and some rules governing them!
+himadrip : Before internet, the first model devised for internet was OSI (open systems interconnection)
+himadrip : where the researches put every functionality they could to build the network
+himadrip : It was devised before the protocols were created
+himadrip : Sadly we couldn't structure our internet to that model die to limitations which I would discuss later ( we instead used the TCP model)
+himadrip : *due
+himadrip : We would discuss the OSI model first before it is really detailed.
+himadrip : The OSI model divides the complex task of computer-to-computer communications, traditionally called internetworking, into a series of stages known as layers. Layers in the OSI model are ordered from ​the lowest level to highest. Together, these layers comprise the OSI stack.
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5G0LFTS7/image.png|OSI>
+himadrip : These are the 7 layers of OSI model
+himadrip : Bottom to top 
+&gt; physical layer,data link, network,transport, session,presentation,application
+himadrip : Now our packets are formed in this pattern
+himadrip : It's starts from the application layer, where the packet consists of a data and a header
+himadrip : This is passed on to the presentation layer, which takes the *entire packet (data + header)* and uses it as *data* and adds its *own header*
+himadrip : So in this way information is passed down from layer to the other where the packet from the previous layer is taken as the data and a header is appended
+himadrip : I'll show you a pictorial representation of this process
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5GSETRD4/image.png|image.png>
+himadrip : Now when the destination gets this packet, the data is transferred from one layer to another from bottom to top, where each layer removes its own header and passes it on to the top
+himadrip : Now an important point to be noted is : One layer can only access the data of its top and bottom layer, so it keeps the layers separate
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5G2SGNCS/image.png|image.png>
+himadrip : Everyone following?
+gautamrk : ya
+amalbyju98 : Yes
+himadrip : great! :smile:
+himadrip : First comes the physical layer
+himadrip : It is the lowest layer of the OSI Model.
+It activates, maintains and deactivates the physical connection.
+himadrip : It is responsible to convert the digital data to analog so that it can be transmitted in the medium
+himadrip : Similarly it also responsible for Analog-Analog, Digital-Digital, Analog-Digital conversions
+himadrip : It also deals with the topologies liek star,bus etc.
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5G4801S8/image.png|image.png>
+himadrip : Next comes the data link layer
+himadrip : It is responsible for:
+himadrip : Framing: Frames are the streams of bits received from the network layer into manageable data units. This division of stream of bits is done by Data Link Layer.
+Physical Addressing: The Data Link layer adds a header to the frame in order to define physical address of the sender or receiver of the frame, if the frames are to be distributed to different systems on the network.
+Flow Control: A flow control mechanism to avoid a fast transmitter from running a slow receiver by buffering the extra bit is provided by flow control. This prevents traffic jam at the receiver side.
+himadrip : Error Control: Error control is achieved by adding a trailer at the end of the frame.
+himadrip : Various error control mechanisms are checksums, CRC ,etc. which you can look up on the internet later.
+himadrip : Error control is done to check the validity of the data and measures reliabilty
+himadrip : Framing is usually done when the data being transported from one network goes to the other network having a very *small bandwidth*
+himadrip : So, this large chunk of packets need to be cut down to smaller frames
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5G5LM1D3/image.png|image.png>
+himadrip : The above image is for the network layer!
+himadrip : The uses of the network layer are:
+himadrip : It routes the signal through different channels from one node to other.
+It acts as a network controller. It manages the Subnet traffic.
+It decides by which route data should take.
+It divides the outgoing messages into packets and assembles the incoming packets into messages for higher levels.
+himadrip : So if one gateway has 4 networks connected to it, through the *network address table* which it maintains it decides in which network the destination node is present and hence decides the path it should take
+himadrip : If you guys have any doubts please ask
+himadrip : I know I am going a bit fast, (this stuff is a lot theoretical that's why :stuck_out_tongue: )
+himadrip : Next comes the *transport layer*
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5G2U6H1Q/image.png|image.png>
+himadrip : So when we send packets, some of them might reach the dest, earlier hence disrupting the order
+himadrip : Hence this layer is incharge of :
+himadrip : *Segmentation and Reassembling* : A message is divided into segments; each segment contains sequence number, which enables this layer in reassembling the message. Message is reassembled correctly upon arrival at the destination and replaces packets which were lost in transmission.
+himadrip : *Flow Control* : In this layer, flow control is performed end to end.
+*Error Control* : Error Control is performed end to end in this layer to ensure that the complete message arrives at the receiving transport layer without any error. Error Correction is done through retransmission.
+himadrip : So in error control if a packet is missing, then it asks the source to retransmit the packet
+himadrip : Now Transport layer has 2 types of packets : *TCP packets and UDP packets*
+himadrip : Does anyone has any idea about them?
+gautamrk : tcp makes sure everying reaches
+gautamrk : udp is lossy
+gautamrk : for streaming
+himadrip : <@U5B3HALU9> : cool!
+himadrip : So TCP packets are larger in size having more information
+himadrip : and UDP packets are smaller
+himadrip : So, <@U5B3HALU9> : why don't we only use tcp packets
+himadrip : ?
+himadrip : Since clearly they are better
+gautamrk : it takes too long to reach the source
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5G5MTTE1/image.png|TCP packet>
+gautamrk : its accurate
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5FFKDL2V/image.png|UDP>
+gautamrk : but slow
+himadrip : Okay
+gautamrk : not necessary where data doesnt have to be complely transferred
+gautamrk : like games
+himadrip : Now tcp packet provides error correction mechanisms but UDP packets only provide error detection mechanisms not corrction
+himadrip : <@U5B3HALU9> : nice example!
+himadrip : So though tcp packets seem better but in some cases udp is preffered
+himadrip : Mostly everywhere we use tcp though
+himadrip : UDP is used in streaming!
+himadrip : since in video streaming even if we lose some packets it would just affect the quality and cause some distortion which is managable
+himadrip : Also in mmo games
+himadrip : like DOTA,LOL,etc
+himadrip : time is of the escense
+himadrip : so UDP packets are used
+himadrip : Also, in games useless data like session id and other client details are not needed once the account is verified at the start of the game
+himadrip : So it would be redundant to keep sending that
+himadrip : Also, hackers would find such metadata useless, the gaming ones xD
+himadrip : yeah udp packets are open to threats
+gautamrk : but its harder for attacks to occur right?
+gautamrk : when data volumes are so large
+himadrip : <@U5B3HALU9> : didn't get your Q.
+gautamrk : nevermind
+himadrip : Also TCP packets are connection oriented!
+himadrip : <@U5B3HALU9> :stuck_out_tongue:
+himadrip : and UDP are connection less
+himadrip : so in TCP packets a 3-way handshakeoccurs before data is transmitted
+himadrip : to check the validity of the sender
+himadrip : Hence UDP packets aren't reliable
+himadrip : But still TCP packets are prone to some attacks like SYN-Flood ,etc.
+himadrip : So, another set of packets called Stream Oriented Transmission Packet(SCTP) was made
+himadrip : We wouldn't be discussing *SCTP* packets today
+himadrip : UDP - User Datagram Packets
+himadrip : TCP - Transmission Control packets
+himadrip : Moving on to the next layer
+himadrip : *session layer*
+Dialog Control : This layer allows two systems to start communication with each other .
+Synchronization : This layer allows a process to add checkpoints which are considered as synchronization points into stream of data. Example: If a system is sending a file of 800 pages, adding checkpoints after every 50 pages is recommended. This ensures that 50 page unit is successfully received and acknowledged. This is beneficial at the time of crash as if a crash happens at page number 110; there is no need to retransmit 1 to100 pages.
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5G2W9QFL/image.png|SESSION>
+himadrip : As the example suggested this is crucial for data sync
+himadrip : These checkpoints are "sync bits" in the data
+himadrip : Next Up: *Presentation Layer*
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5FCNF4RW/image.png|Presentation>
+himadrip : It's features are :
+amalbyju98 : I didn't understand
+Why is synchronisation required when TCP already manages error control of packets?
+himadrip : Translation : Before being transmitted, information in the form of characters and numbers should be changed to bit streams. The presentation layer is responsible for interoperability between encoding methods as different computers use different encoding methods. It translates data between the formats the network requires and the format the computer.
+Encryption : It carries out encryption at the transmitter and decryption at the receiver.
+Compression : It carries out data compression to reduce the bandwidth of the data to be transmitted. The primary role of Data compression is to reduce the number of bits to be 0transmitted. It is important in transmitting multimedia such as audio, video, text etc.
+himadrip : <@U5E8J6VAA> : Good question
+himadrip : So, TCP atkes cares of the error control of the segments! Now these segments would usually combine to form bigger packets processed by the session control layer
+himadrip : as one whole entity
+himadrip : So, even sync bits are added to the huge entity
+himadrip : ~even
+himadrip : ~even~
+amalbyju98 : Ok thanks
+himadrip : Hmm, my explanation wasn't perfect I think :stuck_out_tongue:
+himadrip : My bad!
+himadrip : Now session layer is a connection oriented service
+himadrip : So, it maintains a dedicated session between the source and the destination, During that session communication takes
+himadrip : place
+himadrip : Now, due to network problems if the session breaks
+himadrip : When a new session is established, it need not send data from the start due to the sync capability of the session layer!
+himadrip : *Note : obverse the difference between error checking and synchronisation*
+himadrip : DId you understand now <@U5E8J6VAA> ?
+himadrip : Synchronisation is on the upper layer of maintaining sessions and error checking is on the lower layer of maintaining the validity of data
+himadrip : If you still have doubts ping me later :+1:
+himadrip : Coming to *presentation layer*
+himadrip : Translation is usually performed the confusions of big-endian and little-endian machines
+himadrip : *to resolve the confusion of
+himadrip : So, a common standard is ensured
+himadrip : big-endian and little-endian machines are just machines where one reads the data from left to right and the other from right to left : so 1234 might be interpreted as 4321 or 1234 accordingly
+himadrip : Next comes the application layer
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5G2YRNAE/image.png|App>
+himadrip : It is the topmost layer.
+Transferring of files disturbing the results to the user is also done in this layer. Mail services, directory services, network resource etc are services provided by application layer.
+himadrip : So basically it works on the applications running
+himadrip : Now we adopted the model of TCP which is different
+amalbyju98 : Yes thanks
+Now I get it
+amalbyju98 : Sorry for the delayed response
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5GSMQZ0W/image.png|Difference 1>
+himadrip : <@U5E8J6VAA> : that was a good doubt! I had to think over it :stuck_out_tongue:
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5G4E694L/image.png|Difference 2>
+himadrip : Now why wasn't OSI model used! clearly it has a more functionality and better division!
+gautamrk : not necessary for all applications?
+gautamrk : too complex for simpler applications?
+himadrip : <@U5B3HALU9> : somewhat
+gautamrk : like http is stateless
+himadrip : actually it doesn't depend on the applications
+gautamrk : so doesnt need session layer
+himadrip : <@U5B3HALU9> : now you are getting to the point
+gautamrk : thats what i meant initially
+himadrip : so basically OSI is an overblown, bloated, everything-to-everybody protocol that does nothing particularly well.  TCP/IP, on the other hand, has been designed to work from day one. It was designed, implemented, redesigned, and refined in the context of a real network environment, not a bureaucratic vacuum of people who are more concerned with stuffing every possible feature into a protocol than making a protocol that is implementable in a practical sense. :laughing:
+himadrip : It's just a wet dream of the researchers xD
+himadrip : TCP is more realistic!
+jeshventh : Like Allo and whatsapp :p
+himadrip : xP
+himadrip : whatsapp is going worse nowadays!
+himadrip : Have you seen the updates ! nothing but more stupid emojies no one would use
+himadrip : *emojis
+jeshventh : Yeah. But a few small changes for better user experience too _:)
+himadrip : Also, whatsapp is bringing in more pointless features:joy:
+himadrip : <@U5C2P3WMR> : maybe xD but still, whatsapp was known for its simplicity
+himadrip : Okay yeah by our chats you can guess that the session has ended!
+himadrip : Thanks for suviving with me
+jeshventh : :joy: 
+jeshventh : Good ending :p
+himadrip : :joy:
+himadrip : I feel relieved!
+himadrip : Okay sleeping people exit the discussion later
+himadrip : Assignment : learn about Subnet masks and the process of NAT  some useful Link : <https://www.iplocation.net/subnet-mask>
+

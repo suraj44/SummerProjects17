@@ -1,0 +1,2125 @@
+[
+    {
+        "user": "U52A977UG",
+        "topic": "Session 4 -MySQL Basics by Salman Shah",
+        "text": "<@U52A977UG|salman-bhai> set the channel topic: Session 4 -MySQL Basics by Salman Shah",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1495860168.191863"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<https:\/\/www.codecademy.com\/articles\/sql-commands>\n\nList of SQL Commands that we'll be doing today!",
+        "attachments": [
+            {
+                "service_name": "Codecademy",
+                "title": "List of SQL commands",
+                "title_link": "https:\/\/www.codecademy.com\/articles\/sql-commands",
+                "text": "Codecademy is the easiest way to learn how to code. It's interactive, fun, and you can do it with your friends.",
+                "fallback": "Codecademy: List of SQL commands",
+                "thumb_url": "https:\/\/production.cdmycdn.com\/assets\/logo-codecademy-social-abfd8450722d675bddedde689f8af624.png",
+                "from_url": "https:\/\/www.codecademy.com\/articles\/sql-commands",
+                "thumb_width": 1200,
+                "thumb_height": 1200,
+                "service_icon": "https:\/\/www.codecademy.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1495860290.196654"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Also a Short Read on Popular Relational Database Management Systems that you might find useful!\n\n<https:\/\/www.codecademy.com\/articles\/sql-rdbms>",
+        "attachments": [
+            {
+                "service_name": "Codecademy",
+                "title": "SQL RDBMS",
+                "title_link": "https:\/\/www.codecademy.com\/articles\/sql-rdbms",
+                "text": "Codecademy is the easiest way to learn how to code. It's interactive, fun, and you can do it with your friends.",
+                "fallback": "Codecademy: SQL RDBMS",
+                "thumb_url": "https:\/\/production.cdmycdn.com\/assets\/logo-codecademy-social-abfd8450722d675bddedde689f8af624.png",
+                "from_url": "https:\/\/www.codecademy.com\/articles\/sql-rdbms",
+                "thumb_width": 1200,
+                "thumb_height": 1200,
+                "service_icon": "https:\/\/www.codecademy.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1495860405.201322"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Hi",
+        "ts": "1495862989.308539"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So how many of you are ready ?",
+        "ts": "1495862995.308782",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U55UC8R09",
+                    "U56JCBFA9",
+                    "U57A20DSS",
+                    "U579Y5A7Q",
+                    "U56DHFD99",
+                    "U55UJ9MH7",
+                    "U55UDASSV"
+                ],
+                "count": 7
+            },
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U55UB6X9P"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Not me but go ahead, Ill catch up in a few minutes",
+        "ts": "1495863183.316564"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "yeah even I'll catch up",
+        "ts": "1495863311.321298"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright! We'll revise a few concepts before going ahead!",
+        "ts": "1495863329.321980"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56JCBFA9> define a *Relational Database*",
+        "ts": "1495863359.323075"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I'm hoping you guys don't sleep :stuck_out_tongue: There's lots of coding in this session!",
+        "ts": "1495863412.324973"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56JCBFA9> ????",
+        "ts": "1495863416.325141"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UC8R09>",
+        "ts": "1495863473.327130"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Kindly tell the answer!",
+        "ts": "1495863484.327665"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "a relational DB stores data in the form of tables",
+        "ts": "1495863491.327976"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Looks like ma'am is busy at the moment",
+        "ts": "1495863491.328008"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay",
+        "ts": "1495863520.329117"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "It is based on a schema - which includes the name of the table and different column names",
+        "ts": "1495863521.329212"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56DHFD99> WOuld you kindly remind us what is a Primary Key?",
+        "ts": "1495863544.329951"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UC8R09> correct!",
+        "ts": "1495863555.330409"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UB6X9P> Kindly tell us what is a Foreign Key and the difference between a Primary Key and a Foreign Key",
+        "ts": "1495863594.332037"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Yeah, A primary key is a unique key which identifies an instance. It is different for different instances.",
+        "ts": "1495863608.332585"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Umm that is right <@U56DHFD99> but in simple terms every table in your relational database will have a column which is in most cases called ID which will uniquely identify each and every row in that table",
+        "ts": "1495863679.335220"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "Foreign key is mainly used for creating\/indetifying relations while primary key is used for uniquely to identify a instance",
+        "ts": "1495863692.335694"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "We'll talk about this in a bit of detail today",
+        "ts": "1495863696.335822"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "ok:+1:",
+        "ts": "1495863712.336438"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UB6X9P> again correct but in simple terms foreign key is basically the primary key of any other table!",
+        "ts": "1495863719.336662"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "No need to be so accurate on the definitions! :stuck_out_tongue:",
+        "ts": "1495863735.337288"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "ok:sweat_smile:",
+        "ts": "1495863746.337689"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UDASSV> can we have two primary keys in a particular instance\/table?",
+        "ts": "1495863751.337836"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U579Y5A7Q> can we have two or more foreign key columns in a table?",
+        "ts": "1495863776.338837"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U57A20DSS> tell me which SQL Version are you running?",
+        "ts": "1495863840.341038"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "sorry internet connection went off",
+        "thread_ts": "1495863851.341423",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U52A977UG",
+                "ts": "1495863874.342202"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1495863851.341423",
+        "reactions": [
+            {
+                "name": "sweat_smile",
+                "users": [
+                    "U52A977UG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "yes.. since a column has many rows. i think",
+        "ts": "1495863852.341462"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "I think you can have 2 columns that uniquely identify a record. But its called an alternate key",
+        "ts": "1495863854.341502"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UJ9MH7> you're familiar with MySQL right?",
+        "ts": "1495863855.341552"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "anumeha29: Chill da!",
+        "thread_ts": "1495863851.341423",
+        "parent_user_id": "U56JCBFA9",
+        "ts": "1495863874.342202"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "not much",
+        "ts": "1495863891.342870"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Forget alternate keys just primary key. Tell if we can have two or not",
+        "ts": "1495863926.344267"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1495863932.344492"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UDASSV> correct",
+        "ts": "1495863967.345966"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U579Y5A7Q> yes you can have primary keys of various other tables in different columns that's why multiple foregin keys can be present!",
+        "ts": "1495864001.347234"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "All right <@U55UJ9MH7>",
+        "ts": "1495864012.347769"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "mysql  Ver 14.14 Distrib 5.7.18, for Linux (x86_64) using  EditLine wrapper\nthat is the version i have",
+        "ts": "1495864033.348574"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "All right any doubts anyone till now?",
+        "ts": "1495864034.348598"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Cool cool!",
+        "ts": "1495864044.348925"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "nope",
+        "ts": "1495864057.349355"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1495864081.350292"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "no",
+        "ts": "1495864086.350478"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1495864087.350525"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "no",
+        "ts": "1495864087.350530"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1495864126.351797"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay so this is how it's going to work! I'm going to put up a code snippet and you have to copy paste it as it is on the PHPMyAdmin Console! Then I'll explain what that code snippet does!",
+        "ts": "1495864142.352264"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Now on the left column there is a New option",
+        "ts": "1495864167.353078"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I want you guys to create a new database called dbms-cc! After you've done that, put up a thumbs up on this statement!",
+        "ts": "1495864195.354057",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U52A977UG",
+                    "U56DHFD99",
+                    "U56H3SYJG",
+                    "U55UC8R09"
+                ],
+                "count": 4
+            },
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U55UB6X9P"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U55UDASSV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": ":+1:",
+        "thread_ts": "1495864246.355976",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U52A977UG",
+                "ts": "1495864275.357162"
+            },
+            {
+                "user": "U56JCBFA9",
+                "ts": "1495864344.359916"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1495864246.355976",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U52A977UG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "anumeha29: Not like that! :stuck_out_tongue:",
+        "thread_ts": "1495864246.355976",
+        "parent_user_id": "U56JCBFA9",
+        "ts": "1495864275.357162"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any problems ?",
+        "ts": "1495864313.358543"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "oh sorry didnt see that it was to that statement :stuck_out_tongue:",
+        "thread_ts": "1495864246.355976",
+        "parent_user_id": "U56JCBFA9",
+        "ts": "1495864344.359916"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "whats the \"new option\" ?",
+        "ts": "1495864361.360506"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ON the left sidebar there's a \"New\" text href",
+        "ts": "1495864410.362211"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "CLick on that and create a new database called 'dbms-cc'",
+        "ts": "1495864431.363049"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If you don't know where to click send a screenshot! :smile:",
+        "ts": "1495864455.363874"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "If you can't find it\nJust go to Database tab\nYou can create one there",
+        "ts": "1495864462.364098"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U530UCFTL> Good morning sir!",
+        "ts": "1495864463.364144"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "That as well!",
+        "ts": "1495864485.364915"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Guys please respond!",
+        "thread_ts": "1495864638.371060",
+        "reply_count": 9,
+        "replies": [
+            {
+                "user": "U55UC8R09",
+                "ts": "1495864677.372673"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495864705.374059"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495864708.374168"
+            },
+            {
+                "user": "U55UB6X9P",
+                "ts": "1495864712.374321"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495864728.374900"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495864732.375057"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495864741.375434"
+            },
+            {
+                "user": "U55UC8R09",
+                "ts": "1495864744.375579"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495864882.382725"
+            }
+        ],
+        "unread_count": 9,
+        "ts": "1495864638.371060"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "salman-bhai: I am getting access denied for the phpmyadmin page ! I will try to figure it out",
+        "thread_ts": "1495864638.371060",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495864677.372673"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "What username and password are you putting?",
+        "thread_ts": "1495864638.371060",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495864705.374059"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Username is root",
+        "thread_ts": "1495864638.371060",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495864708.374168"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "salman-bhai:  I am getting error too...400 Bad request",
+        "thread_ts": "1495864638.371060",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495864712.374321"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And password is the one you put during installation.",
+        "edited": {
+            "user": "U52A977UG",
+            "ts": "1495864817.000000"
+        },
+        "thread_ts": "1495864638.371060",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495864728.374900"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "installation**",
+        "thread_ts": "1495864638.371060",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495864732.375057"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UB6X9P> screenshot please!",
+        "thread_ts": "1495864638.371060",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495864741.375434"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "yes, it worked now !",
+        "thread_ts": "1495864638.371060",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495864744.375579"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Please put username as *root*!",
+        "edited": {
+            "user": "U52A977UG",
+            "ts": "1495864796.000000"
+        },
+        "ts": "1495864750.375794"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And password is whatever you put up during installation!",
+        "ts": "1495864782.377163"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any other problems please send up!",
+        "thread_ts": "1495864638.371060",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495864882.382725"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U55UB6X9P|nachiket> shared a file: <https:\/\/compsocnitk.slack.com\/files\/nachiket\/F5JSQPC3C\/screenshot_from_2017-05-27_11-29-20.png|Screenshot from 2017-05-27 11-29-20.png>",
+        "file": {
+            "id": "F5JSQPC3C",
+            "created": 1495864887,
+            "timestamp": 1495864887,
+            "name": "Screenshot from 2017-05-27 11-29-20.png",
+            "title": "Screenshot from 2017-05-27 11-29-20.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U55UB6X9P",
+            "editable": false,
+            "size": 160608,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JSQPC3C\/screenshot_from_2017-05-27_11-29-20.png?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JSQPC3C\/download\/screenshot_from_2017-05-27_11-29-20.png?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5JSQPC3C-f2975be8ba\/screenshot_from_2017-05-27_11-29-20_64.png?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5JSQPC3C-f2975be8ba\/screenshot_from_2017-05-27_11-29-20_80.png?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5JSQPC3C-f2975be8ba\/screenshot_from_2017-05-27_11-29-20_360.png?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5JSQPC3C-f2975be8ba\/screenshot_from_2017-05-27_11-29-20_480.png?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5JSQPC3C-f2975be8ba\/screenshot_from_2017-05-27_11-29-20_160.png?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5JSQPC3C-f2975be8ba\/screenshot_from_2017-05-27_11-29-20_720.png?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5JSQPC3C-f2975be8ba\/screenshot_from_2017-05-27_11-29-20_800.png?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5JSQPC3C-f2975be8ba\/screenshot_from_2017-05-27_11-29-20_960.png?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5JSQPC3C-f2975be8ba\/screenshot_from_2017-05-27_11-29-20_1024.png?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1920,
+            "original_h": 1080,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/nachiket\/F5JSQPC3C\/screenshot_from_2017-05-27_11-29-20.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5JSQPC3C-5398da7d88",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U55UB6X9P",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "nachiket",
+        "bot_id": null,
+        "ts": "1495864927.384888"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Restart the server and put localhost\/phpmyadmin",
+        "thread_ts": "1495864941.385507",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U55UB6X9P",
+                "ts": "1495865004.388265"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495865046.389971"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1495864941.385507"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": ":+1:",
+        "ts": "1495864947.385734"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "salman-bhai: It worked..Thanks",
+        "thread_ts": "1495864941.385507",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495865004.388265"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Np",
+        "thread_ts": "1495864941.385507",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495865046.389971"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright moving ahead",
+        "ts": "1495865141.394183"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If you have doubts please ping in the other group from now!",
+        "ts": "1495865155.394786"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Don't want to make logs messy for everyone!",
+        "ts": "1495865169.395594"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Now click on your table",
+        "ts": "1495865196.397098"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ANd you'll see a COnsole icon at the bottom",
+        "ts": "1495865218.398077"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Click on it and type the following command!",
+        "ts": "1495865232.398702"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM0B1V4\/-.php|Untitled> and commented: This command creates a new table for us. It allows you to to put in columns of your choice!",
+        "file": {
+            "id": "F5KM0B1V4",
+            "created": 1495865300,
+            "timestamp": 1495865300,
+            "name": "-.php",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "php",
+            "pretty_type": "PHP",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 59,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KM0B1V4\/-.php?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KM0B1V4\/download\/-.php?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM0B1V4\/-.php",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5KM0B1V4-2685bbda92",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM0B1V4\/-.php\/edit",
+            "preview": "\tCREATE TABLE students(id INTEGER, name TEXT, age INTEGER);",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>\tCREATE TABLE students(id INTEGER, name TEXT, age INTEGER);<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5JQKRB0T",
+                "created": 1495865300,
+                "timestamp": 1495865300,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "This command creates a new table for us. It allows you to to put in columns of your choice!"
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U55UC8R09",
+                        "U55UDASSV",
+                        "U56JCBFA9"
+                    ],
+                    "count": 3
+                },
+                {
+                    "name": "+1::skin-tone-4",
+                    "users": [
+                        "U55UB6X9P"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495865300.401555"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56DHFD99> can you identify the primary key in this table?",
+        "ts": "1495865410.406158"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM0JFRC\/how_to_insert_values_in_the_table.php|How to insert values in the table> and commented: Copy paste this command and after understanding what it does add your own name to it as well.",
+        "file": {
+            "id": "F5KM0JFRC",
+            "created": 1495865505,
+            "timestamp": 1495865505,
+            "name": "How_to_insert_values_in_the_table.php",
+            "title": "How to insert values in the table",
+            "mimetype": "text\/plain",
+            "filetype": "php",
+            "pretty_type": "PHP",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 94,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KM0JFRC\/how_to_insert_values_in_the_table.php?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KM0JFRC\/download\/how_to_insert_values_in_the_table.php?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM0JFRC\/how_to_insert_values_in_the_table.php",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5KM0JFRC-a5c8bed9a3",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM0JFRC\/how_to_insert_values_in_the_table.php\/edit",
+            "preview": "INSERT INTO students (id, name, age) \r\nVALUES (1, 'Salman Shah', 18);\r\nSELECT * FROM students;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>INSERT INTO students (id, name, age) <\/pre><\/div>\n<div><pre>VALUES (1, 'Salman Shah', 18);<\/pre><\/div>\n<div><pre>SELECT * FROM students;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5JU6A9E0",
+                "created": 1495865505,
+                "timestamp": 1495865505,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "Copy paste this command and after understanding what it does add your own name to it as well."
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U56JCBFA9",
+                        "U579Y5A7Q",
+                        "U55UC8R09",
+                        "U55UB6X9P",
+                        "U55UDASSV",
+                        "U56DHFD99"
+                    ],
+                    "count": 6
+                }
+            ]
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495865505.410273"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "is the primary key id?",
+        "ts": "1495865624.415618"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Yup we've created that column for that sole purpose",
+        "ts": "1495865648.416659"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Every row in that column will have a unique value",
+        "ts": "1495865661.417192"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "However the same cannot be said for name and age!",
+        "ts": "1495865674.417708"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "People who are lagging behind please comment what the Issue is",
+        "thread_ts": "1495865778.422250",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U57A20DSS",
+                "ts": "1495865877.426401"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1495865778.422250"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "salman-bhai: I have internet problem.. I'm using slack on my phone right now and I'm trying to get the internet working on my laptop",
+        "thread_ts": "1495865778.422250",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495865877.426401"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay",
+        "ts": "1495865927.429178"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright so moving ahead!",
+        "ts": "1495866018.433124"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The INSERT INTO function allows you to add row values to your table",
+        "ts": "1495866145.438014"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "It's combined with the VALUES commnad",
+        "ts": "1495866161.438583"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any doubts?",
+        "ts": "1495866242.441836"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "no",
+        "ts": "1495866251.442223"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "no",
+        "ts": "1495866253.442287"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Nope",
+        "ts": "1495866258.442468"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1495866259.442505"
+    },
+    {
+        "type": "message",
+        "user": "U56H3SYJG",
+        "text": "No",
+        "ts": "1495866261.442603"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "no",
+        "ts": "1495866269.442874"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1495866277.443155"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1495866307.444384"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "no",
+        "ts": "1495866320.444940"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay so from now I'll just directly add commands over here and explain what they mean! In case they don't work ping me",
+        "ts": "1495866339.445735"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Otherwise I'll assume you got it!",
+        "ts": "1495866348.446057"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Cool?",
+        "ts": "1495866350.446136",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U55UC8R09",
+                    "U55UDASSV",
+                    "U55UB6X9P",
+                    "U56DHFD99",
+                    "U57A20DSS",
+                    "U57AA2TEK"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "ok",
+        "ts": "1495866380.447697"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KMLGEF9\/-.m|Untitled> and commented: <@U56JCBFA9> run this command and tell me what output you get and what this command does",
+        "file": {
+            "id": "F5KMLGEF9",
+            "created": 1495866415,
+            "timestamp": 1495866415,
+            "name": "-.m",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "objc",
+            "pretty_type": "Objective-C",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 23,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KMLGEF9\/-.m?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KMLGEF9\/download\/-.m?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KMLGEF9\/-.m",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5KMLGEF9-48051e14c8",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KMLGEF9\/-.m\/edit",
+            "preview": "SELECT * from students;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">SELECT<\/span> <span class=\"cm-operator\">*<\/span> <span class=\"cm-variable\">from<\/span> <span class=\"cm-variable\">students<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5JA3CL7K",
+                "created": 1495866415,
+                "timestamp": 1495866415,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "<@U56JCBFA9> run this command and tell me what output you get and what this command does"
+            }
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495866415.449076"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JA3EXMF\/-.m|Untitled> and commented: <@U56DHFD99> run this and tell us what you think it's function is!",
+        "file": {
+            "id": "F5JA3EXMF",
+            "created": 1495866484,
+            "timestamp": 1495866484,
+            "name": "-.m",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "objc",
+            "pretty_type": "Objective-C",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 44,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JA3EXMF\/-.m?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JA3EXMF\/download\/-.m?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JA3EXMF\/-.m",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5JA3EXMF-02925690a6",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JA3EXMF\/-.m\/edit",
+            "preview": "UPDATE students\r\nSET age = 17\r\nWHERE id = 1;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">UPDATE<\/span> <span class=\"cm-variable\">students<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-variable\">SET<\/span> <span class=\"cm-variable\">age<\/span> <span class=\"cm-operator\">=<\/span> <span class=\"cm-number\">17<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-variable\">WHERE<\/span> <span class=\"cm-keyword\">id<\/span> <span class=\"cm-operator\">=<\/span> <span class=\"cm-number\">1<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5JSSNA6N",
+                "created": 1495866484,
+                "timestamp": 1495866484,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "<@U56DHFD99> run this and tell us what you think it's function is!"
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U55UDASSV"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495866484.451661"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "there was no output :confused: ..it just shows the table student",
+        "ts": "1495866491.451909"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "the one i created",
+        "ts": "1495866521.453021"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56JCBFA9> did you add a row to your table called *students*?",
+        "ts": "1495866536.453625"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "yeah",
+        "ts": "1495866550.454133"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "it shows id , name age",
+        "ts": "1495866564.454563"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "INSERT INTO students (id, name, age) \nVALUES (1, 'Salman Shah', 18);\nSELECT * FROM students;",
+        "ts": "1495866569.454725"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "and my details in it",
+        "ts": "1495866570.454757"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Run this",
+        "ts": "1495866572.454880"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "yeah yeah",
+        "ts": "1495866574.454947"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "did that",
+        "ts": "1495866576.455018"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Haan ji!",
+        "ts": "1495866578.455073"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "SO basically what *SELECT* does is it select a particular column in the table specified and returns all the values in that column",
+        "ts": "1495866621.457080"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "it says one row affected",
+        "ts": "1495866627.457303"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "oh okay",
+        "ts": "1495866633.457555"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KMLRFAT\/-.txt|Untitled> and commented: <@U57A20DSS> run this and tell me what output you get?",
+        "file": {
+            "id": "F5KMLRFAT",
+            "created": 1495866656,
+            "timestamp": 1495866656,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 24,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KMLRFAT\/-.txt?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KMLRFAT\/download\/-.txt?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KMLRFAT\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5KMLRFAT-421562d54f",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KMLRFAT\/-.txt\/edit",
+            "preview": "SELECT id FROM students;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>SELECT id FROM students;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5JU7NH8U",
+                "created": 1495866656,
+                "timestamp": 1495866656,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "<@U57A20DSS> run this and tell me what output you get?"
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U55UDASSV"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495866656.458553"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56DHFD99> now run the SELECT command and see if you're changes are affected or not",
+        "ts": "1495866686.459807"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "@others please run these commands as well! WIll give you an idea of how things are working!",
+        "ts": "1495866709.460753"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56DHFD99> any doubts?",
+        "ts": "1495866728.461596"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U57A20DSS> any doubts?",
+        "thread_ts": "1495866735.461958",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U57A20DSS",
+                "ts": "1495866764.463089"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495866785.463967"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1495866735.461958"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "salman-bhai: sorry.. net isn't working yet :(",
+        "thread_ts": "1495866735.461958",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495866764.463089"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UDASSV> what output did you get?",
+        "ts": "1495866779.463684"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Cool cool",
+        "thread_ts": "1495866735.461958",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495866785.463967"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "it displays only the id field",
+        "ts": "1495866805.464768"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": ":+1:",
+        "ts": "1495866816.465183"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "and the age gets modified to 17",
+        "ts": "1495866818.465271"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Awesome! <@U55UDASSV> <@U56DHFD99>",
+        "ts": "1495866838.466149"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "SO basically we've learnt four commands now\n*CREATE TABLE*\n*INSERT INTO*\n*SELECT*\n*UPDATE*",
+        "ts": "1495866876.467653"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Everyone with me here till now?",
+        "ts": "1495866887.468050",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U55UC8R09",
+                    "U56DHFD99",
+                    "U57AA2TEK",
+                    "U55UDASSV",
+                    "U56H3SYJG",
+                    "U55UB6X9P",
+                    "U56JCBFA9",
+                    "U57A20DSS"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Awesome!",
+        "ts": "1495866919.469401"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Now last two commands",
+        "ts": "1495866927.469699"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM2DLPQ\/add_a_column_in_the_existing_table.pl|Add a column in the existing table> and commented: If no doubts in this put up a thumbs up",
+        "file": {
+            "id": "F5KM2DLPQ",
+            "created": 1495866998,
+            "timestamp": 1495866998,
+            "name": "Add_a_column_in_the_existing_table.pl",
+            "title": "Add a column in the existing table",
+            "mimetype": "text\/plain",
+            "filetype": "perl",
+            "pretty_type": "Perl",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 45,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KM2DLPQ\/add_a_column_in_the_existing_table.pl?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KM2DLPQ\/download\/add_a_column_in_the_existing_table.pl?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM2DLPQ\/add_a_column_in_the_existing_table.pl",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5KM2DLPQ-d1e2b4c5df",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM2DLPQ\/add_a_column_in_the_existing_table.pl\/edit",
+            "preview": "ALTER TABLE students ADD COLUMN college TEXT;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-meta\">ALTER<\/span> <span class=\"cm-meta\">TABLE<\/span> <span class=\"cm-meta\">students<\/span> <span class=\"cm-meta\">ADD<\/span> <span class=\"cm-meta\">COLUMN<\/span> <span class=\"cm-meta\">college<\/span> <span class=\"cm-meta\">TEXT<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2,
+            "initial_comment": {
+                "id": "Fc5J75G056",
+                "created": 1495866998,
+                "timestamp": 1495866998,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "If no doubts in this put up a thumbs up"
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U56DHFD99",
+                        "U55UC8R09",
+                        "U56JCBFA9",
+                        "U57AA2TEK",
+                        "U55UDASSV",
+                        "U55UB6X9P"
+                    ],
+                    "count": 6
+                }
+            ]
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495866998.472676"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5J75JMR6\/after_that_run_this_command_to_update_a_value_in_the_table.m|After that run this command to update a value in the table> and commented: Put thumbs up if no doubts",
+        "file": {
+            "id": "F5J75JMR6",
+            "created": 1495867077,
+            "timestamp": 1495867077,
+            "name": "After_that_run_this_command_to_update_a_value_in_the_table.m",
+            "title": "After that run this command to update a value in the table",
+            "mimetype": "text\/plain",
+            "filetype": "objc",
+            "pretty_type": "Objective-C",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 63,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5J75JMR6\/after_that_run_this_command_to_update_a_value_in_the_table.m?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5J75JMR6\/download\/after_that_run_this_command_to_update_a_value_in_the_table.m?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5J75JMR6\/after_that_run_this_command_to_update_a_value_in_the_table.m",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5J75JMR6-05fec57e3a",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5J75JMR6\/after_that_run_this_command_to_update_a_value_in_the_table.m\/edit",
+            "preview": "UPDATE students \r\nSET college = 'NITK Surathkal'\r\nWHERE id = 1;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">UPDATE<\/span> <span class=\"cm-variable\">students<\/span> <\/pre><\/div>\n<div><pre><span class=\"cm-variable\">SET<\/span> <span class=\"cm-variable\">college<\/span> <span class=\"cm-operator\">=<\/span> <span class=\"cm-string\">'NITK Surathkal'<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-variable\">WHERE<\/span> <span class=\"cm-keyword\">id<\/span> <span class=\"cm-operator\">=<\/span> <span class=\"cm-number\">1<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5JSTERAN",
+                "created": 1495867077,
+                "timestamp": 1495867077,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "Put thumbs up if no doubts"
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U56H3SYJG",
+                        "U55UC8R09",
+                        "U55UB6X9P",
+                        "U56JCBFA9",
+                        "U55UDASSV",
+                        "U57AA2TEK"
+                    ],
+                    "count": 6
+                }
+            ]
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495867077.475847"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JU8ADUL\/this_deletes_all_those_rows_which_are_empty_for_the_college_field_.c|This deletes all those rows which are empty for the college field!> and commented: Put up thumbs up if no doubts",
+        "file": {
+            "id": "F5JU8ADUL",
+            "created": 1495867141,
+            "timestamp": 1495867141,
+            "name": "This_deletes_all_those_rows_which_are_empty_for_the_college_field_.c",
+            "title": "This deletes all those rows which are empty for the college field!",
+            "mimetype": "text\/plain",
+            "filetype": "c",
+            "pretty_type": "C",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 46,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JU8ADUL\/this_deletes_all_those_rows_which_are_empty_for_the_college_field_.c?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JU8ADUL\/download\/this_deletes_all_those_rows_which_are_empty_for_the_college_field_.c?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JU8ADUL\/this_deletes_all_those_rows_which_are_empty_for_the_college_field_.c",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5JU8ADUL-3cfcc08cab",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JU8ADUL\/this_deletes_all_those_rows_which_are_empty_for_the_college_field_.c\/edit",
+            "preview": "DELETE FROM students WHERE\r\ncollege IS NULL;\r\n",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">DELETE<\/span> <span class=\"cm-variable\">FROM<\/span> <span class=\"cm-variable\">students<\/span> <span class=\"cm-variable\">WHERE<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-variable\">college<\/span> <span class=\"cm-variable\">IS<\/span> <span class=\"cm-variable\">NULL<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5KMMDGMD",
+                "created": 1495867141,
+                "timestamp": 1495867141,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "Put up thumbs up if no doubts"
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U56JCBFA9",
+                        "U55UDASSV",
+                        "U55UC8R09",
+                        "U57AA2TEK",
+                        "U56DHFD99"
+                    ],
+                    "count": 5
+                }
+            ]
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495867141.478402"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Another thing is that the keyword *WHERE* is basically the conditional statement here!",
+        "ts": "1495867168.479417"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So all conditions are added after the WHERE statement",
+        "ts": "1495867192.480356"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56H3SYJG> can you tell me what is NULL over here?",
+        "ts": "1495867215.481628"
+    },
+    {
+        "type": "message",
+        "user": "U56H3SYJG",
+        "text": "Where we did not update the value of the field college",
+        "ts": "1495867271.483857"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "@all has anyone heard  of REGEX?",
+        "thread_ts": "1495867297.484940",
+        "reply_count": 11,
+        "replies": [
+            {
+                "user": "U52A977UG",
+                "ts": "1495867341.486663"
+            },
+            {
+                "user": "U55UC8R09",
+                "ts": "1495867348.486934"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495867361.487369"
+            },
+            {
+                "user": "U56JCBFA9",
+                "ts": "1495867363.487451"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495867371.487723"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495867373.487798"
+            },
+            {
+                "user": "U55UC8R09",
+                "ts": "1495867390.488514"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495867405.489068"
+            },
+            {
+                "user": "U56JCBFA9",
+                "ts": "1495867480.491992"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495867494.492533"
+            },
+            {
+                "user": "U56JCBFA9",
+                "ts": "1495867514.493393"
+            }
+        ],
+        "unread_count": 11,
+        "ts": "1495867297.484940"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56H3SYJG> yes basically it's the default value that is assigned by MySQL to a particular column value",
+        "ts": "1495867323.486006"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Or pattern - matching",
+        "thread_ts": "1495867297.484940",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495867341.486663"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "yes",
+        "thread_ts": "1495867297.484940",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495867348.486934"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay tell us about it?",
+        "thread_ts": "1495867297.484940",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495867361.487369"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "regular expressions ?",
+        "thread_ts": "1495867297.484940",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495867363.487451"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Yes!",
+        "thread_ts": "1495867297.484940",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495867371.487723"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56JCBFA9>",
+        "thread_ts": "1495867297.484940",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495867373.487798"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "using LIKE command, we can find rows where certain pattern is observed ?",
+        "thread_ts": "1495867297.484940",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495867390.488514"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Exactly!",
+        "thread_ts": "1495867297.484940",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495867405.489068"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So now after basic SQL Commands let's move to queires!",
+        "ts": "1495867427.489983"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "queries**",
+        "ts": "1495867434.490197"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "1. LIKE and BETWEEN",
+        "ts": "1495867450.490800"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "an object used for search or replace functions ?",
+        "thread_ts": "1495867297.484940",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495867480.491992"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "In the WHERE CLAUSE you can use LIKE to match a particular value!",
+        "ts": "1495867485.492210"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Primarily SEARCH",
+        "thread_ts": "1495867297.484940",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495867494.492533"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I want you guys to insert a minimum of 5 random values to your table",
+        "ts": "1495867514.493375"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "oh okayy",
+        "thread_ts": "1495867297.484940",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495867514.493393"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The students table that is!",
+        "ts": "1495867524.493775"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U56H3SYJG|kenichi> commented on <@U52A977UG|salman-bhai>’s file <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM2DLPQ\/add_a_column_in_the_existing_table.pl|Add a column in the existing table>: What iz the .eaning of text here ??",
+        "file": {
+            "id": "F5KM2DLPQ",
+            "created": 1495866998,
+            "timestamp": 1495866998,
+            "name": "Add_a_column_in_the_existing_table.pl",
+            "title": "Add a column in the existing table",
+            "mimetype": "text\/plain",
+            "filetype": "perl",
+            "pretty_type": "Perl",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 45,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KM2DLPQ\/add_a_column_in_the_existing_table.pl?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KM2DLPQ\/download\/add_a_column_in_the_existing_table.pl?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM2DLPQ\/add_a_column_in_the_existing_table.pl",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5KM2DLPQ-d1e2b4c5df",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM2DLPQ\/add_a_column_in_the_existing_table.pl\/edit",
+            "preview": "ALTER TABLE students ADD COLUMN college TEXT;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-meta\">ALTER<\/span> <span class=\"cm-meta\">TABLE<\/span> <span class=\"cm-meta\">students<\/span> <span class=\"cm-meta\">ADD<\/span> <span class=\"cm-meta\">COLUMN<\/span> <span class=\"cm-meta\">college<\/span> <span class=\"cm-meta\">TEXT<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2,
+            "initial_comment": {
+                "id": "Fc5J75G056",
+                "created": 1495866998,
+                "timestamp": 1495866998,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "If no doubts in this put up a thumbs up"
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U56DHFD99",
+                        "U55UC8R09",
+                        "U56JCBFA9",
+                        "U57AA2TEK",
+                        "U55UDASSV",
+                        "U55UB6X9P"
+                    ],
+                    "count": 6
+                }
+            ]
+        },
+        "comment": {
+            "id": "Fc5JQNHY6P",
+            "created": 1495867543,
+            "timestamp": 1495867543,
+            "user": "U56H3SYJG",
+            "is_intro": false,
+            "comment": "What iz the .eaning of text here ??"
+        },
+        "is_intro": false,
+        "ts": "1495867543.494446"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Make sure all the fields are filled and put up a thumbs up here after you're done!",
+        "ts": "1495867543.494456"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "JUst copy paste the INSERT command for different values!",
+        "ts": "1495867556.494997"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56H3SYJG> It's a data type in MySQL",
+        "ts": "1495867572.495866"
+    },
+    {
+        "type": "message",
+        "user": "U56H3SYJG",
+        "text": "Ok",
+        "ts": "1495867609.497474"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Done?",
+        "ts": "1495867680.500232",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U55UB6X9P",
+                    "U55UC8R09",
+                    "U55UDASSV",
+                    "U56JCBFA9",
+                    "U56DHFD99",
+                    "U57AA2TEK",
+                    "U56H3SYJG"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any problems?",
+        "ts": "1495867914.509971"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UC8R09> if we want to find the string 'Sal' how would we run the query?",
+        "ts": "1495868186.522026"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "SELECT * FROM students where name='Sal'",
+        "thread_ts": "1495868247.524653",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U52A977UG",
+                "ts": "1495868295.527037"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1495868247.524653"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay and if I want a substring called Sal",
+        "ts": "1495868282.526269"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ckbs: Guys run this command",
+        "thread_ts": "1495868247.524653",
+        "parent_user_id": "U55UC8R09",
+        "ts": "1495868295.527037"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "After running <@U55UC8R09>",
+        "ts": "1495868304.527360"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ka command run this",
+        "ts": "1495868309.527569"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "SELECT * FROM students WHERE name LIKE 'sal%';",
+        "thread_ts": "1495868338.528665",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U55UC8R09",
+                "ts": "1495868402.531658"
+            },
+            {
+                "user": "U55UDASSV",
+                "ts": "1495868456.535205"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495868509.537976"
+            },
+            {
+                "user": "U55UDASSV",
+                "ts": "1495868519.538519"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1495868338.528665"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ANd if you have any doubts ping here!",
+        "ts": "1495868357.529479"
+    }
+]

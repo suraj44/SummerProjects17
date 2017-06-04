@@ -1,0 +1,464 @@
+hrily : Session about to start
+
+anumeha29 : okayy
+
+bhavishya : :+1:
+
+manish : :+1:
+
+rosag31 : :+1:
+
+salman-bhai : Good evening sir!
+
+hlpr98 : :+1:
+
+salman-bhai : <@U52A977UG|salman-bhai> set the channel topic: Session 3: Relational Databases -by Hrily
+
+hrily : Are <@U57A20DSS> &amp; <@U56H3SYJG> coming
+
+hrily : We'll start now
+
+hrily : Let's have a quick recap
+
+hrily : <@U57AA2TEK> What is a database?
+
+hrily : meanwhile
+<@U5BP61N94> 
+Breif us about ACID property of a DB
+
+priyam : a database, large set of data where you can perform actions such as query
+
+hrily : yes 
+LARGE set of datqa
+
+manish : In ACID property
+A stands for atomicity 
+
+manish : C for consistency
+
+manish : I for isolation and D for durability
+
+hrily : Exactly
+
+hrily : I hope you have recalled what they mean
+
+hrily : So next important property of a DBMS is
+
+hrily : Data Independence
+
+hrily : Data Independence means that
+The applications built on DBMS are independent of the changes happening in the system
+
+hrily : Lets say you have Student record DB
+and the institute changes its grading system from percentages to character grades
+
+hrily : So in system we have to change data type of grade from integer to varchar
+
+hrily : But this change should not crash the application which is used to view these grades
+
+hrily : any doubts
+
+hlpr98 : no
+
+nachiket : no
+
+anumeha29 : no
+
+rosag31 : Nope
+
+bhavishya : no
+
+priyam : none
+
+kenichi : Nope
+
+hrily : Okay
+
+hrily : So next concept is a Data Model
+
+hrily : Data Model is the way of storing data into disk
+
+hrily : There are various models that were developed overtime
+
+hrily : But the most consistent and famous is
+Relational Date Model
+
+hrily : so now you know why the Relational DataBase Management System (RDMS) comes on
+
+hrily : We will mostly focus on this model
+
+ram_aditya : <@U55UE0J9F|ram_aditya> has joined the channel
+
+hrily : Before going into the details of it
+there are few definitions I would like to share
+
+hrily : *Schema* : specifies name of relation, plus name and type of each column. 
+e.g. 
+Students(sid: string, name: string, login: string, age: integer, gpa: real)
+
+*Instance* : a table, with rows and columns. 
+#rows = cardinality
+#fields = degree / arity
+
+hrily : Relational Model is based on Relations
+A Relation  is made of Schema and a Instance
+
+hrily : Think of it as row in excel sheet
+
+hrily : Lets see to instance of Student() Scheme above
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5GNU2TU7/pasted_image_at_2017_05_20_07_24_pm.png|Pasted image at 2017-05-20, 7:24 PM>
+
+hrily : for this  instance we have
+cardinality/rows = 3
+arity/columns = 5
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5GNUC11D/pasted_image_at_2017_05_20_07_27_pm.png|Pasted image at 2017-05-20, 7:27 PM> and commented: Lets have another Schema  and Instance
+Enrolled(sid: string, cid: string, grade: string)
+
+hrily : So now we can talk about relation between these two instances
+
+hrily : <@U55UE0J9F> Can you guess some  relation between  the
+
+hrily : them*
+
+ram_aditya : They have the same column named "sid"
+
+hrily : yes
+
+hrily : So if we want to know what courses jones has enrolled
+
+hrily : <@U579Y5A7Q> 
+Tell us the steps
+Starting from Student instance
+
+hlpr98 : 1. query for sid corresponding to  name "jones".
+
+hlpr98 : 2.then query for the cid correspomding to the obtained sid in the second schema
+
+hrily : exactly
+
+hrily : any doubts in relational model
+
+anumeha29 : nope
+
+manish : No
+
+nachiket : no
+
+hlpr98 : no
+
+bhavishya : no
+
+rosag31 : no
+
+priyam : oN
+
+priyam : No*
+
+ram_aditya : nope
+
+hrily : okay
+We'll hit back to Relational model in a bit
+
+hrily : Now we need to know 
+WHY Relational model
+
+hrily : But to know it 
+We need  something to compare to
+
+hrily : Let's have a brief about a different model
+Herarchical Model
+
+hrily : Hierarchical model are like tree
+There is a root instance 
+which points to subsequent child instances
+
+hrily : For our Student and Enrolled instance
+
+hrily : Student will be the root instance
+
+hrily : *Reminder* 
+Instance = rows in sheet
+
+ram_aditya : sorry about that
+
+hrily : So student instance of hierarchical model will have an extra feild/columns
+where we store the pointer to the corresponding Enrolled instance
+
+hrily : <@U55UE0J9F> ??
+
+ram_aditya : Sorry that was by mistake :no_mouth: 
+
+hrily : okay :smile:
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5FRX9BJ7/pasted_image_at_2017_05_20_07_42_pm.png|Pasted image at 2017-05-20, 7:42 PM> and commented: So the hierarchical model of Student 'smith' looks like this
+
+hrily : So lets say this smith guy enrolls  for new course
+the steps to add the new course will be
+1. Create Enrolled instance
+2. Add new field to 'Smith' instance 
+3. And store pointer to the Enrolled instance in that feild
+
+hrily : <@U56DHFD99> 
+Can you tell me the procedure for same in Relational model??
+
+rosag31 : I think the enrolled instance will have an addition which will add the new course along with the sid for smith along with other details
+
+hrily : Exactly
+
+hrily : how many table insertions?
+
+hrily : <@U56JCBFA9> 
+How many insertions were in hierarchical model?
+
+anumeha29 : 3 insertions in the relational and 2 in hierarchical  for a row
+
+hrily : I meant instance/row inserions
+
+hrily : The 3 in relational are one
+Because we are accessing same location
+
+hrily : in hierarchical, we access different locations
+
+anumeha29 : one row insertion in relational model
+
+hrily : So now you see how relational models helps us
+
+hrily : any doubts so far
+
+bhavishya : no
+
+ram_aditya : no
+
+nachiket : no
+
+priyam : No
+
+rithesh : no
+
+ishaan : no
+
+rosag31 : nope
+
+manish : No
+
+hlpr98 : no
+
+hrily : Okay
+
+hrily : So we introduced to Data independence at the start
+
+hrily : Let's visit it again
+
+hrily : Consider two applications created each for Relational and Hierarchical model of our Student records
+
+hrily : So when 'Smith' applies for new course
+the relational wala app will know the new course from Enrolled Instance
+
+hrily : where as 
+the hierarchical wala app doesn't know about the new pointer which was added to Smith's instance
+
+hrily : So it will not be consistent with the system
+
+hrily : So now we know the importace of Data-Independence in a DB Model
+
+hrily : any doubts
+
+manish : Nope
+
+bhavishya : no
+
+ram_aditya : no
+
+nachiket : no
+
+rosag31 : no
+
+anumeha29 : no
+
+priyam : No
+
+ishaan : no
+
+hlpr98 : no
+
+hrily : Okay
+So Let's move on to next topic 
+Buffers
+
+hrily : This topic requires bit of understanding about Computer architecture
+which will be new to most of you
+
+hrily : We know
+Every instruction is executed on CPU
+
+hrily : But the instructions and data are stored in HardDisk
+
+hrily : to get those 
+the CPU uses levels of Storage devices
+
+hrily : They are (in decreasing speed of access and increasing memory capacity)
++ Register
++ Cache
++ RAM
++ HardDisk
+
+hrily : We'll be focusing on RAM and HardDisk
+
+hrily : Rest are for your information 
+Google them if you want to know more
+
+ishaan : okay
+
+hrily : <@U55UJ9MH7> 
+Tell me why is RAM call RAM
+
+hrily : <@U55UDASSV> 
+Tell the basic diff b/w RAM and HD
+
+rithesh : Random Access Memory is called so because the data can be accessed directly
+
+hrily : More precise will be
+Any data can be accessed in constant time irrespective of it's physical location
+
+bhavishya : RAM can directly access data irrespective of where it is
+
+bhavishya : But data in the hard disk needs to be first sent to the primary memory before access
+
+hrily : <@U55UDASSV> 
+Even the data on RAM is not accessed directly
+
+hrily : That's why I introduced you to Registers and Cache
+
+bhavishya : oh okay
+
+hrily : CPU has only access to Registers
+They are really small storages
+
+hrily : So the basic diff b/w RAM and HD is
+
+hrily : RAM has equal access time to every data
+whereas
+HD doesn't, the time depends  upon the  physical location of device
+
+hrily : sorry the data, not device
+
+ishaan : okay...
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5FBFTLC9/pasted_image_at_2017_05_20_08_09_pm.png|Pasted image at 2017-05-20, 8:09 PM> and commented: View of RAM
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5G06E6LC/pasted_image_at_2017_05_20_08_10_pm.png|Pasted image at 2017-05-20, 8:10 PM> and commented: View of HD
+
+hrily : Now let's compare them
+
+hrily : lets say RAM requires 1 unit for data access
+so HD requires 1000 units for data access
+
+hrily : Now lets come towards buffer
+
+hrily : buffers are part of data on HD brought to RAM for access
+
+hrily : Lets say you wanted to 100 students to Student table
+
+hrily : if there were no buffers
+we would require 100*1000 units to do so
+
+hrily : with buffer
+bring the part where Student Records are stored to  RAM buffer (1000 units)
+Add 100 students (100*1 units)
+Write back the Student record part to HD (1000 units)
+
+hrily : total = 2100 units
+
+bhavishya : units of what exactly??
+
+hrily : that's a HUGE improvement
+
+hrily : lets say RAM requires 1 unit for data access
+
+time
+
+bhavishya : okay cool
+
+hrily : But how do we know whether the buffer is to be written back or not
+
+hrily : for this system maintains a bit called Dirty Bit
+( Hope you have listened to the song by The Black Eyed Peas :grimacing:)
+
+ishaan : no :sweat_smile:
+
+hrily : when dirty bit is set
+we know there's some change in buffer data
+and that needs to written back
+
+ishaan : oh, ok
+
+hrily : That's the intro for buffers
+
+hrily : any doubrs
+
+anumeha29 : no
+
+ishaan : no
+
+priyam : No
+
+bhavishya : no
+
+rithesh : no
+
+nachiket : no
+
+hrily : Okay
+There are few definitions left in Relational model
+
+hrily : *Primary Key*
+Unique key which identifies a instance, different for different instances
+
+*Foreign key*
+Key from another instance used for establishing relations
+
+hrily : <@U55UC8R09> Can you tell me Primary and Foreign keys in Schemas of  _Student_ and _Enrolled_
+
+hrily : <@U55UB6X9P> 
+help <@U55UC8R09>
+
+nachiket : I guess sid is the Foreign key?
+
+ckbs : primary key in student is sid
+
+nachiket : Sid helps correlate student and the courses enrolled
+
+ckbs : nachiket: yeah,but isn't it also unique ? So then, the email id column could be considered primary key
+
+hrily : Yup
+For Student Schema
+ Primary key: sid
+ No Foreign key
+For Enrolled Schema
+ Primary Key: cid
+ Foreign Key: sid
+
+hrily : So that's all for today
+
+hrily : I'm here 5 more minutes 
+if you have any doubts
+
+hrily : untill then
+Good night
+
+anumeha29 : Good night and thanks
+
+priyam : Alright thank you for the session! Goodnight!
+
+rithesh : Yeah. Thank you
+
+ckbs : good night and thanks for the session
+
+rithesh : Good night
+
+ishaan : Thanks and Good night :slightly_smiling_face:
+
+bhavishya : Bye! Thank you
+

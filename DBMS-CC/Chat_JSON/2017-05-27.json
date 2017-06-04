@@ -1,0 +1,886 @@
+[
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "salman-bhai: Yes, it showed all the names which contained that sub string",
+        "thread_ts": "1495868338.528665",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495868402.531658"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "Is % a wildcard for multiple characters?",
+        "thread_ts": "1495868338.528665",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495868456.535205"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Yes!",
+        "thread_ts": "1495868338.528665",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495868509.537976"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "okay!",
+        "thread_ts": "1495868338.528665",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495868519.538519"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JA63T2M\/between_keyword_used_in_where_clause.m|BETWEEN keyword used in WHERE clause>",
+        "file": {
+            "id": "F5JA63T2M",
+            "created": 1495868521,
+            "timestamp": 1495868521,
+            "name": "BETWEEN_keyword_used_in_WHERE_clause.m",
+            "title": "BETWEEN keyword used in WHERE clause",
+            "mimetype": "text\/plain",
+            "filetype": "objc",
+            "pretty_type": "Objective-C",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 48,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JA63T2M\/between_keyword_used_in_where_clause.m?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JA63T2M\/download\/between_keyword_used_in_where_clause.m?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JA63T2M\/between_keyword_used_in_where_clause.m",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5JA63T2M-072164f609",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JA63T2M\/between_keyword_used_in_where_clause.m\/edit",
+            "preview": "SELECT * FROM students WHERE id BETWEEN 1 and 4;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">SELECT<\/span> <span class=\"cm-operator\">*<\/span> <span class=\"cm-variable\">FROM<\/span> <span class=\"cm-variable\">students<\/span> <span class=\"cm-variable\">WHERE<\/span> <span class=\"cm-keyword\">id<\/span> <span class=\"cm-variable\">BETWEEN<\/span> <span class=\"cm-number\">1<\/span> <span class=\"cm-variable\">and<\/span> <span class=\"cm-number\">4<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U55UDASSV",
+                        "U56JCBFA9",
+                        "U55UC8R09"
+                    ],
+                    "count": 3
+                }
+            ]
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495868521.538622"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JUA6NUC\/run_this_as_well_and_you_ll_understand_why_that_____wildcard_is_used.txt|Run this as well and you'll understand why that '%' wildcard is used> and commented: Put thumbs up if no doubts!",
+        "file": {
+            "id": "F5JUA6NUC",
+            "created": 1495868554,
+            "timestamp": 1495868554,
+            "name": "Run_this_as_well_and_you_ll_understand_why_that_____wildcard_is_used.txt",
+            "title": "Run this as well and you'll understand why that '%' wildcard is used",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 46,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JUA6NUC\/run_this_as_well_and_you_ll_understand_why_that_____wildcard_is_used.txt?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JUA6NUC\/download\/run_this_as_well_and_you_ll_understand_why_that_____wildcard_is_used.txt?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JUA6NUC\/run_this_as_well_and_you_ll_understand_why_that_____wildcard_is_used.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5JUA6NUC-3c6636c50a",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JUA6NUC\/run_this_as_well_and_you_ll_understand_why_that_____wildcard_is_used.txt\/edit",
+            "preview": "SELECT * FROM students WHERE name LIKE '%al%';",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>SELECT * FROM students WHERE name LIKE '%al%';<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5JUA6PJ8",
+                "created": 1495868554,
+                "timestamp": 1495868554,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "Put thumbs up if no doubts!"
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U57AA2TEK",
+                        "U55UDASSV",
+                        "U56JCBFA9",
+                        "U57A20DSS",
+                        "U55UB6X9P",
+                        "U56H3SYJG",
+                        "U55UC8R09"
+                    ],
+                    "count": 7
+                }
+            ]
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495868554.540361"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Please put up Thumbs Up next to code snippets after you've run them!",
+        "ts": "1495868649.544899"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay so similarly you can have AND and OR conditions after the where conditions",
+        "ts": "1495868676.546117"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "FOr example this",
+        "ts": "1495868680.546297"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM4N3GW\/-.m|Untitled>",
+        "file": {
+            "id": "F5KM4N3GW",
+            "created": 1495868720,
+            "timestamp": 1495868720,
+            "name": "-.m",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "objc",
+            "pretty_type": "Objective-C",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 97,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KM4N3GW\/-.m?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5KM4N3GW\/download\/-.m?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM4N3GW\/-.m",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5KM4N3GW-55269ee9cc",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5KM4N3GW\/-.m\/edit",
+            "preview": "SELECT * FROM students WHERE id > 1 AND id < 4;\r\n\r\nSELECT * FROM students WHERE id > 1 OR id < 4;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">SELECT<\/span> <span class=\"cm-operator\">*<\/span> <span class=\"cm-variable\">FROM<\/span> <span class=\"cm-variable\">students<\/span> <span class=\"cm-variable\">WHERE<\/span> <span class=\"cm-keyword\">id<\/span> <span class=\"cm-operator\">&gt;<\/span> <span class=\"cm-number\">1<\/span> <span class=\"cm-variable\">AND<\/span> <span class=\"cm-keyword\">id<\/span> <span class=\"cm-operator\">&lt;<\/span> <span class=\"cm-number\">4<\/span>;<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre><span class=\"cm-variable\">SELECT<\/span> <span class=\"cm-operator\">*<\/span> <span class=\"cm-variable\">FROM<\/span> <span class=\"cm-variable\">students<\/span> <span class=\"cm-variable\">WHERE<\/span> <span class=\"cm-keyword\">id<\/span> <span class=\"cm-operator\">&gt;<\/span> <span class=\"cm-number\">1<\/span> <span class=\"cm-variable\">OR<\/span> <span class=\"cm-keyword\">id<\/span> <span class=\"cm-operator\">&lt;<\/span> <span class=\"cm-number\">4<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U56JCBFA9",
+                        "U55UB6X9P",
+                        "U579Y5A7Q",
+                        "U55UDASSV",
+                        "U57AA2TEK",
+                        "U55UC8R09"
+                    ],
+                    "count": 6
+                }
+            ]
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495868720.548313"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JQQBSRZ\/if_you_want_to_limit_the_entries_of_code__kindly_run_limit.c|If you want to limit the Entries of Code, kindly run LIMIT> and commented: Thumbs up if no doubts",
+        "file": {
+            "id": "F5JQQBSRZ",
+            "created": 1495868831,
+            "timestamp": 1495868831,
+            "name": "If_you_want_to_limit_the_Entries_of_Code__kindly_run_LIMIT.c",
+            "title": "If you want to limit the Entries of Code, kindly run LIMIT",
+            "mimetype": "text\/plain",
+            "filetype": "c",
+            "pretty_type": "C",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 31,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JQQBSRZ\/if_you_want_to_limit_the_entries_of_code__kindly_run_limit.c?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JQQBSRZ\/download\/if_you_want_to_limit_the_entries_of_code__kindly_run_limit.c?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JQQBSRZ\/if_you_want_to_limit_the_entries_of_code__kindly_run_limit.c",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5JQQBSRZ-09de0f89a8",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JQQBSRZ\/if_you_want_to_limit_the_entries_of_code__kindly_run_limit.c\/edit",
+            "preview": "SELECT * FROM students limit 3;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">SELECT<\/span> <span class=\"cm-operator\">*<\/span> <span class=\"cm-variable\">FROM<\/span> <span class=\"cm-variable\">students<\/span> <span class=\"cm-variable\">limit<\/span> <span class=\"cm-number\">3<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5JA6J43T",
+                "created": 1495868831,
+                "timestamp": 1495868831,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "Thumbs up if no doubts"
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U55UC8R09",
+                        "U55UDASSV",
+                        "U57AA2TEK",
+                        "U56JCBFA9"
+                    ],
+                    "count": 4
+                }
+            ]
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495868832.553440"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5J782TNU\/-.txt|Untitled>",
+        "file": {
+            "id": "F5J782TNU",
+            "created": 1495868896,
+            "timestamp": 1495868896,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 42,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5J782TNU\/-.txt?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5J782TNU\/download\/-.txt?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5J782TNU\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5J782TNU-e4a6908e0b",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5J782TNU\/-.txt\/edit",
+            "preview": "SELECT * FROM students ORDER BY name DESC;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>SELECT * FROM students ORDER BY name DESC;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U55UC8R09",
+                        "U55UDASSV",
+                        "U56JCBFA9",
+                        "U57AA2TEK",
+                        "U579Y5A7Q"
+                    ],
+                    "count": 5
+                }
+            ]
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495868897.556553"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "This one is for sorting!",
+        "ts": "1495868909.557048"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Again thumbs up id you got it",
+        "ts": "1495868920.557531"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JSW22SE\/ascending_order_sorting.txt|Ascending Order sorting> and commented: By default it sorts in Ascending Order",
+        "file": {
+            "id": "F5JSW22SE",
+            "created": 1495868961,
+            "timestamp": 1495868961,
+            "name": "Ascending_Order_sorting.txt",
+            "title": "Ascending Order sorting",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 43,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JSW22SE\/ascending_order_sorting.txt?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5JSW22SE\/download\/ascending_order_sorting.txt?t=xoxe-172054826822-189794264215-188970385362-779907a1a4",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JSW22SE\/ascending_order_sorting.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5JSW22SE-56281a2e81",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5JSW22SE\/ascending_order_sorting.txt\/edit",
+            "preview": "SELECT * FROM students ORDER BY name;\r\n\r\n\r\n",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>SELECT * FROM students ORDER BY name;<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5J785UP2",
+                "created": 1495868961,
+                "timestamp": 1495868961,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "By default it sorts in Ascending Order"
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U56JCBFA9",
+                        "U55UB6X9P",
+                        "U57AA2TEK",
+                        "U55UDASSV",
+                        "U579Y5A7Q",
+                        "U57A20DSS",
+                        "U55UC8R09"
+                    ],
+                    "count": 7
+                }
+            ]
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1495868962.559303"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Again thumbs up if you got it!",
+        "ts": "1495868993.560672"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright that's it for today!",
+        "ts": "1495869056.563774"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Sorry guys it got a bit messed up in the beginning!",
+        "ts": "1495869069.564362"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Do you think I should Live Stream on YouTube while running these commands or how it's happening currently is fine enough?",
+        "ts": "1495869107.566265"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "its fine this way",
+        "ts": "1495869123.566983"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "This is fine",
+        "ts": "1495869125.567062"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "this is fine",
+        "ts": "1495869128.567264"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "Yeah fine this way..",
+        "ts": "1495869135.567597"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "I think live streaming would be better ... because I got confused only in the initial step of navigating to phpmyadmin page.....but the rest of the commands were clear",
+        "edited": {
+            "user": "U55UC8R09",
+            "ts": "1495869232.000000"
+        },
+        "ts": "1495869137.567740"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "this is fine",
+        "ts": "1495869150.568444"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "its fine",
+        "ts": "1495869196.570320"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright majority wins! Sorry <@U55UC8R09> !",
+        "thread_ts": "1495869240.572107",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U55UC8R09",
+                "ts": "1495869257.572798"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1495869240.572107"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UC8R09> You won't have to set it up again!",
+        "ts": "1495869253.572656",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U55UC8R09"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "salman-bhai: np :grinning:",
+        "thread_ts": "1495869240.572107",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495869257.572798"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay so we'll have another session tomorrow!",
+        "ts": "1495869265.573109"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Morning 10",
+        "ts": "1495869276.573520"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I hope that's fine!",
+        "ts": "1495869283.573797"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Will this be regarding the project?",
+        "ts": "1495869299.574360"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "is it possible to have it little earlier ?:see_no_evil:",
+        "ts": "1495869328.575719"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "or a bit later",
+        "ts": "1495869342.576348"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "Like 11",
+        "ts": "1495869346.576521"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Yes can we have earlier",
+        "ts": "1495869347.576567"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "We'll do remaining MySQL Syntax and then talk about how to set up the project and get started on it",
+        "ts": "1495869354.576847",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U57AA2TEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "How earlier?",
+        "ts": "1495869359.577110"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "It'll be a two hour session mostly!",
+        "ts": "1495869369.577500"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Hopefully we'll be faster than today and cover much more now that we have a method in place!",
+        "ts": "1495869386.578327"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "8 :see_no_evil: ?",
+        "ts": "1495869386.578346"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "Yeah 8 works for me",
+        "ts": "1495869410.579339"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Yes, does 8 sound fine?",
+        "ts": "1495869411.579397"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I'll take an hour for MySQL Syntax and then project environment setup! That might take some time",
+        "ts": "1495869415.579629"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "@others reply!",
+        "ts": "1495869421.579947"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "yeah 8 is fine",
+        "ts": "1495869429.580343"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I dont mind! I wake up at 4.30",
+        "thread_ts": "1495869431.580437",
+        "reply_count": 6,
+        "replies": [
+            {
+                "user": "U55UDASSV",
+                "ts": "1495869458.581649"
+            },
+            {
+                "user": "U55UC8R09",
+                "ts": "1495869486.582905"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495869512.584241"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495869527.584866"
+            },
+            {
+                "user": "U55UDASSV",
+                "ts": "1495869534.585188"
+            },
+            {
+                "user": "U55UDASSV",
+                "ts": "1495869541.585492"
+            }
+        ],
+        "unread_count": 6,
+        "ts": "1495869431.580437"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": ":stuck_out_tongue:",
+        "ts": "1495869434.580626"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay\n8 is fine",
+        "ts": "1495869440.580884"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "Yes 8 is fine",
+        "ts": "1495869440.580901"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "salman-bhai: WHAT",
+        "thread_ts": "1495869431.580437",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495869458.581649"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "happy ramzan !! it's for ramzan right ?",
+        "edited": {
+            "user": "U55UC8R09",
+            "ts": "1495869511.000000"
+        },
+        "thread_ts": "1495869431.580437",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495869486.582905"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "4:30 :flushed: Do you ever sleep also  ?:see_no_evil:",
+        "thread_ts": "1495869488.583022",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U52A977UG",
+                "ts": "1495869549.585809"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1495869488.583022"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Thank you <@U55UC8R09>",
+        "thread_ts": "1495869431.580437",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495869512.584241"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UDASSV> your time will come! Enjoy first year vacation :stuck_out_tongue:",
+        "thread_ts": "1495869431.580437",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495869527.584866"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "Haha okay",
+        "thread_ts": "1495869431.580437",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495869534.585188"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "Happy Ramzan!",
+        "thread_ts": "1495869431.580437",
+        "parent_user_id": "U52A977UG",
+        "ts": "1495869541.585492"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "anumeha29: Well let's just say my mom doesn't know much :stuck_out_tongue:",
+        "thread_ts": "1495869488.583022",
+        "parent_user_id": "U56JCBFA9",
+        "ts": "1495869549.585809",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U55UC8R09",
+                    "U56JCBFA9"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright tomorrow at 8",
+        "ts": "1495869558.586215",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U56JCBFA9"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "We'll meet. Any other doubts post over here1",
+        "ts": "1495869569.586706"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Or on WhatsApp",
+        "ts": "1495869579.587174"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Logs will be put up in 5 minutes!",
+        "ts": "1495869592.587927"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay",
+        "ts": "1495869594.588040"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "Thank you! Bye guys!",
+        "ts": "1495869614.589090"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "thanks for the session ! bye",
+        "ts": "1495869635.589944"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "Thanks :slightly_smiling_face:",
+        "edited": {
+            "user": "U56JCBFA9",
+            "ts": "1495869710.000000"
+        },
+        "ts": "1495869667.591353"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Session was great! Bye!",
+        "ts": "1495869669.591452"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": ":slightly_smiling_face: *",
+        "ts": "1495869670.591538"
+    }
+]

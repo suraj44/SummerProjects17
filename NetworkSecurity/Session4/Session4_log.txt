@@ -1,0 +1,260 @@
+swathi : We'll start at 8:45
+swathi : I see just 2 online
+swathi : I hope all of you have downloaded the files from github and also wireshark
+swathi : If not, do so now
+swathi : Hello!
+gautamrk : hi
+adwait1_g : Hi
+gauravud : hello
+nihalh55 : I'll come in some time... Breaking my fast 
+aryanhimanshu : Hello
+swathi : Let's startoff with some common network hardware
+swathi : Quickly tell me the difference between hub, switch and router
+amalbyju98 : Hi
+adwait1_g : in a hub,a message sent to it goes to all machines connected to it
+swathi : <@U5AUG5J8Y> good
+adwait1_g : and only one machine can send packets at a time
+swathi : Others?
+swathi : Hubs are basically repeating devices that run only in half duplex mode
+swathi : half duplex - Can only send or receive at a time. Not both simultaneously
+swathi : They work using MAC addresses
+swathi : Hub broadcasts a packet to all its ports.
+swathi : It is the computer's job to determine if the packet was intended for it or not
+swathi : So systems whose mac does not match , just drop the packet
+swathi : Disadvantages?
+swathi : Anyone?
+swathi : Take a guess
+aryanhimanshu : Wastage
+aryanhimanshu : Of bandwidth
+aryanhimanshu : Maybe
+swathi : Exactly!
+swathi : Also, only 1 packet can be sent at a time
+swathi : If 2 or more are sent simultaneously, packets might get destroyed due to collision
+swathi : So a better alternative was a 'switch'
+swathi : What does a switch do?
+adwait1_g : full duplex mode
+swathi : Yes
+swathi : And?
+swathi : Full duplex mode implies multiple packets can be sent at a time and also it is directly sent to the destination port
+swathi : No broadcasting of packets
+swathi : Also it works in layer 2 of netwrok model
+swathi : i.e data link layer
+swathi : Switches solve the problems put forward by hubs. So why require routers?
+adwait1_g : routers are wireless
+swathi : Anything else?
+swathi : Hubs and switches work with layer 2. How do we communicate with systems in different networks?
+swathi : That's where routers come into action
+swathi : They work with layer 3 i.e with ip addresses.
+swathi : Any doubts till here?
+swathi : I guess this is the only theory part for today :slightly_smiling_face:
+swathi : I guess I'll move ahead
+swathi : So, can someone tell me what packet sniffers are?
+swathi : It's going to be boring if none of you answer. I'll just keep going on and on
+swathi : Might as well sleep
+adwait1_g : reading packets which are not intended to us
+swathi : Not necessarily unintended :stuck_out_tongue:
+amalbyju98 : Checking logs of packets and managing network traffic 
+swathi : So a packet sniffer basically captures live data in a network for further analysis
+swathi : Wireshark  is a GUI packet sniffer
+amalbyju98 : Wireshark is an example
+I guess
+swathi : It supports protocols from different layers including IP, TCP, UDP, HTTP, DNS
+swathi : <@U5E8J6VAA> yes it is an example of a packet sniffer
+swathi : Packet sniffers work by collecting data in promiscous mode
+swathi : This collected binary data is then converted to a readable form
+swathi : Then comes analysis
+swathi : Sniffing around hubs gives us access to all packets being sent or received
+swathi : since all packets are broadcasted
+aryanhimanshu : Wireshark sounds cool
+aryanhimanshu : Though
+swathi : Switches however limit the sniffers visibility greatly
+swathi : Only packets intended for the sniffer can  be intercepted
+swathi : So what do we do ?
+swathi : Any wild guesses?
+adwait1_g : connect a hub
+gautamrk : spoof mac address?
+swathi : <@U5B3HALU9> <@U5AUG5J8Y>  Awesome!
+swathi : So <@U5AUG5J8Y> it is called hubbing out
+swathi : Apart from this, there is port mirroring, network tapping etc
+swathi : You guys can read up about them online
+swathi : So let's start off with wireshark!!
+swathi : Everybody start wireshark
+swathi : I hope you guys have downloaded the files from github
+swathi : ?
+adwait1_g : yes
+swathi : Cool! I guess all of you guys are able to see your network interfaces on the home page of wireshark
+swathi : wlp20 , loopback ....
+swathi : Click on one of the interfaces, say the one you're using now
+swathi : Then hover to the capture menu and click start
+swathi : You've started your first packet capture!
+gauravud : done
+swathi : Everybody done?
+gautamrk : ya
+adwait1_g : yes
+swathi : Cool
+swathi : I guess all of you have 3 rows in your main screen now
+swathi : The 1st one displaying the packets is called packet list
+swathi : The 2nd is called packet details
+swathi : The 3rd packet bytes
+swathi : In case you don't see 3 rows one below the other, don't worry just change the view
+gauravud : :+1:
+swathi : <@U5CCNE9P1|swathi> uploaded a file: <https://networksecurity-ieee.slack.com/files/swathi/F5J958UGG/pasted_image_at_2017_05_27_09_37_pm.png|Pasted image at 2017-05-27, 9:37 PM>
+swathi : Something similar to the image
+swathi : Anyone has problems?
+swathi : The first row just lists all your packets
+swathi : The second gives details about the selected packet
+swathi : The third is just the raw data
+swathi : Notice that every packet has colors with respect to the protocol being used
+swathi : We can customize these packet colors according to our needs using coloring rules in view menu
+swathi : Name resolution setting is one useful thing
+swathi : It allows you to enable automatic MAC (layer 2), network (layer 3), and transport (layer 4) name resolution for your
+capture.
+swathi : Doubts?
+swathi : You guys can always experiment with these. Nothing to teach about here
+swathi : You can also add various filters to view specific packets
+swathi : Say from  a specific port or ip or using a protocol
+adwait1_g : does this intercept packets of the whole network or only packets
+adwait1_g : related to my machine?
+swathi : That depends on your situation
+swathi : Say you're connected to a switch then no
+adwait1_g : oh ok
+aryanhimanshu : Ok
+swathi : But if you're a network administrator its possible to monitor
+swathi : all traffic on your network
+swathi : using techniques mentioned before
+swathi : Clear?
+swathi : Ok! Hover over to the statistics menu and select endpoints
+swathi : You get a table with info about number packets sent, address ,bytes etc from source to destination
+swathi : You can right click on a endpoint to apply it as a filter
+swathi : Next go to conversations in statistics menu
+swathi : What do you see?
+gauravud : two address
+gauravud : and packets sent from one to other
+swathi : <@U5DCK8ZDX> and packets separated according to protocols also
+gauravud : yes
+swathi : ipv4, ipv6,udp....
+swathi : <@U5CCNE9P1|swathi> uploaded a file: <https://networksecurity-ieee.slack.com/files/swathi/F5K28P6G5/pasted_image_at_2017_05_27_09_57_pm.png|Pasted image at 2017-05-27, 9:57 PM>
+gauravud : tcp
+gauravud : ethernet
+swathi : Awesome!
+swathi : Everyone done?
+swathi : I'm going to give an exercise now, so I hope everyone is ready :stuck_out_tongue:
+swathi : Open lotsofweb.pacpng using wireshark
+swathi : Using the things  mentioned above, list out all the information you can get from this packet capture
+swathi : I'll give you guys 5 minutes
+swathi : Is anyone here? :stuck_out_tongue:
+swathi : Show of hands please!
+gauravud : is it something to do with wall street journal?
+swathi : Put whatever you think it is. Then we'll analyze
+adwait1_g : packet 39:request for cnn homepage
+swathi : I hope you guys are making use of endpoints conversations and whois:p
+gauravud : i am just checking out the ip addresses:stuck_out_tongue:
+swathi : :slightly_smiling_face:
+swathi : You guys got the small things right :stuck_out_tongue:
+swathi : So let's analyze the main parts
+swathi : Endpoints for ipv4 shows that the local 172.16.16.128 address communicates using the largest amount of bytes among all
+swathi : 74.125.103.163 is a non-local address, so at this point, you can assume that you have one client talking to this IP address a lot
+swathi : This non-local address is the second highest talker
+swathi : Time to find out who 74.125.103.163 is
+swathi : So open your terminal and check this ip with whois
+swathi : What do you get?
+gauravud : in ipv4 endpoints i cant find 172.16.16.128 much
+gauravud : its there in udp
+gautamrk : google
+gautamrk : that ip address
+adwait1_g : check the number of packets and bytes <@U5DCK8ZDX>
+gauravud : ya..got it
+swathi : Highest talker in the sense most number of packets or bytes <@U5DCK8ZDX>
+swathi : Cool. So the ip corresponds to google
+swathi : Now switch over to conversations
+swathi : Check ipv4
+swathi : What do you infer about the communication between the top 2 talkers?
+gautamrk : router?
+gautamrk : oh wait you mean with the non local address?
+swathi : I mean 172.... local and 74.,...
+swathi : See by number of packets or bytes
+adwait1_g : 74.,.. is a server which from which the 172... guy has downloaded something
+gautamrk : youtube?
+swathi : <@U5B3HALU9>  Amazing!
+swathi : <@U5AUG5J8Y> you were close :slightly_smiling_face:
+swathi : Try enabling name resolution and see conversations and endpoints
+swathi : Makes it more readable
+swathi : Everyone clear?
+swathi : Just another feature to mention, - viewing tcp stream
+swathi : Reassembles tcp streams into more readable format
+swathi : Open http_google.pcapng and try it quickly
+swathi : right click a tcp packet
+swathi : Choose tcp under follow
+swathi : You get something like this....
+swathi : <@U5CCNE9P1|swathi> uploaded a file: <https://networksecurity-ieee.slack.com/files/swathi/F5JCB12F3/pasted_image_at_2017_05_27_10_30_pm.png|Pasted image at 2017-05-27, 10:30 PM>
+swathi : The red text is used to signify traffic from the source to the destination, and the
+blue text is used to identify traffic in the opposite direction, from the desti-
+nation to the source.
+swathi : Everyone got it?
+gauravud : ya
+swathi : The stream will make more sense when viewing HTTP
+swathi : Can I go ahead?
+gauravud : ok
+swathi : Open download_slow.pcapng
+swathi : Go to statistics-&gt;packet length
+swathi : What do you see?
+swathi : PAcket lengths and their %s right?
+gauravud : yes
+swathi : 1280-2559 has greatest number of packets in this length range
+gautamrk : cant find packet length
+swathi : Larger packets such as these typically indicate the transfer of data, whereas smaller packets indicate protocol control sequences
+swathi : <@U5B3HALU9> its under statistics
+swathi : Got it?
+gautamrk : ya
+swathi : If there are a lot of large packets, it may be safe to assume that data is
+being transferred. If the majority of packets are small, you may assume that
+the capture consists of protocol control commands, without a great deal of
+data being passed.
+swathi : Now open io graph in stats
+swathi : What can you say looking at it?
+swathi : Can I say the packet rate in highly inconsistent?
+gauravud : yes
+adwait1_g : yes
+swathi : Sorry download rate of packets
+swathi : <@U5CCNE9P1|swathi> uploaded a file: <https://networksecurity-ieee.slack.com/files/swathi/F5JCD71HP/pasted_image_at_2017_05_27_10_47_pm.png|Pasted image at 2017-05-27, 10:47 PM>
+swathi : Is this one better?
+gauravud : download rate is better
+swathi : Yes. Also quite consistent
+swathi : Does anyone know what round trip time is?
+swathi : RTT
+gautamrk : time between when request is made and when response is recieved?
+adwait1_g : time taken for a packet to be sent and its acknowledgment received back
+swathi : Correct!
+swathi : Check the rtt graph for this capture
+swathi : its under stats-&gt;rtt graph
+swathi : Sorry under tcp stream graphs-&gt;rtt
+swathi : <@U5CCNE9P1|swathi> uploaded a file: <https://networksecurity-ieee.slack.com/files/swathi/F5K146H52/pasted_image_at_2017_05_27_10_54_pm.png|Pasted image at 2017-05-27, 10:54 PM>
+gauravud : i am getting a empty graph
+amalbyju98 : Same 
+swathi : Click switch direction
+swathi : <@U5CCNE9P1|swathi> uploaded a file: <https://networksecurity-ieee.slack.com/files/swathi/F5J9FP0NL/pasted_image_at_2017_05_27_10_56_pm.png|Pasted image at 2017-05-27, 10:56 PM>
+gauravud : ya..got it
+swathi : You should get this graph
+amalbyju98 : Got it
+swathi : Analysis of RTTs is often done to find
+slow points or bottlenecks in communication
+swathi : Also checkout what flow graphs show
+swathi : And expert information
+amalbyju98 : What are 3202 and 80?
+swathi : So that's all for today. This session just taught you how to use wireshark. The main objective however is to make sense of network traffic which we have't touched upon at all.
+swathi : Ports
+amalbyju98 : Thanks
+swathi : Next class we'll see how to make sense of various protocol packets and determine information from thrie details
+swathi : I expect all of you guys to try all the options in the menu and learn what they do
+swathi : Any doubts?
+swathi : ?
+gautamrk : nope
+adwait1_g : no
+amalbyju98 : No
+gauravud : no
+swathi : I'll put up the assignment on the whatsapp group
+swathi : <@U5C2P3WMR> will tell you how to upload the previous assignments
+swathi : Also if you have any problems or doubts while using wireshark , feel free to ping me
+swathi : Good night!
+
+
