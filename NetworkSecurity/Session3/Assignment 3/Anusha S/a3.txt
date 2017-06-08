@@ -1,0 +1,16 @@
+Write about subnet masks and the process of NAT.
+
+A Subnet mask is a 32-bit number that masks an IP address, and divides the IP address into network address and host address.
+Subnetting an IP network is to separate a big network into smaller multiple networks for reorganization and security purposes.
+
+The bits of the subnet mask are defined as follows:
+   All bits that correspond to the network ID are set to 1.
+   All bits that correspond to the host ID are set to 0.
+
+
+Network address translation (NAT) provides a method for translating the IPv4 addresses of computers on one network 
+into IPv4 addresses of computers on a different network. 
+
+NAT technology was developed to provide a temporary solution to the IPv4 address-depletion problem. 
+
+NAT technology lets computers on any network use reusable private addresses to connect to computers with globally unique public addresses on the Internet.
