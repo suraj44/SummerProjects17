@@ -1,0 +1,359 @@
+[12:07:31] <rakshith> Test
+[12:09:25] <rakshith> Testing
+[12:34:40] *** Joins: mishal23 (31227de2@gateway/web/freenode/ip.49.34.125.226)
+[12:38:16] *** Quits: mishal23 (31227de2@gateway/web/freenode/ip.49.34.125.226) (Client Quit)
+[12:39:13] *** Joins: mishal23 (31227de2@gateway/web/freenode/ip.49.34.125.226)
+[12:41:32] *** Quits: mishal23 (31227de2@gateway/web/freenode/ip.49.34.125.226) (Client Quit)
+[12:44:32] *** Joins: mishal23 (31227de2@gateway/web/freenode/ip.49.34.125.226)
+[12:46:30] *** rakshith sets mode: -n 
+[12:46:36] *** rakshith sets mode: -m 
+[12:47:07] *** Joins: guest__ (75c06dfc@gateway/web/freenode/ip.117.192.109.252)
+[12:47:14] <guest__> test
+[12:47:28] *** Parts: guest__ (75c06dfc@gateway/web/freenode/ip.117.192.109.252) ()
+[12:49:45] *** Quits: mishal23 (31227de2@gateway/web/freenode/ip.49.34.125.226) (Quit: Page closed)
+[12:57:03] *** Joins: AndroUser (~androirc@2405:204:5308:bd59:aed9:13dc:b6f0:14d)
+[12:57:59] *** AndroUser is now known as aditya_a
+[12:58:29] <aditya_a> Hello!
+[12:59:03] *** Quits: aditya_a (~androirc@2405:204:5308:bd59:aed9:13dc:b6f0:14d) (Client Quit)
+[13:00:31] *** Joins: aditya_a (9d310305@gateway/web/freenode/ip.157.49.3.5)
+[13:06:27] *** Quits: aditya_a (9d310305@gateway/web/freenode/ip.157.49.3.5) ()
+[13:08:01] *** Joins: aditya_a (9d310305@gateway/web/freenode/ip.157.49.3.5)
+[13:12:39] *** Quits: aditya_a (9d310305@gateway/web/freenode/ip.157.49.3.5) (Ping timeout: 260 seconds)
+[15:46:59] *** rakshith changes topic to 'IEEE Summer Project - Functional Programming with Erlang | Logs : https://gist.github.com/hehaichi/8bfa3e0af8947b5e4237eceef68e8b7b'
+[15:47:58] <rakshith> Testing again
+[17:01:25] <rakshith> test
+[19:08:56] *** Joins: yash__ (9d310840@gateway/web/freenode/ip.157.49.8.64)
+[19:09:04] *** Joins: shashank (9d310c3a@gateway/web/freenode/ip.157.49.12.58)
+[19:09:36] <yash__> Hello everyone
+[19:10:03] *** Joins: aditya_a (~androirc@2405:204:5308:bd59:aed9:13dc:b6f0:14d)
+[19:10:17] <rakshith> Hi guys! We'll start at 7:30
+[19:12:01] <yash__> The Erlang shell is nothing but Erlang otp right?
+[19:12:24] <rakshith> yes
+[19:12:37] <rakshith> On ubuntu, just run sudo apt-get install erl
+[19:12:53] <yash__> On windows I had to download the installer
+[19:13:44] *** Quits: shashank (9d310c3a@gateway/web/freenode/ip.157.49.12.58) (Ping timeout: 260 seconds)
+[19:14:17] <yash__> Will there be any links n all in this page? Do I open this page in pc only or chatting on phone also will do?
+[19:15:06] <rakshith> You would have to execute some commands on the erlang shell. So PC would be recommended.
+[19:15:21] <rakshith> Anyway logs will be there if you want to try those later
+[19:15:31] <yash__> Ok thanks I ll come back again via pc
+[19:15:35] *** Parts: yash__ (9d310840@gateway/web/freenode/ip.157.49.8.64) ()
+[19:18:12] *** Quits: aditya_a (~androirc@2405:204:5308:bd59:aed9:13dc:b6f0:14d) (Quit: AndroIRC - Android IRC Client ( http://www.androirc.com ))
+[19:19:23] *** Joins: yashbee313839 (3d036ac2@gateway/web/freenode/ip.61.3.106.194)
+[19:20:04] *** Joins: mishal23 (31227672@gateway/web/freenode/ip.49.34.118.114)
+[19:22:09] *** Joins: yashdod (9d310840@gateway/web/freenode/ip.157.49.8.64)
+[19:22:10] <yashbee313839> testing
+[19:23:54] *** Joins: rahulsnkr (ca034d2b@gateway/web/freenode/ip.202.3.77.43)
+[19:25:31] <mishal23> testing
+[19:25:52] *** Joins: vilas (ca0c537b@gateway/web/freenode/ip.202.12.83.123)
+[19:26:06] <rahulsnkr> test
+[19:26:39] <rakshith> What are you guys testing? :P
+[19:26:54] <vilas> xD
+[19:26:55] <yashdod> chat testing lol
+[19:27:01] <rahulsnkr> just checking if its working fine :p
+[19:27:07] <mishal23> If message is reaching or not, Morning it wasn't reaching
+[19:27:30] *** Joins: pvgupta24 (a99581ea@gateway/web/freenode/ip.169.149.129.234)
+[19:28:38] *** Parts: pvgupta24 (a99581ea@gateway/web/freenode/ip.169.149.129.234) ()
+[19:29:00] <vilas> This interface might seem a bit boring and inconvenient :P But please bear with us for this session. We'll be moving to slack for the next session. 
+[19:29:10] *** Joins: pvgupta24_ (3b615f77@gateway/web/freenode/ip.59.97.95.119)
+[19:29:15] <rakshith> Ask your friends to join in!
+[19:32:39] *** Joins: nac (75d49fcb@gateway/web/freenode/ip.117.212.159.203)
+[19:33:48] *** Quits: pvgupta24_ (3b615f77@gateway/web/freenode/ip.59.97.95.119) (Client Quit)
+[19:33:55] <yashdod> start?? remaining can catch up with the logs..
+[19:34:14] *** Joins: pvgupta24 (3b615f77@gateway/web/freenode/ip.59.97.95.119)
+[19:34:18] <rakshith> Okay then!
+[19:34:22] *** Joins: aditya_a (~androirc@2405:204:5308:bd59:82d:6f75:db17:d719)
+[19:34:39] <rakshith> Good evening everyone. I'm Rakshith, 2nd year IT.
+[19:35:01] <rakshith> The mentors will introduce themselves after which you guys can introduce yourself and then we shall start
+[19:35:56] <aditya_a> Hi everyone , I am Aditya 2nd year IT
+[19:35:56] <vilas> hey guys! I'm Vilas. 2nd year (Read: 3rd year) CSE. Have been working with Erlang for the past 1 year. 
+[19:37:23] <rakshith> mishal23, nac, pvgupta24, rahulsnkr, yashdod, yashbee313839: introduce yourselves
+[19:37:37] *** Joins: vivin (75ca2056@gateway/web/freenode/ip.117.202.32.86)
+[19:37:55] <mishal23> Hey! I'm Mishal, 1st Year CSE
+[19:38:07] *** Joins: mohitreddy1996 (75f8ff9a@gateway/web/freenode/ip.117.248.255.154)
+[19:38:10] *** Joins: rahulsnkr_ (ca034d2b@gateway/web/freenode/ip.202.3.77.43)
+[19:38:11] *** Joins: guest__ (67c2169a@gateway/web/freenode/ip.103.194.22.154)
+[19:38:13] <nac> Hey I am Nachiket, 1st Year IT
+[19:38:13] <yashbee313839> Hi everyone. I'm Yashwanth ,1st year ECE .
+[19:38:25] <vivin> Vivin first year mech
+[19:38:25] *** Quits: guest__ (67c2169a@gateway/web/freenode/ip.103.194.22.154) (Client Quit)
+[19:38:34] <rahulsnkr_> Hello everyone! Rahul here, 1st tear CSE
+[19:38:36] <yashdod> This is Yash from IT 1st Year
+[19:38:49] *** Quits: rahulsnkr (ca034d2b@gateway/web/freenode/ip.202.3.77.43) (Ping timeout: 260 seconds)
+[19:39:36] <rakshith> So the agenda for today is : Functional Concepts, distributed systems, and basic erlang syntax
+[19:40:15] <pvgupta24> Hey there, I am Praveen, 1st year CSE.
+[19:41:20] *** Joins: shashank (75dd23e0@gateway/web/freenode/ip.117.221.35.224)
+[19:41:26] <rakshith> And mohitreddy1996 is in third year (read 4th) CSE, he's your super mentor. He'll be here to give guidance and clarify our doubts.
+[19:41:48] <rakshith> Oh and he's interning at Google Zurich this Summer!
+[19:42:17] <rakshith> To start off, does anyone of you have an idea of distributed systems?
+[19:43:04] <rahulsnkr_> Is it something like parallel computing?
+[19:43:30] <rakshith> Not exactly, but close.
+[19:43:35] <rakshith> A distributed system is a model in which components located on networked computers communicate and coordinate their actions by passing messages.
+[19:43:58] <rakshith> The networked computers achieve a common goal.
+[19:45:16] <rakshith> Distributed computation and parallel processing can all be done on C itself. So why learn Erlang is the question
+[19:45:50] <rakshith> Say you have one big chunk of C code and it becomes very popular (maybe like Whatsapp)
+[19:46:18] <rakshith> And say 20 million people are using it
+[19:46:41] <rakshith> When we have such load, things may go wrong with C
+[19:46:53] <rakshith> Accessibility: 20 millionth person has to wait for all others to finish!
+[19:47:07] <rakshith> Reliability: 20 million people want to use it simultaneously, the immense load breaks the program, and it crashes!
+[19:47:17] <rakshith> Availability: Since it crashed, now no one can use it
+[19:47:55] <rakshith> Now this is how a distributed system needs to be evaluated. Based on the above points.
+[19:48:09] *** Quits: yashdod (9d310840@gateway/web/freenode/ip.157.49.8.64) (Ping timeout: 260 seconds)
+[19:48:15] <rakshith> Distributed Systems might be implemented as lots of tiny programs communicating with each other, but the outside impression if of "JUST ONE PROGRAM"
+[19:48:24] <rakshith> Any doubts till now?
+[19:48:33] <mishal23> Why can't C handle a big load of 20 million?
+[19:49:34] <rakshith> It can, but you need to write it very carefully. Needs to have the right process synchronization techniques.
+[19:49:46] <rakshith> Basically put, it isn't designed for that
+[19:50:21] <mishal23> Okay!
+[19:50:23] <rahulsnkr_> so are distributed systems an application of modular programming?
+[19:51:08] <shashank> Yes
+[19:51:12] <rakshith> Kind of. We'll see how distributed systems can help prevent the problems above
+[19:51:25] *** Joins: yashdod (9d310840@gateway/web/freenode/ip.157.49.8.64)
+[19:51:51] <mohitreddy1996> Not Exactly.
+[19:52:05] <mohitreddy1996> just a minute. Sorry to interrupt.
+[19:52:18] <mohitreddy1996> @rahulsnkr_ what do you mean by modular programming?
+[19:53:11] <rahulsnkr_> modular programming is when you split one big program into many smaller programs that can be implemented individually right?
+[19:53:28] <rahulsnkr_> so I thought distributed systems achieved something similar to that
+[19:53:54] <mohitreddy1996> okay the important thing to be mentioned in modular programming is the word "independent"
+[19:54:24] <mohitreddy1996> the work which you split should be independent also should be interchangeable right?
+[19:54:56] <rahulsnkr_> okay yeah i understand.
+[19:55:50] <mohitreddy1996> So in Distributed systems, the way you split the work is never independent of the other (most of the cases). They are dependent on other nodes. So we cant say that they are an application of modular programming. But they could be if you design your infrastructure that way :)
+[19:55:56] <mohitreddy1996> continue :)
+[19:56:13] <rahulsnkr_> thanks!
+[19:56:18] <rakshith> So, coming back, distributed systems can make your program more accessible by running multiple instances of the program.
+[19:56:43] <rakshith> They are also reliable, as in, if one node fails, the others take care of the incoming requests
+[19:57:26] <rakshith> Now coming to functional programming paradigm - What is functional programming?
+[19:57:59] <rakshith> It is a programming paradigm modeled on mathematical functions.
+[19:58:20] <rakshith> f(x) = 2x + 3 is a function
+[19:58:58] <rakshith> Now the important thing to note here is that functional programming does not have data mutability.
+[19:59:24] <rakshith> By this, I mean that once you assign a value to a variable, it cannot be modified again.
+[20:00:11] <rakshith> This is in contrast to the imperative programming paradigm where variables are just named memory locations. So changing the value of a variable is modifying the contents of the memory location
+[20:00:43] <rakshith> In FP, variables are like the math variables you learnt in high school
+[20:00:58] <rakshith> x=x+1 is valid in imperative style
+[20:01:22] <rakshith> But this violates mathematics in FP and hence it is invalid
+[20:01:29] <rakshith> any doubts?
+[20:02:47] <rahulsnkr_> nope.
+[20:03:42] <rakshith> Lets move on to functions
+[20:03:59] <rakshith> f(x) = 2x + 3 is a pure function
+[20:04:05] <rakshith> What do I mean by pure?
+[20:04:36] <rakshith> I mean that if I give the same value to x each time I run the function, I get the same output.
+[20:04:39] <mishal23> One-to-one ?
+[20:05:07] <rakshith> yes one to one
+[20:05:28] <rakshith> One value of x produces the same value of f(x)
+[20:05:34] <rakshith> each time
+[20:06:04] <rakshith> However the function, todays_date() is not pure? Can anyone tell why?
+[20:06:14] <rakshith> todays_date()*
+[20:06:19] <rahulsnkr_> time zones?
+[20:06:33] <yashbee313839> date repeats every year?
+[20:06:39] <rakshith> What happens if you run the same function tomorrow?
+[20:06:48] <pvgupta24> Value changes
+[20:06:54] <rakshith> Exactly!
+[20:07:38] <rakshith> So, that is an impure function as we have different values for different input arguments(In this case, there were none)
+[20:08:12] <rakshith> This is known as referential transparency
+[20:08:57] <rakshith> Erlang has this very pragmatic approach with functional programming: obey its purest principles (referential transparency, avoiding mutable data, etc), but break away from them when real world problems pop up
+[20:10:15] <rakshith> Other thing we need to discuss is concurrency and parallelism
+[20:10:29] <rakshith> Can anyone tell the difference? ;)
+[20:12:50] <rakshith> So basically, in the normal C code that you have written, the program execution happens sequentially.
+[20:14:07] <rakshith> When you have only one processor, the operating system schedules the processes in such a way that from the outside they seem to be running all at the same time
+[20:14:27] <rakshith> But internally, the CPU time is shared among the processes.
+[20:15:08] <rakshith> In concurrency, multiple processes are multiplexed to run on a single CPU through timesharing.
+[20:15:22] <rakshith> Can anyone tell me the advantage of timesharing?
+[20:16:11] <rahulsnkr_> many processes can occur simultaneously instead of going through them one by one?
+[20:17:29] <rakshith> Somewhat.  We are basically reducing the CPU idle time. We would want to maximize the CPU utilization.
+[20:17:45] <rakshith> So what's parallelism then?
+[20:18:06] <rakshith> When you can run the different processes on two or more physical processors!
+[20:18:08] <pvgupta24> Multiple cores can be used to run threads independent of each other simultaneously
+[20:18:51] <rakshith> I hope you guys got the difference between parallelism and concurrency
+[20:20:21] <rakshith> Coming to threads, they are a sequence of instructions to be executed individually. Note that threads of a process share the same memory space.
+[20:20:29] <vilas> In simple terms: Let's say you're watching a TV show and suddenly you become hungry. So you bring a pack of chips and eat while you're watching the show. That's parallelism. But say you can't focus on the show when you're eating, so you frequently switch between eating and watching say every minute. That's concurrency. 
+[20:20:49] <rakshith> Nicely put, vilas!
+[20:21:00] <vilas> To an outsider - Both are the same. You're eating and watching at the same time
+[20:22:12] <rakshith> So how is functional programming suitable for concurrency?
+[20:22:51] <rakshith> Since pure functions produce no side effects ( no internal condition can alter the output), concurrency is inherent to FP
+[20:23:32] <rakshith> Any doubts till now?
+[20:23:56] <mishal23> May you elaborate "no side effects"?
+[20:24:01] <rakshith> Yeah
+[20:24:12] <rakshith> So what are side effects?
+[20:25:00] <rakshith> When the output of a function also depends on some internal condition apart from the external condition(like arguments we pass), the function is said to produce side effects
+[20:25:42] <rakshith> This is because, for the same external condition, the output of a function can vary depending on the internal conditions.
+[20:26:06] <rahulsnkr_> so if a function were to include an 'if' condition, it would produce side effects?
+[20:26:50] <rakshith> if the condition in the if statement is not related to the argument passed, then yes.
+[20:26:54] <rakshith> I'll give an example
+[20:27:04] <rakshith> void f(int a){
+[20:27:14] <rakshith> if(counter > 5)
+[20:27:31] <rakshith> return a;
+[20:27:33] <rakshith> else{
+[20:27:39] <rakshith> counter++;
+[20:27:44] <rakshith> return a/2;
+[20:27:45] <rakshith> }
+[20:27:48] <rakshith> }
+[20:28:22] <rakshith> So here, the function depends on the variable counter which has no relation to the argument a.
+[20:28:39] <rakshith> Initially lets suppose that counter was initialized to 0
+[20:28:42] <pvgupta24> variable outside the scope causes side effect here?
+[20:29:45] <yashdod> Can u explain more on how this code could implement concurrency
+[20:30:00] <rakshith> I call f(6) four times. I get the output 3. But the fifth time I call f(6), I get 6 and not 3 even though the argument didn't change 
+[20:30:20] <rakshith> This is an example of impure function
+[20:31:45] <rakshith> So, an impure function might change the value of a variable that another thread might be using, and this will cause all sorts of problems.
+[20:32:09] <rakshith> For that we need to include locks and other synchronizing mechanisms.
+[20:32:23] <rakshith> But with pure functions, can you see why concurrency is simple?
+[20:33:39] <rakshith> Because a pure function is guaranteed to only depend on the argument we pass, we can rest assured that it won't change other variables and hence concurrency is much much simpler
+[20:34:31] <yashdod> But how is timeharing implemented ? Won't it be parallel like many clients using same thread
+[20:35:15] <rakshith> It seems parallel to the outside world. But if I have only 1 processor, everything needs to run only on that no?
+[20:36:10] <yashdod> So parallel computing guarantees usage of multiple processors
+[20:36:40] <rakshith> Yes, processes run on multiple processors.
+[20:36:53] <rakshith> Any doubts till now?
+[20:37:33] <rahulsnkr_> why go for concurrency when parallelism seems to be much faster and efficient?
+[20:37:46] <yashdod> Also why will the same processor use the same thread for multiple processes?
+[20:38:25] <rakshith> In reality, a mix of both concurrency and parallelism is used.
+[20:38:53] <rakshith> As I mentioned above, threads of the same process are able to share the memory. 
+[20:39:36] <yashdod> What is a thread? How do we think of it?
+[20:39:55] <rakshith> However, if I were to run them parallely, I would also have to implement some Inter process communication mechanism so that they can communicate between themselves
+[20:40:19] <rakshith> That is an overhead
+[20:42:34] <rakshith> A thread is basically a sequence of instructions. Concurrency can be implemented through threads. Say you want to run two functions concurrently, you can create two threads and tell them to run the function. Now each thread runs independently. 
+[20:43:52] <rakshith> You get the illusion of them running parallelly but in fact they are running sequentially with timesharing.
+[20:44:12] <rakshith> I would suggest you guys to google the above keywords and learn more about them
+[20:44:35] <yashdod> And how do they share memory? U mentioned earlier abt this na
+[20:45:33] <rakshith> Threads are designed to share memory. 
+[20:45:35] <rakshith> https://en.wikipedia.org/wiki/Thread_(computing)#/media/File:Multithreaded_process.svg
+[20:45:40] <rakshith> See the image
+[20:46:10] <rakshith> All the threads are encapsulated in the memory space of the process. Thereby, they can access the whole memory space of the process
+[20:46:36] <yashdod> So basically if we run a code and give some instructions, all the outputs are stored in same memory, something similar right?
+[20:47:10] <rakshith> Can you elaborate yashdod?
+[20:49:14] <yashdod> I mean that a process has a common memory in which all the threads r stored
+[20:49:27] <rakshith> Right, yashdod.
+[20:49:47] <yashdod> So all threads of a same process have a common memory! Got it!...
+[20:50:03] <rakshith> So, should we call it a day or do you want me to continue with the erlang basic syntax? :P
+[20:50:39] <rahulsnkr_> continue..?
+[20:50:44] <yashdod> Anything fine to me, others?
+[20:51:11] <yashbee313839> continue.
+[20:51:15] <rakshith> okay so fire up your erlang shells
+[20:52:38] <rakshith> In the Erlang shell, expressions have to be terminated with a period followed by whitespace
+[20:53:35] <rakshith> The whitespace can be a line break or a space. Otherwise the expression would not be executed
+[20:53:47] <rakshith> Type in these. Tell me the output
+[20:53:53] <rakshith> 2 + 3.
+[20:54:06] <rakshith> 5 * 2.
+[20:54:13] <rakshith> 5 / 2.
+[20:55:07] <mishal23> Unknown command
+[20:55:20] <yashdod> 5 ,10 n 2.5
+[20:55:31] <rakshith> right yashdod!
+[20:55:47] <rakshith> Now these,
+[20:55:53] <rakshith> 5 div 2.
+[20:55:56] <rakshith> 5 rem 2.
+[20:56:16] <yashdod> 2 n 1
+[20:56:44] <rakshith> Hope you got the difference between / and div 
+[20:56:59] *** Quits: vilas (ca0c537b@gateway/web/freenode/ip.202.12.83.123) (Ping timeout: 260 seconds)
+[20:57:10] <yashdod> Yeah div=% in our c lang.
+[20:57:11] <rahulsnkr_> yep
+[20:57:11] <rakshith> div is for integer division
+[20:57:49] <rakshith> Now coming to atoms and variables.
+[20:58:08] <rakshith> atoms are the literals in erlang
+[20:58:12] <rakshith> cat. is an atom
+[20:58:17] <rakshith> dog. is an atom
+[20:58:23] <rakshith> atoms begin with a lowercase
+[20:58:47] <rakshith> Variables begin with an uppercase
+[20:58:57] <yashdod> Uppercase Cat. Shows unbounded
+[20:59:10] <rakshith> One, Two are variables while one, two are atoms!
+[20:59:23] <yashdod> Ok
+[20:59:37] <rakshith> Try this.
+[20:59:41] <rakshith> One = 1.
+[20:59:46] <rakshith> Two = 2.
+[20:59:54] <rakshith> Three = One + Two.
+[21:00:41] <rakshith> Output?
+[21:00:46] <rahulsnkr_> 3
+[21:00:50] <yashdod> Ya 3 is stored in Three
+[21:01:15] <rakshith> Now, change the value stored in Three to some other value
+[21:01:19] <rakshith> Three = 5.
+[21:01:44] <yashdod> Exception error
+[21:02:05] <shashank> exception error: no match of right hand side value 5
+[21:02:36] <rakshith> Yes, FP does not allow you to change the values of variables once bound.
+[21:02:46] <rahulsnkr_> is this an example of immutability?
+[21:02:46] <rakshith> try this
+[21:02:49] <rakshith> two = 2.
+[21:02:51] *** Joins: vilas (ca0c537b@gateway/web/freenode/ip.202.12.83.123)
+[21:03:17] <yashdod> Exception error
+[21:03:36] <yashdod> Bcoz a literal is a constant value n cannot be assigned
+[21:03:51] <shashank> Is it case insensitive?
+[21:04:16] <rakshith> shashank: Variables begin with uppercase and atoms with lowercase
+[21:04:53] <rakshith> The = symbol also has the role of pattern matching, which we shall discuss in later sessions.
+[21:05:30] <rakshith> It basically checks both the sides of the expression and returns the value if both are equals or else it returns an error
+[21:05:39] <rakshith> equal*
+[21:05:52] <rahulsnkr_> so its like == in C
+[21:05:57] <rakshith> try this,
+[21:06:01] <rakshith> 47 = 45 + 2.
+[21:06:06] <rakshith> and
+[21:06:10] <rakshith> 47 = 45 + 3.
+[21:06:54] <mishal23> 1st  shows 47, 2nd shows exception error.
+[21:07:11] <rakshith> Exactly
+[21:07:33] <rakshith> What this operator does when mixed with variables is that if the left-hand side term is a variable and it is unbound (has no value associated to it), Erlang will automatically bind the right-hand side value to the variable on the left-hand side. The comparison will consequently succeed and the variable will keep the value in memory.
+[21:08:10] <rakshith> Any doubts?
+[21:09:30] <shashank> Is there any way to change value of a variable?
+[21:09:58] <rakshith> You need to unbind them and then you can bind it to another value
+[21:10:53] <rahulsnkr_> so how to unbind them?
+[21:10:54] <rakshith> Use the function f(Variable).
+[21:11:32] <rakshith> Moving on to boolean algebra
+[21:11:43] <rakshith> true and false.
+[21:11:48] <rakshith> false or true.
+[21:12:00] <rakshith> true xor false.
+[21:12:08] <rakshith> not false.
+[21:12:50] <yashdod> false, true true and true
+[21:13:31] <rakshith> Yes
+[21:14:08] <rakshith> Equality and inequality can be check using =:= and =/= operators
+[21:14:14] <rakshith> 5 =:= 5.
+[21:14:18] <rakshith> 1 =:= 0.
+[21:14:25] <rakshith> 1 =/= 0.
+[21:14:51] <rahulsnkr_> true, false, true
+[21:15:03] <rakshith> Erlang also uses == operator
+[21:15:11] <rakshith> 5 == 5.0.
+[21:15:16] <rakshith> 5 =:= 5.0.
+[21:16:40] <shashank> true, false
+[21:16:44] <rakshith> Output?
+[21:17:05] <rakshith> Can you reason out why the last statement turned out to be false?
+[21:17:23] <yashdod> Cause the data type is different
+[21:17:48] <rakshith> == operator doesn't care about the types of the operands. However the =:= operator cares about the types
+[21:20:07] <yashdod> Ya
+[21:20:50] <rakshith> 1<2.
+[21:21:08] <rahulsnkr_> true
+[21:21:17] <rakshith> 1<=1.
+[21:21:29] <rakshith> 1 =< 1.
+[21:21:33] <mishal23> syntax error
+[21:21:39] <rakshith> Notice the peculiar syntax
+[21:21:55] <mishal23> second true
+[21:22:06] <rakshith> 1 =< 1.
+[21:22:13] <rakshith> 1 => 1.
+[21:22:16] <yashdod> Yes
+[21:22:29] <rakshith> I'm sorry. 1 >= 1.
+[21:22:42] <mishal23> syntax error
+[21:22:49] <yashbee313839> true
+[21:23:01] <rakshith> These are the source of many syntax errors
+[21:24:18] <rakshith> So, erlang is a strongly typed language. So, it does not allow you to add a string to an integer and so on.
+[21:25:54] <rakshith> It is also dynamically typed. The type of a variable is known only at runtime
+[21:26:10] <rakshith> Can anyone guess what typing system C uses?
+[21:26:29] <rahulsnkr_> C is loosely typed?
+[21:26:45] <rakshith> Not at all
+[21:27:15] <rakshith> C is also a strongly typed language but it uses static typing. You need to declare the type of the variables before you use them
+[21:27:40] <rakshith> One last thing,
+[21:27:58] <rakshith> Erlang does not let you do arithmetic between incompatible types
+[21:28:08] <rakshith> However, you can compare them
+[21:28:13] <rakshith> 5 =:= true.
+[21:28:47] <yashdod> False
+[21:28:51] <rakshith> Yes.
+[21:29:30] <yashbee313839> Does it always return false then?
+[21:29:50] <yashbee313839> between incompatible data types
+[21:30:06] <rakshith> yes
+[21:30:14] *** Quits: mohitreddy1996 (75f8ff9a@gateway/web/freenode/ip.117.248.255.154) (Ping timeout: 260 seconds)
+[21:30:44] <rakshith> So that's it for today guys! I hope you learnt something substantial. Google the terms which you didn't understand. Get back to me if you have any doubts
+[21:31:01] <rahulsnkr_> thanks a lot :)
+[21:31:09] <rahulsnkr_> when will the next session be?
+[21:31:11] <yashbee313839> Thanks. :)
+[21:31:24] *** Parts: nac (75d49fcb@gateway/web/freenode/ip.117.212.159.203) ()
+[21:31:27] <rakshith> We shall notify later!
+[21:31:35] <yashdod> Thanks :)
+[21:31:41] <rakshith> Feedback is welcome :)
+[21:31:47] <vilas> The next session will probably be on Sunday. But we'll let you know
+[21:32:08] *** Parts: yashbee313839 (3d036ac2@gateway/web/freenode/ip.61.3.106.194) ()
+[21:32:13] <rakshith> How was the pace? Was I fast? Was I clear?
+[21:32:15] *** Parts: yashdod (9d310840@gateway/web/freenode/ip.157.49.8.64) ()
+[21:32:27] <rahulsnkr_> yeah the pace was fine.
+[21:34:28] *** Quits: aditya_a (~androirc@2405:204:5308:bd59:82d:6f75:db17:d719) (Quit: AndroIRC - Android IRC Client ( http://www.androirc.com ))
+[21:35:40] *** Quits: vilas (ca0c537b@gateway/web/freenode/ip.202.12.83.123) (Quit: Page closed)
+[21:36:43] *** Quits: rahulsnkr_ (ca034d2b@gateway/web/freenode/ip.202.3.77.43) (Quit: Page closed)
+[21:36:57] *** Quits: mishal23 (31227672@gateway/web/freenode/ip.49.34.118.114) (Quit: Page closed)

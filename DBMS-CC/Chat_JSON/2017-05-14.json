@@ -1,0 +1,1714 @@
+[
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "See you guys in an hour here. ",
+        "ts": "1494765890.800677"
+    },
+    {
+        "user": "U56H3SYJG",
+        "text": "<@U56H3SYJG|kenichi> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494767783.870990"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Anyone online?",
+        "ts": "1494768646.902181"
+    },
+    {
+        "user": "U52A977UG",
+        "purpose": "DBMS CC Summer Project 2017: Session 3 - Introduction to DBMS",
+        "text": "<@U52A977UG|salman-bhai> set the channel purpose: DBMS CC Summer Project 2017: Session 3 - Introduction to DBMS",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1494768688.903855"
+    },
+    {
+        "user": "U56JCBFA9",
+        "inviter": "U52A977UG",
+        "text": "<@U56JCBFA9|anumeha29> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494768751.906008"
+    },
+    {
+        "user": "U52BAR788",
+        "inviter": "U52A977UG",
+        "text": "<@U52BAR788|mohitreddy1996> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494768772.906901"
+    },
+    {
+        "user": "U530UCFTL",
+        "inviter": "U52A977UG",
+        "text": "<@U530UCFTL|hrily> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494768772.906908"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "Hello",
+        "ts": "1494768815.908453"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "me!",
+        "ts": "1494768828.908876"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "hi",
+        "ts": "1494768860.910075"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Hi guys",
+        "ts": "1494768893.911216"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "How are your vacations going\/",
+        "ts": "1494768901.911490"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "?*",
+        "ts": "1494768904.911610"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "wonderful !",
+        "ts": "1494768933.912783"
+    },
+    {
+        "user": "U52A977UG",
+        "old_name": "dbms-cc_new",
+        "name": "dbms-cc_sessions",
+        "text": "<@U52A977UG|salman-bhai> has renamed the channel from \"dbms-cc_new\" to \"dbms-cc_sessions\"",
+        "type": "message",
+        "subtype": "channel_name",
+        "ts": "1494768935.912822"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "What are you guys doing?",
+        "ts": "1494768948.913334"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Anyone going out of India?",
+        "ts": "1494768955.913628"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "Not me",
+        "ts": "1494768975.914369"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "me neither",
+        "ts": "1494768984.914684"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "What have you two been upto\/",
+        "ts": "1494769041.916922"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "?*",
+        "ts": "1494769044.917013"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "Me, nothing for now",
+        "ts": "1494769106.919273"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "Just relaxing ",
+        "ts": "1494769126.920102"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "That works out as well <@U55UJ9MH7> :stuck_out_tongue:",
+        "ts": "1494769141.920731"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "same here ....",
+        "ts": "1494769190.922484"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "practising a bit of music also, in between",
+        "ts": "1494769213.923453"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "I have a hobby of writing stories. I'm writing one now... ",
+        "ts": "1494769224.923885"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Oh that's pretty nice!",
+        "ts": "1494769492.934346"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I wish I can start writing again as well, <@U55UJ9MH7>",
+        "ts": "1494769518.935518"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I coded a blog as well for that! No time now unfortunately!",
+        "ts": "1494769533.936107"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UC8R09> do u sing or plan something?",
+        "ts": "1494769549.936740"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "I play mridangam",
+        "ts": "1494769559.937159"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "@all we'll be starting in 5 minutes",
+        "ts": "1494769564.937368"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UC8R09> woah swag :stuck_out_tongue:",
+        "ts": "1494769619.939374",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U55UC8R09",
+                    "U55UJ9MH7"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So 6 people online",
+        "ts": "1494769634.939865"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Anyone else you know coming?",
+        "ts": "1494769642.940129"
+    },
+    {
+        "user": "U5BP61N94",
+        "text": "<@U5BP61N94|manishsbhoopalam> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494769751.943772"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright final wakeup call! WHoever is online reply back! :smile:",
+        "ts": "1494769795.945312"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "A simple 'hi' would do :stuck_out_tongue:",
+        "ts": "1494769810.945942"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": ":hand:",
+        "ts": "1494769818.946227"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "Hi",
+        "ts": "1494769821.946337"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "Hi :stuck_out_tongue:",
+        "ts": "1494769823.946438"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "Hi",
+        "ts": "1494769829.946647"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "hi",
+        "ts": "1494769829.946648"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "Hi",
+        "ts": "1494769839.947046"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U5BP61N94> ?",
+        "ts": "1494769859.947854"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "hey hi",
+        "ts": "1494769868.948220"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright guys so welcome to the 3rd session of this Summer Project",
+        "ts": "1494769878.948645"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Things are going to get a bit more intensive over the next few weeks!",
+        "ts": "1494769894.949234"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "We have some amazing coding tasks planned for you guys coming up!",
+        "ts": "1494769906.949663"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Today we're going to have a small introduction to DBMS",
+        "ts": "1494769923.950285"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So <@U55UJ9MH7> tell me do you know what is a *Database*?",
+        "edited": {
+            "user": "U52A977UG",
+            "ts": "1494769969.000000"
+        },
+        "ts": "1494769957.951470"
+    },
+    {
+        "type": "message",
+        "user": "U56H3SYJG",
+        "text": "Hi",
+        "ts": "1494769977.952149"
+    },
+    {
+        "user": "U52A977UG",
+        "topic": "Session 3: Introduction to DBMS",
+        "text": "<@U52A977UG|salman-bhai> set the channel topic: Session 3: Introduction to DBMS",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1494770003.952994"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any answers, <@U55UJ9MH7> ?",
+        "ts": "1494770014.953369"
+    },
+    {
+        "user": "U56DHFD99",
+        "text": "<@U56DHFD99|rosag31> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494770059.954956"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "A set of data held in a computer? ",
+        "ts": "1494770076.955521"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Partially Correct",
+        "ts": "1494770101.956433"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "A Database is basically large set of data organised for search and rettrieval",
+        "ts": "1494770131.957572"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "ok ",
+        "ts": "1494770158.958628"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Or as Wikipedia defines,\na usually large collection of data organized especially for rapid search and retrieval (as by a computer)",
+        "ts": "1494770175.959327"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So this summer project we're going to build a DBMS",
+        "ts": "1494770202.960303"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "oh wow",
+        "ts": "1494770230.961394",
+        "reactions": [
+            {
+                "name": "face_with_rolling_eyes",
+                "users": [
+                    "U52A977UG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "*What is a DBMS*?\nA database management system (DBMS) is a system or software designed to manage a database, and run operations on the data requested by numerous clients.",
+        "ts": "1494770237.961644"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "That's wikipedia",
+        "ts": "1494770265.962755"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "WHat it means is that you have data which is organised in a certain manner",
+        "ts": "1494770285.963531"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And you need to continuously retrieve data and modify its parmaeters defined in it",
+        "ts": "1494770315.964563"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Thus we use a Database management system",
+        "ts": "1494770323.964890"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U5BP61N94> sarcasm in the middle of session should highly be avoided",
+        "ts": "1494770339.965426"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "thata",
+        "ts": "1494770353.965958"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "sry that was not at all sarcasm",
+        "ts": "1494770365.966400"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "still am sry for that",
+        "ts": "1494770370.966586"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Cool",
+        "ts": "1494770371.966644"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So this course is all about how data will be managed",
+        "ts": "1494770390.967277"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And how to implement databases in general and manage them",
+        "ts": "1494770410.968489"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So now we'll talk about properties of a DBMS",
+        "ts": "1494770463.971443"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Properties:\n1. *Atomicity*: Database executions either happen or don't. There is no middle stage!",
+        "ts": "1494770520.974221"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "2. *Consistency*: An operation never leaves the database in an inconsistent state",
+        "ts": "1494770554.975578"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "3. *Isolation* – multiple users can operate on a database without conflicting",
+        "ts": "1494770580.976486"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "4. *Durability* – once a database operation completes, it remains even if the database crashes.",
+        "ts": "1494770601.977726"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "These properties together are known as *ACID* property of a DBMS",
+        "ts": "1494770622.978414"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any doubts till now?",
+        "ts": "1494770629.978692"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Sorry guys some theoretical concepts are needed today!",
+        "ts": "1494770642.979145"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You'll just have to keep noting them down!",
+        "ts": "1494770649.979402"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "Whats an inconsistent state?",
+        "ts": "1494770671.980187"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "could u give an instantce",
+        "ts": "1494770680.980544"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "A brief idea of what all is going to happen today\n1. data modeling\n2. query languages\n3. file systems &amp; DBMSs\n4. concurrent, fault-tolerant data management\n5. DBMS architecture",
+        "ts": "1494770696.981084"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "I have a doubt, what exactly are the parameters defined in data?Can u give me an eg",
+        "ts": "1494770740.983122"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U579Y5A7Q> one second",
+        "thread_ts": "1494770748.983487",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U579Y5A7Q",
+                "ts": "1494770841.987251"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1494770748.983487"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U530UCFTL> will explain",
+        "ts": "1494770757.983892"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56DHFD99> will come soon. Towards the end of this session!",
+        "ts": "1494770779.984778"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Ok:+1:",
+        "ts": "1494770793.985333"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "salman-bhai: Sure",
+        "thread_ts": "1494770748.983487",
+        "parent_user_id": "U52A977UG",
+        "ts": "1494770841.987251"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U579Y5A7Q>  \ninconsistent state can be anything which leads to failure of system\nfor eg: incomplete write of data\nSo the data written is not correct, the system  goes to inconsistent state",
+        "ts": "1494770888.988958"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U579Y5A7Q> that happens when two people are writing to a single file at the same timne",
+        "ts": "1494770929.990392"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "okay",
+        "ts": "1494770929.990397"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "There are algorithms to prevent that which you'll learn in next to next session",
+        "ts": "1494770950.991140"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ANy other doubts people?",
+        "ts": "1494770963.991622"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "no",
+        "ts": "1494770976.992073"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1494770981.992273"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "nope",
+        "ts": "1494770994.992739"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1494770998.992883"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay moving on",
+        "ts": "1494771002.993029"
+    },
+    {
+        "type": "message",
+        "user": "U56H3SYJG",
+        "text": ":+1:",
+        "ts": "1494771010.993422"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So a DBMS allows one or more computer users to create and access data",
+        "ts": "1494771026.994053"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So let's talk about another term called *Data Model*",
+        "ts": "1494771054.995167"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "What is a *Data Model*?\nTo do their job, databases store information in a structured manner.\nThe Structure used to store that information is called the *Data Model*.",
+        "ts": "1494771091.996583"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The most common Data Model used is Relational Model",
+        "ts": "1494771117.997567"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "It stores information in the form of tables, i.e. rows and columns",
+        "ts": "1494771139.998435"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "For this Summer Course we'll be focussing on Relational Model",
+        "ts": "1494771164.999426"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay <@U56DHFD99> tell me can you tell me the difference between *search* and *query*?",
+        "edited": {
+            "user": "U52A977UG",
+            "ts": "1494771236.000000"
+        },
+        "ts": "1494771204.000905"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "?*",
+        "ts": "1494771207.000991"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Ok. so a query  is used to extract data from the database in a readable format according to the user's request whereas a  search engine is a search engine that operates on material stored in a digital databas",
+        "ts": "1494771301.004442"
+    },
+    {
+        "user": "U57A20DSS",
+        "text": "<@U57A20DSS|ishaan> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494771305.004618"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "and search finds material stored in a digital database",
+        "ts": "1494771328.005598"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "_a search engine is a search engine_?",
+        "ts": "1494771329.005633"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "????",
+        "ts": "1494771333.005787"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "sorry",
+        "ts": "1494771349.006446"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "just once:sweat_smile:",
+        "ts": "1494771359.006854"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You wrote those words :smile:",
+        "ts": "1494771361.006945"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay, so slightly correct",
+        "ts": "1494771378.007646"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "In simple terms, a query will always give you relevant questions provided you ask the write questions",
+        "ts": "1494771414.008890"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "It directly interacts with the databse",
+        "ts": "1494771422.009231"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Database",
+        "ts": "1494771428.009398"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "As well as the server which is linked to the database",
+        "ts": "1494771439.009775"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "However a search will give you results which will *be close* to your answer",
+        "ts": "1494771466.010780"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "It might or might not be accurate",
+        "ts": "1494771473.011027"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Querying is often used for Machine Learning and Data Science related work",
+        "ts": "1494771499.012106"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Often when you want to scrape data",
+        "ts": "1494771509.012487"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So you can manually scrape data using a certain query keyword in the URL",
+        "ts": "1494771543.013821"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "For example once I had to scrape 10000 items in a Jabong T-Shirt category for my ML Project",
+        "ts": "1494771574.015020"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<http:\/\/www.jabong.com\/men\/clothing\/polos-tshirts\/?source=topnav_men&amp;limit=1000>",
+        "attachments": [
+            {
+                "title": " T-Shirts for Men - Buy Men's T-Shirts, Branded Tees, Printed T-Shirts, Polos Online ",
+                "title_link": "http:\/\/www.jabong.com\/men\/clothing\/polos-tshirts\/?source=topnav_men&limit=1000",
+                "text": "Buy Men's T-Shirts, Branded Tees, Printed T-Shirts Online in India. Huge range of Polos, T-shirts for Men at Jabong. :heavy_check_mark: fast shipping :heavy_check_mark: Cash on Delivery :heavy_check_mark: 15 days Return",
+                "fallback": " T-Shirts for Men - Buy Men's T-Shirts, Branded Tees, Printed T-Shirts, Polos Online ",
+                "from_url": "http:\/\/www.jabong.com\/men\/clothing\/polos-tshirts\/?source=topnav_men&limit=1000",
+                "service_icon": "http:\/\/static1.jabong.com\/live\/images\/apple-icon-76x76.png",
+                "service_name": "jabong.com",
+                "id": 1
+            }
+        ],
+        "ts": "1494771600.016091"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If you open this link you'll see all 1000 items are loaded",
+        "ts": "1494771629.017446"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Whereas if you remove the last _limit=1000_ it'll come back to default of about 25",
+        "ts": "1494771659.018689"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U530UCFTL> once caused the server to almost crash because of a high query :stuck_out_tongue:",
+        "ts": "1494771681.019597"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "P.S. Do not try that! They'll blacklist your IP",
+        "ts": "1494771699.020374"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay any questions!",
+        "ts": "1494771709.020881"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "?*",
+        "ts": "1494771711.020965"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "no",
+        "ts": "1494771722.021430"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "haha no",
+        "ts": "1494771740.022060"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "no",
+        "ts": "1494771743.022232"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1494771743.022251"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1494771746.022331"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "But nice ad:stuck_out_tongue:",
+        "ts": "1494771750.022486",
+        "reactions": [
+            {
+                "name": "stuck_out_tongue_winking_eye",
+                "users": [
+                    "U52A977UG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "no",
+        "ts": "1494771756.022719"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay moving on!",
+        "ts": "1494771787.024112"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "A few more theoretical concepts!",
+        "ts": "1494771796.024436"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "*Data Model*\nA data model  is a collection of concepts for describing data.\n\nThe *relational model of data* is the most widely used model today.\n\nMain concept:  relation, basically a table with rows and columns.\nEvery relation has a schema, which describes the columns, or fields.",
+        "ts": "1494771860.026829"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "*Schema*\nA schema is a description of a particular collection of data,",
+        "ts": "1494771878.027425"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "An example of a University Schema would be as follows:",
+        "ts": "1494771914.028732"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "_Students_ (student_id: string, name: string, login: string, age: integer, gpa:real)\n_Courses_ (cid: string, cname:string, credits:integer) \n_Enrolled_ (sid:string, cid:string, grade:string)",
+        "edited": {
+            "user": "U52A977UG",
+            "ts": "1494771960.000000"
+        },
+        "ts": "1494771948.030000"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56DHFD99> Is this what you were asking?",
+        "ts": "1494771980.031362"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Yup",
+        "ts": "1494771989.031714"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Did you understand now",
+        "ts": "1494772012.032663"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "This is how data is represented!",
+        "ts": "1494772024.033181"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Yes i did. Thank you!",
+        "ts": "1494772028.033387"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "No problem. Moving ahead!",
+        "ts": "1494772038.033710"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So now we're going to talk about Concurrency\n\nSo let's assume <@U55UC8R09> and <@U57A20DSS> are",
+        "ts": "1494772074.035059"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "working on a project",
+        "ts": "1494772080.035282"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And they are working on the same file!",
+        "ts": "1494772089.035586"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So let's say both of them write something on the file and save it at the same time!",
+        "ts": "1494772122.036768"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "WHat do you think will happen?",
+        "ts": "1494772129.037053"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UC8R09> and <@U57A20DSS> your tun",
+        "ts": "1494772136.037304"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "turn",
+        "ts": "1494772138.037354"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "tell me**",
+        "ts": "1494772141.037467"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "there will be a conflict?",
+        "ts": "1494772164.038346"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "I'm not sure what I should tell :sweat_smile:",
+        "ts": "1494772205.039936"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Yup git calls that *Merge Conflict*",
+        "ts": "1494772209.040116"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "ohh okay!",
+        "ts": "1494772222.040830"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Yes so it'll result in what is called an *inconsistent state*",
+        "ts": "1494772232.041267"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Now this will happen in a normal system when both have access to the same file at the same time!",
+        "ts": "1494772270.043118"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Then.. how to overcome that??",
+        "ts": "1494772279.043603"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "This brings us to the concept of locks!",
+        "ts": "1494772284.043824"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Patience <@U5BP61N94> :stuck_out_tongue:",
+        "ts": "1494772292.044158"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Ok:sweat_smile:",
+        "ts": "1494772304.044560"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So lets continue with our example",
+        "ts": "1494772327.045494"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Let's say <@U55UC8R09> wants to write to the file",
+        "ts": "1494772341.046029"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "and <@U57A20DSS> wants to read the file",
+        "ts": "1494772350.046379"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If <@U55UC8R09> asks for access to the file first then the file will be locked! No read or write access will be given to anyone else",
+        "ts": "1494772385.047690"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "As soon as <@U55UC8R09> finishes writing, the file will then be unlocked and <@U57A20DSS> can access it!",
+        "ts": "1494772410.048593"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Simple?",
+        "ts": "1494772412.048668"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ANy doubts on this, ask now",
+        "ts": "1494772421.048994"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "This is a very important concept",
+        "ts": "1494772427.049250"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "My doubt cleared:smiley:",
+        "ts": "1494772446.049986"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay <@U5BP61N94> what if both ask for access at the same time?",
+        "ts": "1494772463.050650"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Then i guess who tries to access the file first gets to do the editing",
+        "ts": "1494772508.052279"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Both access at the exact same time <@U5BP61N94> **",
+        "ts": "1494772527.052934"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "why shouldn't the algorithm to create a copy of the original file and let both access simultaneusly and the if edited .. we could use the git concept of merging later",
+        "ts": "1494772555.053998"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "pls tell the demerit of this if any",
+        "ts": "1494772569.054504"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "I think this can be done:point_up_2: \nIsnt it",
+        "ts": "1494772597.055499"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U579Y5A7Q> we're talking of a simple algorithm right now! We'll refine it later.",
+        "ts": "1494772600.055606"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Also, there are often memory constraints",
+        "ts": "1494772619.056323"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Let's say you have a huge file with 1 million datapoints",
+        "ts": "1494772641.057207"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Creating two more backup copies takes up loads of memories",
+        "ts": "1494772659.057877"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And the process of creating a backup file and then storing it again and then later deleting it is huge",
+        "ts": "1494772682.058860"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So to answer this question, basically the process is aborted and you have to ask for access again",
+        "ts": "1494772712.060048"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Again this is a very simple algorithm!",
+        "ts": "1494772726.060573"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay..",
+        "ts": "1494772737.061012"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If you guys have time anytime try to look at this \n*Strict 2PL locking protocol*",
+        "ts": "1494772765.062092"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "So this process continues until both of them do not access at the same time??",
+        "ts": "1494772787.062980"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Umm yeah!",
+        "ts": "1494772869.066264"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ANy more doubts",
+        "ts": "1494772875.066467"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Ask now!",
+        "ts": "1494772877.066552"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Ok fine",
+        "ts": "1494772878.066616"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "By the definition of locking, as long as the first person is accessing the file, no other person can access it, right?",
+        "ts": "1494772928.068531"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "So the project creators are the ones giving access to someone to work on a file. Am I right?",
+        "ts": "1494772929.068572"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Btw Git isn't a relational Database. It's closer to NoSQL which stands for Not Only SQL. We'll be talking about in the coming classes",
+        "ts": "1494772942.069087"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UJ9MH7> yes",
+        "ts": "1494772949.069359"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56DHFD99> yes",
+        "ts": "1494772955.069560"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "ok",
+        "ts": "1494772966.069990"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If you're on Linux you can try one thing",
+        "ts": "1494772975.070352"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Type ls -l",
+        "ts": "1494773005.071400"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "ok",
+        "ts": "1494773021.071955"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You'll see read, write and execution permissions that you have",
+        "ts": "1494773025.072119"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "salman@salman-Lenovo-ideapad-310-15ISK:~$ ls -l\ntotal 248\ndrwxr-xr-x 18 salman git      4096 May 12 15:32 All-Projects\ndrwxr-xr-x 20 salman salman   4096 Mar 11 09:12 anaconda3\ndrwxr-xr-x  3 salman salman   4096 Mar 15 08:16 Android\ndrwxr-xr-x  2 salman salman  12288 May  8 16:11 Desktop\ndrwxr-xr-x  9 salman salman   4096 May  8 11:51 Documents\ndrwxr-xr-x  5 salman salman   4096 May 14 18:13 Downloads\n-rw-r--r--  1 salman salman   8980 Mar 11 01:03 examples.desktop\ndrwxr-xr-x  3 salman salman  20480 May  9 11:56 Music\ndrwxr-xr-x  3 salman salman   4096 May  5 15:03 PhpstormProjects\ndrwxr-xr-x  4 salman salman   4096 May  8 16:01 Pictures\ndrwxr-xr-x  2 salman salman   4096 Mar 11 06:41 Public\ndrwxrwxrwx  8 salman salman   4096 Apr 13 14:55 Qt\ndrwxr-xr-x  2 salman salman   4096 Mar 11 06:41 Templates\ndrwxr-xr-x  2 salman salman 159744 May 14 18:10 Videos",
+        "ts": "1494773041.072704"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "In the first column you can see, read write and execute permissions",
+        "ts": "1494773063.073639"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "It's for users, groups and general. You can read up on it in a Linux textbook or ask me after the session",
+        "ts": "1494773095.074970"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any other questions?",
+        "ts": "1494773112.075735"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1494773124.076255"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1494773129.076463"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1494773135.076698"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "no",
+        "ts": "1494773140.076931"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "no",
+        "ts": "1494773155.077404"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay last two concepts for today!",
+        "ts": "1494773161.077661"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So one is transaction",
+        "ts": "1494773220.080043"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "A transaction is like an operation that happens in a DBMS",
+        "ts": "1494773234.080590"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "DBMS ensures atomicity (all-or-nothing property) even if system crashes in the middle of a Transactions.",
+        "ts": "1494773261.081591"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So lets say you were making a transaction to write to a databse",
+        "ts": "1494773312.083536"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "base**",
+        "ts": "1494773315.083642"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "We want to add a row about student information",
+        "ts": "1494773330.084284"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If our data is consistent it'll write to our database",
+        "ts": "1494773351.085078"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Even if one of the schema parameters are inconsistent, it won't write to the databse",
+        "ts": "1494773373.086034"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "database**",
+        "ts": "1494773378.086277"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "For example if you to input an integer in the age field and you input a string the entire transaction will not proceed",
+        "ts": "1494773415.087940"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Second concept is of maintaining *durability*",
+        "ts": "1494773440.088963"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "DBMS ensures durability of committed transactions even if system crashes.\nIdea: Keep a log (history) of all actions carried out by the DBMS while executing a set of transactions:",
+        "ts": "1494773480.090455"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "This is highly used in Git",
+        "ts": "1494773493.090975"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Check out the .git folder btw sometime. It's always in the root directory\\",
+        "ts": "1494773512.091702"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Try to mess around with it! It's fun. :stuck_out_tongue:",
+        "ts": "1494773528.092334"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "*Process of how a log works*",
+        "ts": "1494773551.093144"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "1. Before a change is made to the database, the corresponding log entry is forced to a safe location.\n2. After a crash, the effects of partially executed transactions are undone using the log. Effects of committed transactions are redone using the log.\ngit uses this process for merging as well!",
+        "ts": "1494773594.094918"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The following actions are recorded in the log:\n1. Ti writes an object:  the old value and the new value.\n      Log record must go to disk before the changed page!\n2. Ti commits\/aborts:  a log record indicating this action.",
+        "ts": "1494773639.096461"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any doubts here?",
+        "ts": "1494773661.097246"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay before that one last concept",
+        "ts": "1494773671.097542"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "*Advantages and disadvantages of a DBMS*:",
+        "ts": "1494773684.098057"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay",
+        "ts": "1494773697.098572"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "*Advantages*:\nConcurrent access, crash recovery\nReduced application development time",
+        "ts": "1494773706.099001"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "*Disadvantages*\n1. Expensive\/complicated to set up &amp; maintain\n2. General-purpose, not suited for special-purpose tasks(example search).",
+        "ts": "1494773750.100785"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "There are plenty of DBMS vendors like Oracle, Microsoft out there!",
+        "ts": "1494773789.102498"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "We'll work on our thing and let's see how we fare! :stuck_out_tongue:",
+        "ts": "1494773808.103182"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ANy questions",
+        "ts": "1494773811.103304"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "That'll be all for today",
+        "ts": "1494773818.103665"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "no",
+        "ts": "1494773824.103943"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no questions",
+        "ts": "1494773826.103983"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "nope",
+        "ts": "1494773834.104351"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "We'll be talking about relational model in the next session",
+        "ts": "1494773835.104385"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1494773837.104491"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I guess everyone is hungry! :stuck_out_tongue:",
+        "ts": "1494773846.104892"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": ":stuck_out_tongue_closed_eyes:",
+        "ts": "1494773875.106113"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": ":joy:",
+        "ts": "1494773889.106720"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Also how many have not sent a Pull Request",
+        "ts": "1494773903.107293"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Guys please take this seriously",
+        "ts": "1494773909.107550"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Me",
+        "ts": "1494773911.107628"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "We will put it up soon",
+        "ts": "1494773921.108009"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I'll have to start removing you guys if you don't keep up with deadlines soon",
+        "ts": "1494773929.108328"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "We're very serious on having a project that look exceptionally good on your resume and we want dedication from your side as well!",
+        "ts": "1494773955.109318"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "11.59 pm Send whatever you've done!",
+        "ts": "1494773966.109746"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Anyways gn for now!",
+        "ts": "1494774225.121647"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And good attendance!",
+        "ts": "1494774234.122058"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I'm online for 10 more minutes",
+        "ts": "1494774258.123088"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So is Hrily",
+        "ts": "1494774262.123257"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Ping us if you have any doubts",
+        "ts": "1494774269.123508"
+    }
+]

@@ -1,0 +1,833 @@
+hrily : <@U530UCFTL|hrily> has joined the channel
+
+nachiket : <@U55UB6X9P|nachiket> has joined the channel
+
+priyam : <@U57AA2TEK|priyam> has joined the channel
+
+hlpr98 : <@U579Y5A7Q|hlpr98> has joined the channel
+
+anumeha29 : <@U56JCBFA9|anumeha29> has joined the channel
+
+rosag31 : <@U56DHFD99|rosag31> has joined the channel
+
+salman-bhai : <@U52A977UG|salman-bhai> set the channel purpose: Official Channel for IEEE Summer Project 2017 for DBMS and CC. PROJECT REPOSITORY: https://github.com/IEEE-NITK/SummerProjects17/tree/master/DBMS-CC
+
+ckbs : <@U55UC8R09|ckbs> has joined the channel
+
+kenichi : <@U56H3SYJG|kenichi> has joined the channel
+
+salman-bhai : HI guys!
+
+salman-bhai : There are just 5 of you! We'll wait for five more minutes!
+
+anumeha29 : Okay
+
+rosag31 : Alright
+
+salman-bhai : P.S. You can head over to the random channel if you want to ask anything else apart from the Summer Project. :stuck_out_tongue:
+
+salman-bhai : Alright hello!
+
+salman-bhai : And welcome to the first session of IEEE Summer Project for DBMS and CC
+
+salman-bhai : We're the first summer project to start this early!
+
+salman-bhai : :stuck_out_tongue:
+
+salman-bhai : Okay so before we start, I'll tell you a brief overview of what we'll be doing for today!
+
+salman-bhai : Are u guys online?
+
+anumeha29 : yes
+
+salman-bhai : <@U56JCBFA9> <@U579Y5A7Q> <@U56DHFD99>
+
+rosag31 : :+1:
+
+ckbs : yes
+
+nachiket : yes
+
+salman-bhai : Haa cool cool!
+
+priyam : Yes!
+
+salman-bhai : Don't sleep in between :stuck_out_tongue:
+
+hrily : Aye
+
+salman-bhai : Okay so who all over here know Java
+
+nachiket : me
+
+rosag31 : me
+
+salman-bhai : We'll try to make this as interactive as possible!
+
+hlpr98 : Me
+
+salman-bhai : Awesome okay so <@U55UB6X9P> tell me what is the difference between an Object Oriented and an Imperative language like C
+
+salman-bhai : Which you studied this semester
+
+nachiket : In OOP we can deal with real world problems easily..
+
+nachiket : better than Procedural lang like c
+
+ram_aditya : <@U55UE0J9F|ram_aditya> has joined the channel
+
+salman-bhai : Okay why is that?
+
+nachiket : We can use objects(analogous to people or real objects in world) , give them characteristics and work...
+
+salman-bhai : <@U56DHFD99> can you tell me by that time what is a class and an object? What is the difference between the two?
+
+salman-bhai : Waiting .... :stuck_out_tongue:
+
+rosag31 : ok. So a class is an interface which encapsulates all the data members and member functions. An object is the specific instance of a class
+
+bhavishya : <@U55UDASSV|bhavishya> has joined the channel
+
+salman-bhai : OKay too many concepts there in one line!
+
+salman-bhai : Alright so let me break it down very simply
+
+rosag31 : :joy:
+
+salman-bhai : There are 4 types of Programming languages paradigms that you need to know:
+
+salman-bhai : 1. Procedural Languages
+
+salman-bhai : 2. Object Oriented Languages
+
+salman-bhai : 3. Functional Languages
+
+salman-bhai : 4. Logical Languages
+
+salman-bhai : 1. *Procedural* An example would be C. A simple procedure is defined and everything is defined sequentially!
+
+salman-bhai : 2. *Object Oriented* Code is modelled in terms of real-life objects
+
+salman-bhai : For example take the example of a College!
+
+vilas : <@U531L233L|vilas> has joined the channel
+
+salman-bhai : A college has data types like number of students, professors, etc.
+
+salman-bhai : I'll talk about this in sometime!
+
+salman-bhai : 3. Functional Programming : These are modelled in terms of mathematical functions! You can ask the guys in the Erlang SUmmer Project about them!
+
+hrily : data-members, If I'm correct
+
+salman-bhai : 4. Logical: We'll be doing this with sql
+
+ishaan : <@U57A20DSS|ishaan> has joined the channel
+
+salman-bhai : Data Members** Thank you <@U530UCFTL>
+
+salman-bhai : Alright so you guys will be learning Object Oriented Programming Language called Java today!
+
+salman-bhai : I'll send you links for Java Hardware, how the compilation process and all take place in Java
+
+salman-bhai : Okay now <@U579Y5A7Q> do you remember if-else loops in C/C++?
+
+hlpr98 : Yes
+
+salman-bhai : Alright type it out!
+
+salman-bhai : If x &gt; 1 -&gt; Print Yes
+
+salman-bhai : Else if x &lt; 1 -&gt; print no
+
+salman-bhai : else print -&gt; error
+
+salman-bhai : Type the code for this!
+
+hlpr98 : If(x&gt;1)
+Print("Yes");
+Else if(x&lt;1)
+Print("No");
+Else
+Print("error");
+
+
+salman-bhai : Cool!
+
+salman-bhai : So similarly we have the exact same syntax for while, do-while, for loops as well
+
+salman-bhai : ```
+If(x&gt;1)Print("Yes");
+Else if(x&lt;1)Print("No");ElsePrint("error");
+
+salman-bhai : ```
+If(x&gt;1) 
+  Print("Yes");
+Else if(x&lt;1) 
+  Print("No");
+Else
+  Print("error");
+```
+
+salman-bhai : A more appropriate way to write it down
+
+salman-bhai : Make sure you don't miss indentations!
+
+ishaan : Yeah
+
+salman-bhai : Alright 
+<https://www.javatpoint.com/java-if-else>
+
+salman-bhai : This website has a brief introduction on Control Statements in Java!
+
+salman-bhai : Make sure you read stuff from here!
+
+salman-bhai : It might help you guys during your Assignment!
+
+salman-bhai : ANy questions till now?
+
+anumeha29 : nope
+
+ckbs : no
+
+hlpr98 : no
+
+bhavishya : nope
+
+rosag31 : Nope
+
+nachiket : no
+
+ishaan : nope
+
+priyam : No!
+
+ram_aditya : nope
+
+salman-bhai : Alright so let's start Java now! :stuck_out_tongue: 
+Properly!
+
+ishaan : okay
+
+salman-bhai : So Java is a pretty significant Language when it comes to the Industry today!
+
+salman-bhai : If you look majority of the projects are often done on Java! This is more because it's become a standard to use Java for each and every purpose!!
+
+salman-bhai : Java is bult on top of C, thus compiled Java code runs slower than C!
+
+salman-bhai : The compilation process for Java is something like this!
+
+salman-bhai : First, you compile code using ```javac filename.java```
+
+salman-bhai : Later you can run the Java code using ```java filename```
+
+salman-bhai : This basically runs the Java code!
+
+ishaan : okay!
+
+anumeha29 : okay
+
+salman-bhai : Now a majority of Java code is written using IDEs
+
+ckbs : ok
+
+salman-bhai : There a couple of them that are available that I suggest you can use!
+
+salman-bhai : 1. Eclipse: Sleek and fast but installation is a headache :stuck_out_tongue:
+2. Netbeans: Looks bad, but very easy to install!
+
+salman-bhai : You can find it for whatever Operating System that you are using! Just google :stuck_out_tongue:
+
+salman-bhai : Okay before we move on, <@U57A20DSS> what is an IDE?
+
+ishaan : Integrated development environment
+
+salman-bhai : Which means...? :stuck_out_tongue:
+
+ishaan : it is a place where one can write and compile codes.. if I'm correct
+
+salman-bhai : Yes, there is something called as a TextEditor! <@U56JCBFA9> what is the difference between a text editor and a IDE?
+
+anumeha29 : An IDE also consists of debugger and automation tools , while in a text editor you just write your lines of code
+
+salman-bhai : Awesome!
+
+salman-bhai : Text Editors contain automation tools as well as long as you don't use Notepad
+
+salman-bhai : Sublime Text is an amazing TextEditor
+
+salman-bhai : There's something called as vim as well in text editor though I prefer EMACS. That's better! :stuck_out_tongue:
+
+salman-bhai : <@U530UCFTL> prefers vim :smile:
+
+salman-bhai : OKay any questions guys till now?
+
+rithesh : <@U55UJ9MH7|rithesh> has joined the channel
+
+ckbs : but, vim also has the gdb right?
+
+priyam : Is there any major reason why java is preferred over c++ ?
+
+salman-bhai : After this we'll be talking about:
+1. Classes and Objects
+2. Data Members and Methods
+
+1. Inheritance
+2. Overriding
+3. Polymorphism
+4. Abstraction
+5. Encapsulation
+6. Packages
+
+ishaan : okay
+
+salman-bhai : <@U55UC8R09> you can integrate gdb in vim
+
+ckbs : oh, okay
+
+salman-bhai : <https://vi.stackexchange.com/questions/2046/how-can-i-integrate-gdb-with-vim>
+
+salman-bhai : <@U530UCFTL> can help you more out with this:p
+
+salman-bhai : <@U57AA2TEK> I'll come to that by the end of this session!
+
+salman-bhai : Or possibly the next ssession!
+
+salman-bhai : You need to know more concepts for that !
+
+priyam : Cool!
+
+salman-bhai : OKay so before I move with OOP Concepts one last point is primitive data types
+
+salman-bhai : There are 8 *Primitive Data Types* in Java:
+1. byte
+2. short
+3. int
+4. long
+5. float
+6. double
+7. boolean
+8. char
+
+salman-bhai : <http://cs.fit.edu/~ryan/java/language/java-data.html>
+
+salman-bhai : In case you want to know more about it!
+
+salman-bhai : Any questions, anyone?
+
+salman-bhai : Yes/ No?
+
+ckbs : no
+
+anumeha29 : no
+
+nachiket : no
+
+ishaan : no
+
+priyam : Nopes :stuck_out_tongue:
+
+ram_aditya : No
+
+rosag31 : no
+
+rithesh : no
+
+salman-bhai : Alright!
+
+salman-bhai : So lets start with class in Java
+
+bhavishya : no
+
+salman-bhai : So Java unlike C++ is a pure Object Oriented Language. Everything in Java is a class!
+
+salman-bhai : If you remember doing the Hello World program in Java you had to write a public class first which was the name of your file!
+
+salman-bhai : Similarly, each and every file in Java exists in the form of a class!
+
+ishaan : yeah
+
+salman-bhai : Each class in itself has a Class Data Member and a Class Method
+
+salman-bhai : A simple example would be something like this:
+
+salman-bhai : Hold on
+
+salman-bhai : I can't find a nice example: I'll type it out.
+
+ishaan : ok
+
+anumeha29 : okay
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F57AJTUCF/dog_java.java|Dog.java> and commented: Yeah check this out!
+
+salman-bhai : Okay so in this file Dog is out class!
+
+salman-bhai : <@U56DHFD99> can you tell me the methods and Data Members in this file?
+
+rosag31 : the data members are breed, ageC and color.
+
+rosag31 : barking(), hungry() and sleeping() are the methods.
+
+salman-bhai : Awesome so basically methods are the equivalent of a function that you learnt this year!
+
+salman-bhai : Data Members are basic variables that you learnt
+
+rosag31 : Yup
+
+ishaan : Yeah
+
+salman-bhai : Okay now we'll learn objects
+
+anumeha29 : ok
+
+ckbs : ok
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F57AKM4J3/-.java|Untitled> and commented: CAn anyone tell me what _dog_ is called?
+
+ishaan : object of class Dog
+
+salman-bhai : Exactly an object is an instance of a class!
+
+salman-bhai : A simple analogy would be let's say you know how to make a pen! You will use the same data members use in the procedure for making that pen but keep on giving different names for each of the pens!
+
+salman-bhai : Like a Cello Pen would have the same method as Reynolds pen
+
+salman-bhai : But they have different names
+
+salman-bhai : SImilarly different types of dogs would have different characteristics
+
+salman-bhai : But all of that can be stored in a variable!
+As in this example it is age, colour, breed!
+
+salman-bhai : Any doubts people!
+
+ishaan : nope
+
+bhavishya : no
+
+nachiket : no
+
+ckbs : no
+
+anumeha29 : no
+
+priyam : No!
+
+rithesh : nope
+
+rosag31 : nope
+
+ram_aditya : nope
+
+salman-bhai : If not, take a 5 minute break!
+
+ishaan : cool
+
+salman-bhai : Also, I'm hoping you guys are taking notes :stuck_out_tongue:
+
+anumeha29 : yep
+
+salman-bhai : You'll forget all of this else!
+
+salman-bhai : If you guys aren't one of you can create a thread on the Google group and upload photos. :smile:
+
+salman-bhai : We'll start at 8.25
+
+ishaan : yeah, someone please do it :stuck_out_tongue::sweat_smile:
+
+salman-bhai : I'll take half an hour more and then we'll wrap up for today!
+
+ishaan : cool
+
+salman-bhai : OK, so before we start I want to talk 5 minutes about the assignment!
+
+salman-bhai : The Assignment deadline is on Next friday
+
+salman-bhai : I hope that's fine for everyone!
+
+anumeha29 : yeahh
+
+salman-bhai : ?*
+
+ishaan : yeah
+
+bhavishya : yep
+
+rosag31 : yup
+
+nachiket : yeah
+
+ckbs : fine
+
+ram_aditya : yup
+
+hlpr98 : yes
+
+priyam : yep
+
+salman-bhai : Your task would be to create a Student Record program
+
+salman-bhai : <http://agilemodeling.com/images/models/classDiagramInheritance.jpg>
+
+salman-bhai : It'll be having four classes as shown above
+
+salman-bhai : The upper column is Data Members and the lower column is methods
+
+ishaan : okay!
+
+salman-bhai : You have to read data from a CSV file.
+
+salman-bhai : So right now, I'll be teaching:
+1. Inheritance
+2. File Reading
+3. Basic Program Structure
+
+anumeha29 : okay
+
+salman-bhai : The image is just an example. You don't have to do that!
+
+salman-bhai : <@U530UCFTL> is writing that assignment for you :stuck_out_tongue: Be Prepared :stuck_out_tongue:
+
+salman-bhai : Alright any doubts with reagrds to the assignment?
+
+salman-bhai : Also we'll be sending a detailed problem statement and I'll try to make a Class Diagram and send it for you guys as well!
+
+anumeha29 : cool
+
+ishaan : okay
+
+ckbs : ok
+
+priyam : Sounds good
+
+salman-bhai : Awesome!
+
+rosag31 : ok!
+
+salman-bhai : Okay so Inheriatnce
+
+salman-bhai : Inheritance**
+
+ishaan : Yeah
+
+salman-bhai : &gt;Inheritance can be defined as the process where one class acquires the 
+properties (methods and fields) of another. With the use of inheritance 
+the information is made manageable in a hierarchical order.
+&gt;-Tutorials Point
+
+salman-bhai : Basically the idea is assume there are two classes: *Parent* and *Child*
+
+salman-bhai : Now the Child will have the characteristics of the parent and some of its own!
+
+salman-bhai : The characteristics of the parent are said to be *inherited*
+
+salman-bhai : So let's say if I have a method called isMale() defined in a parent class, the same method does not need to be defined again in the child class!
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F57AP88TZ/inherit_java.java|inherit.java> and commented: A simple example of Java inheritance!
+
+salman-bhai : In Java, the keyword extends is used to write an inheritance relationship
+
+ishaan : oh, okay!
+
+salman-bhai : Take a look at this example!
+
+salman-bhai : OKay wait, who hasn't answered any question till now!
+
+salman-bhai : Who haven't I asked anything?
+
+priyam : Me!
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F55RSN08G/-.java|Untitled>
+
+ram_aditya :  Me
+
+salman-bhai : Alright <@U57AA2TEK> tell me how many classes and objects are there in this snippet that I added?
+
+salman-bhai : <@U55UE0J9F> tell me how many methods and how many data members are there in that code snippet
+
+priyam : 1 parent class  Calculation, 1 child class My_Calculation,
+
+salman-bhai : Objects?
+
+priyam : 2 objects addition and multiplication?
+
+salman-bhai : Umm no!
+
+salman-bhai : <@U56DHFD99> can you help <@U57AA2TEK> ?
+
+ram_aditya : 1 data memebr
+and 2 methods in total
+
+ram_aditya : But  im confused
+
+salman-bhai : <@U55UE0J9F> names
+
+salman-bhai : ?
+
+salman-bhai : OKay what are you confused about?
+
+rosag31 : yeah sure.. There is only one object - demo
+
+ram_aditya : Does the data member declared for  the function argument a data member? 
+
+ram_aditya : Is the*
+
+priyam : oh wait only 1
+
+priyam : my bad
+
+rosag31 : the basic syntax to identify an object is:
+
+rosag31 : class_name object_name = new class_name(parameters if any);
+
+priyam : Yea got it!
+
+rosag31 : Cool
+
+salman-bhai : OKay so is everyone clear about this?
+
+ckbs : yeah
+
+ram_aditya : I had a doubt.
+
+
+salman-bhai : <@U56DHFD99> good work
+
+salman-bhai : Yes <@U55UE0J9F>
+
+salman-bhai : That doesn't account for it!
+
+ram_aditya : about whether the variable declared for  the function argument is a  data member or not?
+
+ram_aditya : Oh cool
+
+ram_aditya : Thanks
+
+ishaan : Cool
+
+salman-bhai : You'll know about it when we learn about types of variables!
+
+anumeha29 : cool
+
+salman-bhai : OKay so have you guys done File I/O in C?
+
+ishaan : Yes
+
+ram_aditya : Yes
+
+salman-bhai : Well we're going to implement something similar for your assignment
+
+salman-bhai : Does anyone know what is a CSV file?
+
+salman-bhai : If anyone has done any Machine Learning they'd probably know about this!
+
+ishaan : Umm no :no_mouth:
+
+salman-bhai : <@U55UE0J9F> <@U56JCBFA9> <@U56DHFD99> <@U57AA2TEK> <@U55UDASSV> anyone?
+
+salman-bhai : <@U56H3SYJG> ?
+
+anumeha29 : nopee
+
+rosag31 : nope
+
+hrily : Some detail about data members and functions
++ Data members are properties of the object 
+   Eg:  Color of a BMW car, Here BMW is object of class Car, and color is it's  property/data-member
++ Data-function are methods which the object carries out
+   Eg: Start Ignition of BMW car, here startIgnition() is method/data-fuction
+
+ram_aditya : Well I havent done any machine learning..
+But is it same as the file we get to download for goofle forms?
+
+hrily : <@U55UE0J9F> 
+I hope you get answet to your question
+
+priyam : comma separated values file. we got an introduction to it in python
+
+ram_aditya : <@U530UCFTL> Thank You!
+
+salman-bhai : <@U55UE0J9F> Yes!
+
+salman-bhai : <@U57AA2TEK> Is right!
+
+salman-bhai : Basically it's something like this!
+
+salman-bhai : Lets say we have two columns in a CSV file
+
+salman-bhai : In an excel spreadsheet**
+
+salman-bhai : Now the problem with an Excel Spreadsheet is it isn't readable everywhere! You need to separate columns properly
+
+salman-bhai : So take a look at the following example!
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F56G3SNP4/names_csv.txt|names.csv>
+
+salman-bhai : Now if this same file is opened in an Excel Sheet it will show two columns One for Names and One for AGe
+
+ishaan : ohh, okay...
+
+salman-bhai : And the list of names and Age will be separated accordingly!
+
+salman-bhai : For your assignment you've been given a CSV file to write
+
+salman-bhai : Read**
+
+anumeha29 : okk
+
+salman-bhai : <https://www.mkyong.com/java/how-to-read-and-parse-csv-file-in-java/>
+
+salman-bhai : Good resource to read! :stuck_out_tongue:
+
+ishaan : Thanks!
+
+salman-bhai : There's not much theory behind this!
+
+salman-bhai : You just have to read and write to CSV files
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F56DZJMDZ/general_java_file_structure.php|General Java file structure> and commented: This is the general structure in a Java file
+
+salman-bhai : Okay that's it for today!
+
+salman-bhai : Before you guys ask any doubts Hrishi will tell you about the assignment
+
+salman-bhai : <https://sites.google.com/view/ieee-sp-dbms-cc/assignments/assignment-1>
+
+salman-bhai : The problem statement can be found here
+
+salman-bhai : <@U530UCFTL> over to you! :stuck_out_tongue:
+
+hrily : Thank you <@U52A977UG>
+
+ishaan : uh, it says the deadline is 5th April :sweat_smile:
+
+hrily : The problem statement is well explained
+If you have any queries, please ask
+
+hrily : Okay will change that <@U57A20DSS>
+
+salman-bhai : <@U57A20DSS> that's next Friday :stuck_out_tongue:
+
+salman-bhai : According to Hrishi
+
+salman-bhai : :stuck_out_tongue:
+
+ishaan : Yeah. Got it!
+
+salman-bhai : 5th May**
+
+salman-bhai : Alright you guys can ask any doubts!
+
+anumeha29 : yeah cool
+
+salman-bhai : I'll be online for 10 more minutes here! 
+Else you can ping me on the WhatsApp group as well!
+
+hrily : Regarding submission:
+You will need to upload your programs on DBMS repo on github
+The instructions are on below the problem statements
+
+ram_aditya : Could you clarify on using the main function within the class?
+
+hrily : main() is the entry point of your class
+just like main() is entry point of any c program
+
+hrily : whenever you execute any java compiled class by
+```
+java classname
+```
+the first function called is main()
+
+hrily : hope you get ir
+
+hrily : it*
+
+ram_aditya : Then shouldnt main be in an object and not a class?
+
+salman-bhai : An object is created via the main
+
+hrily : Again to  the basics
+class is definition
+and
+object is an instance
+
+we can't define calass
+
+hrily : class*
+
+hrily : object**
+
+salman-bhai : Yeah <@U530UCFTL> better explained :smile:
+
+hrily : we can't define object*
+
+ckbs : Also, in some of the examples the arguments to the main function was (String []args) and in some other programs it was (String args[]).....is there any difference between the two?
+
+hrily : nice questions <@U55UC8R09>
+
+ram_aditya : <@U52A977UG> <@U530UCFTL> 
+Thank You!
+
+salman-bhai : <@U55UC8R09> Good noticing skills :stuck_out_tongue:
+
+hrily : in java 
+array can be declared in two ways
+```
+int[] arr;
+```
+
+```
+int arr[];
+```
+
+both are one and the same
+
+ckbs : oh ok,thanks
+
+nachiket : Is there any way to inherit only a few characteristics instead of all from a parent class?
+
+hrily : Again a good question
+
+hrily : we'll cover that in next session
+
+hrily : when we'll be talking about Data-Hiding
+
+nachiket : Okay
+
+hrily : any more questoins
+
+anumeha29 : nopee
+
+ckbs : no
+
+ram_aditya : Nothing for now..
+
+priyam : none i suppose
+
+ishaan : no
+
+hrily : Okay
+lets pack  up
+I'm too hungry now :smile:
+
+Good night  everyone
+
+salman-bhai : Okay so the next lecture will be taken by <@U530UCFTL>
+
+salman-bhai : Good Night people!
+
+ckbs : gn
+
+anumeha29 : Good Night ! and thanks for a great session :slightly_smiling_face:
+
+salman-bhai : Hope you guys learnt something even though it was very elementary stuff!
+
+ram_aditya : Thanks for the session:slightly_smiling_face: 
+
+priyam : Thank you! And yea bye!
+
+ishaan : Good Night! :slightly_smiling_face:
+
+ckbs : thanks for the session !
+

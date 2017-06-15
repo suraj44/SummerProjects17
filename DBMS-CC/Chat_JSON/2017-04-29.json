@@ -1,0 +1,2613 @@
+[
+    {
+        "user": "U530UCFTL",
+        "text": "<@U530UCFTL|hrily> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493472335.650508"
+    },
+    {
+        "user": "U55UB6X9P",
+        "text": "<@U55UB6X9P|nachiket> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493472404.654134"
+    },
+    {
+        "user": "U57AA2TEK",
+        "text": "<@U57AA2TEK|priyam> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493472596.664063"
+    },
+    {
+        "user": "U579Y5A7Q",
+        "text": "<@U579Y5A7Q|hlpr98> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493472683.669401"
+    },
+    {
+        "user": "U56JCBFA9",
+        "text": "<@U56JCBFA9|anumeha29> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493472763.673851"
+    },
+    {
+        "user": "U56DHFD99",
+        "text": "<@U56DHFD99|rosag31> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493472831.677466"
+    },
+    {
+        "user": "U52A977UG",
+        "purpose": "Official Channel for IEEE Summer Project 2017 for DBMS and CC. PROJECT REPOSITORY: https:\/\/github.com\/IEEE-NITK\/SummerProjects17\/tree\/master\/DBMS-CC",
+        "text": "<@U52A977UG|salman-bhai> set the channel purpose: Official Channel for IEEE Summer Project 2017 for DBMS and CC. PROJECT REPOSITORY: https:\/\/github.com\/IEEE-NITK\/SummerProjects17\/tree\/master\/DBMS-CC",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1493472856.678741"
+    },
+    {
+        "user": "U55UC8R09",
+        "text": "<@U55UC8R09|ckbs> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493472910.681419"
+    },
+    {
+        "user": "U56H3SYJG",
+        "text": "<@U56H3SYJG|kenichi> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493473306.701895"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "HI guys!",
+        "ts": "1493473340.703662"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "There are just 5 of you! We'll wait for five more minutes!",
+        "ts": "1493473389.706233"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "Okay",
+        "ts": "1493473396.706588"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Alright",
+        "ts": "1493473418.707733"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "P.S. You can head over to the random channel if you want to ask anything else apart from the Summer Project. :stuck_out_tongue:",
+        "ts": "1493473444.709013"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright hello!",
+        "ts": "1493473762.725751"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And welcome to the first session of IEEE Summer Project for DBMS and CC",
+        "ts": "1493473778.726486"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "We're the first summer project to start this early!",
+        "ts": "1493473791.727143"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": ":stuck_out_tongue:",
+        "ts": "1493473791.727203"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay so before we start, I'll tell you a brief overview of what we'll be doing for today!",
+        "ts": "1493473834.729467"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Are u guys online?",
+        "ts": "1493473844.729926"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "yes",
+        "ts": "1493473855.730426"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56JCBFA9> <@U579Y5A7Q> <@U56DHFD99>",
+        "ts": "1493473858.730619"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": ":+1:",
+        "ts": "1493473860.730797"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "yes",
+        "ts": "1493473862.730942"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "yes",
+        "ts": "1493473863.730995"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Haa cool cool!",
+        "ts": "1493473866.731138"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Yes!",
+        "ts": "1493473866.731167"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Don't sleep in between :stuck_out_tongue:",
+        "ts": "1493473876.731819"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Aye",
+        "ts": "1493473877.731898"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay so who all over here know Java",
+        "ts": "1493473883.732267"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "me",
+        "ts": "1493473900.733104"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "me",
+        "ts": "1493473903.733344"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "We'll try to make this as interactive as possible!",
+        "ts": "1493473907.733711"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "Me",
+        "ts": "1493473911.733930"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Awesome okay so <@U55UB6X9P> tell me what is the difference between an Object Oriented and an Imperative language like C",
+        "ts": "1493473940.735368"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Which you studied this semester",
+        "ts": "1493473950.735904"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "In OOP we can deal with real world problems easily..",
+        "ts": "1493473972.737064"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "better than Procedural lang like c",
+        "ts": "1493473996.738259"
+    },
+    {
+        "user": "U55UE0J9F",
+        "text": "<@U55UE0J9F|ram_aditya> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493473999.738399"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay why is that?",
+        "ts": "1493474020.739374"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "We can use objects(analogous to people or real objects in world) , give them characteristics and work...",
+        "ts": "1493474078.742279"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56DHFD99> can you tell me by that time what is a class and an object? What is the difference between the two?",
+        "ts": "1493474093.743107"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Waiting .... :stuck_out_tongue:",
+        "ts": "1493474170.747686"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "ok. So a class is an interface which encapsulates all the data members and member functions. An object is the specific instance of a class",
+        "ts": "1493474189.748658"
+    },
+    {
+        "user": "U55UDASSV",
+        "text": "<@U55UDASSV|bhavishya> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493474203.749296"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay too many concepts there in one line!",
+        "ts": "1493474210.749763"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright so let me break it down very simply",
+        "ts": "1493474220.750270"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": ":joy:",
+        "ts": "1493474223.750445"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "There are 4 types of Programming languages paradigms that you need to know:",
+        "ts": "1493474246.751933"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "1. Procedural Languages",
+        "ts": "1493474255.752327"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "2. Object Oriented Languages",
+        "ts": "1493474261.752586"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "3. Functional Languages",
+        "ts": "1493474270.753056"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "4. Logical Languages",
+        "ts": "1493474277.753491"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "1. *Procedural* An example would be C. A simple procedure is defined and everything is defined sequentially!",
+        "ts": "1493474312.755346"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "2. *Object Oriented* Code is modelled in terms of real-life objects",
+        "ts": "1493474350.757522"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "For example take the example of a College!",
+        "ts": "1493474367.758424"
+    },
+    {
+        "user": "U531L233L",
+        "text": "<@U531L233L|vilas> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493474378.758948"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "A college has data types like number of students, professors, etc.",
+        "ts": "1493474388.759622"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I'll talk about this in sometime!",
+        "ts": "1493474402.760632"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "3. Functional Programming : These are modelled in terms of mathematical functions! You can ask the guys in the Erlang SUmmer Project about them!",
+        "ts": "1493474443.763958"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "data-members, If I'm correct",
+        "ts": "1493474456.764783"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "4. Logical: We'll be doing this with sql",
+        "ts": "1493474460.765214"
+    },
+    {
+        "user": "U57A20DSS",
+        "text": "<@U57A20DSS|ishaan> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493474476.766562"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Data Members** Thank you <@U530UCFTL>",
+        "ts": "1493474480.766907"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright so you guys will be learning Object Oriented Programming Language called Java today!",
+        "ts": "1493474504.768438"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I'll send you links for Java Hardware, how the compilation process and all take place in Java",
+        "ts": "1493474526.769632"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay now <@U579Y5A7Q> do you remember if-else loops in C\/C++?",
+        "ts": "1493474559.771593"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "Yes",
+        "ts": "1493474569.772213"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright type it out!",
+        "ts": "1493474613.774695"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If x &gt; 1 -&gt; Print Yes",
+        "ts": "1493474613.774710"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Else if x &lt; 1 -&gt; print no",
+        "ts": "1493474617.774852"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "else print -&gt; error",
+        "ts": "1493474623.775262"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Type the code for this!",
+        "ts": "1493474630.775643"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "If(x&gt;1)\nPrint(\"Yes\");\nElse if(x&lt;1)\nPrint(\"No\");\nElse\nPrint(\"error\");\n",
+        "ts": "1493474730.781816"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Cool!",
+        "ts": "1493474739.782313"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So similarly we have the exact same syntax for while, do-while, for loops as well",
+        "ts": "1493474767.784130"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "```\nIf(x&gt;1)Print(\"Yes\");\nElse if(x&lt;1)Print(\"No\");ElsePrint(\"error\");",
+        "ts": "1493474811.786474"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "```\nIf(x&gt;1) \n  Print(\"Yes\");\nElse if(x&lt;1) \n  Print(\"No\");\nElse\n  Print(\"error\");\n```",
+        "ts": "1493474856.789192"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "A more appropriate way to write it down",
+        "ts": "1493474869.789999"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Make sure you don't miss indentations!",
+        "ts": "1493474881.790656"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "Yeah",
+        "ts": "1493474896.791481"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright \n<https:\/\/www.javatpoint.com\/java-if-else>",
+        "attachments": [
+            {
+                "service_name": "www.javatpoint.com",
+                "title": "Java If else - Javatpoint",
+                "title_link": "https:\/\/www.javatpoint.com\/java-if-else",
+                "text": "Java if else statement, if else statement in java, java if statement, java multiple if, java if-else, java if-else-if, java if else if ladder statement, and java nested if with concepts and examples, java control statements.",
+                "fallback": "www.javatpoint.com: Java If else - Javatpoint",
+                "from_url": "https:\/\/www.javatpoint.com\/java-if-else",
+                "id": 1
+            }
+        ],
+        "ts": "1493474909.792187"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "This website has a brief introduction on Control Statements in Java!",
+        "ts": "1493474927.793136"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Make sure you read stuff from here!",
+        "ts": "1493474935.793693"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "It might help you guys during your Assignment!",
+        "ts": "1493474951.794686"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ANy questions till now?",
+        "ts": "1493474957.794963"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "nope",
+        "ts": "1493474971.795694"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "no",
+        "ts": "1493474977.795973"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "no",
+        "ts": "1493474981.796174"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "nope",
+        "ts": "1493474982.796201"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Nope",
+        "ts": "1493474986.796487"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1493474994.796988"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "nope",
+        "ts": "1493474995.797037"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "No!",
+        "ts": "1493475004.797568"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "nope",
+        "ts": "1493475017.798374"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright so let's start Java now! :stuck_out_tongue: \nProperly!",
+        "ts": "1493475034.799360"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay",
+        "ts": "1493475067.801309"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So Java is a pretty significant Language when it comes to the Industry today!",
+        "ts": "1493475079.802074"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If you look majority of the projects are often done on Java! This is more because it's become a standard to use Java for each and every purpose!!",
+        "ts": "1493475117.804175"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Java is bult on top of C, thus compiled Java code runs slower than C!",
+        "ts": "1493475143.805560"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The compilation process for Java is something like this!",
+        "ts": "1493475157.806201"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "First, you compile code using ```javac filename.java```",
+        "ts": "1493475183.807712"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Later you can run the Java code using ```java filename```",
+        "ts": "1493475228.810386"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "This basically runs the Java code!",
+        "ts": "1493475238.810876"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay!",
+        "ts": "1493475246.811326"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "okay",
+        "ts": "1493475260.812065"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Now a majority of Java code is written using IDEs",
+        "ts": "1493475262.812144"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "ok",
+        "ts": "1493475262.812171"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "There a couple of them that are available that I suggest you can use!",
+        "ts": "1493475278.812963"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "1. Eclipse: Sleek and fast but installation is a headache :stuck_out_tongue:\n2. Netbeans: Looks bad, but very easy to install!",
+        "ts": "1493475316.815560"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You can find it for whatever Operating System that you are using! Just google :stuck_out_tongue:",
+        "ts": "1493475338.816824"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay before we move on, <@U57A20DSS> what is an IDE?",
+        "ts": "1493475350.817440"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "Integrated development environment",
+        "ts": "1493475364.818309"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Which means...? :stuck_out_tongue:",
+        "ts": "1493475386.819433"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "it is a place where one can write and compile codes.. if I'm correct",
+        "ts": "1493475419.821264"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Yes, there is something called as a TextEditor! <@U56JCBFA9> what is the difference between a text editor and a IDE?",
+        "ts": "1493475460.823513"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "An IDE also consists of debugger and automation tools , while in a text editor you just write your lines of code",
+        "ts": "1493475510.826344"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Awesome!",
+        "ts": "1493475581.830289"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Text Editors contain automation tools as well as long as you don't use Notepad",
+        "ts": "1493475604.831654"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Sublime Text is an amazing TextEditor",
+        "ts": "1493475615.832318"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "There's something called as vim as well in text editor though I prefer EMACS. That's better! :stuck_out_tongue:",
+        "ts": "1493475642.833730"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U530UCFTL> prefers vim :smile:",
+        "ts": "1493475650.834140"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay any questions guys till now?",
+        "ts": "1493475670.835432"
+    },
+    {
+        "user": "U55UJ9MH7",
+        "text": "<@U55UJ9MH7|rithesh> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493475672.835594"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "but, vim also has the gdb right?",
+        "ts": "1493475688.836444"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Is there any major reason why java is preferred over c++ ?",
+        "ts": "1493475735.839252"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "After this we'll be talking about:\n1. Classes and Objects\n2. Data Members and Methods\n\n1. Inheritance\n2. Overriding\n3. Polymorphism\n4. Abstraction\n5. Encapsulation\n6. Packages",
+        "ts": "1493475810.843187"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay",
+        "ts": "1493475831.844295"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UC8R09> you can integrate gdb in vim",
+        "ts": "1493475870.846684"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "oh, okay",
+        "ts": "1493475891.847774"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<https:\/\/vi.stackexchange.com\/questions\/2046\/how-can-i-integrate-gdb-with-vim>",
+        "attachments": [
+            {
+                "title": "How can I integrate gdb with Vim?",
+                "title_link": "https:\/\/vi.stackexchange.com\/questions\/2046\/how-can-i-integrate-gdb-with-vim",
+                "text": "Instead of gdbtui or ctrl+x under gdb which shows source code on top of the screen I would like to see this in my Vim editor that would jump between tabs, and buffers accordingly. How can I do this?",
+                "fallback": "How can I integrate gdb with Vim?",
+                "thumb_url": "https:\/\/cdn.sstatic.net\/Sites\/vi\/img\/apple-touch-icon@2.png?v=af57295b1ad9",
+                "from_url": "https:\/\/vi.stackexchange.com\/questions\/2046\/how-can-i-integrate-gdb-with-vim",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "service_icon": "https:\/\/cdn.sstatic.net\/Sites\/vi\/img\/favicon.ico?v=b90df495f0e4",
+                "service_name": "vi.stackexchange.com",
+                "id": 1
+            }
+        ],
+        "ts": "1493475926.850170"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U530UCFTL> can help you more out with this:p",
+        "ts": "1493475938.850851"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U57AA2TEK> I'll come to that by the end of this session!",
+        "ts": "1493475966.852512"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Or possibly the next ssession!",
+        "ts": "1493475976.853106"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You need to know more concepts for that !",
+        "ts": "1493475984.853568"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Cool!",
+        "ts": "1493475984.853605"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay so before I move with OOP Concepts one last point is primitive data types",
+        "ts": "1493476022.855755"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "There are 8 *Primitive Data Types* in Java:\n1. byte\n2. short\n3. int\n4. long\n5. float\n6. double\n7. boolean\n8. char",
+        "ts": "1493476082.859229"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<http:\/\/cs.fit.edu\/~ryan\/java\/language\/java-data.html>",
+        "ts": "1493476091.859792"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "In case you want to know more about it!",
+        "ts": "1493476100.860232"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any questions, anyone?",
+        "ts": "1493476125.861589"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Yes\/ No?",
+        "ts": "1493476165.863839"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "no",
+        "ts": "1493476165.863840"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "no",
+        "ts": "1493476171.864128"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1493476174.864288"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1493476179.864561"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Nopes :stuck_out_tongue:",
+        "ts": "1493476181.864676"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "No",
+        "ts": "1493476185.864953"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "no",
+        "ts": "1493476187.865069"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "no",
+        "ts": "1493476187.865074"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright!",
+        "ts": "1493476189.865170"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So lets start with class in Java",
+        "ts": "1493476197.865586"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1493476200.865716"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So Java unlike C++ is a pure Object Oriented Language. Everything in Java is a class!",
+        "ts": "1493476225.867447"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If you remember doing the Hello World program in Java you had to write a public class first which was the name of your file!",
+        "ts": "1493476255.869027"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Similarly, each and every file in Java exists in the form of a class!",
+        "ts": "1493476283.870727"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "yeah",
+        "ts": "1493476290.871245"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Each class in itself has a Class Data Member and a Class Method",
+        "ts": "1493476314.872586"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "A simple example would be something like this:",
+        "ts": "1493476412.878055"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Hold on",
+        "ts": "1493476489.882362"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I can't find a nice example: I'll type it out.",
+        "ts": "1493476502.883187"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "ok",
+        "ts": "1493476516.884066"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "okay",
+        "ts": "1493476517.884152"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F57AJTUCF\/dog_java.java|Dog.java> and commented: Yeah check this out!",
+        "file": {
+            "id": "F57AJTUCF",
+            "created": 1493476625,
+            "timestamp": 1493476625,
+            "name": "Dog_java.java",
+            "title": "Dog.java",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 159,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F57AJTUCF\/dog_java.java?t=xoxe-172054826822-177445990006-176071640017-afbf0e4fb3",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F57AJTUCF\/download\/dog_java.java?t=xoxe-172054826822-177445990006-176071640017-afbf0e4fb3",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F57AJTUCF\/dog_java.java",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F57AJTUCF-590ad43020",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F57AJTUCF\/dog_java.java\/edit",
+            "preview": "public class Dog {\r\n   String breed;\r\n   int ageC\r\n   String color;\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-keyword\">public<\/span> <span class=\"cm-keyword\">class<\/span> <span class=\"cm-def\">Dog<\/span> {<\/pre><\/div>\n<div><pre>   <span class=\"cm-variable-3\">String<\/span> <span class=\"cm-variable\">breed<\/span>;<\/pre><\/div>\n<div><pre>   <span class=\"cm-variable-3\">int<\/span> <span class=\"cm-variable\">ageC<\/span><\/pre><\/div>\n<div><pre>   <span class=\"cm-variable-3\">String<\/span> <span class=\"cm-variable\">color<\/span>;<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 14,
+            "lines_more": 9,
+            "preview_is_truncated": false,
+            "channels": [
+                "C531Y5XJQ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc56JLRH1T",
+                "created": 1493476625,
+                "timestamp": 1493476625,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "Yeah check this out!",
+                "channel": ""
+            }
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1493476628.890373"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay so in this file Dog is out class!",
+        "ts": "1493476651.891640"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56DHFD99> can you tell me the methods and Data Members in this file?",
+        "ts": "1493476677.893225"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "the data members are breed, ageC and color.",
+        "ts": "1493476718.895411"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "barking(), hungry() and sleeping() are the methods.",
+        "ts": "1493476755.897726"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Awesome so basically methods are the equivalent of a function that you learnt this year!",
+        "ts": "1493476783.899213"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Data Members are basic variables that you learnt",
+        "ts": "1493476798.900331"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Yup",
+        "ts": "1493476802.900590"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "Yeah",
+        "ts": "1493476856.904142"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay now we'll learn objects",
+        "ts": "1493476865.904780"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "ok",
+        "ts": "1493476902.907062"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "ok",
+        "ts": "1493476912.907705"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F57AKM4J3\/-.java|Untitled> and commented: CAn anyone tell me what _dog_ is called?",
+        "file": {
+            "id": "F57AKM4J3",
+            "created": 1493476968,
+            "timestamp": 1493476968,
+            "name": "-.java",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 263,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F57AKM4J3\/-.java?t=xoxe-172054826822-177445990006-176071640017-afbf0e4fb3",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F57AKM4J3\/download\/-.java?t=xoxe-172054826822-177445990006-176071640017-afbf0e4fb3",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F57AKM4J3\/-.java",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F57AKM4J3-5201d4c4a9",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F57AKM4J3\/-.java\/edit",
+            "preview": "public class Dog {\r\n   String breed;\r\n   int age;\r\n   String color;\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-keyword\">public<\/span> <span class=\"cm-keyword\">class<\/span> <span class=\"cm-def\">Dog<\/span> {<\/pre><\/div>\n<div><pre>   <span class=\"cm-variable-3\">String<\/span> <span class=\"cm-variable\">breed<\/span>;<\/pre><\/div>\n<div><pre>   <span class=\"cm-variable-3\">int<\/span> <span class=\"cm-variable\">age<\/span>;<\/pre><\/div>\n<div><pre>   <span class=\"cm-variable-3\">String<\/span> <span class=\"cm-variable\">color<\/span>;<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 20,
+            "lines_more": 15,
+            "preview_is_truncated": false,
+            "channels": [
+                "C531Y5XJQ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc57AKMA8P",
+                "created": 1493476968,
+                "timestamp": 1493476968,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "CAn anyone tell me what _dog_ is called?",
+                "channel": ""
+            }
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1493476971.910886"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "object of class Dog",
+        "ts": "1493476992.912045"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Exactly an object is an instance of a class!",
+        "ts": "1493477034.914268"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "A simple analogy would be let's say you know how to make a pen! You will use the same data members use in the procedure for making that pen but keep on giving different names for each of the pens!",
+        "ts": "1493477091.917450"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Like a Cello Pen would have the same method as Reynolds pen",
+        "ts": "1493477120.919483"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "But they have different names",
+        "ts": "1493477127.919930"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "SImilarly different types of dogs would have different characteristics",
+        "ts": "1493477146.921236"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "But all of that can be stored in a variable!\nAs in this example it is age, colour, breed!",
+        "ts": "1493477170.922876"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any doubts people!",
+        "ts": "1493477176.923268"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "nope",
+        "ts": "1493477181.923525"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1493477187.923887"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1493477189.923983"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "no",
+        "ts": "1493477192.924138"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "no",
+        "ts": "1493477194.924263"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "No!",
+        "ts": "1493477199.924544"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "nope",
+        "ts": "1493477203.924731"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "nope",
+        "ts": "1493477231.926656"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "nope",
+        "ts": "1493477236.927002"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If not, take a 5 minute break!",
+        "ts": "1493477266.928773"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "cool",
+        "ts": "1493477277.929381"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Also, I'm hoping you guys are taking notes :stuck_out_tongue:",
+        "ts": "1493477278.929431"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "yep",
+        "ts": "1493477286.929883"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You'll forget all of this else!",
+        "ts": "1493477294.930288"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If you guys aren't one of you can create a thread on the Google group and upload photos. :smile:",
+        "ts": "1493477325.931937"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "We'll start at 8.25",
+        "ts": "1493477361.934143"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "yeah, someone please do it :stuck_out_tongue::sweat_smile:",
+        "ts": "1493477367.934516"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I'll take half an hour more and then we'll wrap up for today!",
+        "ts": "1493477376.934918"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "cool",
+        "ts": "1493477405.936575"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OK, so before we start I want to talk 5 minutes about the assignment!",
+        "ts": "1493477735.957397"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The Assignment deadline is on Next friday",
+        "ts": "1493477745.957966"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I hope that's fine for everyone!",
+        "ts": "1493477753.958473"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "yeahh",
+        "ts": "1493477762.959032"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "?*",
+        "ts": "1493477762.959088"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "yeah",
+        "ts": "1493477763.959156"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "yep",
+        "ts": "1493477769.959555"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "yup",
+        "ts": "1493477770.959620"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "yeah",
+        "ts": "1493477771.959657"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "fine",
+        "ts": "1493477771.959669"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "yup",
+        "ts": "1493477774.959824"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "yes",
+        "ts": "1493477784.960379"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "yep",
+        "ts": "1493477794.960986"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Your task would be to create a Student Record program",
+        "ts": "1493477867.965318"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<http:\/\/agilemodeling.com\/images\/models\/classDiagramInheritance.jpg>",
+        "attachments": [
+            {
+                "fallback": "628x337px image",
+                "image_url": "http:\/\/agilemodeling.com\/images\/models\/classDiagramInheritance.jpg",
+                "image_width": 628,
+                "image_height": 337,
+                "image_bytes": 27038,
+                "from_url": "http:\/\/agilemodeling.com\/images\/models\/classDiagramInheritance.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1493477900.967331"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "It'll be having four classes as shown above",
+        "ts": "1493477915.968102"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The upper column is Data Members and the lower column is methods",
+        "ts": "1493477936.969439"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay!",
+        "ts": "1493477950.970241"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You have to read data from a CSV file.",
+        "ts": "1493477960.970849"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So right now, I'll be teaching:\n1. Inheritance\n2. File Reading\n3. Basic Program Structure",
+        "ts": "1493477988.972434"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "okay",
+        "ts": "1493478008.974254"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The image is just an example. You don't have to do that!",
+        "ts": "1493478048.977193"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U530UCFTL> is writing that assignment for you :stuck_out_tongue: Be Prepared :stuck_out_tongue:",
+        "ts": "1493478076.979365"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright any doubts with reagrds to the assignment?",
+        "ts": "1493478104.981234"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Also we'll be sending a detailed problem statement and I'll try to make a Class Diagram and send it for you guys as well!",
+        "ts": "1493478146.983939"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "cool",
+        "ts": "1493478153.984435"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay",
+        "ts": "1493478165.985142"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "ok",
+        "ts": "1493478169.985541"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Sounds good",
+        "ts": "1493478171.985605"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Awesome!",
+        "ts": "1493478178.986073"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "ok!",
+        "ts": "1493478184.986434"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay so Inheriatnce",
+        "ts": "1493478192.986959"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Inheritance**",
+        "ts": "1493478199.987433"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "Yeah",
+        "ts": "1493478223.988852"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "&gt;Inheritance can be defined as the process where one class acquires the \nproperties (methods and fields) of another. With the use of inheritance \nthe information is made manageable in a hierarchical order.\n&gt;-Tutorials Point",
+        "ts": "1493478265.991526"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Basically the idea is assume there are two classes: *Parent* and *Child*",
+        "ts": "1493478299.993504"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Now the Child will have the characteristics of the parent and some of its own!",
+        "ts": "1493478319.994848"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The characteristics of the parent are said to be *inherited*",
+        "ts": "1493478337.996005"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So let's say if I have a method called isMale() defined in a parent class, the same method does not need to be defined again in the child class!",
+        "ts": "1493478374.998420"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F57AP88TZ\/inherit_java.java|inherit.java> and commented: A simple example of Java inheritance!",
+        "file": {
+            "id": "F57AP88TZ",
+            "created": 1493478420,
+            "timestamp": 1493478420,
+            "name": "inherit_java.java",
+            "title": "inherit.java",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 86,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F57AP88TZ\/inherit_java.java?t=xoxe-172054826822-177445990006-176071640017-afbf0e4fb3",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F57AP88TZ\/download\/inherit_java.java?t=xoxe-172054826822-177445990006-176071640017-afbf0e4fb3",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F57AP88TZ\/inherit_java.java",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F57AP88TZ-6fe975ff1b",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F57AP88TZ\/inherit_java.java\/edit",
+            "preview": "class Super {\r\n   .....\r\n   .....\r\n}\r\nclass Sub extends Super {\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-keyword\">class<\/span> <span class=\"cm-def\">Super<\/span> {<\/pre><\/div>\n<div><pre>   .....<\/pre><\/div>\n<div><pre>   .....<\/pre><\/div>\n<div><pre>}<\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">class<\/span> <span class=\"cm-def\">Sub<\/span> <span class=\"cm-keyword\">extends<\/span> <span class=\"cm-variable\">Super<\/span> {<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 8,
+            "lines_more": 3,
+            "preview_is_truncated": false,
+            "channels": [
+                "C531Y5XJQ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc56JR5V45",
+                "created": 1493478420,
+                "timestamp": 1493478420,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "A simple example of Java inheritance!",
+                "channel": ""
+            }
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1493478423.001315"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "In Java, the keyword extends is used to write an inheritance relationship",
+        "ts": "1493478443.002526"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "oh, okay!",
+        "ts": "1493478454.003231"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Take a look at this example!",
+        "ts": "1493478471.004318"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay wait, who hasn't answered any question till now!",
+        "ts": "1493478484.005137"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Who haven't I asked anything?",
+        "ts": "1493478493.005660"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Me!",
+        "ts": "1493478518.007058"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F55RSN08G\/-.java|Untitled>",
+        "file": {
+            "id": "F55RSN08G",
+            "created": 1493478522,
+            "timestamp": 1493478522,
+            "name": "-.java",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 550,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F55RSN08G\/-.java?t=xoxe-172054826822-177445990006-176071640017-afbf0e4fb3",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F55RSN08G\/download\/-.java?t=xoxe-172054826822-177445990006-176071640017-afbf0e4fb3",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F55RSN08G\/-.java",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F55RSN08G-a23c0f60ef",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F55RSN08G\/-.java\/edit",
+            "preview": "class Calculation {\r\n   int z;\r\n\t\r\n   public void addition(int x, int y) {\r\n      z = x + y;\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-keyword\">class<\/span> <span class=\"cm-def\">Calculation<\/span> {<\/pre><\/div>\n<div><pre>   <span class=\"cm-variable-3\">int<\/span> <span class=\"cm-variable\">z<\/span>;<\/pre><\/div>\n<div><pre>\t<\/pre><\/div>\n<div><pre>   <span class=\"cm-keyword\">public<\/span> <span class=\"cm-variable-3\">void<\/span> <span class=\"cm-variable\">addition<\/span>(<span class=\"cm-variable-3\">int<\/span> <span class=\"cm-variable\">x<\/span>, <span class=\"cm-variable-3\">int<\/span> <span class=\"cm-variable\">y<\/span>) {<\/pre><\/div>\n<div><pre>      <span class=\"cm-variable\">z<\/span> <span class=\"cm-operator\">=<\/span> <span class=\"cm-variable\">x<\/span> <span class=\"cm-operator\">+<\/span> <span class=\"cm-variable\">y<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 22,
+            "lines_more": 17,
+            "preview_is_truncated": false,
+            "channels": [
+                "C531Y5XJQ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1493478525.007616"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": " Me",
+        "ts": "1493478551.009365"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright <@U57AA2TEK> tell me how many classes and objects are there in this snippet that I added?",
+        "ts": "1493478554.009575"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UE0J9F> tell me how many methods and how many data members are there in that code snippet",
+        "ts": "1493478584.011429"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "1 parent class  Calculation, 1 child class My_Calculation,",
+        "ts": "1493478690.018054"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Objects?",
+        "ts": "1493478717.019817"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "2 objects addition and multiplication?",
+        "ts": "1493478719.019936"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Umm no!",
+        "ts": "1493478727.020376"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56DHFD99> can you help <@U57AA2TEK> ?",
+        "ts": "1493478742.021173"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "1 data memebr\nand 2 methods in total",
+        "ts": "1493478748.021523"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "But  im confused",
+        "ts": "1493478767.022610"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UE0J9F> names",
+        "ts": "1493478768.022674"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "?",
+        "ts": "1493478770.022826"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay what are you confused about?",
+        "ts": "1493478784.023784"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "yeah sure.. There is only one object - demo",
+        "ts": "1493478792.024218"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Does the data member declared for  the function argument a data member? ",
+        "ts": "1493478797.024451"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Is the*",
+        "ts": "1493478805.024878"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "oh wait only 1",
+        "ts": "1493478808.025007"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "my bad",
+        "ts": "1493478810.025121"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "the basic syntax to identify an object is:",
+        "ts": "1493478866.028407"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "class_name object_name = new class_name(parameters if any);",
+        "ts": "1493478900.030597"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Yea got it!",
+        "ts": "1493478915.031857"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Cool",
+        "ts": "1493478923.032363"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay so is everyone clear about this?",
+        "ts": "1493478951.033911"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "yeah",
+        "ts": "1493478956.034145"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "I had a doubt.\n",
+        "ts": "1493478984.035958"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56DHFD99> good work",
+        "ts": "1493478987.036137"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Yes <@U55UE0J9F>",
+        "ts": "1493478992.036483"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "That doesn't account for it!",
+        "ts": "1493479006.037167"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "about whether the variable declared for  the function argument is a  data member or not?",
+        "ts": "1493479013.037667"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Oh cool",
+        "ts": "1493479019.038021"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Thanks",
+        "ts": "1493479021.038140"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "Cool",
+        "ts": "1493479023.038272"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You'll know about it when we learn about types of variables!",
+        "ts": "1493479024.038332"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "cool",
+        "ts": "1493479041.039762"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay so have you guys done File I\/O in C?",
+        "ts": "1493479071.041672"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "Yes",
+        "ts": "1493479079.042149"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Yes",
+        "ts": "1493479133.045492"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Well we're going to implement something similar for your assignment",
+        "ts": "1493479141.046024"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Does anyone know what is a CSV file?",
+        "ts": "1493479157.046927"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If anyone has done any Machine Learning they'd probably know about this!",
+        "ts": "1493479173.047832"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "Umm no :no_mouth:",
+        "ts": "1493479178.048066"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UE0J9F> <@U56JCBFA9> <@U56DHFD99> <@U57AA2TEK> <@U55UDASSV> anyone?",
+        "ts": "1493479208.050022"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56H3SYJG> ?",
+        "ts": "1493479219.050676"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "nopee",
+        "ts": "1493479225.051055"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "nope",
+        "ts": "1493479231.051418"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Some detail about data members and functions\n+ Data members are properties of the object \n   Eg:  Color of a BMW car, Here BMW is object of class Car, and color is it's  property\/data-member\n+ Data-function are methods which the object carries out\n   Eg: Start Ignition of BMW car, here startIgnition() is method\/data-fuction",
+        "ts": "1493479244.052174"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Well I havent done any machine learning..\nBut is it same as the file we get to download for goofle forms?",
+        "ts": "1493479254.052820"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U55UE0J9F> \nI hope you get answet to your question",
+        "ts": "1493479273.054011"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "comma separated values file. we got an introduction to it in python",
+        "ts": "1493479274.054074"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "<@U530UCFTL> Thank You!",
+        "ts": "1493479338.057822"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UE0J9F> Yes!",
+        "ts": "1493479342.058058"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U57AA2TEK> Is right!",
+        "ts": "1493479355.058832"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Basically it's something like this!",
+        "ts": "1493479363.059231"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Lets say we have two columns in a CSV file",
+        "ts": "1493479373.059937"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "In an excel spreadsheet**",
+        "ts": "1493479382.060560"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Now the problem with an Excel Spreadsheet is it isn't readable everywhere! You need to separate columns properly",
+        "ts": "1493479421.062768"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So take a look at the following example!",
+        "ts": "1493479433.063588"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F56G3SNP4\/names_csv.txt|names.csv>",
+        "file": {
+            "id": "F56G3SNP4",
+            "created": 1493479486,
+            "timestamp": 1493479486,
+            "name": "names_csv.txt",
+            "title": "names.csv",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 57,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F56G3SNP4\/names_csv.txt?t=xoxe-172054826822-177445990006-176071640017-afbf0e4fb3",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F56G3SNP4\/download\/names_csv.txt?t=xoxe-172054826822-177445990006-176071640017-afbf0e4fb3",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F56G3SNP4\/names_csv.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F56G3SNP4-82ce36c321",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F56G3SNP4\/names_csv.txt\/edit",
+            "preview": "Names, Age\r\nSalman, 19\r\nHrily, 20\r\nMohit, 21\r\nAnumeha, 18",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>Names, Age<\/pre><\/div>\n<div><pre>Salman, 19<\/pre><\/div>\n<div><pre>Hrily, 20<\/pre><\/div>\n<div><pre>Mohit, 21<\/pre><\/div>\n<div><pre>Anumeha, 18<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 5,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C531Y5XJQ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1493479488.066979"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Now if this same file is opened in an Excel Sheet it will show two columns One for Names and One for AGe",
+        "ts": "1493479518.069222"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "ohh, okay...",
+        "ts": "1493479531.070075"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And the list of names and Age will be separated accordingly!",
+        "ts": "1493479573.072815"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "For your assignment you've been given a CSV file to write",
+        "ts": "1493479609.075052"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Read**",
+        "ts": "1493479613.075278"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "okk",
+        "ts": "1493479620.075817"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<https:\/\/www.mkyong.com\/java\/how-to-read-and-parse-csv-file-in-java\/>",
+        "ts": "1493479653.077893"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Good resource to read! :stuck_out_tongue:",
+        "ts": "1493479660.078247"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "Thanks!",
+        "ts": "1493479667.078671"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "There's not much theory behind this!",
+        "ts": "1493479711.081267"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You just have to read and write to CSV files",
+        "ts": "1493479723.081983"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F56DZJMDZ\/general_java_file_structure.php|General Java file structure> and commented: This is the general structure in a Java file",
+        "file": {
+            "id": "F56DZJMDZ",
+            "created": 1493479803,
+            "timestamp": 1493479803,
+            "name": "General_Java_file_structure.php",
+            "title": "General Java file structure",
+            "mimetype": "text\/plain",
+            "filetype": "php",
+            "pretty_type": "PHP",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 162,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F56DZJMDZ\/general_java_file_structure.php?t=xoxe-172054826822-177445990006-176071640017-afbf0e4fb3",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F56DZJMDZ\/download\/general_java_file_structure.php?t=xoxe-172054826822-177445990006-176071640017-afbf0e4fb3",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F56DZJMDZ\/general_java_file_structure.php",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F56DZJMDZ-ebb04458d2",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F56DZJMDZ\/general_java_file_structure.php\/edit",
+            "preview": "public class class_name  {\r\n\r\n    \/\/ data-member definition\r\n\r\n    \/\/ ...\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>public class class_name  {<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre>    \/\/ data-member definition<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre>    \/\/ ...<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 13,
+            "lines_more": 8,
+            "preview_is_truncated": false,
+            "channels": [
+                "C531Y5XJQ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc55RVUWSU",
+                "created": 1493479803,
+                "timestamp": 1493479803,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "This is the general structure in a Java file",
+                "channel": ""
+            }
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1493479806.087256"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay that's it for today!",
+        "ts": "1493479828.088895"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Before you guys ask any doubts Hrishi will tell you about the assignment",
+        "ts": "1493479852.090239"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<https:\/\/sites.google.com\/view\/ieee-sp-dbms-cc\/assignments\/assignment-1>",
+        "attachments": [
+            {
+                "title": "IEEE-SP-DBMS-CC - Assignment 1",
+                "title_link": "https:\/\/sites.google.com\/view\/ieee-sp-dbms-cc\/assignments\/assignment-1",
+                "fallback": "IEEE-SP-DBMS-CC - Assignment 1",
+                "image_url": "https:\/\/www.gstatic.com\/images\/branding\/product\/1x\/atari_512dp.png",
+                "from_url": "https:\/\/sites.google.com\/view\/ieee-sp-dbms-cc\/assignments\/assignment-1",
+                "image_width": 250,
+                "image_height": 250,
+                "image_bytes": 10364,
+                "service_icon": "http:\/\/ssl.gstatic.com\/atari\/images\/favicon_2.ico",
+                "service_name": "sites.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1493479859.090684"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The problem statement can be found here",
+        "ts": "1493479870.091366"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U530UCFTL> over to you! :stuck_out_tongue:",
+        "ts": "1493479882.092162"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Thank you <@U52A977UG>",
+        "ts": "1493479910.094133"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "uh, it says the deadline is 5th April :sweat_smile:",
+        "ts": "1493479959.097224"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "The problem statement is well explained\nIf you have any queries, please ask",
+        "ts": "1493479967.097729"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Okay will change that <@U57A20DSS>",
+        "ts": "1493479982.098689"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U57A20DSS> that's next Friday :stuck_out_tongue:",
+        "ts": "1493479987.099015"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "According to Hrishi",
+        "ts": "1493479997.099623"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": ":stuck_out_tongue:",
+        "ts": "1493479998.099673"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "Yeah. Got it!",
+        "ts": "1493480002.099845"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "5th May**",
+        "ts": "1493480004.099972"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright you guys can ask any doubts!",
+        "ts": "1493480017.100693"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "yeah cool",
+        "ts": "1493480034.101849"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I'll be online for 10 more minutes here! \nElse you can ping me on the WhatsApp group as well!",
+        "ts": "1493480042.102361"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Regarding submission:\nYou will need to upload your programs on DBMS repo on github\nThe instructions are on below the problem statements",
+        "ts": "1493480074.104350"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Could you clarify on using the main function within the class?",
+        "ts": "1493480091.105330"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "main() is the entry point of your class\njust like main() is entry point of any c program",
+        "ts": "1493480143.108596"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "whenever you execute any java compiled class by\n```\njava classname\n```\nthe first function called is main()",
+        "ts": "1493480186.111115"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "hope you get ir",
+        "ts": "1493480192.111448"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "it*",
+        "ts": "1493480196.111627"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Then shouldnt main be in an object and not a class?",
+        "ts": "1493480280.116797"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "An object is created via the main",
+        "ts": "1493480337.120210"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Again to  the basics\nclass is definition\nand\nobject is an instance\n\nwe can't define calass",
+        "ts": "1493480340.120361"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "class*",
+        "ts": "1493480347.120794"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "object**",
+        "ts": "1493480358.121521"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Yeah <@U530UCFTL> better explained :smile:",
+        "ts": "1493480363.121796"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "we can't define object*",
+        "ts": "1493480366.121993"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "Also, in some of the examples the arguments to the main function was (String []args) and in some other programs it was (String args[]).....is there any difference between the two?",
+        "ts": "1493480384.123000"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "nice questions <@U55UC8R09>",
+        "ts": "1493480402.124052"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "<@U52A977UG> <@U530UCFTL> \nThank You!",
+        "ts": "1493480419.125232"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UC8R09> Good noticing skills :stuck_out_tongue:",
+        "ts": "1493480468.128290"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "in java \narray can be declared in two ways\n```\nint[] arr;\n```\n\n```\nint arr[];\n```\n\nboth are one and the same",
+        "ts": "1493480471.128526"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "oh ok,thanks",
+        "ts": "1493480493.129997"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "Is there any way to inherit only a few characteristics instead of all from a parent class?",
+        "ts": "1493480539.132680"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Again a good question",
+        "ts": "1493480555.133547"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "we'll cover that in next session",
+        "ts": "1493480571.134598"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "when we'll be talking about Data-Hiding",
+        "ts": "1493480595.136122"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "Okay",
+        "ts": "1493480607.136823"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any more questoins",
+        "ts": "1493480669.140503"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "nopee",
+        "ts": "1493480728.144541"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "no",
+        "ts": "1493480731.144736"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Nothing for now..",
+        "ts": "1493480734.144898"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "none i suppose",
+        "ts": "1493480742.145297"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1493480747.145545"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Okay\nlets pack  up\nI'm too hungry now :smile:\n\nGood night  everyone",
+        "ts": "1493480752.145799"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay so the next lecture will be taken by <@U530UCFTL>",
+        "ts": "1493480758.146292"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Good Night people!",
+        "ts": "1493480763.146597"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "gn",
+        "ts": "1493480775.147459"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "Good Night ! and thanks for a great session :slightly_smiling_face:",
+        "ts": "1493480778.147581"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Hope you guys learnt something even though it was very elementary stuff!",
+        "ts": "1493480779.147645"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Thanks for the session:slightly_smiling_face: ",
+        "ts": "1493480779.147672"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Thank you! And yea bye!",
+        "ts": "1493480779.147697"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "Good Night! :slightly_smiling_face:",
+        "ts": "1493480796.148710"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "thanks for the session !",
+        "ts": "1493480800.148970"
+    }
+]

@@ -1,0 +1,22 @@
+Note: Guidelines for submissions are in the README.md files in the respective folders in /ML-Python/Session-0/Submissions
+
+A0. Install Anaconda. Run the Ipython Notebook. Submit your first Ipython Notebook.
+
+A1. Read up on Python lists and Dictionaries. (No Submissions)
+
+A2. Histogram. Write a Python Program that takes in a list of integers and displays the corresponding histogram provided the binsize(Interval Width)
+
+Input: 
+1. List of integers
+2. Bin Size
+
+Output:
+1. Histogram
+
+Guidelines:
+
+Keep your code as modular as possible. Everything should be within functions.
+
+Additional points if you are able to store and return the data represented in the histogram. For e.g if the user wants, at a later stage in the program he should be able to view the list of values that made up the second bin in the histogram.
+
+Expected ouput for bin sizes of 2, 10, 3 are displayed the A2_Soln.jpg

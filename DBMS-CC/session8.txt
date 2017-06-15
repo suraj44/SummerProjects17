@@ -1,0 +1,500 @@
+salman-bhai : Hi. 
+
+salman-bhai : Guys 10 minutes mei we'll start. 
+
+salman-bhai : Grab something to eat if you want. 
+
+salman-bhai : It'll be a one hour session. 
+
+ram_aditya : :+1: 
+
+salman-bhai : People online?
+
+anumeha29 : yes
+
+salman-bhai : Hi. 
+
+anumeha29 : Hi
+
+manish : Hi
+
+salman-bhai : Hows the project coming up?
+
+anumeha29 : Fine i guess:see_no_evil:
+
+salman-bhai : Any Issues resolved?
+
+salman-bhai : Others?
+
+manish : No:neutral_face:
+
+anumeha29 : Not yet ;/
+
+salman-bhai : Aree
+
+salman-bhai : Please make that a priority. 
+
+salman-bhai : Your evaluations are next week. 
+
+salman-bhai : And this is the most important part of your Summer Project. 
+
+salman-bhai : Please make sure you don't lose enthusiasm here. 
+
+salman-bhai : Anyways continuing on Cloud Computing, has anyone worked on the cloud before?
+
+salman-bhai : An AWS Instance or Azure for <http://Code.Fun.Do|Code.Fun.Do> or even Google Firebase which is getting more popular than The App Engine Project.
+
+salman-bhai : Anyone?
+
+rosag31 : Nope
+
+salman-bhai : Oh okay. 
+
+salman-bhai : Alright so I'll try to make this simple. 
+
+salman-bhai : <@U56JCBFA9> what do you know about the traditional Client and Server system?
+
+salman-bhai : ?
+
+salman-bhai : <@U56DHFD99> why don't you answer the same question!
+
+rosag31 : The client–server model is a structure that divides tasks between the providers of a service, called servers, and service requesters, called clients.
+
+salman-bhai : Correct 
+
+anumeha29 : Im not too sure but is it used by one program to fetch requests from clients
+
+salman-bhai : Though a bit complicated. 
+
+salman-bhai : From multiple clients** <@U56JCBFA9> 
+
+salman-bhai : Alright so I'll give a brief overview of what all we're going to cover. 
+
+salman-bhai : You can start taking notes from here. 
+
+salman-bhai : Or pay attention properly. 
+
+salman-bhai : Topics to cover
+1. Basic Overview
+2. PAAS, IAAS, SAAS, SOA
+3 Distributed Computing Concepts
+4. Importance and Use Cases
+
+salman-bhai : So firstly let's take traditional Client and Server technology
+We have a server for example the NITK Website. 
+
+salman-bhai : That's hosted on servers which are situated in NITK itself. 
+
+salman-bhai : There are many clients (us) making requests to the server and the server is serving them in the form of HTML Pages. 
+
+salman-bhai : Which you can view via the browser. 
+
+salman-bhai : Now however there is a limit to the amount of requests a server can serve. 
+
+salman-bhai : Maintaining a server is also a difficult task due to the huge amount of electricity and cooling systems required for the servers. 
+
+salman-bhai : The NITK Network 110kW of power for powering the entire network. 
+
+salman-bhai : That's almost the equivalent of a dam at my native place. 
+
+salman-bhai : :smile: 
+
+salman-bhai : So now let's say you want to have a website but you don't have the resources to maintain it. 
+
+salman-bhai : This is where cloud computing comes in. 
+
+salman-bhai : A cloud provider will provide you with servers for a set cost and allow people to rent it. 
+
+salman-bhai : These servers can be accessed remotely. 
+
+salman-bhai : However you won't have physical access to the hardware. 
+
+salman-bhai : And these are very secure. Plus you will always have backups. 
+
+salman-bhai : Anyone watched Die Hard 4?
+
+ram_aditya : Yup
+
+ram_aditya : !
+
+salman-bhai : Yeah so in that movie basically the data and application code is replicated across multiple data centres. 
+
+salman-bhai : For those who don't know the plot is to stop the entire machinery of the government which depends on these servers by blowing them up across multiple places. 
+
+salman-bhai : So if there is no server then even if you send requests to the domain there won't be any reply and you'll get a 404
+
+salman-bhai : Any doubts till now?
+
+ram_aditya : Nope!
+
+anumeha29 : nope
+
+salman-bhai : P.S. You definitely need to watch Die Hard 4:stuck_out_tongue: :stuck_out_tongue_winking_eye: :stuck_out_tongue_closed_eyes: :stuck_out_tongue: 
+
+rosag31 : Nope 
+
+bhavishya : nope
+
+manish : No for doubts
+
+salman-bhai : Fun Fact: Google keeps 9 copies of your cloud data across various data centres. 
+If even one of the data centre goes down due to a terrorist attack or natural calamity your website will keep running. 
+
+salman-bhai : Usually all data centres don't go down all at once. 
+
+salman-bhai : But if they do then the entire machinery is paralysed. 
+
+salman-bhai : Now coming to Cloud Technologies. 
+
+salman-bhai : There are 3 major Cloud Technologies that I want to teach today. 
+
+salman-bhai : <@U52A977UG|salman-bhai> set the channel purpose: DBMS CC Summer Project 2017: Session 7 - Introduction to Cloud Computing
+
+salman-bhai : <@U52A977UG|salman-bhai> set the channel topic: Session 8 - Introduction to Cloud Computing
+
+salman-bhai : <@U52A977UG|salman-bhai> set the channel purpose: DBMS CC Summer Project 2017
+
+salman-bhai : The first is IaaS
+
+salman-bhai : Or Infrastructure as a Service. 
+
+salman-bhai : In IaaS the application developer will rent infrastructure that is directly the hardware but these data centres are located in secret. 
+
+salman-bhai : The location of Amazon Data Centres is still unknown after almost 15 years now. 
+
+salman-bhai : However there have been technical Issues due to which these servers have been brought down. 
+
+salman-bhai : Also you can rent an Amazon Instance for free for a year provided you have a card. 
+
+manish : salman-bhai: what card??
+
+salman-bhai : So let's say you've made a Django app or a Rails app for your personal website, that can be hosted on Amazon for free 
+
+salman-bhai : Credit Card
+
+manish : salman-bhai: kk:joy:
+
+salman-bhai : So basically in IaaS you rent a computer machine. 
+
+salman-bhai : It's basically a VM 
+
+salman-bhai : Which has a high speed internet with a transfer limit of 1TB or more a month. 
+
+salman-bhai : They have power backup and cooling system to guarantee from hardware failures. 
+
+salman-bhai : Usually you login the computer via ssh
+
+salman-bhai : And use FTP to transfer the files of your server. 
+
+salman-bhai : Also the server itself can have git installed. 
+
+salman-bhai : So you can get code there directly as well
+
+salman-bhai : Server code
+
+salman-bhai : Any doubts till now
+
+manish : No
+
+kenichi : No
+
+anumeha29 : no
+
+ram_aditya : noopee
+
+rosag31 : nope
+
+salman-bhai : So Disadvantages of IaaS
+
+salman-bhai : Can anyone tell me that. 
+
+salman-bhai : ?
+
+anumeha29 : expensive ?
+
+salman-bhai : Not really. I just told you AWS gives it for free for a year
+
+salman-bhai : :sweat_smile: 
+
+anumeha29 : no automated backup in iaas ?
+
+anumeha29 : like the user would have to create one ?
+
+ram_aditya : The transfer limit?
+
+salman-bhai : Umm no. 
+
+salman-bhai : You can run a crib job for that <@U56JCBFA9> 
+
+salman-bhai : <@U55UE0J9F> didn't get you there?
+
+salman-bhai : You're saying 1 TB is less. 
+
+ram_aditya : salman-bhai: Whats a crib job?
+
+salman-bhai : What code have you written that goes even 1 GB 
+
+salman-bhai : :sweat_smile: 
+
+salman-bhai : A cron job**
+
+ram_aditya : Maybe for big businesses!:sweat_smile: 
+
+salman-bhai : Nahi nahi. 
+
+salman-bhai : Code doesn't take much space. 
+
+salman-bhai : Okay do the problem with IaaS is this. 
+
+salman-bhai : Fluctuating loads. 
+
+salman-bhai : So if the server has to serve more requests naturally it'll take more time for your request to be fulfilled if there are more clients in the queue
+
+salman-bhai : And it'll be very fast if no one is there in the queue
+
+salman-bhai : So basically you don't know how powerful your server should be when you take up your plan. 
+
+salman-bhai : Let's say you take a very powerful server capable of serving 100s of clients at once. 
+
+salman-bhai : But then it'll be wasted if you don't have that many clients. 
+
+salman-bhai : And vice versa for a less powerful server
+
+salman-bhai : So to solve this we have PaaS
+
+salman-bhai : Platform as a Service. 
+
+salman-bhai : Any doubts till now?
+
+anumeha29 : nope
+
+ram_aditya : Nopee
+
+bhavishya : no
+
+rosag31 : no
+
+manish : No
+
+kenichi : Ni
+
+kenichi : No*
+
+salman-bhai : Alright so we'll talk about PaaS now. 
+
+ram_aditya : salman-bhai: whata a cron job?
+
+ram_aditya : salman-bhai: whats*
+
+salman-bhai : The 'Platform' in PaaS refers to a computational resource for example the Linux Platform or the Windows Platform
+
+salman-bhai : So instead of renting an Infrastructure you rent the entire platform. 
+
+salman-bhai : This is very helpful in scaling 
+
+salman-bhai : Which I'll talk about in a while. 
+
+salman-bhai : But basically we have a set of tools including an OS that helps us use our processor. 
+
+salman-bhai : If I give you a brand new CPU, you wont be able to exploit it unless I give you a platform to use it. 
+
+salman-bhai : PaaS provides a common method to use those few features with a common interface. 
+
+salman-bhai : <@U56JCBFA9> what would be the path of your desktop on a Windows Machine?
+
+salman-bhai : <@U55UDASSV> what would be the path of your desktop in a Linux Machine. 
+
+salman-bhai : The Linux command is *pwd* in case you open the terminal in the Desktop directory
+
+salman-bhai : ????
+
+salman-bhai : People awake or everyone slept off?
+
+salman-bhai : Google the answer if you have to. :sweat_smile: 
+
+salman-bhai : Others?
+
+bhavishya : home/(username)/Desktop?
+
+manish : On windows machine
+It will be in C users
+
+anumeha29 : C:\Users\Anumeha\Desktop\
+
+salman-bhai : Yes. 
+
+salman-bhai : So now as you can see the path is platform dependent. 
+
+salman-bhai : Absolute path**
+
+salman-bhai : But PaaS will provide you with a single function, let's say getDesktopPath()
+
+salman-bhai : Internally it may be implemented like this. 
+
+salman-bhai : Internally it may be implemented like - getDesktopPath() { if(os == win) return “C\\Docume…”; else if(os== linux) return “/home/
+…”; }
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5RR7K5LM/getdesktoppath___function.c|getDesktopPath() function> and commented: Any doubts till here?
+
+anumeha29 : nope
+
+rosag31 : No
+
+manish : No
+
+bhavishya : no
+
+ram_aditya : nope
+
+salman-bhai : So one last thing about PaaS before we move on. PaaS is really easy to scale. So let's say you write a super awesome blog that just went viral. And you get a million views on it even though usually you had a million views on it. In a traditional server system, your serve r will crash. 
+
+salman-bhai : However PaaS will simply add a new processor to your app. 
+
+salman-bhai : Now in scaling there are two types. 
+
+salman-bhai : 1. Vertical Scaling: Add more resources
+2. Horizontal Scaling: Adding more machines altogether and diverting half the requests to the new machine. 
+
+salman-bhai : Resources would refer to processing capabilities, memory, etc. 
+
+salman-bhai : Now typical examples of IaaS are: Amazon's AWS EC2(the free wala), Google Compute Engine, Racksoace, Digital Ocean Droplet
+
+salman-bhai : For PaaS we have: Amazon Elastic Beanstalk, Google App Engine(highly recommend if you're into Android), Azure Cloud(recommended if you want to participate in <http://Code.Fun.Do|Code.Fun.Do>) and Heroku(another free option to host your code) 
+
+salman-bhai : So are we clear on everything till now?
+
+manish : Yup
+
+anumeha29 : yeah
+
+bhavishya : yeah
+
+ram_aditya : Yeah
+
+rosag31 : I had a doubt, is scaling done implicitly?
+
+salman-bhai : Depends on your provider. But in most cases it is done implicitly. 
+
+salman-bhai : Fun fact Flipkart runs on Amazon's PaaS service. :stuck_out_tongue_closed_eyes: :stuck_out_tongue_winking_eye: 
+
+salman-bhai : IaaS service*£
+
+salman-bhai : Basically AWS. 
+
+rosag31 : Cool:smiley:
+
+salman-bhai : Okay so we come to the last service. 
+
+salman-bhai : It's called SaaS, Software as a Service
+
+salman-bhai : Here there is no server at all. 
+
+salman-bhai : It's typically done in the form of APIs
+
+salman-bhai : SaaS is more like renting a MySQL server. 
+
+salman-bhai : So you ask a few questions to the SQL server and it gives you answers. 
+
+salman-bhai : So Google has a lot of APIs for let's say you want to make an app which tells you about the nearest coffee shops in your area. 
+
+salman-bhai : You call a Google Maps API which gives you the said information. 
+
+salman-bhai : SaaS more or less compliments PaaS and IaaS
+
+salman-bhai : So a typical flow would look something like this. 
+
+salman-bhai : User -&gt; App -&gt; Service -&gt; Backend -&gt; Hardware 
+
+salman-bhai : You only have to develop the app part of it. 
+
+salman-bhai : Any doubts till now?
+
+manish : No
+
+anumeha29 : noo
+
+bhavishya : no
+
+ram_aditya : mo
+
+rosag31 : No 
+
+salman-bhai : Alright so one last thing I want to discuss is how to get started with Cloud Computing
+
+salman-bhai : A typical Cloud App will have a web interface for the Users to interact with. 
+
+salman-bhai : The interface is Developed using frameworks like Django, MEAN, Rails
+
+salman-bhai : Then there is the data Backend where Devs have two choices: SQL and NoSQL which stands for Not Only SQL
+
+salman-bhai : SQL includes Amazon's RDBMS and Google Cloud Storage
+
+salman-bhai : NoSQL includes Amazon DynamoDB and Google Cloud Datastore
+
+salman-bhai : There is also CouchDB and MongoDB which is popular amongst MEAN drvs
+
+salman-bhai : Developers**
+
+salman-bhai : You can deploy a free web app to Heroku if you want. 
+
+salman-bhai : If you'd like to try out PaaS that is. 
+
+salman-bhai : Also migration of data is difficult in Cloud unless you don't backup it on GitHub or BitBucket 
+
+salman-bhai : I'm done for today. 
+
+salman-bhai : Let me know if you have doubts. 
+
+salman-bhai : :sweat_smile: 
+
+anumeha29 : Thanks a lot !
+
+ram_aditya : Whats a cron job?
+
+salman-bhai : We'll have a session tomorrow as well for the project. 
+
+salman-bhai : Please make Issues in your repositories. 
+
+salman-bhai : <@U55UE0J9F> have you heard of Bash Scripts
+
+salman-bhai : ?*
+
+salman-bhai : So basically a cron job is used to automate tasks periodically. 
+
+ram_aditya : Yes i have..
+
+salman-bhai : For example I have a repository on GitHub where I put up all my Competitive Coding codes. 
+
+salman-bhai : Now everytime I have to write the same commands 
+git add .
+git commit -m "Random Message"
+git push origin master
+
+salman-bhai : So instead of manually typing everyday if there is something to commit the from job automatically types out these commands for me in a script and pushes the code 
+
+salman-bhai : A cron job is periodical. 
+
+ram_aditya : Ooh yeah Got it
+
+salman-bhai : So it can be everyday, everymonth every week whatever that you want. 
+
+salman-bhai : You can Google up how to do a cron job. 
+
+ram_aditya : Thank You!:)
+
+salman-bhai : <https://github.com/salman-bhai/Competitive-Coding/commits/master>
+
+salman-bhai : Take a look at the Commit Messages. You'll understand it more properly!
+
+salman-bhai : ANy other doubts guys?
+
+manish : No
+
+manish : Thanks a lot!!
+
+rosag31 : Nope, thank you for the session!
+
+salman-bhai : Hope you got that!
+
+salman-bhai : Awesome good day ahead guys. 
+

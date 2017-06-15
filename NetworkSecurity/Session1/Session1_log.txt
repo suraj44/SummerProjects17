@@ -1,0 +1,404 @@
+himadrip : Okay guys, Let's start with a small introduction. (Name and Branch should suffice, you can add more if you want to :P)
+himadrip : I'm Himadri, IT 3rd year. I'll be one of your mentors for this summer project. :slightly_smiling_face:
+jeshventh : Hello everyone! I am Jeshventh. I will also be mentoring you guys:)
+anusha : <@U5D9T35QE|anusha> has joined the channel
+jeshventh : Comps 3rd year btw :stuck_out_tongue:
+swathi : <@U5CCNE9P1|swathi> has joined the channel
+nihalh55 : <@U5BNQKM53|nihalh55> has joined the channel
+supreethg : <@U5DMZS4F8|supreethg> has joined the channel
+anusha : I'm Anusha. CSE.
+adwait1_g : <@U5AUG5J8Y|adwait1_g> has joined the channel
+nihalh55 : nihal cse
+supreethg : I'm Supreeth,IT
+swathi : Hello! I'm swathi, 3rd year IT, the 3rd mentor for the project 
+himadrip : Also the head :stuck_out_tongue:
+adwait1_g : Hi everyone.I am Adwaith Cse going to 2nd year
+gpn : <@U5CCP7CJK|gpn> has joined the channel
+surajsingh : <@U5ATP83CG|surajsingh> has joined the channel
+gpn : I'm Ganesh. 1st year passed, Branch IT:grin:
+himadrip : <@U5ATP83CG> : An intro please :pray: :stuck_out_tongue:
+gautamrk : <@U5B3HALU9|gautamrk> has joined the channel
+gautamrk : Hi, I am Gautam, CS
+himadrip : Great! I guess we should start with the session. Others, who join in later just give a short intro!
+himadrip : I
+himadrip : I'll be conducting today's session
+mnaveenkumar2009 : <@U5B85LK4H|mnaveenkumar2009> has joined the channel
+himadrip : Btw, before we start, how are your vacations going on?
+tk11 : <@U5BJ1UXQA|tk11> has joined the channel
+nihalh55 : good :slightly_smiling_face:
+tk11 : quite well!
+himadrip : great! :smile: ( failed attempt to lighten up the mood xP)
+gpn : :joy::joy::joy:
+himadrip : Okay so we would be discussing basic networking concepts today!
+gpn : Okay
+himadrip : Let's start with some terminologies in networking.
+himadrip : 1. Bandwidth of a network
+himadrip : Can someone tell me what a bandwidth is?
+gautamrk : Amount of data that can be sent at a time?
+himadrip : Good!
+adwait1_g : Capacity of the channel
+surajsingh : I'm Suraj from comp science :P
+himadrip : Hi Suraj :slightly_smiling_face:
+himadrip : So bandwidth is the number of bits you can send in the channel at a time.
+tk11 : Hello i am tejas from comp department
+mnaveenkumar2009 : Hi,I'm Naveen from EEE 
+himadrip : you might have noticed terms like 10mbps, 100 mbps ,etc. They are nothing but amount of bits.
+himadrip : Hi tejas and naveen!
+himadrip : So moving on
+nihalh55 : mbps is mega bits per sec right?mega bytes would be MBPS?
+himadrip : <@U5BNQKM53> : right!
+himadrip : B and b are very different
+himadrip : ISPs often use this tactic to confuse their ciients
+himadrip : *clients
+himadrip : :stuck_out_tongue:
+nihalh55 : nice move there
+himadrip : stupid slackbot xD
+suraj7 : <@U5BJ0QQE6|suraj7> has joined the channel
+himadrip : B : Bytes (8 bits)
+himadrip : In India though everything is mostly in terms of bits :joy:
+himadrip : Next we have ,
+himadrip : Network topology
+nihalh55 : the way in which u connect various computer systems
+himadrip : Network Topology is the schematic description of a network arrangement, connecting various nodes(sender and receiver) through lines of connection.
+himadrip : <@U5BNQKM53> , yeah!
+himadrip : I guess most of you guys would have an idea about bus,star and ring topology?
+nihalh55 : yes
+himadrip : put a :+1: if you know about them
+mnaveenkumar2009 : :+1: 
+surajsingh : :+1:
+gautamrk : :+1:
+nihalh55 : :+1:
+mnaveenkumar2009 : I just know how they are connected and few disadvantages/adv
+himadrip : @naveen : so can you tell us what they are. A single line about each would do!
+mnaveenkumar2009 : Lol .. ok .. bus is a linear network, all components are connected with each by a common linear wire
+himadrip : We won't be discussing their adv and disadv today. That is something reserved for your boring networks class in 4th sem :laughing:
+mnaveenkumar2009 : Star looks something like a star .. connected to a common comp/server
+himadrip : <@U5B85LK4H> Good! keep going
+nihalh55 : where are the servers in bus and ring?
+himadrip : you don;t need servers in bus
+mnaveenkumar2009 : Ring is a circle network each is connected directly with 2
+himadrip : and in ring as well
+himadrip : Great!
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5CEBRBGQ/image.png|image.png>
+himadrip : This is the bus topology, where data can only travel in one direction
+mat123 : <@U5CELUGEP|mat123> has joined the channel
+himadrip : if the node identifies that it is the destination, then it won't forward the data further in the channel
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5DU4NPAA/image.png|image.png> and commented: Ring Topology
+mat123 : Hi im mathew IT 
+himadrip : Hi Matthew!
+suraj7 : Hi I'm Suraj IT
+himadrip : Also, if you guys have any doubts please ask them!
+himadrip : Hey Suraj!
+himadrip : So in the ring topology there exists something called a token which is passed around in a circular fashion
+himadrip : So, if a node want's to transmit the data, it keeps the token and passes the data around to it's neighbour
+himadrip : That's how the network realises that data transmission is going on
+himadrip : The source releases the token only after data transmission is complete.
+himadrip : The transmission is unidirectional but using dual ring topology bi directional data transfer could be implemented.
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5DUQ55JT/image.png|image.png> and commented: Star Topology
+surajsingh : What does dual ring topology mean?
+himadrip : Here a central hub is used which relays information between the source and destination
+himadrip : <@U5ATP83CG> : it's nothing but two rings (*dual* ring :P)
+himadrip : So, one for clockwise and the other for counterclockwise
+himadrip : Hope, I answered your doubt!
+surajsingh : They can work simultaneously?
+himadrip : Yeah, they can have synchronous and asynchronous models
+surajsingh : Okay thanks :)
+himadrip : great! :slightly_smiling_face:
+himadrip : Can someone tell me what is the benefit of using a star topology?
+himadrip : One benefit stands out
+nihalh55 : message sent faster
+nihalh55 : source and destination only involved
+surajsingh : Even if one of the nodes stops working the network doesn't stop
+nihalh55 : other places it goes through a lot of systems
+nihalh55 : <@U5ATP83CG> has a better pointxD
+himadrip : good :smile:, but most importantly multiple messages can be sent simultaneously between many S_D pairs
+himadrip : Guys please be more active. I wish I could know who all are AFK! xD
+mat123 : Sorry :sweat_smile:
+himadrip : Chill, no need to apologize :stuck_out_tongue:
+aryanhimanshu : <@U5BFS7Q2X|aryanhimanshu> has joined the channel
+himadrip : Moving next we have addresses!
+himadrip : So on a network we need to be able to identify every single node or computer separately and uniquely
+himadrip : So, we have two types of addresses : Physical address and Logical address
+himadrip : Does anyone know what a physical address is ?
+gautamrk : mac address?
+surajsingh : Yeah
+mnaveenkumar2009 : What's Mac address?
+adwait1_g : Like a unique social security number for each person,it is an id for a hardware
+himadrip : Yeah
+himadrip : MAC address
+mnaveenkumar2009 : Thanks
+himadrip : <@U5AUG5J8Y> : nice analogy! :slightly_smiling_face:
+adwait1_g : :grinning:
+himadrip : So yeah its a hardware level address
+himadrip : Which is written onto your network Interface card (NIC) by the manufacturer
+himadrip : *Note* : Ip addresses may change but MAC addresses are always constant
+himadrip : Its a 6 byte address. For example,
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5CHDRJSV/image.png|image.png>
+himadrip : First three bytes from left specify the vendor. Cisco 00-00-0C, 3Com 02-60-8C and the last 24 bit should be created uniquely by the company
+himadrip : This address does not follow any hierarchy!
+himadrip : So we have something called Logical addresses
+himadrip : Logical addresses are nothing but ip addresses
+himadrip : Now can someone tell me what an ip address is ?
+nihalh55 : address when u are present in a network
+nihalh55 : ?
+himadrip : Correct!
+himadrip : Others can also add to the answer :stuck_out_tongue:
+surajsingh : Changes depending upon the network the computer is on :p
+himadrip : Nice!
+himadrip : So, nowadays predominantly we use an ipv4 address
+himadrip : ipv4 address is an 32 bit address
+nihalh55 : full form of ipv4
+himadrip : Can someone answer that?
+adwait1_g : Ip version 4
+nihalh55 : great xD
+adwait1_g : Ip- internet protocol
+nihalh55 : thanks!
+mat123 : Nice
+himadrip : Cool now you guys continue the session!
+himadrip : xD
+himadrip : Lame-homour strikes again
+himadrip : *humour
+himadrip : Nowadays due to the exponential growth of internet
+himadrip : we are running short of ipv4 addresses available :sweat_smile:
+himadrip : So we are switching to ipv6 slowly
+himadrip : which resolves this issue
+himadrip : as more addresses can be accommodated in version 6
+adwait1_g : Correct.only 4.29billion ips can be generated in ipv4
+himadrip : Good trivia!
+surajsingh : How many bits is V6?
+himadrip : Guys if you know some interesting facts, please share!
+adwait1_g : 6bytes-48bits
+himadrip : IPv6 addresses are 128-bit hexadecimal numbers
+nihalh55 : nice
+adwait1_g : Sorry
+surajsingh : <@U5AUG5J8Y> yeah even I thought it was that logic xP
+himadrip : Same!
+himadrip : To verify, I just googled :stuck_out_tongue:
+himadrip : Saved my ass
+adwait1_g : :joy:
+anusha : How are IP addresses assigned?
+himadrip : Good question!
+himadrip : That's the next thing we were gonna discuss!
+himadrip : Now the ISP provides us with the IP address in the real world scenario
+himadrip : Now how does this work?
+himadrip : So, we have many protocols which handle this
+himadrip : Such as BOOTP, RARP, DHCP
+himadrip : All of this is nothing but address mapping protocols
+himadrip : Let's start with ARP first!
+himadrip : ARP : stands for Address Resolution Protocol
+himadrip : The delivery of a packet to a host or a router requires two levels of addressing: logical and physical. We need to be able to map a logical address to its corresponding
+physical address and vice versa.
+himadrip : Intro to Address mapping :point_up_2:
+himadrip : Now ARP is used when a host node doesn't have information about the physical address of a dest node but knows about its logical address
+mnaveenkumar2009 : If there is only one guy connected to a hotspot his IP will be same each time he connects to it?
+himadrip : <@U5B85LK4H> : interesting Q.
+himadrip : That's not always the case
+himadrip : Here, the device creating the hotspot gets to give put ip addresses
+himadrip : *out
+himadrip : So, mostly his IP would change
+mnaveenkumar2009 : Yes , what if he connects to the same device each time?
+himadrip : This is something known as dynamic ip address
+himadrip : which i would get to later
+mnaveenkumar2009 : Ok
+himadrip : <@U5B85LK4H> : doesn't matter, It's upto the device
+jeshventh : When connecting to the Internet over a dial-up Modem, your ISP will assign your computer a different IP address each time you connect. If you're wanting to change your IP address, try disconnecting and reconnecting. If you're assigned the same address, disconnect for a few minutes and then reconncect.
+himadrip : Yep!
+mnaveenkumar2009 : Thanks :slightly_smiling_face: 
+himadrip : That's the logic behind dynamic addresses
+himadrip : so we were discussing ARP, which matches physical addresses to known logical addresses
+himadrip : So finding out the MAC address when you know the IP address of the dest
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5D2MR24T/image.png|image.png>
+himadrip : So System A broadcasts a message requesting for the MAC address of B
+himadrip : System B replies with its MAC address
+himadrip : Did everyone follow till here?
+himadrip : Give a :+1:
+surajsingh : Yeah makes sense
+gautamrk : :+1:
+supreethg : :+1:
+nihalh55 : :+1:
+adwait1_g : :+1:
+himadrip : if you have any doubts, please ask! Don't worry about it being a lame doubt :stuck_out_tongue:
+mnaveenkumar2009 : :+1: 
+himadrip : Next we have RARP, DHCP, and BOOTP
+himadrip : RARP : reverse address resolution protocol
+anusha : Doubt: Why do we need both the addresses?
+himadrip : DHCP : Dynamic host Configuration protocol
+himadrip : <@U5D9T35QE> : Good question !
+himadrip : Can someone come up with a solution
+himadrip : There is a hint above :stuck_out_tongue:
+himadrip : BOOTP : Bootstrap Protocol
+himadrip : I'll give 2 minutes
+adwait1_g : As the IP address is dynamic,the message should be sent to the proper machine.for this a fixed address is required
+himadrip : Good!
+nihalh55 : i didnt get it
+nihalh55 : confused
+himadrip : Okay, now ip addresses can change over time
+himadrip : but MAC Addresses are always unique
+nihalh55 : even when u are constatntly connected to a network it chnages?
+mnaveenkumar2009 : Y is IP required? .. there is already a fixed address right?
+himadrip : There is something called a lease period
+nihalh55 : <@U5B85LK4H> exactly?
+himadrip : This is assigned when ip addresses are given
+himadrip : <@U5B85LK4H> : nice question!!
+himadrip : So, when the lease period expires we lose our ip address
+nihalh55 : oh
+himadrip : and we need to use RARP/BOOTP/DHCP protocol again to get one
+himadrip : Now, why are IP addresses required when you have MAC addresses
+himadrip : It's a good question but I think you guys can figure out teh answer
+nihalh55 : so first we use ARP then the rest?
+himadrip : *the
+gautamrk : ip is used for proper organization of the network?
+himadrip : Correct! Can you explain a bit more, maybe use an example
+gautamrk : mac adresses are too random
+himadrip : <@U5BNQKM53> : didn't get what you meant?
+swathi : Just to add a point: ip addressing is required to identify computers connected to different networks. 
+swathi : Mac on the other hand is used to find computers connected in the same network 
+himadrip : Yeah!
+mnaveenkumar2009 : Thanks
+nihalh55 : ohhhhlay
+nihalh55 : *kay
+nihalh55 : <@U5B105XAM> ignore my input
+himadrip : Okay so since MAC addresses are too random they are very hard to narrow down on the internet
+himadrip : every though we can use the maker's addresses to narrow it down to one level
+swathi : Also, ip and mac work in different network layers. 
+himadrip : like cisco has 00-00-00
+himadrip : Now as I said before there is no hierarchy followed
+himadrip : So, It becomes very difficult to check, it would be like a "list iteration"
+himadrip : I guess if we just switched to MAC address for a moment, it would take ages for a single p2p communication
+himadrip : So since ip addresses follow proper structure they are used. This structure consists of a network address and a host address as <@U5CCNE9P1> said
+himadrip : Which we would discuss in a while
+himadrip : So, did everyone understand?
+himadrip : Take your time to digest stuff :stuck_out_tongue:
+gautamrk : :+1:
+himadrip : <@U5D9T35QE> <@U5AUG5J8Y>  <@U5BNQKM53>  <@U5BJ0QQE6>  <@U5ATP83CG> <@U5DMZS4F8>  what about you guys?
+surajsingh : What did you mean when you said Mac addresses don't follow any heirarchy?
+himadrip : After the first 3 bytes there is no specific order
+supreethg : :+1:
+himadrip : The first 3 bytes determine the make (cisco,etc)
+himadrip : for example, suppose i have a mac address of 00-00-00-00-00-01
+himadrip : the mac address of 00-00-00-00-00-02 could be assigned to any person in the world, like maybe some person from catalunya(barcalona)
+himadrip : so its some random person in some random place
+himadrip : So, I can't pinpoint the MAC address of my friend living next dppr
+himadrip : *door
+mnaveenkumar2009 : If it followed heirarchy there wouldn't be a need for IP?
+himadrip : p.s: catalunya is where the next F1 Gp race is being held tomorrow :stuck_out_tongue: for the F1 fans xD
+himadrip : <@U5B85LK4H>  Exactly!
+surajsingh : Oh okayy thanks
+himadrip : Great what about others? Did you guys understand?
+himadrip : These are the very basics and fundamentals of networking which confuses most people!
+himadrip : It's good to see you guys are asking the right questions
+himadrip : Il move on then? If you have any doubt, you can pm any of the mentors after the session :slightly_smiling_face:
+himadrip : If you have any now, please ask
+himadrip : It might help others as well
+surajsingh : What do different network layers mean?
+himadrip : Oh okay, I don't think I'll be able to cover that today
+himadrip : Maybe Next session would be on that!
+himadrip : Network Layers come under OSI or TCP model
+himadrip : The Open Systems Interconnection (OSI) model defines a networking framework to implement protocols in layers, with control passed from one layer to the next.
+himadrip : More Info on them later (y)
+himadrip : :+1:
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5D2S964B/image.png|image.png> and commented: For reference
+himadrip : These models form the base of networks
+adwait1_g : Is ip address assigned to nic which was mentioned in the beginning or to a computer ?
+himadrip : <@U5AUG5J8Y> : good Q
+himadrip : I was coming to that
+himadrip : So i left of at DHCP/RARP/BOOTP
+himadrip : *off
+himadrip : These protocols are used to get Ip addresses
+himadrip : and match them to their respective Mac Addresses
+himadrip : Now when a computer boots up
+himadrip : It sends a request to the server handling the ip address
+himadrip : The server first checks if the host has been assigned a static IP or not
+himadrip : if not it selects a dynamic IP and sends it as a lease ( with a fixed time) back to the host
+himadrip : This is how DHCP works
+himadrip : BOOTP and RARP are similar, just the used in the case of static IPs only
+himadrip : Mostly all our IPs are dynamic which means they would vary
+himadrip : Now if you have a static IP (companies like google do)
+himadrip : You don't need to worry about the MAC address
+himadrip : And static ips are needed to host websites usually
+himadrip : Did everyone follow?
+gautamrk : yup
+adwait1_g : Yes
+mnaveenkumar2009 : How do some websites find out farming in games (creating multiple accounts from same ISP and using them to improve your score) if IP varies ? They mention u can't attack a person with the same IP
+himadrip : <@U5B85LK4H> : can you give more details, Why would you need ip addresses in mmo games when you have accounts?
+gautamrk : i think he meant ip blocks
+himadrip : Oh
+himadrip : See the lease period isn't as small as you think xP
+himadrip : even if you switch off the pc, the lease isnt broken
+himadrip : So, you would have the same ip for a while
+mnaveenkumar2009 : Oh , thanks
+himadrip : So let's quickly discuss the types of ip addresses and wrap up the session
+himadrip : There are 4 types : private IP addresses, public IP addresses, static IP addresses, and dynamic IP addresses.
+himadrip : You know about static and dynamic
+himadrip : Now the other classification : private and public
+himadrip : In short, private IP addresses are used "inside" a network, like the one you probably run at home. These types of IP addresses are used to provide a way for your devices to communicate with your router and all the other devices in your private network. Private IP addresses can be set manually or assigned automatically by your router.
+himadrip : *Open up the command line/terminal on your systems*
+himadrip : For windows (type):
+himadrip : `ipconfig`
+himadrip : For Linux uses:
+himadrip : `ifconfig`
+himadrip : If you are using linux, under wlo1 (for Wifi users) you can see your ipaddress as the inet addr
+himadrip : for ethernet , under eno1
+himadrip : For windows its straightforward,
+himadrip : <@U5B105XAM|himadrip> uploaded a file: <https://networksecurity-ieee.slack.com/files/himadrip/F5D50BE9Y/image.png|image.png>
+himadrip : As you can see, my ip here is 192.168.1.103
+himadrip : This is the private ip given to me by my router
+himadrip : Which is not accessible to the world (private)
+himadrip : So, only devices in my house can communicate with me using that ip address
+himadrip : Public IP addresses are used on the "outside" of your network and are assigned by your ISP. It's the main address that your home or business network uses to communicate with the rest of the networked devices around the world (i.e. the Internet). It provides a way for the devices in your home, for example, to reach your ISP, and therefore the outside world, allowing them to do things like access websites and communicate directly with other people's computers.
+himadrip : Both private IP addresses and public IP addresses are either dynamic or static, which means that, respectively, they either change or they don't.
+adwait1_g : Is it the ip which Google shows when we ask what our ip address is ?
+himadrip : Was everyone able to see their ips?
+himadrip : Since Google can only see your public IP which you use to communicate with the world
+supreethg : yeah
+himadrip : It shows your public ip
+himadrip : *Finding Your Public IP Address*
+
+There are lots of ways to find your router's public IP address but sites like IP Chicken, <http://WhatsMyIP.org|WhatsMyIP.org>, or <http://WhatIsMyIPAddress.com|WhatIsMyIPAddress.com> make this super easy.
+himadrip : So, while communicating with the world, pur data packets go to the router which converts the private ip to public ip and transmits it on the internet
+himadrip : *our
+himadrip : The ipaddresses with 192.168.1.x are considered as public ips usually which your router gives
+himadrip : *private ips sorry!!
+himadrip : Note : 192.168.1.x are most of the time *private ips*
+himadrip : Did everyone follow till here?
+gautamrk : yup
+adwait1_g : Yes
+himadrip : The session is over! Doubts, if you have any?
+mnaveenkumar2009 : Ipv4 is public?
+himadrip : Ipv4 or ipv6 could be public or private
+himadrip : *either
+himadrip : They are just naming conventions, how ips are named
+himadrip : They have nothing to do with public or private ip
+mnaveenkumar2009 : What decides if they are private or public?
+himadrip : The local network
+mnaveenkumar2009 : Ok
+mnaveenkumar2009 : Thanks
+himadrip : Within network we have private ips
+himadrip : So when we try to communicate with the world, all our packets has to go through the router or the network moderator(Default gateway) which converts the private to  public addresses if any
+adwait1_g : can a single computer have more than one private ip?
+himadrip : Nope
+himadrip : Then there would be confusion
+adwait1_g : Got it.thanks
+himadrip : ip addresses are needed to uniquely identify nodes
+himadrip : So, everyone understood?
+gautamrk : yup
+himadrip : rather everyone awake?
+himadrip : xP
+gautamrk : Nice session, thanks a lot!
+himadrip : The doubts in between sessions should be posted on the doubts channel :slightly_smiling_face:
+himadrip : You are welcome
+adwait1_g : Thanks <@U5B105XAM> 
+himadrip : Also, if you have any cool stuff to share, put it up on the random channel
+gautamrk : <@U5B3HALU9|gautamrk> has left the channel
+himadrip : Wait
+himadrip : before you guys leave
+himadrip : Short Assignment: what are DNS servers? What is DNS? :stuck_out_tongue:
+himadrip : Next session we would deal with subnet masks,NAT, OSI model/TCP model
+himadrip : Yep Thanks for attending today's session!
+himadrip : :smile:
+himadrip : Good night!
+himadrip : Now you guys can leave :stuck_out_tongue:
+chinmay_dd : <@U5DTWKZQW|chinmay_dd> has joined the channel
+architp4ndey : <@U5C5G61MH|architp4ndey> has joined the channel
+architp4ndey : Hey guys I'm Archit 1st Year Meta couldn't join this session (sorry :stuck_out_tongue: ) but looking forward to the next one :slightly_smiling_face:
+

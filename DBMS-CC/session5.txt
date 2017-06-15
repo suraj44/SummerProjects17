@@ -1,0 +1,497 @@
+salman-bhai : <@U52A977UG|salman-bhai> set the channel topic: Session 4 -MySQL Basics by Salman Shah
+
+salman-bhai : <https://www.codecademy.com/articles/sql-commands>
+
+List of SQL Commands that we'll be doing today!
+
+salman-bhai : Also a Short Read on Popular Relational Database Management Systems that you might find useful!
+
+<https://www.codecademy.com/articles/sql-rdbms>
+
+salman-bhai : Hi
+
+salman-bhai : So how many of you are ready ?
+
+priyam : Not me but go ahead, Ill catch up in a few minutes
+
+manish : yeah even I'll catch up
+
+salman-bhai : Alright! We'll revise a few concepts before going ahead!
+
+salman-bhai : <@U56JCBFA9> define a *Relational Database*
+
+salman-bhai : I'm hoping you guys don't sleep :stuck_out_tongue: There's lots of coding in this session!
+
+salman-bhai : <@U56JCBFA9> ????
+
+salman-bhai : <@U55UC8R09>
+
+salman-bhai : Kindly tell the answer!
+
+ckbs : a relational DB stores data in the form of tables
+
+salman-bhai : Looks like ma'am is busy at the moment
+
+salman-bhai : Okay
+
+ckbs : It is based on a schema - which includes the name of the table and different column names
+
+salman-bhai : <@U56DHFD99> WOuld you kindly remind us what is a Primary Key?
+
+salman-bhai : <@U55UC8R09> correct!
+
+salman-bhai : <@U55UB6X9P> Kindly tell us what is a Foreign Key and the difference between a Primary Key and a Foreign Key
+
+rosag31 : Yeah, A primary key is a unique key which identifies an instance. It is different for different instances.
+
+salman-bhai : Umm that is right <@U56DHFD99> but in simple terms every table in your relational database will have a column which is in most cases called ID which will uniquely identify each and every row in that table
+
+nachiket : Foreign key is mainly used for creating/indetifying relations while primary key is used for uniquely to identify a instance
+
+salman-bhai : We'll talk about this in a bit of detail today
+
+rosag31 : ok:+1:
+
+salman-bhai : <@U55UB6X9P> again correct but in simple terms foreign key is basically the primary key of any other table!
+
+salman-bhai : No need to be so accurate on the definitions! :stuck_out_tongue:
+
+nachiket : ok:sweat_smile:
+
+salman-bhai : <@U55UDASSV> can we have two primary keys in a particular instance/table?
+
+salman-bhai : <@U579Y5A7Q> can we have two or more foreign key columns in a table?
+
+salman-bhai : <@U57A20DSS> tell me which SQL Version are you running?
+
+anumeha29 : sorry internet connection went off
+
+hlpr98 : yes.. since a column has many rows. i think
+
+bhavishya : I think you can have 2 columns that uniquely identify a record. But its called an alternate key
+
+salman-bhai : <@U55UJ9MH7> you're familiar with MySQL right?
+
+salman-bhai : anumeha29: Chill da!
+
+rithesh : not much
+
+salman-bhai : Forget alternate keys just primary key. Tell if we can have two or not
+
+bhavishya : no
+
+salman-bhai : <@U55UDASSV> correct
+
+salman-bhai : <@U579Y5A7Q> yes you can have primary keys of various other tables in different columns that's why multiple foregin keys can be present!
+
+salman-bhai : All right <@U55UJ9MH7>
+
+ishaan : mysql  Ver 14.14 Distrib 5.7.18, for Linux (x86_64) using  EditLine wrapper
+that is the version i have
+
+salman-bhai : All right any doubts anyone till now?
+
+salman-bhai : Cool cool!
+
+anumeha29 : nope
+
+ishaan : no
+
+ckbs : no
+
+nachiket : no
+
+rosag31 : no
+
+bhavishya : no
+
+salman-bhai : Okay so this is how it's going to work! I'm going to put up a code snippet and you have to copy paste it as it is on the PHPMyAdmin Console! Then I'll explain what that code snippet does!
+
+salman-bhai : Now on the left column there is a New option
+
+salman-bhai : I want you guys to create a new database called dbms-cc! After you've done that, put up a thumbs up on this statement!
+
+anumeha29 : :+1:
+
+salman-bhai : anumeha29: Not like that! :stuck_out_tongue:
+
+salman-bhai : Any problems ?
+
+anumeha29 : oh sorry didnt see that it was to that statement :stuck_out_tongue:
+
+hlpr98 : whats the "new option" ?
+
+salman-bhai : ON the left sidebar there's a "New" text href
+
+salman-bhai : CLick on that and create a new database called 'dbms-cc'
+
+salman-bhai : If you don't know where to click send a screenshot! :smile:
+
+hrily : If you can't find it
+Just go to Database tab
+You can create one there
+
+salman-bhai : <@U530UCFTL> Good morning sir!
+
+salman-bhai : That as well!
+
+salman-bhai : Guys please respond!
+
+ckbs : salman-bhai: I am getting access denied for the phpmyadmin page ! I will try to figure it out
+
+salman-bhai : What username and password are you putting?
+
+salman-bhai : Username is root
+
+nachiket : salman-bhai:  I am getting error too...400 Bad request
+
+salman-bhai : And password is the one you put during installation.
+
+salman-bhai : installation**
+
+salman-bhai : <@U55UB6X9P> screenshot please!
+
+ckbs : yes, it worked now !
+
+salman-bhai : Please put username as *root*!
+
+salman-bhai : And password is whatever you put up during installation!
+
+salman-bhai : Any other problems please send up!
+
+nachiket : <@U55UB6X9P|nachiket> shared a file: <https://compsocnitk.slack.com/files/nachiket/F5JSQPC3C/screenshot_from_2017-05-27_11-29-20.png|Screenshot from 2017-05-27 11-29-20.png>
+
+salman-bhai : Restart the server and put localhost/phpmyadmin
+
+hlpr98 : :+1:
+
+nachiket : salman-bhai: It worked..Thanks
+
+salman-bhai : Np
+
+salman-bhai : Alright moving ahead
+
+salman-bhai : If you have doubts please ping in the other group from now!
+
+salman-bhai : Don't want to make logs messy for everyone!
+
+salman-bhai : Now click on your table
+
+salman-bhai : ANd you'll see a COnsole icon at the bottom
+
+salman-bhai : Click on it and type the following command!
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5KM0B1V4/-.php|Untitled> and commented: This command creates a new table for us. It allows you to to put in columns of your choice!
+
+salman-bhai : <@U56DHFD99> can you identify the primary key in this table?
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5KM0JFRC/how_to_insert_values_in_the_table.php|How to insert values in the table> and commented: Copy paste this command and after understanding what it does add your own name to it as well.
+
+rosag31 : is the primary key id?
+
+salman-bhai : Yup we've created that column for that sole purpose
+
+salman-bhai : Every row in that column will have a unique value
+
+salman-bhai : However the same cannot be said for name and age!
+
+salman-bhai : People who are lagging behind please comment what the Issue is
+
+ishaan : salman-bhai: I have internet problem.. I'm using slack on my phone right now and I'm trying to get the internet working on my laptop
+
+salman-bhai : OKay
+
+salman-bhai : Alright so moving ahead!
+
+salman-bhai : The INSERT INTO function allows you to add row values to your table
+
+salman-bhai : It's combined with the VALUES commnad
+
+salman-bhai : Any doubts?
+
+anumeha29 : no
+
+ckbs : no
+
+rosag31 : Nope
+
+nachiket : no
+
+kenichi : No
+
+hlpr98 : no
+
+ishaan : no
+
+bhavishya : no
+
+priyam : no
+
+salman-bhai : OKay so from now I'll just directly add commands over here and explain what they mean! In case they don't work ping me
+
+salman-bhai : Otherwise I'll assume you got it!
+
+salman-bhai : Cool?
+
+anumeha29 : ok
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5KMLGEF9/-.m|Untitled> and commented: <@U56JCBFA9> run this command and tell me what output you get and what this command does
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5JA3EXMF/-.m|Untitled> and commented: <@U56DHFD99> run this and tell us what you think it's function is!
+
+anumeha29 : there was no output :confused: ..it just shows the table student
+
+anumeha29 : the one i created
+
+salman-bhai : <@U56JCBFA9> did you add a row to your table called *students*?
+
+anumeha29 : yeah
+
+anumeha29 : it shows id , name age
+
+salman-bhai : INSERT INTO students (id, name, age) 
+VALUES (1, 'Salman Shah', 18);
+SELECT * FROM students;
+
+anumeha29 : and my details in it
+
+salman-bhai : Run this
+
+anumeha29 : yeah yeah
+
+anumeha29 : did that
+
+salman-bhai : Haan ji!
+
+salman-bhai : SO basically what *SELECT* does is it select a particular column in the table specified and returns all the values in that column
+
+rosag31 : it says one row affected
+
+anumeha29 : oh okay
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5KMLRFAT/-.txt|Untitled> and commented: <@U57A20DSS> run this and tell me what output you get?
+
+salman-bhai : <@U56DHFD99> now run the SELECT command and see if you're changes are affected or not
+
+salman-bhai : @others please run these commands as well! WIll give you an idea of how things are working!
+
+salman-bhai : <@U56DHFD99> any doubts?
+
+salman-bhai : <@U57A20DSS> any doubts?
+
+ishaan : salman-bhai: sorry.. net isn't working yet :(
+
+salman-bhai : <@U55UDASSV> what output did you get?
+
+salman-bhai : Cool cool
+
+bhavishya : it displays only the id field
+
+priyam : :+1:
+
+rosag31 : and the age gets modified to 17
+
+salman-bhai : Awesome! <@U55UDASSV> <@U56DHFD99>
+
+salman-bhai : SO basically we've learnt four commands now
+*CREATE TABLE*
+*INSERT INTO*
+*SELECT*
+*UPDATE*
+
+salman-bhai : Everyone with me here till now?
+
+salman-bhai : Awesome!
+
+salman-bhai : Now last two commands
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5KM2DLPQ/add_a_column_in_the_existing_table.pl|Add a column in the existing table> and commented: If no doubts in this put up a thumbs up
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5J75JMR6/after_that_run_this_command_to_update_a_value_in_the_table.m|After that run this command to update a value in the table> and commented: Put thumbs up if no doubts
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5JU8ADUL/this_deletes_all_those_rows_which_are_empty_for_the_college_field_.c|This deletes all those rows which are empty for the college field!> and commented: Put up thumbs up if no doubts
+
+salman-bhai : Another thing is that the keyword *WHERE* is basically the conditional statement here!
+
+salman-bhai : So all conditions are added after the WHERE statement
+
+salman-bhai : <@U56H3SYJG> can you tell me what is NULL over here?
+
+kenichi : Where we did not update the value of the field college
+
+salman-bhai : @all has anyone heard  of REGEX?
+
+salman-bhai : <@U56H3SYJG> yes basically it's the default value that is assigned by MySQL to a particular column value
+
+salman-bhai : Or pattern - matching
+
+ckbs : yes
+
+salman-bhai : OKay tell us about it?
+
+anumeha29 : regular expressions ?
+
+salman-bhai : Yes!
+
+salman-bhai : <@U56JCBFA9>
+
+ckbs : using LIKE command, we can find rows where certain pattern is observed ?
+
+salman-bhai : Exactly!
+
+salman-bhai : So now after basic SQL Commands let's move to queires!
+
+salman-bhai : queries**
+
+salman-bhai : 1. LIKE and BETWEEN
+
+anumeha29 : an object used for search or replace functions ?
+
+salman-bhai : In the WHERE CLAUSE you can use LIKE to match a particular value!
+
+salman-bhai : Primarily SEARCH
+
+salman-bhai : I want you guys to insert a minimum of 5 random values to your table
+
+anumeha29 : oh okayy
+
+salman-bhai : The students table that is!
+
+ckbs : salman-bhai: Yes, it showed all the names which contained that sub string
+
+bhavishya : Is % a wildcard for multiple characters?
+
+salman-bhai : Yes!
+
+bhavishya : okay!
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5JA63T2M/between_keyword_used_in_where_clause.m|BETWEEN keyword used in WHERE clause>
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5JUA6NUC/run_this_as_well_and_you_ll_understand_why_that_____wildcard_is_used.txt|Run this as well and you'll understand why that '%' wildcard is used> and commented: Put thumbs up if no doubts!
+
+salman-bhai : Please put up Thumbs Up next to code snippets after you've run them!
+
+salman-bhai : OKay so similarly you can have AND and OR conditions after the where conditions
+
+salman-bhai : FOr example this
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5KM4N3GW/-.m|Untitled>
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5JQQBSRZ/if_you_want_to_limit_the_entries_of_code__kindly_run_limit.c|If you want to limit the Entries of Code, kindly run LIMIT> and commented: Thumbs up if no doubts
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5J782TNU/-.txt|Untitled>
+
+salman-bhai : This one is for sorting!
+
+salman-bhai : Again thumbs up id you got it
+
+salman-bhai : <@U52A977UG|salman-bhai> uploaded a file: <https://compsocnitk.slack.com/files/salman-bhai/F5JSW22SE/ascending_order_sorting.txt|Ascending Order sorting> and commented: By default it sorts in Ascending Order
+
+salman-bhai : Again thumbs up if you got it!
+
+salman-bhai : Alright that's it for today!
+
+salman-bhai : Sorry guys it got a bit messed up in the beginning!
+
+salman-bhai : Do you think I should Live Stream on YouTube while running these commands or how it's happening currently is fine enough?
+
+anumeha29 : its fine this way
+
+priyam : This is fine
+
+ishaan : this is fine
+
+nachiket : Yeah fine this way..
+
+ckbs : I think live streaming would be better ... because I got confused only in the initial step of navigating to phpmyadmin page.....but the rest of the commands were clear
+
+hlpr98 : this is fine
+
+bhavishya : its fine
+
+salman-bhai : Alright majority wins! Sorry <@U55UC8R09> !
+
+salman-bhai : <@U55UC8R09> You won't have to set it up again!
+
+ckbs : salman-bhai: np :grinning:
+
+salman-bhai : Okay so we'll have another session tomorrow!
+
+salman-bhai : Morning 10
+
+salman-bhai : I hope that's fine!
+
+priyam : Will this be regarding the project?
+
+anumeha29 : is it possible to have it little earlier ?:see_no_evil:
+
+bhavishya : or a bit later
+
+bhavishya : Like 11
+
+priyam : Yes can we have earlier
+
+salman-bhai : We'll do remaining MySQL Syntax and then talk about how to set up the project and get started on it
+
+salman-bhai : How earlier?
+
+salman-bhai : It'll be a two hour session mostly!
+
+salman-bhai : Hopefully we'll be faster than today and cover much more now that we have a method in place!
+
+anumeha29 : 8 :see_no_evil: ?
+
+bhavishya : Yeah 8 works for me
+
+priyam : Yes, does 8 sound fine?
+
+salman-bhai : I'll take an hour for MySQL Syntax and then project environment setup! That might take some time
+
+salman-bhai : @others reply!
+
+ckbs : yeah 8 is fine
+
+salman-bhai : I dont mind! I wake up at 4.30
+
+salman-bhai : :stuck_out_tongue:
+
+ishaan : okay
+8 is fine
+
+nachiket : Yes 8 is fine
+
+bhavishya : salman-bhai: WHAT
+
+ckbs : happy ramzan !! it's for ramzan right ?
+
+anumeha29 : 4:30 :flushed: Do you ever sleep also  ?:see_no_evil:
+
+salman-bhai : Thank you <@U55UC8R09>
+
+salman-bhai : <@U55UDASSV> your time will come! Enjoy first year vacation :stuck_out_tongue:
+
+bhavishya : Haha okay
+
+bhavishya : Happy Ramzan!
+
+salman-bhai : anumeha29: Well let's just say my mom doesn't know much :stuck_out_tongue:
+
+salman-bhai : Alright tomorrow at 8
+
+salman-bhai : We'll meet. Any other doubts post over here1
+
+salman-bhai : Or on WhatsApp
+
+salman-bhai : Logs will be put up in 5 minutes!
+
+ishaan : okay
+
+bhavishya : Thank you! Bye guys!
+
+ckbs : thanks for the session ! bye
+
+anumeha29 : Thanks :slightly_smiling_face:
+
+priyam : Session was great! Bye!
+
+anumeha29 : :slightly_smiling_face: *

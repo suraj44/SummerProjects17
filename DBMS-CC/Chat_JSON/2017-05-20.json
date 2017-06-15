@@ -1,0 +1,1436 @@
+[
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Session about to start",
+        "ts": "1495287074.734795"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "okayy",
+        "ts": "1495287094.735581"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": ":+1:",
+        "ts": "1495287113.736311"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": ":+1:",
+        "ts": "1495287138.737367"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": ":+1:",
+        "ts": "1495287151.737925"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Good evening sir!",
+        "ts": "1495287151.737957"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": ":+1:",
+        "ts": "1495287155.738100"
+    },
+    {
+        "user": "U52A977UG",
+        "topic": "Session 3: Relational Databases -by Hrily",
+        "text": "<@U52A977UG|salman-bhai> set the channel topic: Session 3: Relational Databases -by Hrily",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1495287179.739121"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Are <@U57A20DSS> &amp; <@U56H3SYJG> coming",
+        "ts": "1495287212.740429"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "We'll start now",
+        "ts": "1495287317.744390"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Let's have a quick recap",
+        "ts": "1495287328.744869"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U57AA2TEK> What is a database?",
+        "ts": "1495287346.745647"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "meanwhile\n<@U5BP61N94> \nBreif us about ACID property of a DB",
+        "ts": "1495287434.749474"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "a database, large set of data where you can perform actions such as query",
+        "ts": "1495287448.749999"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "yes \nLARGE set of datqa",
+        "ts": "1495287464.750558"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "In ACID property\nA stands for atomicity ",
+        "ts": "1495287495.751840"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "C for consistency",
+        "ts": "1495287511.752463"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "I for isolation and D for durability",
+        "ts": "1495287538.753548"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Exactly",
+        "ts": "1495287552.754084"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "I hope you have recalled what they mean",
+        "ts": "1495287567.754621"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So next important property of a DBMS is",
+        "ts": "1495287586.755338"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Data Independence",
+        "ts": "1495287596.755696"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Data Independence means that\nThe applications built on DBMS are independent of the changes happening in the system",
+        "ts": "1495287685.759435"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Lets say you have Student record DB\nand the institute changes its grading system from percentages to character grades",
+        "ts": "1495287741.761775"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So in system we have to change data type of grade from integer to varchar",
+        "ts": "1495287777.763438"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "But this change should not crash the application which is used to view these grades",
+        "ts": "1495287814.764851"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts",
+        "ts": "1495287823.765180"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "no",
+        "ts": "1495287858.766592"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1495287884.767572"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "no",
+        "ts": "1495287894.767969"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Nope",
+        "ts": "1495287901.768265"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1495287901.768271"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "none",
+        "ts": "1495287903.768440"
+    },
+    {
+        "type": "message",
+        "user": "U56H3SYJG",
+        "text": "Nope",
+        "ts": "1495287917.769029"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Okay",
+        "ts": "1495287943.770220"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So next concept is a Data Model",
+        "ts": "1495287971.771603"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Data Model is the way of storing data into disk",
+        "ts": "1495287999.772768"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "There are various models that were developed overtime",
+        "ts": "1495288024.773861"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "But the most consistent and famous is\nRelational Date Model",
+        "ts": "1495288044.774638"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "so now you know why the Relational DataBase Management System (RDMS) comes on",
+        "ts": "1495288086.776433"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "We will mostly focus on this model",
+        "ts": "1495288106.777289"
+    },
+    {
+        "user": "U55UE0J9F",
+        "text": "<@U55UE0J9F|ram_aditya> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1495288132.778382"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Before going into the details of it\nthere are few definitions I would like to share",
+        "ts": "1495288152.779284"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "*Schema* : specifies name of relation, plus name and type of each column. \ne.g. \nStudents(sid: string, name: string, login: string, age: integer, gpa: real)\n\n*Instance* : a table, with rows and columns. \n#rows = cardinality\n#fields = degree \/ arity",
+        "ts": "1495288234.782817"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Relational Model is based on Relations\nA Relation  is made of Schema and a Instance",
+        "ts": "1495288273.784561"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Think of it as row in excel sheet",
+        "ts": "1495288303.785732"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Lets see to instance of Student() Scheme above",
+        "ts": "1495288358.787976"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5GNU2TU7\/pasted_image_at_2017_05_20_07_24_pm.png|Pasted image at 2017-05-20, 7:24 PM>",
+        "file": {
+            "id": "F5GNU2TU7",
+            "created": 1495288453,
+            "timestamp": 1495288453,
+            "name": "Pasted image at 2017_05_20 07_24 PM.png",
+            "title": "Pasted image at 2017-05-20, 7:24 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 45520,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5GNU2TU7\/pasted_image_at_2017_05_20_07_24_pm.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5GNU2TU7\/download\/pasted_image_at_2017_05_20_07_24_pm.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5GNU2TU7-48e4f00a6c\/pasted_image_at_2017_05_20_07_24_pm_64.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5GNU2TU7-48e4f00a6c\/pasted_image_at_2017_05_20_07_24_pm_80.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5GNU2TU7-48e4f00a6c\/pasted_image_at_2017_05_20_07_24_pm_360.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_360_w": 360,
+            "thumb_360_h": 96,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5GNU2TU7-48e4f00a6c\/pasted_image_at_2017_05_20_07_24_pm_480.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_480_w": 480,
+            "thumb_480_h": 129,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5GNU2TU7-48e4f00a6c\/pasted_image_at_2017_05_20_07_24_pm_160.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "image_exif_rotation": 1,
+            "original_w": 683,
+            "original_h": 183,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5GNU2TU7\/pasted_image_at_2017_05_20_07_24_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5GNU2TU7-bb1378ce9b",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1495288454.791774"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "for this  instance we have\ncardinality\/rows = 3\narity\/columns = 5",
+        "ts": "1495288484.792895"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5GNUC11D\/pasted_image_at_2017_05_20_07_27_pm.png|Pasted image at 2017-05-20, 7:27 PM> and commented: Lets have another Schema  and Instance\nEnrolled(sid: string, cid: string, grade: string)",
+        "file": {
+            "id": "F5GNUC11D",
+            "created": 1495288631,
+            "timestamp": 1495288631,
+            "name": "Pasted image at 2017_05_20 07_27 PM.png",
+            "title": "Pasted image at 2017-05-20, 7:27 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 15765,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5GNUC11D\/pasted_image_at_2017_05_20_07_27_pm.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5GNUC11D\/download\/pasted_image_at_2017_05_20_07_27_pm.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5GNUC11D-4a760e3956\/pasted_image_at_2017_05_20_07_27_pm_64.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5GNUC11D-4a760e3956\/pasted_image_at_2017_05_20_07_27_pm_80.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5GNUC11D-4a760e3956\/pasted_image_at_2017_05_20_07_27_pm_360.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_360_w": 242,
+            "thumb_360_h": 123,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5GNUC11D-4a760e3956\/pasted_image_at_2017_05_20_07_27_pm_160.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "image_exif_rotation": 1,
+            "original_w": 242,
+            "original_h": 123,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5GNUC11D\/pasted_image_at_2017_05_20_07_27_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5GNUC11D-ff0edc911f",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5G1DT2G5",
+                "created": 1495288631,
+                "timestamp": 1495288631,
+                "user": "U530UCFTL",
+                "is_intro": true,
+                "comment": "Lets have another Schema  and Instance\nEnrolled(sid: string, cid: string, grade: string)"
+            }
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1495288633.798867"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So now we can talk about relation between these two instances",
+        "ts": "1495288666.800146"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U55UE0J9F> Can you guess some  relation between  the",
+        "ts": "1495288695.801259"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "them*",
+        "ts": "1495288701.801490"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "They have the same column named \"sid\"",
+        "ts": "1495288777.804462"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "yes",
+        "ts": "1495288783.804739"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So if we want to know what courses jones has enrolled",
+        "ts": "1495288803.805719"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U579Y5A7Q> \nTell us the steps\nStarting from Student instance",
+        "ts": "1495288826.807227"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "1. query for sid corresponding to  name \"jones\".",
+        "ts": "1495288920.812216"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "2.then query for the cid correspomding to the obtained sid in the second schema",
+        "edited": {
+            "user": "U579Y5A7Q",
+            "ts": "1495289005.000000"
+        },
+        "ts": "1495288921.812256"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "exactly",
+        "ts": "1495289014.816236"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts in relational model",
+        "ts": "1495289037.817301"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "nope",
+        "ts": "1495289058.818227"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1495289058.818244"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1495289063.818573"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "no",
+        "ts": "1495289063.818598"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1495289064.818676"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "no",
+        "ts": "1495289067.818793"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "oN",
+        "ts": "1495289069.818903"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "No*",
+        "ts": "1495289072.819033"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "nope",
+        "ts": "1495289073.819098"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "okay\nWe'll hit back to Relational model in a bit",
+        "ts": "1495289094.819979"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Now we need to know \nWHY Relational model",
+        "ts": "1495289111.820818"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "But to know it \nWe need  something to compare to",
+        "ts": "1495289129.821628"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Let's have a brief about a different model\nHerarchical Model",
+        "ts": "1495289172.823788"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Hierarchical model are like tree\nThere is a root instance \nwhich points to subsequent child instances",
+        "ts": "1495289272.828113"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "For our Student and Enrolled instance",
+        "ts": "1495289290.828929"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Student will be the root instance",
+        "ts": "1495289302.829371"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "*Reminder* \nInstance = rows in sheet",
+        "ts": "1495289355.831698"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "sorry about that",
+        "ts": "1495289429.834928"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So student instance of hierarchical model will have an extra feild\/columns\nwhere we store the pointer to the corresponding Enrolled instance",
+        "ts": "1495289437.835252"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U55UE0J9F> ??",
+        "ts": "1495289446.835721"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Sorry that was by mistake :no_mouth: ",
+        "ts": "1495289464.836543"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "okay :smile:",
+        "ts": "1495289498.837917"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5FRX9BJ7\/pasted_image_at_2017_05_20_07_42_pm.png|Pasted image at 2017-05-20, 7:42 PM> and commented: So the hierarchical model of Student 'smith' looks like this",
+        "file": {
+            "id": "F5FRX9BJ7",
+            "created": 1495289573,
+            "timestamp": 1495289573,
+            "name": "Pasted image at 2017_05_20 07_42 PM.png",
+            "title": "Pasted image at 2017-05-20, 7:42 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 11526,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5FRX9BJ7\/pasted_image_at_2017_05_20_07_42_pm.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5FRX9BJ7\/download\/pasted_image_at_2017_05_20_07_42_pm.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5FRX9BJ7-d53ee3653f\/pasted_image_at_2017_05_20_07_42_pm_64.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5FRX9BJ7-d53ee3653f\/pasted_image_at_2017_05_20_07_42_pm_80.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5FRX9BJ7-d53ee3653f\/pasted_image_at_2017_05_20_07_42_pm_360.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_360_w": 360,
+            "thumb_360_h": 102,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5FRX9BJ7-d53ee3653f\/pasted_image_at_2017_05_20_07_42_pm_160.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "image_exif_rotation": 1,
+            "original_w": 386,
+            "original_h": 109,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5FRX9BJ7\/pasted_image_at_2017_05_20_07_42_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5FRX9BJ7-c0b96fefb8",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5F8ECQFJ",
+                "created": 1495289573,
+                "timestamp": 1495289573,
+                "user": "U530UCFTL",
+                "is_intro": true,
+                "comment": "So the hierarchical model of Student 'smith' looks like this"
+            }
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1495289574.841075"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So lets say this smith guy enrolls  for new course\nthe steps to add the new course will be\n1. Create Enrolled instance\n2. Add new field to 'Smith' instance \n3. And store pointer to the Enrolled instance in that feild",
+        "ts": "1495289708.846772"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U56DHFD99> \nCan you tell me the procedure for same in Relational model??",
+        "ts": "1495289743.848340"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "I think the enrolled instance will have an addition which will add the new course along with the sid for smith along with other details",
+        "ts": "1495289856.853117"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Exactly",
+        "ts": "1495289868.853611"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "how many table insertions?",
+        "ts": "1495289879.854043"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U56JCBFA9> \nHow many insertions were in hierarchical model?",
+        "ts": "1495289909.855362"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "3 insertions in the relational and 2 in hierarchical  for a row",
+        "ts": "1495289991.858762"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "I meant instance\/row inserions",
+        "ts": "1495290013.859827"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "The 3 in relational are one\nBecause we are accessing same location",
+        "ts": "1495290052.861573"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "in hierarchical, we access different locations",
+        "ts": "1495290071.862419"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "one row insertion in relational model",
+        "ts": "1495290072.862453"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So now you see how relational models helps us",
+        "ts": "1495290099.863714"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts so far",
+        "ts": "1495290106.864018"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1495290116.864409"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "no",
+        "ts": "1495290121.864602"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1495290125.864811"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "No",
+        "ts": "1495290125.864842"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "no",
+        "ts": "1495290130.865053"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1495290130.865079"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "nope",
+        "ts": "1495290133.865181"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1495290137.865353"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "no",
+        "ts": "1495290146.865708"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Okay",
+        "ts": "1495290148.865807"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So we introduced to Data independence at the start",
+        "ts": "1495290171.866767"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Let's visit it again",
+        "ts": "1495290178.867022"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Consider two applications created each for Relational and Hierarchical model of our Student records",
+        "ts": "1495290232.869317"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So when 'Smith' applies for new course\nthe relational wala app will know the new course from Enrolled Instance",
+        "ts": "1495290297.872034"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "where as \nthe hierarchical wala app doesn't know about the new pointer which was added to Smith's instance",
+        "ts": "1495290349.874496"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So it will not be consistent with the system",
+        "ts": "1495290369.875364"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So now we know the importace of Data-Independence in a DB Model",
+        "ts": "1495290400.876872"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts",
+        "ts": "1495290408.877184"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Nope",
+        "ts": "1495290421.877835"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1495290426.878034"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "no",
+        "ts": "1495290427.878061"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1495290429.878116"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "no",
+        "ts": "1495290431.878212"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "no",
+        "ts": "1495290432.878248"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "No",
+        "ts": "1495290433.878288"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1495290442.878675"
+    },
+    {
+        "type": "message",
+        "user": "U579Y5A7Q",
+        "text": "no",
+        "ts": "1495290447.878860"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Okay\nSo Let's move on to next topic \nBuffers",
+        "ts": "1495290472.880236"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "This topic requires bit of understanding about Computer architecture\nwhich will be new to most of you",
+        "ts": "1495290510.881901"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "We know\nEvery instruction is executed on CPU",
+        "ts": "1495290564.884015"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "But the instructions and data are stored in HardDisk",
+        "ts": "1495290584.884735"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "to get those \nthe CPU uses levels of Storage devices",
+        "ts": "1495290614.886215"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "They are (in decreasing speed of access and increasing memory capacity)\n+ Register\n+ Cache\n+ RAM\n+ HardDisk",
+        "ts": "1495290668.888941"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "We'll be focusing on RAM and HardDisk",
+        "ts": "1495290688.889906"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Rest are for your information \nGoogle them if you want to know more",
+        "ts": "1495290726.891782"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay",
+        "ts": "1495290735.892233"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U55UJ9MH7> \nTell me why is RAM call RAM",
+        "ts": "1495290760.893285"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U55UDASSV> \nTell the basic diff b\/w RAM and HD",
+        "ts": "1495290783.894384"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "Random Access Memory is called so because the data can be accessed directly",
+        "ts": "1495290812.895689"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "More precise will be\nAny data can be accessed in constant time irrespective of it's physical location",
+        "ts": "1495290863.897848"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "RAM can directly access data irrespective of where it is",
+        "ts": "1495290897.899223"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "But data in the hard disk needs to be first sent to the primary memory before access",
+        "ts": "1495290932.900880"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U55UDASSV> \nEven the data on RAM is not accessed directly",
+        "ts": "1495290977.902954"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "That's why I introduced you to Registers and Cache",
+        "ts": "1495290997.903824"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "oh okay",
+        "ts": "1495291012.904545"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "CPU has only access to Registers\nThey are really small storages",
+        "ts": "1495291024.905085"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So the basic diff b\/w RAM and HD is",
+        "ts": "1495291073.907102"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "RAM has equal access time to every data\nwhereas\nHD doesn't, the time depends  upon the  physical location of device",
+        "ts": "1495291113.908891"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "sorry the data, not device",
+        "ts": "1495291123.909335"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay...",
+        "ts": "1495291141.910256"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5FBFTLC9\/pasted_image_at_2017_05_20_08_09_pm.png|Pasted image at 2017-05-20, 8:09 PM> and commented: View of RAM",
+        "file": {
+            "id": "F5FBFTLC9",
+            "created": 1495291199,
+            "timestamp": 1495291199,
+            "name": "Pasted image at 2017_05_20 08_09 PM.png",
+            "title": "Pasted image at 2017-05-20, 8:09 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 18107,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5FBFTLC9\/pasted_image_at_2017_05_20_08_09_pm.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5FBFTLC9\/download\/pasted_image_at_2017_05_20_08_09_pm.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5FBFTLC9-4cedf18074\/pasted_image_at_2017_05_20_08_09_pm_64.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5FBFTLC9-4cedf18074\/pasted_image_at_2017_05_20_08_09_pm_80.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5FBFTLC9-4cedf18074\/pasted_image_at_2017_05_20_08_09_pm_360.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_360_w": 360,
+            "thumb_360_h": 249,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5FBFTLC9-4cedf18074\/pasted_image_at_2017_05_20_08_09_pm_480.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_480_w": 480,
+            "thumb_480_h": 332,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5FBFTLC9-4cedf18074\/pasted_image_at_2017_05_20_08_09_pm_160.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "image_exif_rotation": 1,
+            "original_w": 650,
+            "original_h": 450,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5FBFTLC9\/pasted_image_at_2017_05_20_08_09_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5FBFTLC9-1e6babef45",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5G06CCE8",
+                "created": 1495291199,
+                "timestamp": 1495291199,
+                "user": "U530UCFTL",
+                "is_intro": true,
+                "comment": "View of RAM"
+            }
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1495291201.912682"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5G06E6LC\/pasted_image_at_2017_05_20_08_10_pm.png|Pasted image at 2017-05-20, 8:10 PM> and commented: View of HD",
+        "file": {
+            "id": "F5G06E6LC",
+            "created": 1495291236,
+            "timestamp": 1495291236,
+            "name": "Pasted image at 2017_05_20 08_10 PM.png",
+            "title": "Pasted image at 2017-05-20, 8:10 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 51230,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5G06E6LC\/pasted_image_at_2017_05_20_08_10_pm.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5G06E6LC\/download\/pasted_image_at_2017_05_20_08_10_pm.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5G06E6LC-9462bab5f6\/pasted_image_at_2017_05_20_08_10_pm_64.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5G06E6LC-9462bab5f6\/pasted_image_at_2017_05_20_08_10_pm_80.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5G06E6LC-9462bab5f6\/pasted_image_at_2017_05_20_08_10_pm_360.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "thumb_360_w": 351,
+            "thumb_360_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5G06E6LC-9462bab5f6\/pasted_image_at_2017_05_20_08_10_pm_160.png?t=xoxe-172054826822-185889823027-186767740198-6a3c09c9e7",
+            "image_exif_rotation": 1,
+            "original_w": 409,
+            "original_h": 420,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5G06E6LC\/pasted_image_at_2017_05_20_08_10_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5G06E6LC-91c711557f",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5G06E8E8",
+                "created": 1495291236,
+                "timestamp": 1495291236,
+                "user": "U530UCFTL",
+                "is_intro": true,
+                "comment": "View of HD"
+            }
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1495291237.914364"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Now let's compare them",
+        "ts": "1495291261.915402"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "lets say RAM requires 1 unit for data access\nso HD requires 1000 units for data access",
+        "ts": "1495291324.918253"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Now lets come towards buffer",
+        "ts": "1495291373.920400"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "buffers are part of data on HD brought to RAM for access",
+        "ts": "1495291394.921398"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Lets say you wanted to 100 students to Student table",
+        "ts": "1495291420.922523"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "if there were no buffers\nwe would require 100*1000 units to do so",
+        "ts": "1495291465.924547"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "with buffer\nbring the part where Student Records are stored to  RAM buffer (1000 units)\nAdd 100 students (100*1 units)\nWrite back the Student record part to HD (1000 units)",
+        "ts": "1495291549.928465"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "total = 2100 units",
+        "ts": "1495291558.928811"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "units of what exactly??",
+        "ts": "1495291569.929349"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "that's a HUGE improvement",
+        "ts": "1495291573.929593"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "lets say RAM requires 1 unit for data access\n\ntime",
+        "ts": "1495291604.930986"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "okay cool",
+        "ts": "1495291613.931387"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "But how do we know whether the buffer is to be written back or not",
+        "ts": "1495291657.933248"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "for this system maintains a bit called Dirty Bit\n( Hope you have listened to the song by The Black Eyed Peas :grimacing:)",
+        "ts": "1495291722.936342"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no :sweat_smile:",
+        "ts": "1495291744.937392"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "when dirty bit is set\nwe know there's some change in buffer data\nand that needs to written back",
+        "ts": "1495291761.938216"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "oh, ok",
+        "ts": "1495291782.939225"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "That's the intro for buffers",
+        "ts": "1495291823.941125"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubrs",
+        "ts": "1495291826.941268"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "no",
+        "ts": "1495291831.941543"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1495291834.941678"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "No",
+        "ts": "1495291837.941799"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1495291841.942017"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "no",
+        "ts": "1495291852.942578"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "no",
+        "ts": "1495291854.942680"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Okay\nThere are few definitions left in Relational model",
+        "ts": "1495291918.945741"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "*Primary Key*\nUnique key which identifies a instance, different for different instances\n\n*Foreign key*\nKey from another instance used for establishing relations",
+        "ts": "1495291990.949004"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U55UC8R09> Can you tell me Primary and Foreign keys in Schemas of  _Student_ and _Enrolled_",
+        "ts": "1495292028.950722"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U55UB6X9P> \nhelp <@U55UC8R09>",
+        "ts": "1495292156.956525"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "I guess sid is the Foreign key?",
+        "ts": "1495292246.960933"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "primary key in student is sid",
+        "ts": "1495292256.961369"
+    },
+    {
+        "type": "message",
+        "user": "U55UB6X9P",
+        "text": "Sid helps correlate student and the courses enrolled",
+        "thread_ts": "1495292301.963307",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U55UC8R09",
+                "ts": "1495292382.966837"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1495292301.963307"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "nachiket: yeah,but isn't it also unique ? So then, the email id column could be considered primary key",
+        "thread_ts": "1495292301.963307",
+        "parent_user_id": "U55UB6X9P",
+        "ts": "1495292382.966837"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Yup\nFor Student Schema\n Primary key: sid\n No Foreign key\nFor Enrolled Schema\n Primary Key: cid\n Foreign Key: sid",
+        "ts": "1495292384.966922"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So that's all for today",
+        "ts": "1495292406.968274"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "I'm here 5 more minutes \nif you have any doubts",
+        "ts": "1495292424.969695"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "untill then\nGood night",
+        "ts": "1495292441.970898"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "Good night and thanks",
+        "ts": "1495292536.976894"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Alright thank you for the session! Goodnight!",
+        "ts": "1495292541.977118"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "Yeah. Thank you",
+        "ts": "1495292554.977974"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "good night and thanks for the session",
+        "ts": "1495292562.978397"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "Good night",
+        "ts": "1495292566.978620"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "Thanks and Good night :slightly_smiling_face:",
+        "ts": "1495292567.978713"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "Bye! Thank you",
+        "ts": "1495292592.980029"
+    }
+]

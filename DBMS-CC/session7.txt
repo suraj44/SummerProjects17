@@ -1,0 +1,703 @@
+hrily : hello everoney
+
+hrily : everyone
+
+rithesh : Hi
+
+anumeha29 : hi
+
+bhavishya : hi
+
+ishaan : hi
+
+hrily : how are vacations going
+
+ishaan : cool
+
+ishaan : what about you?
+
+rosag31 : hello
+
+manish : Hi
+
+hrily : Mine's great
+
+hrily : <@U530UCFTL|hrily> set the channel topic: Session 7 - Database storage and Relational Algebra
+
+hrily : We'll wait few moments for everyone to be online
+
+anumeha29 : Okayy
+
+hrily : We'll get started
+
+hrily : come back guys
+
+hrily : Topics for today
++ Review on Buffers
++ Database Storage
++ Relational Algebra
+
+hrily : So let's have a quick recap
+
+ishaan : okay
+
+hrily : <@U55UDASSV> 
+Tell us 
+where should be any data brought in order to operate on it
+
+bhavishya : Data should be brought from HD to RAM using Buffers
+
+hrily : Exactly
+
+hrily : HD consists data in hundreds of GBs
+and RAM is few Gigs
+
+hrily : So we have a guy called Buffer Manager who hides this fact
+
+hrily : He's the one responsible for bringing in the data to RAM
+
+hrily : <@U57A20DSS> 
+Can you guess some other responsibilities of Buffer Mngr
+
+ishaan : maybe it decides what data to keep temporarily in main memory based on how frequently it is used
+
+hrily : yes
+
+hrily : So the few responsibilities are:
++ Get data from HD to RAM whenever required
++ Writing back the data from RAM to HD if the data has changed
+
+hrily : <@U55UJ9MH7> tell us how does the system identify whether to write data back or not
+
+rithesh : There's something called as Dirty Bits which when set, the data is written back 
+
+hrily : exactly
+
+hrily : But  Buffer Mngr has a little problem
+
+hrily : The thing is 
+RAM isn't unlimited
+eventually it gets filled
+and theres no room for new requested data
+
+hrily : This is where the biggest responsibility of Buffer Mngr comes
+
+hrily : It has to replace the existing data in order to bring new data
+
+hrily : but he can't do random replacement
+
+hrily : the replaced page may be the next request too
+
+hrily : So we have a Buffer Replacement Policy which helps our Mngr to decide which data to replace
+
+ishaan : okay
+
+hrily : the popular techniques are
++ Least recently used
++ Most recently used
++ Clock replacement
+
+hrily : Least recently used
+the data which is used the oldest is replaced
+
+anumeha29 : okay
+
+hrily : But we have problem with this one
+Let's say we have a table which is larger than RAM
+
+hrily : and we access it sequentially from start to end repeatedly
+
+hrily : this will cause call to HD on every request
+
+hrily : This situation is called *Sequential Flooding*
+
+hrily : So this is where Most recently Used get's handy
+New pages are replaced in this case
+
+hrily : so the total number of HD calls will be minimized in this case
+
+hrily : any doubts
+
+manish : Nope
+
+ishaan : no
+
+rosag31 : no
+
+ram_aditya : nope
+
+anumeha29 : no
+
+bhavishya : no
+
+hrily : okay
+so next is Clock replacement 
+its just an improvement over Least Recently Used
+
+hrily : In Clock replacement 
+We spare the Least Recently used once
+Second time, we replace it
+
+priyam : Is there a priority scheme set for most recently?
+
+hrily : Nope
+just replace the newest member in the RAM
+
+hrily : None of the policy is perfect
+
+priyam : But how does it know weather that's essential data or not
+
+priyam : ohkay
+
+hrily : all have their advantages and disadvantages
+
+hrily : the application decides which ones to use
+
+hrily : any douts
+
+anumeha29 : what do you mean we spare it once ?
+
+anumeha29 : what if there isnt space and something needs to be replaced
+
+hrily : we will go to least recently used 
+if it is spared once before we will replace
+else we move on to next least recently used
+
+hrily : eventually we will find one which is spared once
+
+anumeha29 : oh okay
+
+ram_aditya : What exactly do you mean by spared?
+Does it mean that it has not been removed from RAM?
+
+hrily : yes
+give him one chance
+next time he does mistake 
+punish himadri
+
+hrily : him*
+
+hrily : auto correct is bitch
+
+ishaan : haha. it's ok :sweat_smile::grimacing:
+
+ram_aditya : :sweat_smile: 
+
+ram_aditya : Okay Got it
+
+hrily : Okay
+any more doubts in Bfr Mngr
+
+anumeha29 : nope
+
+bhavishya : no
+
+rosag31 : Nope
+
+ram_aditya : NO
+
+manish : No
+
+priyam : No
+
+anumeha29 : nope
+
+hrily : One more thing 
+We also have _Memory Management _ of Operating system 
+which does the same job as Buffer Mngr
+
+hrily : but why we need Buffer Mngr is 
+Operating system deals with processes in RAM
+but we are dealing with data which can be huge
+
+hrily : got it?
+if yes we'll move on to next topic]
+
+ishaan : yes
+
+anumeha29 : yeah
+
+manish : Yup
+
+bhavishya : okay
+
+rosag31 : Yup
+
+hrily : Okay
+
+ram_aditya : yea
+
+hrily : So lets get started with database storage
+
+priyam : Yea
+
+hrily : we know that database stored as tuple of feild
+
+hrily : you can think it as a row in table
+
+hrily : each of this tuple is called a *Record*
+
+hrily : collection of Fields = *Record*
+collection of Records = *Page*
+collection of Pages = *File*
+
+hrily : And collection of files = *DataBase*
+
+hrily : But to keep it simple the System looks at database in terms of pages
+
+hrily : So does one stored records into  a page
+
+hrily : A file which is stored has two values to identify
++ Base address - the starting address of the file
++ Limit - lenght/size of file
+
+hrily : also each record stored is of *fixed length*
+
+hrily : so given base address and record index 
+one can calculate location of any record
+
+hrily : any doubts
+
+manish : No
+
+ishaan : no
+
+priyam : One fundamental doubt here, can we say tables or a set of records are a way to implement a schema? Not sure here
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5P2A237Y/pasted_image_at_2017_06_03_07_47_pm.png|Files - Base Address and Limit>
+
+hrily : i didn't get you priyam
+what do you mean by
+&gt;  a way to implement
+
+priyam : Or in other sense can we say tables are basically schema?
+
+hrily : scheme is description of a table 
+what the table comprises of, what fields they have, what values can they store
+
+hrily : table is collection of records
+
+hrily : but this is on higher level
+in lower level we wont come across table
+we only see pages and records
+
+hrily : I hope your doubt is cleared
+
+priyam : Yea thanks
+
+hrily : okay
+
+hrily : now not always the record are of fixed length
+we also need to know how to store variable records
+
+hrily : there are two ways
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5MHTL57A/pasted_image_at_2017_06_03_07_52_pm.png|1. using delimeter>
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5N9GER0C/pasted_image_at_2017_06_03_07_53_pm.png|2. using pointer>
+
+hrily : Second offers direct access to i’th field, efficient storage 
+of nulls (special don’t know value); small directory overhead.
+
+hrily : any doubts
+
+anumeha29 : here how are the records not of fixed length ?
+
+ram_aditya : I dint get the second method :face_with_rolling_eyes: 
+
+hrily : let's say we have a comment field having type varchar(160)
+and let's say there's no comment
+so instead of storing 160 null values, we can only store one null to save the memory
+
+ram_aditya : ah..
+
+hrily : this will cause records to be of uneven length
+
+hrily : <@U55UE0J9F> 
+the first 4 boxes are indices which tell where the fields are stored
+
+hrily : so we can go directly to any feild
+
+anumeha29 : oh okayy
+
+hrily : any doubts
+
+manish : No
+
+ishaan : no
+
+rosag31 : nope
+
+bhavishya : no
+
+priyam : Nope
+
+hrily : okay
+now lets see how the variable records are stored in pages
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5P2W2QKZ/pasted_image_at_2017_06_03_07_59_pm.png|Storing variable records in pages>
+
+hrily : Look upside down
+
+hrily : first slot stores the pointer to free space -  in order to add new records
+next slot stores number of records
+consecutive slots store indices to records
+
+hrily : now the record can be stored in any of two methods
++ Delimiter
++ Indexed
+
+hrily : any doubts
+
+ishaan : no
+
+rithesh : no
+
+ram_aditya : no
+
+priyam : No
+
+manish : No
+
+hrily : okay
+
+anumeha29 : No
+
+hrily : now lets see how pages are stored in a file
+pages are stored using heap 
+we maintain a special page 
+which stores addresses of pages in that file, sequentially
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5N9HS35J/pasted_image_at_2017_06_03_08_04_pm.png|Heap files>
+
+hrily : any doubts
+
+rithesh : no
+
+ishaan : nope
+
+bhavishya : no
+
+rosag31 : nope
+
+priyam : no
+
+anumeha29 : nopee
+
+ram_aditya : no
+
+hrily : okay
+so have a five minute break
+we'll start the next lesson
+
+hrily : meanwhile you can  ask doubts
+
+ishaan : okay
+
+hrily : so let's get started
+
+anumeha29 : okayy
+
+hrily : We have seen Relational Database modelling
+We also have seen the SQL language to query DBs
+
+hrily : <@U57AA2TEK> 
+give me a sql query 
+something which is a bit complex
+google if you like
+or get one from previous session
+
+hrily : are we getting one
+
+priyam : Sorry
+
+priyam : just saw you're message
+
+hrily : its okay
+
+priyam : SELECT column-names
+  FROM table-name1
+ WHERE value IN (SELECT column-name
+                   FROM table-name2 
+                  WHERE condition)
+
+hrily : nice
+
+priyam : Googled that^ Subquery concept
+
+hrily : So the topic we are discussing is Relational algebra
+
+hrily : why 'algebra'
+don't we  hate math enough
+
+hrily : but relational algebra is the one which helps the System convert that  single english line of query
+into series of steps to follow 
+in order to get the data which we desire
+
+hrily : There's also Relational Calculas
+But we'll stick to algebra first
+
+ishaan : ok
+
+hrily : So any algebra is defined by two things
++ Operands
++ Operators
+
+hrily : we know the Operands - Data
+
+hrily : let's see the operators
+
+hrily : Selection  (  )    Selects a subset of rows from relation (horizontal).
+Projection  (  )  Retains only wanted columns from relation (vertical).
+Cross-product  (  )  Allows us to combine two relations.
+Set-difference  ( — )  Tuples in r1, but not in r2.
+Union  (  )  Tuples in r1 and/or in r2.
+
+hrily : ohh can't support math symbols
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5NAXLN85/pasted_image_at_2017_06_03_08_21_pm.png|Operators>
+
+hrily : So let's see them one by one
+
+hrily : I'll use following legend as we cant use math symbols:
+Si - sigma, selection
+Pi - Pie, projection
+X - Cross Product
+- - Set Difference
+U - Union
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5N854EHY/pasted_image_at_2017_06_03_08_25_pm.png|Boats>
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5N857DHQ/pasted_image_at_2017_06_03_08_26_pm.png|R1, S1 and S2(unnamed in fig)>
+
+hrily : Sorry guys
+needed some setup
+
+hrily : lets see the operators
+
+hrily : Projection
+select given columns
+eg
+Pi age (S2)
+corrs sql query
+select age from S2
+
+hrily : Selection
+Select rows satisfying given property
+
+hrily : eg
+Si rating&gt;8 (S2)
+corrs sql query
+select * from S2 where rating&gt;8
+
+hrily : Union and set difference are just same as the sets
+
+hrily : for these operations 
+the two table must be *Union Compatible*
+meaning
++ Same number of fields.
++ `Corresponding’ fields have the same type.
+
+hrily : here S1 and S2 are union compatible
+
+hrily : but union and set difference avoids duplications
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5P304HN3/pasted_image_at_2017_06_03_08_31_pm.png|S1 U S2>
+
+hrily : any doubts
+
+ishaan : no
+
+bhavishya : no
+
+manish : No
+
+priyam : no
+
+anumeha29 : no
+
+rosag31 : no
+
+hrily : okay
+lets see cross product
+S1 X R1: Each row of S1 paired with each row of R1.
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5MHYNYFJ/pasted_image_at_2017_06_03_08_33_pm.png|Eg R1 X S1>
+
+hrily : its just as set cross product
+
+hrily : we have values from both the tables
+
+anumeha29 : oh okayy
+
+hrily : These were the simple operators
+Lets see compound operators
+
+hrily : Intersection
+R intersection S = R   (R  S)
+
+hrily : Sorry
+R intersection S = R - (R  - S)
+
+hrily : intersection can be expressed using basic operators
+
+hrily : Next is Join
+You have heard this in last sessin
+
+ishaan : yes
+
+hrily : So the Join is computed as follows:
++ Compute R X S
++ Select rows where attributes that appear in both relations have equal values
+ + Project all unique atttributes and one copy of  each of the common ones.
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5NAZV3KP/pasted_image_at_2017_06_03_08_38_pm.png|R1 join S1>
+
+hrily : Compare above with R1 X S1
+also notice the symbol for join
+
+hrily : any doubts
+
+ishaan : no
+
+priyam : no
+
+anumeha29 : no
+
+bhavishya : no
+
+manish : No
+
+rosag31 : no
+
+hrily : now there is also a conditional join
+join + condition for joining
+it's symbol is theta
+
+hrily : so why do we need this operators?
+
+hrily : <@U56JCBFA9> can you tell
+I have answered it before
+
+anumeha29 : It helps a system query in a systematic order
+
+hrily : exactly
+
+anumeha29 : and operators manipulate data
+
+hrily : Consider R1 = Reserves and S1 = Sailors from now on
+
+hrily : consider sql query
+select sname from sailors, reserves where reserves.bid = 103 and reserves.bid = sailors.bid
+
+hrily : how will we write it in algebra
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5MLYPZ7B/pasted_image_at_2017_06_03_08_46_pm.png|Two solutions> and commented: The two boxes are join symbol
+
+hrily : but see
+the first solution is efficient
++ first we select bid=103 from Reserves (not from Reserves join Sailors, which is larger to search)
++ then we join it with Sailors
++ then we select sname column
+
+hrily : any doubts
+
+bhavishya : no
+
+manish : No
+
+ishaan : no
+
+priyam : no
+
+rithesh : no
+
+anumeha29 : no
+
+rosag31 : nope
+
+hrily : okay
+see why the algebra is imp
+we not only need to get steps 
+but we also need to get minimum number of steps
+
+hrily : a good query optimizer will identify the efficient solution
+
+hrily : That's it 
+We are done for today
+*A bonus Question*
+_The first to give EFFICIENT solution will get a coffee from me from NesCafe_
+
+give me the solution for following
+Find names of sailors who’ve reserved a red boat
+
+hrily : <@U530UCFTL|hrily> uploaded a file: <https://compsocnitk.slack.com/files/hrily/F5P335GNB/pasted_image_at_2017_06_03_08_53_pm.png|For your help>
+
+hrily : hurry up guys
+coffee is waiting
+
+rithesh : lubber and guppy
+
+hrily : are
+I want steps
+
+hrily : not the answer
+
+hrily : we are developing program  to answer
+we are not to answer
+
+anumeha29 : (R join S)join(Si red Boats) ?
+
+anumeha29 : not sure though
+
+manish : Select names from reserves sailors boats where sailors.sid = reserves.sid and reserves.bid=boats.bid and colour=red
+
+hrily : I want steps guys
+First this
+then this
+not query or equation
+
+hrily : simple enough
+
+manish : Ohh kk
+
+bhavishya : Select colour=Red from Boats, Join Boats with Reserves, Select sid from the result, Join Boats and Reserves with Sailors, Select sname column?
+
+ishaan : first we select color=red from boats; then we join that with reserves; we then join that with sailors; and we finally select sname from the resultant join?
+
+anumeha29 : (1) select boat with color red (2) Join R and S (3) Join 1&amp;2 :see_no_evil:
+
+hrily : Okay
+let's see
+
+hrily : <@U55UDASSV> you get the coffee :thumbsup:
+
+bhavishya : Yay thanks :smile:
+
+hrily : others you also are invited
+you did the effort
+
+ishaan : cool :sweat_smile:
+
+hrily : <@U57A20DSS> and <@U56JCBFA9>
+
+hrily : Okay
+I'll leave you guys
+good night
+bye
+
+anumeha29 : Byee and Thank you
+
+ishaan : good night! thanks :slightly_smiling_face:
+
+bhavishya : goodnight thankyou bye
+
+hrily : any doubts 
+you can pm me
+
+ram_aditya : Thank You
+
+priyam : okay! thanks for the session!
+
+salman-bhai : added an integration to this channel: <https://compsocnitk.slack.com/services/B5MPMSR2M|github>
+

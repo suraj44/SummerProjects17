@@ -1,0 +1,501 @@
+salman-bhai : Alright guys so welcome to the 3rd session of this Summer Project
+
+salman-bhai : Things are going to get a bit more intensive over the next few weeks!
+
+salman-bhai : We have some amazing coding tasks planned for you guys coming up!
+
+salman-bhai : Today we're going to have a small introduction to DBMS
+
+salman-bhai : So <@U55UJ9MH7> tell me do you know what is a *Database*?
+
+kenichi : Hi
+
+salman-bhai : <@U52A977UG|salman-bhai> set the channel topic: Session 3: Introduction to DBMS
+
+salman-bhai : Any answers, <@U55UJ9MH7> ?
+
+rosag31 : <@U56DHFD99|rosag31> has joined the channel
+
+rithesh : A set of data held in a computer? 
+
+salman-bhai : Partially Correct
+
+salman-bhai : A Database is basically large set of data organised for search and rettrieval
+
+rithesh : ok 
+
+salman-bhai : Or as Wikipedia defines,
+a usually large collection of data organized especially for rapid search and retrieval (as by a computer)
+
+salman-bhai : So this summer project we're going to build a DBMS
+
+manish : oh wow
+
+salman-bhai : *What is a DBMS*?
+A database management system (DBMS) is a system or software designed to manage a database, and run operations on the data requested by numerous clients.
+
+salman-bhai : That's wikipedia
+
+salman-bhai : WHat it means is that you have data which is organised in a certain manner
+
+salman-bhai : And you need to continuously retrieve data and modify its parmaeters defined in it
+
+salman-bhai : Thus we use a Database management system
+
+salman-bhai : <@U5BP61N94> sarcasm in the middle of session should highly be avoided
+
+manish : thata
+
+manish : sry that was not at all sarcasm
+
+manish : still am sry for that
+
+salman-bhai : Cool
+
+salman-bhai : So this course is all about how data will be managed
+
+salman-bhai : And how to implement databases in general and manage them
+
+salman-bhai : So now we'll talk about properties of a DBMS
+
+salman-bhai : Properties:
+1. *Atomicity*: Database executions either happen or don't. There is no middle stage!
+
+salman-bhai : 2. *Consistency*: An operation never leaves the database in an inconsistent state
+
+salman-bhai : 3. *Isolation* – multiple users can operate on a database without conflicting
+
+salman-bhai : 4. *Durability* – once a database operation completes, it remains even if the database crashes.
+
+salman-bhai : These properties together are known as *ACID* property of a DBMS
+
+salman-bhai : Any doubts till now?
+
+salman-bhai : Sorry guys some theoretical concepts are needed today!
+
+salman-bhai : You'll just have to keep noting them down!
+
+hlpr98 : Whats an inconsistent state?
+
+hlpr98 : could u give an instantce
+
+salman-bhai : A brief idea of what all is going to happen today
+1. data modeling
+2. query languages
+3. file systems &amp; DBMSs
+4. concurrent, fault-tolerant data management
+5. DBMS architecture
+
+rosag31 : I have a doubt, what exactly are the parameters defined in data?Can u give me an eg
+
+salman-bhai : <@U579Y5A7Q> one second
+
+salman-bhai : <@U530UCFTL> will explain
+
+salman-bhai : <@U56DHFD99> will come soon. Towards the end of this session!
+
+rosag31 : Ok:+1:
+
+hlpr98 : salman-bhai: Sure
+
+hrily : <@U579Y5A7Q>  
+inconsistent state can be anything which leads to failure of system
+for eg: incomplete write of data
+So the data written is not correct, the system  goes to inconsistent state
+
+salman-bhai : <@U579Y5A7Q> that happens when two people are writing to a single file at the same timne
+
+hlpr98 : okay
+
+salman-bhai : There are algorithms to prevent that which you'll learn in next to next session
+
+salman-bhai : ANy other doubts people?
+
+hlpr98 : no
+
+nachiket : no
+
+rithesh : nope
+
+bhavishya : no
+
+salman-bhai : Okay moving on
+
+kenichi : :+1:
+
+salman-bhai : So a DBMS allows one or more computer users to create and access data
+
+salman-bhai : So let's talk about another term called *Data Model*
+
+salman-bhai : What is a *Data Model*?
+To do their job, databases store information in a structured manner.
+The Structure used to store that information is called the *Data Model*.
+
+salman-bhai : The most common Data Model used is Relational Model
+
+salman-bhai : It stores information in the form of tables, i.e. rows and columns
+
+salman-bhai : For this Summer Course we'll be focussing on Relational Model
+
+salman-bhai : OKay <@U56DHFD99> tell me can you tell me the difference between *search* and *query*?
+
+salman-bhai : ?*
+
+rosag31 : Ok. so a query  is used to extract data from the database in a readable format according to the user's request whereas a  search engine is a search engine that operates on material stored in a digital databas
+
+ishaan : <@U57A20DSS|ishaan> has joined the channel
+
+rosag31 : and search finds material stored in a digital database
+
+salman-bhai : _a search engine is a search engine_?
+
+salman-bhai : ????
+
+rosag31 : sorry
+
+rosag31 : just once:sweat_smile:
+
+salman-bhai : You wrote those words :smile:
+
+salman-bhai : OKay, so slightly correct
+
+salman-bhai : In simple terms, a query will always give you relevant questions provided you ask the write questions
+
+salman-bhai : It directly interacts with the databse
+
+salman-bhai : Database
+
+salman-bhai : As well as the server which is linked to the database
+
+salman-bhai : However a search will give you results which will *be close* to your answer
+
+salman-bhai : It might or might not be accurate
+
+salman-bhai : Querying is often used for Machine Learning and Data Science related work
+
+salman-bhai : Often when you want to scrape data
+
+salman-bhai : So you can manually scrape data using a certain query keyword in the URL
+
+salman-bhai : For example once I had to scrape 10000 items in a Jabong T-Shirt category for my ML Project
+
+salman-bhai : <http://www.jabong.com/men/clothing/polos-tshirts/?source=topnav_men&amp;limit=1000>
+
+salman-bhai : If you open this link you'll see all 1000 items are loaded
+
+salman-bhai : Whereas if you remove the last _limit=1000_ it'll come back to default of about 25
+
+salman-bhai : <@U530UCFTL> once caused the server to almost crash because of a high query :stuck_out_tongue:
+
+salman-bhai : P.S. Do not try that! They'll blacklist your IP
+
+salman-bhai : Okay any questions!
+
+salman-bhai : ?*
+
+rithesh : no
+
+bhavishya : haha no
+
+manish : no
+
+nachiket : no
+
+ishaan : no
+
+rithesh : But nice ad:stuck_out_tongue:
+
+rosag31 : no
+
+salman-bhai : Okay moving on!
+
+salman-bhai : A few more theoretical concepts!
+
+salman-bhai : *Data Model*
+A data model  is a collection of concepts for describing data.
+
+The *relational model of data* is the most widely used model today.
+
+Main concept:  relation, basically a table with rows and columns.
+Every relation has a schema, which describes the columns, or fields.
+
+salman-bhai : *Schema*
+A schema is a description of a particular collection of data,
+
+salman-bhai : An example of a University Schema would be as follows:
+
+salman-bhai : _Students_ (student_id: string, name: string, login: string, age: integer, gpa:real)
+_Courses_ (cid: string, cname:string, credits:integer) 
+_Enrolled_ (sid:string, cid:string, grade:string)
+
+salman-bhai : <@U56DHFD99> Is this what you were asking?
+
+rosag31 : Yup
+
+salman-bhai : Did you understand now
+
+salman-bhai : This is how data is represented!
+
+rosag31 : Yes i did. Thank you!
+
+salman-bhai : No problem. Moving ahead!
+
+salman-bhai : So now we're going to talk about Concurrency
+
+So let's assume <@U55UC8R09> and <@U57A20DSS> are
+
+salman-bhai : working on a project
+
+salman-bhai : And they are working on the same file!
+
+salman-bhai : So let's say both of them write something on the file and save it at the same time!
+
+salman-bhai : WHat do you think will happen?
+
+salman-bhai : <@U55UC8R09> and <@U57A20DSS> your tun
+
+salman-bhai : turn
+
+salman-bhai : tell me**
+
+ishaan : there will be a conflict?
+
+ishaan : I'm not sure what I should tell :sweat_smile:
+
+salman-bhai : Yup git calls that *Merge Conflict*
+
+ishaan : ohh okay!
+
+salman-bhai : Yes so it'll result in what is called an *inconsistent state*
+
+salman-bhai : Now this will happen in a normal system when both have access to the same file at the same time!
+
+manish : Then.. how to overcome that??
+
+salman-bhai : This brings us to the concept of locks!
+
+salman-bhai : Patience <@U5BP61N94> :stuck_out_tongue:
+
+manish : Ok:sweat_smile:
+
+salman-bhai : So lets continue with our example
+
+salman-bhai : Let's say <@U55UC8R09> wants to write to the file
+
+salman-bhai : and <@U57A20DSS> wants to read the file
+
+salman-bhai : If <@U55UC8R09> asks for access to the file first then the file will be locked! No read or write access will be given to anyone else
+
+salman-bhai : As soon as <@U55UC8R09> finishes writing, the file will then be unlocked and <@U57A20DSS> can access it!
+
+salman-bhai : Simple?
+
+salman-bhai : ANy doubts on this, ask now
+
+salman-bhai : This is a very important concept
+
+manish : My doubt cleared:smiley:
+
+salman-bhai : Okay <@U5BP61N94> what if both ask for access at the same time?
+
+manish : Then i guess who tries to access the file first gets to do the editing
+
+salman-bhai : Both access at the exact same time <@U5BP61N94> **
+
+hlpr98 : why shouldn't the algorithm to create a copy of the original file and let both access simultaneusly and the if edited .. we could use the git concept of merging later
+
+hlpr98 : pls tell the demerit of this if any
+
+manish : I think this can be done:point_up_2: 
+Isnt it
+
+salman-bhai : <@U579Y5A7Q> we're talking of a simple algorithm right now! We'll refine it later.
+
+salman-bhai : Also, there are often memory constraints
+
+salman-bhai : Let's say you have a huge file with 1 million datapoints
+
+salman-bhai : Creating two more backup copies takes up loads of memories
+
+salman-bhai : And the process of creating a backup file and then storing it again and then later deleting it is huge
+
+salman-bhai : So to answer this question, basically the process is aborted and you have to ask for access again
+
+salman-bhai : Again this is a very simple algorithm!
+
+ishaan : okay..
+
+salman-bhai : If you guys have time anytime try to look at this 
+*Strict 2PL locking protocol*
+
+manish : So this process continues until both of them do not access at the same time??
+
+salman-bhai : Umm yeah!
+
+salman-bhai : ANy more doubts
+
+salman-bhai : Ask now!
+
+manish : Ok fine
+
+rithesh : By the definition of locking, as long as the first person is accessing the file, no other person can access it, right?
+
+rosag31 : So the project creators are the ones giving access to someone to work on a file. Am I right?
+
+salman-bhai : Btw Git isn't a relational Database. It's closer to NoSQL which stands for Not Only SQL. We'll be talking about in the coming classes
+
+salman-bhai : <@U55UJ9MH7> yes
+
+salman-bhai : <@U56DHFD99> yes
+
+rithesh : ok
+
+salman-bhai : If you're on Linux you can try one thing
+
+salman-bhai : Type ls -l
+
+rosag31 : ok
+
+salman-bhai : You'll see read, write and execution permissions that you have
+
+salman-bhai : salman@salman-Lenovo-ideapad-310-15ISK:~$ ls -l
+total 248
+drwxr-xr-x 18 salman git      4096 May 12 15:32 All-Projects
+drwxr-xr-x 20 salman salman   4096 Mar 11 09:12 anaconda3
+drwxr-xr-x  3 salman salman   4096 Mar 15 08:16 Android
+drwxr-xr-x  2 salman salman  12288 May  8 16:11 Desktop
+drwxr-xr-x  9 salman salman   4096 May  8 11:51 Documents
+drwxr-xr-x  5 salman salman   4096 May 14 18:13 Downloads
+-rw-r--r--  1 salman salman   8980 Mar 11 01:03 examples.desktop
+drwxr-xr-x  3 salman salman  20480 May  9 11:56 Music
+drwxr-xr-x  3 salman salman   4096 May  5 15:03 PhpstormProjects
+drwxr-xr-x  4 salman salman   4096 May  8 16:01 Pictures
+drwxr-xr-x  2 salman salman   4096 Mar 11 06:41 Public
+drwxrwxrwx  8 salman salman   4096 Apr 13 14:55 Qt
+drwxr-xr-x  2 salman salman   4096 Mar 11 06:41 Templates
+drwxr-xr-x  2 salman salman 159744 May 14 18:10 Videos
+
+salman-bhai : In the first column you can see, read write and execute permissions
+
+salman-bhai : It's for users, groups and general. You can read up on it in a Linux textbook or ask me after the session
+
+salman-bhai : Any other questions?
+
+manish : No
+
+nachiket : no
+
+ishaan : no
+
+rithesh : no
+
+ckbs : no
+
+salman-bhai : Okay last two concepts for today!
+
+salman-bhai : So one is transaction
+
+salman-bhai : A transaction is like an operation that happens in a DBMS
+
+salman-bhai : DBMS ensures atomicity (all-or-nothing property) even if system crashes in the middle of a Transactions.
+
+salman-bhai : So lets say you were making a transaction to write to a databse
+
+salman-bhai : base**
+
+salman-bhai : We want to add a row about student information
+
+salman-bhai : If our data is consistent it'll write to our database
+
+salman-bhai : Even if one of the schema parameters are inconsistent, it won't write to the databse
+
+salman-bhai : database**
+
+salman-bhai : For example if you to input an integer in the age field and you input a string the entire transaction will not proceed
+
+salman-bhai : Second concept is of maintaining *durability*
+
+salman-bhai : DBMS ensures durability of committed transactions even if system crashes.
+Idea: Keep a log (history) of all actions carried out by the DBMS while executing a set of transactions:
+
+salman-bhai : This is highly used in Git
+
+salman-bhai : Check out the .git folder btw sometime. It's always in the root directory\
+
+salman-bhai : Try to mess around with it! It's fun. :stuck_out_tongue:
+
+salman-bhai : *Process of how a log works*
+
+salman-bhai : 1. Before a change is made to the database, the corresponding log entry is forced to a safe location.
+2. After a crash, the effects of partially executed transactions are undone using the log. Effects of committed transactions are redone using the log.
+git uses this process for merging as well!
+
+salman-bhai : The following actions are recorded in the log:
+1. Ti writes an object:  the old value and the new value.
+      Log record must go to disk before the changed page!
+2. Ti commits/aborts:  a log record indicating this action.
+
+salman-bhai : Any doubts here?
+
+salman-bhai : OKay before that one last concept
+
+salman-bhai : *Advantages and disadvantages of a DBMS*:
+
+ishaan : okay
+
+salman-bhai : *Advantages*:
+Concurrent access, crash recovery
+Reduced application development time
+
+salman-bhai : *Disadvantages*
+1. Expensive/complicated to set up &amp; maintain
+2. General-purpose, not suited for special-purpose tasks(example search).
+
+salman-bhai : There are plenty of DBMS vendors like Oracle, Microsoft out there!
+
+salman-bhai : We'll work on our thing and let's see how we fare! :stuck_out_tongue:
+
+salman-bhai : ANy questions
+
+salman-bhai : That'll be all for today
+
+rithesh : no
+
+ishaan : no questions
+
+rosag31 : nope
+
+salman-bhai : We'll be talking about relational model in the next session
+
+nachiket : no
+
+salman-bhai : I guess everyone is hungry! :stuck_out_tongue:
+
+ishaan : :stuck_out_tongue_closed_eyes:
+
+manish : :joy:
+
+salman-bhai : Also how many have not sent a Pull Request
+
+salman-bhai : Guys please take this seriously
+
+manish : Me
+
+manish : We will put it up soon
+
+salman-bhai : I'll have to start removing you guys if you don't keep up with deadlines soon
+
+salman-bhai : We're very serious on having a project that look exceptionally good on your resume and we want dedication from your side as well!
+
+salman-bhai : 11.59 pm Send whatever you've done!
+
+salman-bhai : Anyways gn for now!
+
+salman-bhai : And good attendance!
+
+salman-bhai : I'm online for 10 more minutes
+
+salman-bhai : So is Hrily
+
+salman-bhai : Ping us if you have any doubts
+

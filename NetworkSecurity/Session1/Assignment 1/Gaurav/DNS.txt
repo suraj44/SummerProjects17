@@ -1,0 +1,6 @@
+Domain Name System (DNS) is the system which is responsible for assigning the domain names to the IP addresses.
+The domain names will be usually memorizable for the users to understand . But these names have to be converted 
+into IP addresses in order for the computers to accesss them. 
+ 	DNS servers stores these IP addresses and the corresponding domain names of that address.
+When a particular domain is accessed these DNS servers converts the domain name into the IP address which enables
+the computers to access that particular domain.

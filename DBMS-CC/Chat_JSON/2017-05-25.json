@@ -1,0 +1,133 @@
+[    
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Make sure all the fields are filled and put up a thumbs up here after you're done!",
+        "ts": "1495867543.494456"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "JUst copy paste the INSERT command for different values!",
+        "ts": "1495867556.494997"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56H3SYJG> It's a data type in MySQL",
+        "ts": "1495867572.495866"
+    },
+    {
+        "type": "message",
+        "user": "U56H3SYJG",
+        "text": "Ok",
+        "ts": "1495867609.497474"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Done?",
+        "ts": "1495867680.500232",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U55UB6X9P",
+                    "U55UC8R09",
+                    "U55UDASSV",
+                    "U56JCBFA9",
+                    "U56DHFD99",
+                    "U57AA2TEK",
+                    "U56H3SYJG"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any problems?",
+        "ts": "1495867914.509971"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UC8R09> if we want to find the string 'Sal' how would we run the query?",
+        "ts": "1495868186.522026"
+    },
+    {
+        "type": "message",
+        "user": "U55UC8R09",
+        "text": "SELECT * FROM students where name='Sal'",
+        "thread_ts": "1495868247.524653",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U52A977UG",
+                "ts": "1495868295.527037"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1495868247.524653"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "OKay and if I want a substring called Sal",
+        "ts": "1495868282.526269"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ckbs: Guys run this command",
+        "thread_ts": "1495868247.524653",
+        "parent_user_id": "U55UC8R09",
+        "ts": "1495868295.527037"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "After running <@U55UC8R09>",
+        "ts": "1495868304.527360"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ka command run this",
+        "ts": "1495868309.527569"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "SELECT * FROM students WHERE name LIKE 'sal%';",
+        "thread_ts": "1495868338.528665",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U55UC8R09",
+                "ts": "1495868402.531658"
+            },
+            {
+                "user": "U55UDASSV",
+                "ts": "1495868456.535205"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1495868509.537976"
+            },
+            {
+                "user": "U55UDASSV",
+                "ts": "1495868519.538519"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1495868338.528665"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ANd if you have any doubts ping here!",
+        "ts": "1495868357.529479"
+    }
+]
