@@ -1,0 +1,1666 @@
+[
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Hi. ",
+        "ts": "1497069558.117998"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Guys 10 minutes mei we'll start. ",
+        "ts": "1497069568.118435"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Grab something to eat if you want. ",
+        "ts": "1497069576.118727"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "It'll be a one hour session. ",
+        "ts": "1497069581.118933",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U56JCBFA9",
+                    "U55UE0J9F",
+                    "U55UJ9MH7",
+                    "U5BP61N94",
+                    "U55UDASSV"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": ":+1: ",
+        "ts": "1497069615.120398"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "People online?",
+        "ts": "1497070537.156128"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "yes",
+        "ts": "1497070541.156316"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Hi. ",
+        "ts": "1497070541.156317"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "Hi",
+        "ts": "1497070568.157301"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Hi",
+        "ts": "1497070616.159027"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Hows the project coming up?",
+        "ts": "1497070706.162802"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "Fine i guess:see_no_evil:",
+        "ts": "1497070758.164916"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any Issues resolved?",
+        "ts": "1497070808.167563"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Others?",
+        "ts": "1497070811.167728"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No:neutral_face:",
+        "ts": "1497070867.170544"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "Not yet ;\/",
+        "ts": "1497070896.171748"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Aree",
+        "ts": "1497070935.173323"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Please make that a priority. ",
+        "ts": "1497070962.174650"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Your evaluations are next week. ",
+        "ts": "1497070979.175391"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And this is the most important part of your Summer Project. ",
+        "ts": "1497070993.176043"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Please make sure you don't lose enthusiasm here. ",
+        "ts": "1497071004.176551"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Anyways continuing on Cloud Computing, has anyone worked on the cloud before?",
+        "ts": "1497071029.177579"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "An AWS Instance or Azure for <http:\/\/Code.Fun.Do|Code.Fun.Do> or even Google Firebase which is getting more popular than The App Engine Project.",
+        "ts": "1497071070.179161"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Anyone?",
+        "ts": "1497071072.179259"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Nope",
+        "ts": "1497071104.180769"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Oh okay. ",
+        "ts": "1497071170.183958"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright so I'll try to make this simple. ",
+        "ts": "1497071299.189290"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56JCBFA9> what do you know about the traditional Client and Server system?",
+        "ts": "1497071320.190121"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "?",
+        "ts": "1497071372.192122"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56DHFD99> why don't you answer the same question!",
+        "ts": "1497071386.192755"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "The client–server model is a structure that divides tasks between the providers of a service, called servers, and service requesters, called clients.",
+        "ts": "1497071464.195852"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Correct ",
+        "ts": "1497071483.196684"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "Im not too sure but is it used by one program to fetch requests from clients",
+        "ts": "1497071491.197005"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Though a bit complicated. ",
+        "ts": "1497071497.197208"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "From multiple clients** <@U56JCBFA9> ",
+        "ts": "1497071514.197770"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright so I'll give a brief overview of what all we're going to cover. ",
+        "ts": "1497071530.198371"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You can start taking notes from here. ",
+        "ts": "1497071538.198660"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Or pay attention properly. ",
+        "ts": "1497071543.198967"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Topics to cover\n1. Basic Overview\n2. PAAS, IAAS, SAAS, SOA\n3 Distributed Computing Concepts\n4. Importance and Use Cases",
+        "ts": "1497071611.201405"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So firstly let's take traditional Client and Server technology\nWe have a server for example the NITK Website. ",
+        "ts": "1497071649.202891"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "That's hosted on servers which are situated in NITK itself. ",
+        "ts": "1497071666.203512"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "There are many clients (us) making requests to the server and the server is serving them in the form of HTML Pages. ",
+        "ts": "1497071703.204865"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Which you can view via the browser. ",
+        "ts": "1497071711.205194"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Now however there is a limit to the amount of requests a server can serve. ",
+        "ts": "1497071730.205898"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Maintaining a server is also a difficult task due to the huge amount of electricity and cooling systems required for the servers. ",
+        "ts": "1497071767.207261"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The NITK Network 110kW of power for powering the entire network. ",
+        "ts": "1497071815.209227"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "That's almost the equivalent of a dam at my native place. ",
+        "ts": "1497071828.209830"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": ":smile: ",
+        "ts": "1497071830.209946"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So now let's say you want to have a website but you don't have the resources to maintain it. ",
+        "ts": "1497071858.211209"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "This is where cloud computing comes in. ",
+        "ts": "1497071866.211556"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "A cloud provider will provide you with servers for a set cost and allow people to rent it. ",
+        "ts": "1497071906.213336"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "These servers can be accessed remotely. ",
+        "ts": "1497071914.213778"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "However you won't have physical access to the hardware. ",
+        "ts": "1497071928.214461"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And these are very secure. Plus you will always have backups. ",
+        "ts": "1497071946.215146"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Anyone watched Die Hard 4?",
+        "ts": "1497071956.215529"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Yup",
+        "ts": "1497071963.215824"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "!",
+        "ts": "1497071978.216302"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Yeah so in that movie basically the data and application code is replicated across multiple data centres. ",
+        "ts": "1497072004.217294"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "For those who don't know the plot is to stop the entire machinery of the government which depends on these servers by blowing them up across multiple places. ",
+        "ts": "1497072042.218983"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So if there is no server then even if you send requests to the domain there won't be any reply and you'll get a 404",
+        "ts": "1497072088.220729"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any doubts till now?",
+        "ts": "1497072093.220956"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Nope!",
+        "ts": "1497072100.221195"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "nope",
+        "ts": "1497072118.221800"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "P.S. You definitely need to watch Die Hard 4:stuck_out_tongue: :stuck_out_tongue_winking_eye: :stuck_out_tongue_closed_eyes: :stuck_out_tongue: ",
+        "ts": "1497072120.221858",
+        "reactions": [
+            {
+                "name": "laughing",
+                "users": [
+                    "U530UCFTL",
+                    "U56DHFD99",
+                    "U5BP61N94",
+                    "U55UE0J9F"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Nope ",
+        "ts": "1497072130.222270"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "nope",
+        "ts": "1497072136.222508"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No for doubts",
+        "ts": "1497072158.223250"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Fun Fact: Google keeps 9 copies of your cloud data across various data centres. \nIf even one of the data centre goes down due to a terrorist attack or natural calamity your website will keep running. ",
+        "ts": "1497072206.224931",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U55UE0J9F",
+                    "U5BP61N94",
+                    "U57AA2TEK"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Usually all data centres don't go down all at once. ",
+        "ts": "1497072232.225727"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "But if they do then the entire machinery is paralysed. ",
+        "ts": "1497072250.226343"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Now coming to Cloud Technologies. ",
+        "ts": "1497072263.226833"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "There are 3 major Cloud Technologies that I want to teach today. ",
+        "ts": "1497072281.227403"
+    },
+    {
+        "user": "U52A977UG",
+        "purpose": "DBMS CC Summer Project 2017: Session 7 - Introduction to Cloud Computing",
+        "text": "<@U52A977UG|salman-bhai> set the channel purpose: DBMS CC Summer Project 2017: Session 7 - Introduction to Cloud Computing",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1497072298.227977"
+    },
+    {
+        "user": "U52A977UG",
+        "topic": "Session 8 - Introduction to Cloud Computing",
+        "text": "<@U52A977UG|salman-bhai> set the channel topic: Session 8 - Introduction to Cloud Computing",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1497072316.228642"
+    },
+    {
+        "user": "U52A977UG",
+        "purpose": "DBMS CC Summer Project 2017",
+        "text": "<@U52A977UG|salman-bhai> set the channel purpose: DBMS CC Summer Project 2017",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1497072326.229107"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The first is IaaS",
+        "ts": "1497072341.229762"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Or Infrastructure as a Service. ",
+        "ts": "1497072348.230069"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "In IaaS the application developer will rent infrastructure that is directly the hardware but these data centres are located in secret. ",
+        "ts": "1497072403.232292"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The location of Amazon Data Centres is still unknown after almost 15 years now. ",
+        "ts": "1497072431.233288"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "However there have been technical Issues due to which these servers have been brought down. ",
+        "ts": "1497072468.234680"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Also you can rent an Amazon Instance for free for a year provided you have a card. ",
+        "thread_ts": "1497072485.235313",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U5BP61N94",
+                "ts": "1497072507.236109"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1497072516.236426"
+            },
+            {
+                "user": "U5BP61N94",
+                "ts": "1497072539.237312"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1497072485.235313",
+        "reactions": [
+            {
+                "name": "grimacing",
+                "users": [
+                    "U55UE0J9F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "salman-bhai: what card??",
+        "thread_ts": "1497072485.235313",
+        "parent_user_id": "U52A977UG",
+        "ts": "1497072507.236109"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So let's say you've made a Django app or a Rails app for your personal website, that can be hosted on Amazon for free ",
+        "ts": "1497072509.236201"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Credit Card",
+        "thread_ts": "1497072485.235313",
+        "parent_user_id": "U52A977UG",
+        "ts": "1497072516.236426"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "salman-bhai: kk:joy:",
+        "thread_ts": "1497072485.235313",
+        "parent_user_id": "U52A977UG",
+        "ts": "1497072539.237312"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So basically in IaaS you rent a computer machine. ",
+        "ts": "1497072543.237459"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "It's basically a VM ",
+        "ts": "1497072573.238523"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Which has a high speed internet with a transfer limit of 1TB or more a month. ",
+        "ts": "1497072605.239940"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "They have power backup and cooling system to guarantee from hardware failures. ",
+        "ts": "1497072633.241181"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Usually you login the computer via ssh",
+        "ts": "1497072652.241809"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And use FTP to transfer the files of your server. ",
+        "ts": "1497072667.242458"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Also the server itself can have git installed. ",
+        "ts": "1497072679.242945"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So you can get code there directly as well",
+        "ts": "1497072713.244357"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Server code",
+        "ts": "1497072716.244526"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any doubts till now",
+        "ts": "1497072721.244731"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1497072732.245224"
+    },
+    {
+        "type": "message",
+        "user": "U56H3SYJG",
+        "text": "No",
+        "ts": "1497072737.245538"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "no",
+        "ts": "1497072738.245592"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "noopee",
+        "ts": "1497072739.245639"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "nope",
+        "ts": "1497072742.245757"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So Disadvantages of IaaS",
+        "ts": "1497072759.246445"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Can anyone tell me that. ",
+        "ts": "1497072767.246703"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "?",
+        "ts": "1497072798.247810"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "expensive ?",
+        "ts": "1497072799.247844"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Not really. I just told you AWS gives it for free for a year",
+        "ts": "1497072819.248583"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": ":sweat_smile: ",
+        "ts": "1497072830.248952"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "no automated backup in iaas ?",
+        "ts": "1497072836.249166"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "like the user would have to create one ?",
+        "ts": "1497072851.249712"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "The transfer limit?",
+        "ts": "1497072855.249887"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Umm no. ",
+        "thread_ts": "1497072867.250321",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U55UE0J9F",
+                "ts": "1497072903.251704"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1497072867.250321"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You can run a crib job for that <@U56JCBFA9> ",
+        "thread_ts": "1497072879.250757",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U55UE0J9F",
+                "ts": "1497073223.264293"
+            },
+            {
+                "user": "U55UE0J9F",
+                "ts": "1497073226.264400"
+            },
+            {
+                "user": "U52A977UG",
+                "ts": "1497075589.352674"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1497072879.250757"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UE0J9F> didn't get you there?",
+        "ts": "1497072889.251105"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You're saying 1 TB is less. ",
+        "ts": "1497072900.251552"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "salman-bhai: Whats a crib job?",
+        "thread_ts": "1497072867.250321",
+        "parent_user_id": "U52A977UG",
+        "ts": "1497072903.251704"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "What code have you written that goes even 1 GB ",
+        "ts": "1497072915.252160"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": ":sweat_smile: ",
+        "ts": "1497072918.252268"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "A cron job**",
+        "ts": "1497072940.253036"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Maybe for big businesses!:sweat_smile: ",
+        "ts": "1497072942.253095"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Nahi nahi. ",
+        "ts": "1497072947.253259"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Code doesn't take much space. ",
+        "ts": "1497072954.253468"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay do the problem with IaaS is this. ",
+        "ts": "1497072962.253749"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Fluctuating loads. ",
+        "ts": "1497072970.254118"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So if the server has to serve more requests naturally it'll take more time for your request to be fulfilled if there are more clients in the queue",
+        "ts": "1497073001.255322"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And it'll be very fast if no one is there in the queue",
+        "ts": "1497073016.255787"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So basically you don't know how powerful your server should be when you take up your plan. ",
+        "ts": "1497073036.256701"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Let's say you take a very powerful server capable of serving 100s of clients at once. ",
+        "ts": "1497073052.257415"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "But then it'll be wasted if you don't have that many clients. ",
+        "ts": "1497073074.258361"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "And vice versa for a less powerful server",
+        "ts": "1497073088.259017"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So to solve this we have PaaS",
+        "ts": "1497073095.259345"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Platform as a Service. ",
+        "ts": "1497073102.259586"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any doubts till now?",
+        "ts": "1497073108.259790"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "nope",
+        "ts": "1497073114.260033"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Nopee",
+        "ts": "1497073129.260682"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1497073133.260809"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "no",
+        "ts": "1497073136.260887"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1497073137.260951"
+    },
+    {
+        "type": "message",
+        "user": "U56H3SYJG",
+        "text": "Ni",
+        "ts": "1497073171.262297"
+    },
+    {
+        "type": "message",
+        "user": "U56H3SYJG",
+        "text": "No*",
+        "ts": "1497073176.262439"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright so we'll talk about PaaS now. ",
+        "ts": "1497073213.263862"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "salman-bhai: whata a cron job?",
+        "thread_ts": "1497072879.250757",
+        "parent_user_id": "U52A977UG",
+        "ts": "1497073223.264293"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "salman-bhai: whats*",
+        "thread_ts": "1497072879.250757",
+        "parent_user_id": "U52A977UG",
+        "ts": "1497073226.264400"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The 'Platform' in PaaS refers to a computational resource for example the Linux Platform or the Windows Platform",
+        "ts": "1497073255.265334"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So instead of renting an Infrastructure you rent the entire platform. ",
+        "ts": "1497073271.265896"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "This is very helpful in scaling ",
+        "ts": "1497073286.266369"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Which I'll talk about in a while. ",
+        "ts": "1497073296.266695"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "But basically we have a set of tools including an OS that helps us use our processor. ",
+        "ts": "1497073326.267644"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If I give you a brand new CPU, you wont be able to exploit it unless I give you a platform to use it. ",
+        "ts": "1497073366.269064"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "PaaS provides a common method to use those few features with a common interface. ",
+        "ts": "1497073403.270293"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U56JCBFA9> what would be the path of your desktop on a Windows Machine?",
+        "ts": "1497073430.271185"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UDASSV> what would be the path of your desktop in a Linux Machine. ",
+        "ts": "1497073446.271829"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The Linux command is *pwd* in case you open the terminal in the Desktop directory",
+        "ts": "1497073479.272919"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "????",
+        "ts": "1497073532.274904"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "People awake or everyone slept off?",
+        "ts": "1497073544.275277"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Google the answer if you have to. :sweat_smile: ",
+        "ts": "1497073555.275619"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Others?",
+        "ts": "1497073560.275785"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "home\/(username)\/Desktop?",
+        "edited": {
+            "user": "U55UDASSV",
+            "ts": "1497073648.000000"
+        },
+        "ts": "1497073577.276454"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "On windows machine\nIt will be in C users",
+        "ts": "1497073584.276747"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "C:\\Users\\Anumeha\\Desktop\\",
+        "edited": {
+            "user": "U56JCBFA9",
+            "ts": "1497073649.000000"
+        },
+        "ts": "1497073589.276963"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Yes. ",
+        "ts": "1497073671.279810"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So now as you can see the path is platform dependent. ",
+        "ts": "1497073688.280457"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Absolute path**",
+        "ts": "1497073692.280582"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "But PaaS will provide you with a single function, let's say getDesktopPath()",
+        "ts": "1497073721.281731"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Internally it may be implemented like this. ",
+        "ts": "1497073742.282386"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Internally it may be implemented like - getDesktopPath() { if(os == win) return “C\\\\Docume…”; else if(os== linux) return “\/home\/\n…”; }",
+        "ts": "1497073811.284676"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U52A977UG|salman-bhai> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5RR7K5LM\/getdesktoppath___function.c|getDesktopPath() function> and commented: Any doubts till here?",
+        "file": {
+            "id": "F5RR7K5LM",
+            "created": 1497073876,
+            "timestamp": 1497073876,
+            "name": "getDesktopPath___function.c",
+            "title": "getDesktopPath() function",
+            "mimetype": "text\/plain",
+            "filetype": "c",
+            "pretty_type": "C",
+            "user": "U52A977UG",
+            "editable": true,
+            "size": 120,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5RR7K5LM\/getdesktoppath___function.c?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5RR7K5LM\/download\/getdesktoppath___function.c?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5RR7K5LM\/getdesktoppath___function.c",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5RR7K5LM-abe9c00225",
+            "edit_link": "https:\/\/compsocnitk.slack.com\/files\/salman-bhai\/F5RR7K5LM\/getdesktoppath___function.c\/edit",
+            "preview": "getDesktopPath() { \r\n\tif(os == win) \r\n\t\treturn “C\\\\Docume…”; \r\n\telse if(os== linux) \r\n\treturn “\/home\/…”; \r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">getDesktopPath<\/span>() { <\/pre><\/div>\n<div><pre>\t<span class=\"cm-keyword\">if<\/span>(<span class=\"cm-variable\">os<\/span> <span class=\"cm-operator\">==<\/span> <span class=\"cm-variable\">win<\/span>) <\/pre><\/div>\n<div><pre>\t\t<span class=\"cm-keyword\">return<\/span> <span class=\"cm-variable\">“C<\/span><span class=\"cm-variable\">\\<\/span><span class=\"cm-variable\">\\Docume…”<\/span>; <\/pre><\/div>\n<div><pre>\t<span class=\"cm-keyword\">else<\/span> <span class=\"cm-keyword\">if<\/span>(<span class=\"cm-variable\">os<\/span><span class=\"cm-operator\">==<\/span> <span class=\"cm-variable\">linux<\/span>) <\/pre><\/div>\n<div><pre>\t<span class=\"cm-keyword\">return<\/span> <span class=\"cm-variable\">“<\/span><span class=\"cm-operator\">\/<\/span><span class=\"cm-variable\">home<\/span><span class=\"cm-operator\">\/<\/span><span class=\"cm-variable\">…”<\/span>; <\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5R5R6DB3",
+                "created": 1497073876,
+                "timestamp": 1497073876,
+                "user": "U52A977UG",
+                "is_intro": true,
+                "comment": "Any doubts till here?"
+            }
+        },
+        "user": "U52A977UG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "salman-bhai",
+        "bot_id": null,
+        "ts": "1497073877.286838"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "nope",
+        "ts": "1497073903.287778"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "No",
+        "ts": "1497073909.288003"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1497073911.288036"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1497073920.288343"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "nope",
+        "ts": "1497073938.288968"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So one last thing about PaaS before we move on. PaaS is really easy to scale. So let's say you write a super awesome blog that just went viral. And you get a million views on it even though usually you had a million views on it. In a traditional server system, your serve r will crash. ",
+        "ts": "1497073988.290881"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "However PaaS will simply add a new processor to your app. ",
+        "ts": "1497074006.291511"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Now in scaling there are two types. ",
+        "ts": "1497074023.292056"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "1. Vertical Scaling: Add more resources\n2. Horizontal Scaling: Adding more machines altogether and diverting half the requests to the new machine. ",
+        "ts": "1497074082.293988"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Resources would refer to processing capabilities, memory, etc. ",
+        "ts": "1497074119.295322"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Now typical examples of IaaS are: Amazon's AWS EC2(the free wala), Google Compute Engine, Racksoace, Digital Ocean Droplet",
+        "ts": "1497074167.296984"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "For PaaS we have: Amazon Elastic Beanstalk, Google App Engine(highly recommend if you're into Android), Azure Cloud(recommended if you want to participate in <http:\/\/Code.Fun.Do|Code.Fun.Do>) and Heroku(another free option to host your code) ",
+        "ts": "1497074236.299833"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So are we clear on everything till now?",
+        "ts": "1497074249.300285"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Yup",
+        "ts": "1497074265.300833"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "yeah",
+        "ts": "1497074273.301105"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "yeah",
+        "ts": "1497074276.301243"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Yeah",
+        "ts": "1497074282.301398"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "I had a doubt, is scaling done implicitly?",
+        "ts": "1497074297.301947"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Depends on your provider. But in most cases it is done implicitly. ",
+        "ts": "1497074322.302909"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Fun fact Flipkart runs on Amazon's PaaS service. :stuck_out_tongue_closed_eyes: :stuck_out_tongue_winking_eye: ",
+        "ts": "1497074338.303386",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U5BP61N94",
+                    "U56JCBFA9",
+                    "U55UE0J9F"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "IaaS service*£",
+        "ts": "1497074355.304102"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Basically AWS. ",
+        "ts": "1497074362.304324"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Cool:smiley:",
+        "ts": "1497074363.304357"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Okay so we come to the last service. ",
+        "ts": "1497074434.307912"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "It's called SaaS, Software as a Service",
+        "ts": "1497074450.308569"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Here there is no server at all. ",
+        "ts": "1497074459.308962"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "It's typically done in the form of APIs",
+        "ts": "1497074473.309601"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "SaaS is more like renting a MySQL server. ",
+        "ts": "1497074490.310266"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So you ask a few questions to the SQL server and it gives you answers. ",
+        "ts": "1497074581.313945"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So Google has a lot of APIs for let's say you want to make an app which tells you about the nearest coffee shops in your area. ",
+        "ts": "1497074609.315214"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You call a Google Maps API which gives you the said information. ",
+        "ts": "1497074629.315881"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "SaaS more or less compliments PaaS and IaaS",
+        "ts": "1497074645.316435"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So a typical flow would look something like this. ",
+        "ts": "1497074670.317428"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "User -&gt; App -&gt; Service -&gt; Backend -&gt; Hardware ",
+        "ts": "1497074693.318497"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You only have to develop the app part of it. ",
+        "ts": "1497074703.318929"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Any doubts till now?",
+        "ts": "1497074733.320195"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1497074741.320522"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "noo",
+        "ts": "1497074742.320585"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1497074754.321038"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "mo",
+        "ts": "1497074758.321237"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "No ",
+        "ts": "1497074759.321297"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Alright so one last thing I want to discuss is how to get started with Cloud Computing",
+        "ts": "1497074829.324374"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "A typical Cloud App will have a web interface for the Users to interact with. ",
+        "ts": "1497074853.325274"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "The interface is Developed using frameworks like Django, MEAN, Rails",
+        "ts": "1497074883.326378"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Then there is the data Backend where Devs have two choices: SQL and NoSQL which stands for Not Only SQL",
+        "ts": "1497074913.327591"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "SQL includes Amazon's RDBMS and Google Cloud Storage",
+        "ts": "1497074932.328222"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "NoSQL includes Amazon DynamoDB and Google Cloud Datastore",
+        "ts": "1497074950.328839"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "There is also CouchDB and MongoDB which is popular amongst MEAN drvs",
+        "ts": "1497074977.329793"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Developers**",
+        "ts": "1497074982.329930"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You can deploy a free web app to Heroku if you want. ",
+        "ts": "1497075003.330696"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "If you'd like to try out PaaS that is. ",
+        "ts": "1497075012.331107"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Also migration of data is difficult in Cloud unless you don't backup it on GitHub or BitBucket ",
+        "ts": "1497075054.332577"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "I'm done for today. ",
+        "ts": "1497075129.335328"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Let me know if you have doubts. ",
+        "ts": "1497075140.335813"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": ":sweat_smile: ",
+        "ts": "1497075142.335938"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "Thanks a lot !",
+        "ts": "1497075158.336605"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Whats a cron job?",
+        "ts": "1497075180.337361"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "We'll have a session tomorrow as well for the project. ",
+        "ts": "1497075182.337420"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Please make Issues in your repositories. ",
+        "ts": "1497075191.337721"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<@U55UE0J9F> have you heard of Bash Scripts",
+        "ts": "1497075204.338159"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "?*",
+        "ts": "1497075206.338190"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So basically a cron job is used to automate tasks periodically. ",
+        "ts": "1497075249.339672"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Yes i have..",
+        "ts": "1497075265.340250"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "For example I have a repository on GitHub where I put up all my Competitive Coding codes. ",
+        "ts": "1497075269.340357"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Now everytime I have to write the same commands \ngit add .\ngit commit -m \"Random Message\"\ngit push origin master",
+        "ts": "1497075303.341618"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So instead of manually typing everyday if there is something to commit the from job automatically types out these commands for me in a script and pushes the code ",
+        "ts": "1497075349.343408"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "A cron job is periodical. ",
+        "ts": "1497075359.343814"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Ooh yeah Got it",
+        "ts": "1497075371.344267"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "So it can be everyday, everymonth every week whatever that you want. ",
+        "ts": "1497075375.344466"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "You can Google up how to do a cron job. ",
+        "ts": "1497075385.344844"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Thank You!:)",
+        "ts": "1497075394.345213"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "<https:\/\/github.com\/salman-bhai\/Competitive-Coding\/commits\/master>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "salman-bhai\/Competitive-Coding",
+                "title_link": "https:\/\/github.com\/salman-bhai\/Competitive-Coding\/commits\/master",
+                "text": "Competitive-Coding - [ONGOING] Solutions for Competitive Programming Problems in websites like CodeChef, HackerEarth, HackerRank and GeeksForGeeks",
+                "fallback": "GitHub: salman-bhai\/Competitive-Coding",
+                "from_url": "https:\/\/github.com\/salman-bhai\/Competitive-Coding\/commits\/master",
+                "thumb_url": "https:\/\/avatars0.githubusercontent.com\/u\/16410361?v=3&s=400",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1497075420.346239"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Take a look at the Commit Messages. You'll understand it more properly!",
+        "ts": "1497075439.347050"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "ANy other doubts guys?",
+        "ts": "1497075447.347302"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1497075464.347876"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Thanks a lot!!",
+        "ts": "1497075470.348072"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Nope, thank you for the session!",
+        "ts": "1497075472.348141"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Hope you got that!",
+        "thread_ts": "1497072879.250757",
+        "parent_user_id": "U52A977UG",
+        "ts": "1497075589.352674"
+    },
+    {
+        "type": "message",
+        "user": "U52A977UG",
+        "text": "Awesome good day ahead guys. ",
+        "ts": "1497075647.355182",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U57AA2TEK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+Ciphers are nothing but cryptographic systems.
+
+A Cipher is simply an algorithm for performing both encryption and decryption of a message.
+
+Some of the different types of Ciphers are:-
+
+Caeser Cipher:-
+	It is a cipher in which each letter in a alphabet is shifted to some other alphabet.
+The number by which the alphabet is shifted is the "KEY" of encryption. It is between 0 and 25.
+
+This cipher can fail because there are only 26 possible keys to try out.
+
+Simple Substitution Cipher:-
+	 Instead of shifting the alphabets by some number, this scheme 
+uses some permutation of the letters in alphabet.
+
+With 26 letters in alphabet, the possible permutations are 26! (Factorial of 26) which is 
+equal to 4x10^26. The sender and the receiver may choose any one of these possible permutation
+ as a ciphertext alphabet. This permutation is the secret key of the scheme.
+
+Transposition Cipher:-
+	It is another type of cipher where the order of the alphabets in the plaintext is
+ rearranged to create the ciphertext. The actual plaintext alphabets are not replaced.
+A key is selected and a table with as many columns as the key is drawn and the message is
+written in that. The same message when read vertically gives the ciphretext which is sent.
+The receiver also constructs a table with the number of columns same as that of the key
+and writes down the message and gets back the plain text.
+
+
+There are some more ciphers such as Vignere cipher , Playfair cipher, Block cipher and many 
+more.
+
+Ciphers should be chosen according to the situation and according to the complexity.
+Ciphers can fail easily when the key can be found out easily. Hence the key should be 
+chosen such that it cannot be found out from Brute force attacks and exhaustive searches.
+The key length also should be preferably longer as it gets difficult to find the key as it 
+gets longer.
+
+
+3. Message confidentiality can be achieved by using both symmetric and assymetric methods simultaneosly.
+First the sender encrypts the message using key of the symmetric method.The encrypted message is then again encrypted
+using the public key of the receiver.The doubly encrypted message is then sent to the reciever.
+
+The receiver then decrypts the message using his private key.He agains decrypts the message using the symmetric method key
+and get back the original message . This is better because the message wont get leaked even if one key is leaked.
+
+ 
+ 
+
+
