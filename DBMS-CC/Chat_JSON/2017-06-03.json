@@ -1,0 +1,2304 @@
+[
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "hello everoney",
+        "ts": "1496496609.802207"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "everyone",
+        "ts": "1496496614.802487"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "Hi",
+        "ts": "1496496629.803411"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "hi",
+        "ts": "1496496632.803612"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "hi",
+        "ts": "1496496633.803655"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "hi",
+        "ts": "1496496637.803833"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "how are vacations going",
+        "ts": "1496496651.804504"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "cool",
+        "ts": "1496496665.805417"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "what about you?",
+        "ts": "1496496676.806072"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "hello",
+        "ts": "1496496681.806304"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Hi",
+        "ts": "1496496686.806597"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Mine's great",
+        "ts": "1496496695.807010"
+    },
+    {
+        "user": "U530UCFTL",
+        "topic": "Session 7 - Database storage and Relational Algebra",
+        "text": "<@U530UCFTL|hrily> set the channel topic: Session 7 - Database storage and Relational Algebra",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1496496832.814393"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "We'll wait few moments for everyone to be online",
+        "ts": "1496496871.816424"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "Okayy",
+        "ts": "1496496880.816835"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "We'll get started",
+        "ts": "1496497040.825453"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "come back guys",
+        "ts": "1496497046.825766"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Topics for today\n+ Review on Buffers\n+ Database Storage\n+ Relational Algebra",
+        "ts": "1496497085.827813"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So let's have a quick recap",
+        "ts": "1496497098.828644"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay",
+        "ts": "1496497102.828822"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U55UDASSV> \nTell us \nwhere should be any data brought in order to operate on it",
+        "ts": "1496497140.831000"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "Data should be brought from HD to RAM using Buffers",
+        "ts": "1496497205.834665"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Exactly",
+        "ts": "1496497213.835127"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "HD consists data in hundreds of GBs\nand RAM is few Gigs",
+        "ts": "1496497261.837858"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So we have a guy called Buffer Manager who hides this fact",
+        "ts": "1496497285.839084"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "He's the one responsible for bringing in the data to RAM",
+        "ts": "1496497315.840580"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U57A20DSS> \nCan you guess some other responsibilities of Buffer Mngr",
+        "ts": "1496497353.842822"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "maybe it decides what data to keep temporarily in main memory based on how frequently it is used",
+        "ts": "1496497457.848301"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "yes",
+        "ts": "1496497465.848737"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So the few responsibilities are:\n+ Get data from HD to RAM whenever required\n+ Writing back the data from RAM to HD if the data has changed",
+        "ts": "1496497531.852473"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U55UJ9MH7> tell us how does the system identify whether to write data back or not",
+        "ts": "1496497567.854399"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "There's something called as Dirty Bits which when set, the data is written back ",
+        "ts": "1496497647.858858"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "exactly",
+        "ts": "1496497657.859356"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "But  Buffer Mngr has a little problem",
+        "ts": "1496497685.860879"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "The thing is \nRAM isn't unlimited\neventually it gets filled\nand theres no room for new requested data",
+        "ts": "1496497723.863030"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "This is where the biggest responsibility of Buffer Mngr comes",
+        "ts": "1496497751.864445"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "It has to replace the existing data in order to bring new data",
+        "ts": "1496497780.865923"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "but he can't do random replacement",
+        "ts": "1496497798.866896"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "the replaced page may be the next request too",
+        "ts": "1496497810.867615"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So we have a Buffer Replacement Policy which helps our Mngr to decide which data to replace",
+        "ts": "1496497845.869484"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay",
+        "ts": "1496497860.870331"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "the popular techniques are\n+ Least recently used\n+ Most recently used\n+ Clock replacement",
+        "ts": "1496497930.873920"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Least recently used\nthe data which is used the oldest is replaced",
+        "ts": "1496498044.880039"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "okay",
+        "ts": "1496498063.881052"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "But we have problem with this one\nLet's say we have a table which is larger than RAM",
+        "ts": "1496498103.883114"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "and we access it sequentially from start to end repeatedly",
+        "ts": "1496498140.885172"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "this will cause call to HD on every request",
+        "ts": "1496498159.886113"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "This situation is called *Sequential Flooding*",
+        "ts": "1496498175.887047"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So this is where Most recently Used get's handy\nNew pages are replaced in this case",
+        "ts": "1496498243.890645"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "so the total number of HD calls will be minimized in this case",
+        "ts": "1496498267.891913"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts",
+        "ts": "1496498302.893916"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Nope",
+        "ts": "1496498327.895614"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1496498341.896321"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "no",
+        "ts": "1496498361.897430"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "nope",
+        "ts": "1496498369.897865"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "no",
+        "ts": "1496498373.898086"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1496498381.898586"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "okay\nso next is Clock replacement \nits just an improvement over Least Recently Used",
+        "ts": "1496498415.901469"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "In Clock replacement \nWe spare the Least Recently used once\nSecond time, we replace it",
+        "ts": "1496498446.903846"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Is there a priority scheme set for most recently?",
+        "ts": "1496498461.904804"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Nope\njust replace the newest member in the RAM",
+        "ts": "1496498491.906822"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "None of the policy is perfect",
+        "ts": "1496498512.908219"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "But how does it know weather that's essential data or not",
+        "ts": "1496498521.908757"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "ohkay",
+        "ts": "1496498528.909173"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "all have their advantages and disadvantages",
+        "ts": "1496498531.909400"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "the application decides which ones to use",
+        "ts": "1496498549.910803"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any douts",
+        "ts": "1496498593.914031"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "what do you mean we spare it once ?",
+        "ts": "1496498624.915847"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "what if there isnt space and something needs to be replaced",
+        "ts": "1496498636.916554"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "we will go to least recently used \nif it is spared once before we will replace\nelse we move on to next least recently used",
+        "ts": "1496498704.920861"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "eventually we will find one which is spared once",
+        "ts": "1496498727.922324"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "oh okay",
+        "ts": "1496498741.923140"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "What exactly do you mean by spared?\nDoes it mean that it has not been removed from RAM?",
+        "ts": "1496498750.923657"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "yes\ngive him one chance\nnext time he does mistake \npunish himadri",
+        "ts": "1496498786.925972"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "him*",
+        "ts": "1496498794.926483"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "auto correct is bitch",
+        "ts": "1496498800.926813"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "haha. it's ok :sweat_smile::grimacing:",
+        "ts": "1496498826.928331"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": ":sweat_smile: ",
+        "ts": "1496498834.928781"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Okay Got it",
+        "ts": "1496498848.929673"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Okay\nany more doubts in Bfr Mngr",
+        "ts": "1496498849.929704"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "nope",
+        "ts": "1496498855.930067"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1496498856.930142"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Nope",
+        "ts": "1496498860.930352"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "NO",
+        "ts": "1496498860.930356"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1496498860.930374"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "No",
+        "ts": "1496498867.930709"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "nope",
+        "ts": "1496498891.932018"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "One more thing \nWe also have _Memory Management _ of Operating system \nwhich does the same job as Buffer Mngr",
+        "ts": "1496498910.933079"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "but why we need Buffer Mngr is \nOperating system deals with processes in RAM\nbut we are dealing with data which can be huge",
+        "ts": "1496498953.935587"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "got it?\nif yes we'll move on to next topic]",
+        "ts": "1496498977.936910"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "yes",
+        "ts": "1496498986.937526"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "yeah",
+        "ts": "1496498991.937804"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Yup",
+        "ts": "1496498994.937974"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "okay",
+        "ts": "1496499001.938389"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "Yup",
+        "ts": "1496499008.938883"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Okay",
+        "ts": "1496499019.939616"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "yea",
+        "ts": "1496499028.940098"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So lets get started with database storage",
+        "ts": "1496499033.940426"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Yea",
+        "ts": "1496499044.941098"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "we know that database stored as tuple of feild",
+        "ts": "1496499058.942029"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "you can think it as a row in table",
+        "ts": "1496499075.943110"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "each of this tuple is called a *Record*",
+        "ts": "1496499090.944030"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "collection of Fields = *Record*\ncollection of Records = *Page*\ncollection of Pages = *File*",
+        "ts": "1496499141.946869"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "And collection of files = *DataBase*",
+        "ts": "1496499182.949153"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "But to keep it simple the System looks at database in terms of pages",
+        "ts": "1496499216.951020"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So does one stored records into  a page",
+        "ts": "1496499242.952429"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "A file which is stored has two values to identify\n+ Base address - the starting address of the file\n+ Limit - lenght\/size of file",
+        "ts": "1496499324.956976"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "also each record stored is of *fixed length*",
+        "ts": "1496499361.958933"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "so given base address and record index \none can calculate location of any record",
+        "ts": "1496499406.961314"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts",
+        "ts": "1496499414.961835"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1496499435.962961"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1496499450.963783"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "One fundamental doubt here, can we say tables or a set of records are a way to implement a schema? Not sure here",
+        "ts": "1496499454.963962"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5P2A237Y\/pasted_image_at_2017_06_03_07_47_pm.png|Files - Base Address and Limit>",
+        "file": {
+            "id": "F5P2A237Y",
+            "created": 1496499459,
+            "timestamp": 1496499459,
+            "name": "Pasted image at 2017_06_03 07_47 PM.png",
+            "title": "Files - Base Address and Limit",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 11835,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5P2A237Y\/pasted_image_at_2017_06_03_07_47_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5P2A237Y\/download\/pasted_image_at_2017_06_03_07_47_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P2A237Y-6c03ca237f\/pasted_image_at_2017_06_03_07_47_pm_64.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P2A237Y-6c03ca237f\/pasted_image_at_2017_06_03_07_47_pm_80.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P2A237Y-6c03ca237f\/pasted_image_at_2017_06_03_07_47_pm_360.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360_w": 360,
+            "thumb_360_h": 136,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P2A237Y-6c03ca237f\/pasted_image_at_2017_06_03_07_47_pm_160.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "image_exif_rotation": 1,
+            "original_w": 431,
+            "original_h": 163,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5P2A237Y\/pasted_image_at_2017_06_03_07_47_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5P2A237Y-208d2e2a31",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1496499460.964321"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "i didn't get you priyam\nwhat do you mean by\n&gt;  a way to implement",
+        "ts": "1496499499.966563"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Or in other sense can we say tables are basically schema?",
+        "ts": "1496499538.968912"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "scheme is description of a table \nwhat the table comprises of, what fields they have, what values can they store",
+        "ts": "1496499583.971397"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "table is collection of records",
+        "ts": "1496499599.972297"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "but this is on higher level\nin lower level we wont come across table\nwe only see pages and records",
+        "ts": "1496499649.975214"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "I hope your doubt is cleared",
+        "ts": "1496499670.976354"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Yea thanks",
+        "ts": "1496499689.977396"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "okay",
+        "ts": "1496499696.977742"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "now not always the record are of fixed length\nwe also need to know how to store variable records",
+        "ts": "1496499739.979946"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "there are two ways",
+        "ts": "1496499745.980251"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5MHTL57A\/pasted_image_at_2017_06_03_07_52_pm.png|1. using delimeter>",
+        "file": {
+            "id": "F5MHTL57A",
+            "created": 1496499784,
+            "timestamp": 1496499784,
+            "name": "Pasted image at 2017_06_03 07_52 PM.png",
+            "title": "1. using delimeter",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 10864,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5MHTL57A\/pasted_image_at_2017_06_03_07_52_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5MHTL57A\/download\/pasted_image_at_2017_06_03_07_52_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MHTL57A-6707aa6ca4\/pasted_image_at_2017_06_03_07_52_pm_64.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MHTL57A-6707aa6ca4\/pasted_image_at_2017_06_03_07_52_pm_80.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MHTL57A-6707aa6ca4\/pasted_image_at_2017_06_03_07_52_pm_360.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360_w": 360,
+            "thumb_360_h": 79,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MHTL57A-6707aa6ca4\/pasted_image_at_2017_06_03_07_52_pm_160.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "image_exif_rotation": 1,
+            "original_w": 462,
+            "original_h": 101,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5MHTL57A\/pasted_image_at_2017_06_03_07_52_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5MHTL57A-4ed883a045",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1496499785.982609"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5N9GER0C\/pasted_image_at_2017_06_03_07_53_pm.png|2. using pointer>",
+        "file": {
+            "id": "F5N9GER0C",
+            "created": 1496499800,
+            "timestamp": 1496499800,
+            "name": "Pasted image at 2017_06_03 07_53 PM.png",
+            "title": "2. using pointer",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 6765,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5N9GER0C\/pasted_image_at_2017_06_03_07_53_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5N9GER0C\/download\/pasted_image_at_2017_06_03_07_53_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N9GER0C-7ec9ab77b9\/pasted_image_at_2017_06_03_07_53_pm_64.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N9GER0C-7ec9ab77b9\/pasted_image_at_2017_06_03_07_53_pm_80.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N9GER0C-7ec9ab77b9\/pasted_image_at_2017_06_03_07_53_pm_360.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360_w": 360,
+            "thumb_360_h": 61,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N9GER0C-7ec9ab77b9\/pasted_image_at_2017_06_03_07_53_pm_160.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "image_exif_rotation": 1,
+            "original_w": 414,
+            "original_h": 70,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5N9GER0C\/pasted_image_at_2017_06_03_07_53_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5N9GER0C-881b60f54d",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1496499802.983595"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Second offers direct access to i’th field, efficient storage \nof nulls (special don’t know value); small directory overhead.",
+        "ts": "1496499833.985188"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts",
+        "ts": "1496499883.988010"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "here how are the records not of fixed length ?",
+        "ts": "1496499900.988923"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "I dint get the second method :face_with_rolling_eyes: ",
+        "ts": "1496499939.991179"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "let's say we have a comment field having type varchar(160)\nand let's say there's no comment\nso instead of storing 160 null values, we can only store one null to save the memory",
+        "ts": "1496500010.995510"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "ah..",
+        "ts": "1496500025.996305"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "this will cause records to be of uneven length",
+        "ts": "1496500025.996333"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U55UE0J9F> \nthe first 4 boxes are indices which tell where the fields are stored",
+        "ts": "1496500059.998291"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "so we can go directly to any feild",
+        "ts": "1496500068.998721"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "oh okayy",
+        "ts": "1496500086.999716"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts",
+        "ts": "1496500108.000976"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1496500128.001992"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1496500132.002201"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "nope",
+        "ts": "1496500136.002415"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1496500137.002459"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Nope",
+        "ts": "1496500142.002768"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "okay\nnow lets see how the variable records are stored in pages",
+        "ts": "1496500149.003210"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5P2W2QKZ\/pasted_image_at_2017_06_03_07_59_pm.png|Storing variable records in pages>",
+        "file": {
+            "id": "F5P2W2QKZ",
+            "created": 1496500184,
+            "timestamp": 1496500184,
+            "name": "Pasted image at 2017_06_03 07_59 PM.png",
+            "title": "Storing variable records in pages",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 38438,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5P2W2QKZ\/pasted_image_at_2017_06_03_07_59_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5P2W2QKZ\/download\/pasted_image_at_2017_06_03_07_59_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P2W2QKZ-63ac1ffb75\/pasted_image_at_2017_06_03_07_59_pm_64.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P2W2QKZ-63ac1ffb75\/pasted_image_at_2017_06_03_07_59_pm_80.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P2W2QKZ-63ac1ffb75\/pasted_image_at_2017_06_03_07_59_pm_360.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360_w": 360,
+            "thumb_360_h": 162,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P2W2QKZ-63ac1ffb75\/pasted_image_at_2017_06_03_07_59_pm_480.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_480_w": 480,
+            "thumb_480_h": 216,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P2W2QKZ-63ac1ffb75\/pasted_image_at_2017_06_03_07_59_pm_160.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "image_exif_rotation": 1,
+            "original_w": 657,
+            "original_h": 295,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5P2W2QKZ\/pasted_image_at_2017_06_03_07_59_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5P2W2QKZ-e6d0d4cd95",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1496500185.005129"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Look upside down",
+        "ts": "1496500194.005631"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "first slot stores the pointer to free space -  in order to add new records\nnext slot stores number of records\nconsecutive slots store indices to records",
+        "ts": "1496500264.009855"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "now the record can be stored in any of two methods\n+ Delimiter\n+ Indexed",
+        "ts": "1496500289.011293"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts",
+        "ts": "1496500295.011619"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1496500371.016151"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "no",
+        "ts": "1496500376.016477"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "no",
+        "ts": "1496500382.016776"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "No",
+        "ts": "1496500389.017182"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1496500390.017201"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "okay",
+        "ts": "1496500393.017449"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "No",
+        "ts": "1496500401.017928"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "now lets see how pages are stored in a file\npages are stored using heap \nwe maintain a special page \nwhich stores addresses of pages in that file, sequentially",
+        "ts": "1496500463.021356"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5N9HS35J\/pasted_image_at_2017_06_03_08_04_pm.png|Heap files>",
+        "file": {
+            "id": "F5N9HS35J",
+            "created": 1496500504,
+            "timestamp": 1496500504,
+            "name": "Pasted image at 2017_06_03 08_04 PM.png",
+            "title": "Heap files",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 26263,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5N9HS35J\/pasted_image_at_2017_06_03_08_04_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5N9HS35J\/download\/pasted_image_at_2017_06_03_08_04_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N9HS35J-b51d850a11\/pasted_image_at_2017_06_03_08_04_pm_64.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N9HS35J-b51d850a11\/pasted_image_at_2017_06_03_08_04_pm_80.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N9HS35J-b51d850a11\/pasted_image_at_2017_06_03_08_04_pm_360.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360_w": 360,
+            "thumb_360_h": 254,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N9HS35J-b51d850a11\/pasted_image_at_2017_06_03_08_04_pm_160.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "image_exif_rotation": 1,
+            "original_w": 399,
+            "original_h": 282,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5N9HS35J\/pasted_image_at_2017_06_03_08_04_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5N9HS35J-800a248bcb",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1496500505.023820"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts",
+        "ts": "1496500508.024046"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "no",
+        "ts": "1496500529.025214"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "nope",
+        "ts": "1496500532.025357"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1496500536.025613"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "nope",
+        "ts": "1496500553.026511"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "no",
+        "ts": "1496500554.026546"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "nopee",
+        "ts": "1496500563.027039"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "no",
+        "ts": "1496500572.027571"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "okay\nso have a five minute break\nwe'll start the next lesson",
+        "ts": "1496500575.027763"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "meanwhile you can  ask doubts",
+        "ts": "1496500588.028502"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "okay",
+        "ts": "1496500592.028718"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "so let's get started",
+        "ts": "1496500873.045152"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "okayy",
+        "ts": "1496500924.048019"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "We have seen Relational Database modelling\nWe also have seen the SQL language to query DBs",
+        "ts": "1496500925.048083"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U57AA2TEK> \ngive me a sql query \nsomething which is a bit complex\ngoogle if you like\nor get one from previous session",
+        "ts": "1496500972.050636"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "are we getting one",
+        "ts": "1496501109.058871"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Sorry",
+        "ts": "1496501136.060327"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "just saw you're message",
+        "ts": "1496501143.060671"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "its okay",
+        "ts": "1496501151.061087"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "SELECT column-names\n  FROM table-name1\n WHERE value IN (SELECT column-name\n                   FROM table-name2 \n                  WHERE condition)",
+        "ts": "1496501164.061816"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "nice",
+        "ts": "1496501172.062281"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "Googled that^ Subquery concept",
+        "ts": "1496501176.062627"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So the topic we are discussing is Relational algebra",
+        "ts": "1496501204.064246"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "why 'algebra'\ndon't we  hate math enough",
+        "ts": "1496501231.065650"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "but relational algebra is the one which helps the System convert that  single english line of query\ninto series of steps to follow \nin order to get the data which we desire",
+        "ts": "1496501302.069807"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "There's also Relational Calculas\nBut we'll stick to algebra first",
+        "ts": "1496501349.072472"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "ok",
+        "ts": "1496501399.075162"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So any algebra is defined by two things\n+ Operands\n+ Operators",
+        "ts": "1496501402.075338"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "we know the Operands - Data",
+        "ts": "1496501414.076084"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "let's see the operators",
+        "ts": "1496501423.076613"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Selection  (  )    Selects a subset of rows from relation (horizontal).\nProjection  (  )  Retains only wanted columns from relation (vertical).\nCross-product  (  )  Allows us to combine two relations.\nSet-difference  ( — )  Tuples in r1, but not in r2.\nUnion  (  )  Tuples in r1 and\/or in r2.",
+        "ts": "1496501469.079088"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "ohh can't support math symbols",
+        "ts": "1496501482.079822"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5NAXLN85\/pasted_image_at_2017_06_03_08_21_pm.png|Operators>",
+        "file": {
+            "id": "F5NAXLN85",
+            "created": 1496501514,
+            "timestamp": 1496501514,
+            "name": "Pasted image at 2017_06_03 08_21 PM.png",
+            "title": "Operators",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 81425,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5NAXLN85\/pasted_image_at_2017_06_03_08_21_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5NAXLN85\/download\/pasted_image_at_2017_06_03_08_21_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5NAXLN85-4cc2a5a9a8\/pasted_image_at_2017_06_03_08_21_pm_64.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5NAXLN85-4cc2a5a9a8\/pasted_image_at_2017_06_03_08_21_pm_80.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5NAXLN85-4cc2a5a9a8\/pasted_image_at_2017_06_03_08_21_pm_360.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360_w": 360,
+            "thumb_360_h": 166,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5NAXLN85-4cc2a5a9a8\/pasted_image_at_2017_06_03_08_21_pm_480.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_480_w": 480,
+            "thumb_480_h": 221,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5NAXLN85-4cc2a5a9a8\/pasted_image_at_2017_06_03_08_21_pm_160.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "image_exif_rotation": 1,
+            "original_w": 657,
+            "original_h": 303,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5NAXLN85\/pasted_image_at_2017_06_03_08_21_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5NAXLN85-0675748e78",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1496501515.081627"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So let's see them one by one",
+        "ts": "1496501534.082730"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "I'll use following legend as we cant use math symbols:\nSi - sigma, selection\nPi - Pie, projection\nX - Cross Product\n- - Set Difference\nU - Union",
+        "ts": "1496501653.089460"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5N854EHY\/pasted_image_at_2017_06_03_08_25_pm.png|Boats>",
+        "file": {
+            "id": "F5N854EHY",
+            "created": 1496501766,
+            "timestamp": 1496501766,
+            "name": "Pasted image at 2017_06_03 08_25 PM.png",
+            "title": "Boats",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 11482,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5N854EHY\/pasted_image_at_2017_06_03_08_25_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5N854EHY\/download\/pasted_image_at_2017_06_03_08_25_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N854EHY-8f0b58d0fb\/pasted_image_at_2017_06_03_08_25_pm_64.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N854EHY-8f0b58d0fb\/pasted_image_at_2017_06_03_08_25_pm_80.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N854EHY-8f0b58d0fb\/pasted_image_at_2017_06_03_08_25_pm_360.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360_w": 261,
+            "thumb_360_h": 124,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N854EHY-8f0b58d0fb\/pasted_image_at_2017_06_03_08_25_pm_160.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "image_exif_rotation": 1,
+            "original_w": 261,
+            "original_h": 124,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5N854EHY\/pasted_image_at_2017_06_03_08_25_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5N854EHY-92059fcff6",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1496501767.095851"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5N857DHQ\/pasted_image_at_2017_06_03_08_26_pm.png|R1, S1 and S2(unnamed in fig)>",
+        "file": {
+            "id": "F5N857DHQ",
+            "created": 1496501818,
+            "timestamp": 1496501818,
+            "name": "Pasted image at 2017_06_03 08_26 PM.png",
+            "title": "R1, S1 and S2(unnamed in fig)",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 55325,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5N857DHQ\/pasted_image_at_2017_06_03_08_26_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5N857DHQ\/download\/pasted_image_at_2017_06_03_08_26_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N857DHQ-cce3abeb2c\/pasted_image_at_2017_06_03_08_26_pm_64.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N857DHQ-cce3abeb2c\/pasted_image_at_2017_06_03_08_26_pm_80.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N857DHQ-cce3abeb2c\/pasted_image_at_2017_06_03_08_26_pm_360.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360_w": 291,
+            "thumb_360_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5N857DHQ-cce3abeb2c\/pasted_image_at_2017_06_03_08_26_pm_160.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "image_exif_rotation": 1,
+            "original_w": 368,
+            "original_h": 456,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5N857DHQ\/pasted_image_at_2017_06_03_08_26_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5N857DHQ-ade2c4ce5f",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1496501819.098711"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Sorry guys\nneeded some setup",
+        "ts": "1496501834.099565"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "lets see the operators",
+        "ts": "1496501845.100180"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Projection\nselect given columns\neg\nPi age (S2)\ncorrs sql query\nselect age from S2",
+        "ts": "1496501898.103506"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Selection\nSelect rows satisfying given property",
+        "ts": "1496501925.105067"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "eg\nSi rating&gt;8 (S2)\ncorrs sql query\nselect * from S2 where rating&gt;8",
+        "ts": "1496501969.107618"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Union and set difference are just same as the sets",
+        "ts": "1496502000.109438"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "for these operations \nthe two table must be *Union Compatible*\nmeaning\n+ Same number of fields.\n+ `Corresponding’ fields have the same type.",
+        "ts": "1496502053.113782"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "here S1 and S2 are union compatible",
+        "ts": "1496502072.115019"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "but union and set difference avoids duplications",
+        "ts": "1496502098.116799"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5P304HN3\/pasted_image_at_2017_06_03_08_31_pm.png|S1 U S2>",
+        "file": {
+            "id": "F5P304HN3",
+            "created": 1496502121,
+            "timestamp": 1496502121,
+            "name": "Pasted image at 2017_06_03 08_31 PM.png",
+            "title": "S1 U S2",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 32288,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5P304HN3\/pasted_image_at_2017_06_03_08_31_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5P304HN3\/download\/pasted_image_at_2017_06_03_08_31_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P304HN3-4edefe5c93\/pasted_image_at_2017_06_03_08_31_pm_64.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P304HN3-4edefe5c93\/pasted_image_at_2017_06_03_08_31_pm_80.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P304HN3-4edefe5c93\/pasted_image_at_2017_06_03_08_31_pm_360.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360_w": 327,
+            "thumb_360_h": 245,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P304HN3-4edefe5c93\/pasted_image_at_2017_06_03_08_31_pm_160.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "image_exif_rotation": 1,
+            "original_w": 327,
+            "original_h": 245,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5P304HN3\/pasted_image_at_2017_06_03_08_31_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5P304HN3-d87255c390",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1496502122.118335"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts",
+        "ts": "1496502125.118497"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1496502142.119541"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1496502144.119676"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1496502147.119868"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "no",
+        "ts": "1496502151.120117"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "no",
+        "ts": "1496502159.120706"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "no",
+        "ts": "1496502164.120985"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "okay\nlets see cross product\nS1 X R1: Each row of S1 paired with each row of R1.",
+        "ts": "1496502180.122068"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5MHYNYFJ\/pasted_image_at_2017_06_03_08_33_pm.png|Eg R1 X S1>",
+        "file": {
+            "id": "F5MHYNYFJ",
+            "created": 1496502215,
+            "timestamp": 1496502215,
+            "name": "Pasted image at 2017_06_03 08_33 PM.png",
+            "title": "Eg R1 X S1",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 39665,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5MHYNYFJ\/pasted_image_at_2017_06_03_08_33_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5MHYNYFJ\/download\/pasted_image_at_2017_06_03_08_33_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MHYNYFJ-5dace07d78\/pasted_image_at_2017_06_03_08_33_pm_64.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MHYNYFJ-5dace07d78\/pasted_image_at_2017_06_03_08_33_pm_80.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MHYNYFJ-5dace07d78\/pasted_image_at_2017_06_03_08_33_pm_360.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360_w": 360,
+            "thumb_360_h": 149,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MHYNYFJ-5dace07d78\/pasted_image_at_2017_06_03_08_33_pm_480.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_480_w": 480,
+            "thumb_480_h": 198,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MHYNYFJ-5dace07d78\/pasted_image_at_2017_06_03_08_33_pm_160.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "image_exif_rotation": 1,
+            "original_w": 542,
+            "original_h": 224,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5MHYNYFJ\/pasted_image_at_2017_06_03_08_33_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5MHYNYFJ-f6fbdb1786",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1496502216.124385"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "its just as set cross product",
+        "ts": "1496502224.124878"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "we have values from both the tables",
+        "ts": "1496502241.126088"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "oh okayy",
+        "ts": "1496502297.129367"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "These were the simple operators\nLets see compound operators",
+        "ts": "1496502318.130716"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Intersection\nR intersection S = R   (R  S)",
+        "ts": "1496502348.132674"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Sorry\nR intersection S = R - (R  - S)",
+        "ts": "1496502368.133798"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "intersection can be expressed using basic operators",
+        "ts": "1496502395.135768"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Next is Join\nYou have heard this in last sessin",
+        "ts": "1496502414.136937"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "yes",
+        "ts": "1496502421.137398"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "So the Join is computed as follows:\n+ Compute R X S\n+ Select rows where attributes that appear in both relations have equal values\n + Project all unique atttributes and one copy of  each of the common ones.",
+        "ts": "1496502463.139960"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5NAZV3KP\/pasted_image_at_2017_06_03_08_38_pm.png|R1 join S1>",
+        "file": {
+            "id": "F5NAZV3KP",
+            "created": 1496502512,
+            "timestamp": 1496502512,
+            "name": "Pasted image at 2017_06_03 08_38 PM.png",
+            "title": "R1 join S1",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 25629,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5NAZV3KP\/pasted_image_at_2017_06_03_08_38_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5NAZV3KP\/download\/pasted_image_at_2017_06_03_08_38_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5NAZV3KP-c419a41d43\/pasted_image_at_2017_06_03_08_38_pm_64.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5NAZV3KP-c419a41d43\/pasted_image_at_2017_06_03_08_38_pm_80.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5NAZV3KP-c419a41d43\/pasted_image_at_2017_06_03_08_38_pm_360.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360_w": 360,
+            "thumb_360_h": 98,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5NAZV3KP-c419a41d43\/pasted_image_at_2017_06_03_08_38_pm_480.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_480_w": 480,
+            "thumb_480_h": 131,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5NAZV3KP-c419a41d43\/pasted_image_at_2017_06_03_08_38_pm_160.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "image_exif_rotation": 1,
+            "original_w": 554,
+            "original_h": 151,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5NAZV3KP\/pasted_image_at_2017_06_03_08_38_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5NAZV3KP-db0638d4ed",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1496502514.143101"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Compare above with R1 X S1\nalso notice the symbol for join",
+        "ts": "1496502550.145241"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts",
+        "ts": "1496502605.148435"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1496502612.148899"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "no",
+        "ts": "1496502623.149666"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "no",
+        "ts": "1496502625.149753"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1496502628.149939"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1496502635.150416"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "no",
+        "ts": "1496502639.150635"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "now there is also a conditional join\njoin + condition for joining\nit's symbol is theta",
+        "ts": "1496502680.153069"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "so why do we need this operators?",
+        "ts": "1496502729.155970"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U56JCBFA9> can you tell\nI have answered it before",
+        "ts": "1496502749.157345"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "It helps a system query in a systematic order",
+        "ts": "1496502835.162711"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "exactly",
+        "ts": "1496502844.163233"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "and operators manipulate data",
+        "ts": "1496502845.163297"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Consider R1 = Reserves and S1 = Sailors from now on",
+        "ts": "1496502848.163471"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "consider sql query\nselect sname from sailors, reserves where reserves.bid = 103 and reserves.bid = sailors.bid",
+        "ts": "1496502942.169105"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "how will we write it in algebra",
+        "ts": "1496502973.170985"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5MLYPZ7B\/pasted_image_at_2017_06_03_08_46_pm.png|Two solutions> and commented: The two boxes are join symbol",
+        "file": {
+            "id": "F5MLYPZ7B",
+            "created": 1496503028,
+            "timestamp": 1496503028,
+            "name": "Pasted image at 2017_06_03 08_46 PM.png",
+            "title": "Two solutions",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 31594,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5MLYPZ7B\/pasted_image_at_2017_06_03_08_46_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5MLYPZ7B\/download\/pasted_image_at_2017_06_03_08_46_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MLYPZ7B-f5012199af\/pasted_image_at_2017_06_03_08_46_pm_64.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MLYPZ7B-f5012199af\/pasted_image_at_2017_06_03_08_46_pm_80.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MLYPZ7B-f5012199af\/pasted_image_at_2017_06_03_08_46_pm_360.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360_w": 360,
+            "thumb_360_h": 66,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MLYPZ7B-f5012199af\/pasted_image_at_2017_06_03_08_46_pm_480.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_480_w": 480,
+            "thumb_480_h": 89,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5MLYPZ7B-f5012199af\/pasted_image_at_2017_06_03_08_46_pm_160.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "image_exif_rotation": 1,
+            "original_w": 672,
+            "original_h": 124,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5MLYPZ7B\/pasted_image_at_2017_06_03_08_46_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5MLYPZ7B-ccc5cc37a0",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5N9PA0UU",
+                "created": 1496503028,
+                "timestamp": 1496503028,
+                "user": "U530UCFTL",
+                "is_intro": true,
+                "comment": "The two boxes are join symbol"
+            }
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1496503029.174325"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "but see\nthe first solution is efficient\n+ first we select bid=103 from Reserves (not from Reserves join Sailors, which is larger to search)\n+ then we join it with Sailors\n+ then we select sname column",
+        "ts": "1496503157.182156"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts",
+        "ts": "1496503177.183375"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "no",
+        "ts": "1496503191.184288"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "No",
+        "ts": "1496503195.184542"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "no",
+        "ts": "1496503215.185939"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "no",
+        "ts": "1496503219.186162"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "no",
+        "ts": "1496503220.186217"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "no",
+        "ts": "1496503220.186240"
+    },
+    {
+        "type": "message",
+        "user": "U56DHFD99",
+        "text": "nope",
+        "ts": "1496503227.186629"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "okay\nsee why the algebra is imp\nwe not only need to get steps \nbut we also need to get minimum number of steps",
+        "ts": "1496503237.187215"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "a good query optimizer will identify the efficient solution",
+        "ts": "1496503264.188658"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "That's it \nWe are done for today\n*A bonus Question*\n_The first to give EFFICIENT solution will get a coffee from me from NesCafe_\n\ngive me the solution for following\nFind names of sailors who’ve reserved a red boat",
+        "ts": "1496503401.196866"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U530UCFTL|hrily> uploaded a file: <https:\/\/compsocnitk.slack.com\/files\/hrily\/F5P335GNB\/pasted_image_at_2017_06_03_08_53_pm.png|For your help>",
+        "file": {
+            "id": "F5P335GNB",
+            "created": 1496503454,
+            "timestamp": 1496503454,
+            "name": "Pasted image at 2017_06_03 08_53 PM.png",
+            "title": "For your help",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U530UCFTL",
+            "editable": false,
+            "size": 68752,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5P335GNB\/pasted_image_at_2017_06_03_08_53_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T521LQAQ6-F5P335GNB\/download\/pasted_image_at_2017_06_03_08_53_pm.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P335GNB-99dadf7b82\/pasted_image_at_2017_06_03_08_53_pm_64.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P335GNB-99dadf7b82\/pasted_image_at_2017_06_03_08_53_pm_80.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P335GNB-99dadf7b82\/pasted_image_at_2017_06_03_08_53_pm_360.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "thumb_360_w": 360,
+            "thumb_360_h": 359,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T521LQAQ6-F5P335GNB-99dadf7b82\/pasted_image_at_2017_06_03_08_53_pm_160.png?t=xoxe-172054826822-195694462752-195794452673-a0a14a6632",
+            "image_exif_rotation": 1,
+            "original_w": 451,
+            "original_h": 450,
+            "permalink": "https:\/\/compsocnitk.slack.com\/files\/hrily\/F5P335GNB\/pasted_image_at_2017_06_03_08_53_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T521LQAQ6-F5P335GNB-1f19259dcd",
+            "channels": [
+                "C5AGBSGMU"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U530UCFTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "hrily",
+        "bot_id": null,
+        "ts": "1496503455.199987"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "hurry up guys\ncoffee is waiting",
+        "ts": "1496503491.201899"
+    },
+    {
+        "type": "message",
+        "user": "U55UJ9MH7",
+        "text": "lubber and guppy",
+        "ts": "1496503491.201974"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "are\nI want steps",
+        "ts": "1496503505.202915"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "not the answer",
+        "ts": "1496503510.203188"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "we are developing program  to answer\nwe are not to answer",
+        "edited": {
+            "user": "U530UCFTL",
+            "ts": "1496503569.000000"
+        },
+        "ts": "1496503548.205282"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "(R join S)join(Si red Boats) ?",
+        "ts": "1496503632.210266"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "not sure though",
+        "ts": "1496503636.210507"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Select names from reserves sailors boats where sailors.sid = reserves.sid and reserves.bid=boats.bid and colour=red",
+        "ts": "1496503657.212009"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "I want steps guys\nFirst this\nthen this\nnot query or equation",
+        "ts": "1496503695.214379"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "simple enough",
+        "ts": "1496503712.215459"
+    },
+    {
+        "type": "message",
+        "user": "U5BP61N94",
+        "text": "Ohh kk",
+        "ts": "1496503784.219633"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "Select colour=Red from Boats, Join Boats with Reserves, Select sid from the result, Join Boats and Reserves with Sailors, Select sname column?",
+        "ts": "1496504038.235791"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "first we select color=red from boats; then we join that with reserves; we then join that with sailors; and we finally select sname from the resultant join?",
+        "ts": "1496504058.237007"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "(1) select boat with color red (2) Join R and S (3) Join 1&amp;2 :see_no_evil:",
+        "ts": "1496504070.237712"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Okay\nlet's see",
+        "ts": "1496504086.238587"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U55UDASSV> you get the coffee :thumbsup:",
+        "ts": "1496504181.244244"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "Yay thanks :smile:",
+        "ts": "1496504194.244987"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "others you also are invited\nyou did the effort",
+        "ts": "1496504197.245170"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "cool :sweat_smile:",
+        "ts": "1496504210.245914"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "<@U57A20DSS> and <@U56JCBFA9>",
+        "ts": "1496504210.245931"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "Okay\nI'll leave you guys\ngood night\nbye",
+        "ts": "1496504230.247258"
+    },
+    {
+        "type": "message",
+        "user": "U56JCBFA9",
+        "text": "Byee and Thank you",
+        "ts": "1496504239.247819"
+    },
+    {
+        "type": "message",
+        "user": "U57A20DSS",
+        "text": "good night! thanks :slightly_smiling_face:",
+        "ts": "1496504244.248177"
+    },
+    {
+        "type": "message",
+        "user": "U55UDASSV",
+        "text": "goodnight thankyou bye",
+        "ts": "1496504246.248349"
+    },
+    {
+        "type": "message",
+        "user": "U530UCFTL",
+        "text": "any doubts \nyou can pm me",
+        "ts": "1496504280.250418"
+    },
+    {
+        "type": "message",
+        "user": "U55UE0J9F",
+        "text": "Thank You",
+        "ts": "1496504295.251417"
+    },
+    {
+        "type": "message",
+        "user": "U57AA2TEK",
+        "text": "okay! thanks for the session!",
+        "ts": "1496504315.252788"
+    },
+    {
+        "text": "added an integration to this channel: <https:\/\/compsocnitk.slack.com\/services\/B5MPMSR2M|github>",
+        "bot_id": "B5MPMSR2M",
+        "bot_link": "<https:\/\/compsocnitk.slack.com\/services\/B5MPMSR2M|github>",
+        "type": "message",
+        "subtype": "bot_add",
+        "user": "U52A977UG",
+        "ts": "1496556253.801057"
+    }
+]

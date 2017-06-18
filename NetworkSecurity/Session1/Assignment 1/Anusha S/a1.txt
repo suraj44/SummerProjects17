@@ -1,0 +1,12 @@
+What is DNS? What are DNS servers?
+
+DNS stands for Domain Name System. It is part of the application layer of the TCP/IP reference model.
+It provides a way to convert human-readable website names (domain names) into computer-readable numerical IP addresses, 
+and hence is called the Internet's phone book.
+
+DNS is implemented using two software components: the DNS server and the DNS client (or resolver). 
+
+A DNS server hosts the information that enables client computers to resolve DNS names to the IP addresses 
+that computers use to communicate with each other.
+Basically it matches domain name to its associated IP address. 
+	
