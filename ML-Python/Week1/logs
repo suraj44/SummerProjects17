@@ -1,0 +1,861 @@
+kaushiksk : <@U56N7T2F8|kaushiksk> has joined the channel
+
+ag_1709 : <@U58DY3T7A|ag_1709> has joined the channel
+
+mohitreddy1996 : <@U59U2PEK0|mohitreddy1996> has joined the channel
+
+mahirjain25 : <@U5862FK17|mahirjain25> has joined the channel
+
+ayush.work113 : <@U59H047SS|ayush.work113> has joined the channel
+
+piyush : <@U58MG330T|piyush> has joined the channel
+
+arvindsaik : <@U58GN7DDX|arvindsaik> has joined the channel
+
+darshandv10 : <@U58337ESC|darshandv10> has joined the channel
+
+samyak : <@U584D9FT2|samyak> has joined the channel
+
+svarshini : <@U58R2AR8C|svarshini> has joined the channel
+
+gtmb : <@U59H7U7C6|gtmb> has joined the channel
+
+shashankp : <@U58NYR47L|shashankp> has joined the channel
+
+anmol.jindal13 : <@U586X7GLR|anmol.jindal13> has joined the channel
+
+gurupunskill : <@U5872KL73|gurupunskill> has joined the channel
+
+decisiontreehugger : <@U58R173NY|decisiontreehugger> has joined the channel
+
+npsnayak : <@U59J595EJ|npsnayak> has joined the channel
+
+sanathk : <@U59JHRLAJ|sanathk> has joined the channel
+
+harsha_1810 : <@U59HPU5JA|harsha_1810> has joined the channel
+
+adithyabhatkajake : <@U5941NQQ2|adithyabhatkajake> has joined the channel
+
+sony : <@U585LE3UZ|sony> has joined the channel
+
+swapnil8424 : <@U598HEB6Y|swapnil8424> has joined the channel
+
+kaushiksk : <@U56N7T2F8|kaushiksk> set the channel purpose: This channel is where all the sessions will be held.
+
+kaushiksk : Hey guys!
+
+kaushiksk : How many here ?
+
+ag_1709 : :hand: 
+
+ayush.work113 : :+1:
+
+samyak : :+1: 
+
+gurupunskill : :+1:
+
+svarshini : :+1: 
+
+kaushiksk : Ok. Hello guys and welcome to Practical tools for ML with Python. Let's hope we all learn a lot this summer :smile:
+
+kaushiksk : 5/17 here. Let's wait till we have a 50% show of hands. We'll begin at 6:45pm.
+
+gurupunskill : Cool :+1:
+
+anmol.jindal13 : :+1: 
+
+harsha_1810 : :+1:
+
+piyush : :+1:
+
+kaushiksk : Anyone else just joined in ?
+
+kaushiksk : 5 more minutes and we'll start.
+
+kaushiksk : I'll just go through some obligatory basics. You can choose to ignore them if you wish. We'll consider some things in detail as and when we encounter them later.
+
+kaushiksk : I'll focus more on getting everyone on the same foot wrt familiarity with python
+
+gurupunskill : Will we be applying python in jupyter or like normally?
+
+kaushiksk : For today and today's assignment, normally. Everyone hasn't yet sent us their notebooks so we'll wait for that.
+
+kaushiksk : We'll cover simple things anyway.
+
+decisiontreehugger : <@U5872KL73> Notebooks make it much easier when dealing with data and definitely will increase your productivity. So mostly Jupyter.
+
+kaushiksk : Yeah, as we move on Jupyter IS the way to go. So get familiar. I'll send some links anyway. But its just so much fun exploring on your own :stuck_out_tongue: 
+Today we'll stick to the python interpreter and writing simply scripts.
+
+kaushiksk : Ok.
+
+kaushiksk : 6:46pm
+
+kaushiksk : We'll begin
+
+kaushiksk : Final show of hands everyone. One more time.
+
+anmol.jindal13 : :+1: 
+
+samyak : :+1: 
+
+harsha_1810 : yeah :hand:
+
+piyush : :+1: 
+
+ayush.work113 : :hand:
+
+gurupunskill : :+1:
+
+shashankp : :+1: 
+
+ag_1709 : :hand: 
+
+kaushiksk : Alright. We'll kick off our summer project with a glorious 8/17 attendance.
+
+kaushiksk : Once again, Welcome to Practical tools for ML with Python
+
+kaushiksk : I'm Kaushik and today we'll justbrush up basic stats and write some code in python!
+
+kaushiksk : Those who are in your PCs, fire up the terminal and open the python interpreter
+
+kaushiksk : by typing python
+
+kaushiksk : Or if you have ipython installed type ipython
+
+kaushiksk : Windows users open cmd and type python
+
+kaushiksk : or just chill. That's just so you can type in some stuff and see how cool python is for yoursellf.
+
+svarshini : :hand: 
+
+kaushiksk : 9/17 Awesome!
+
+gurupunskill : kaushiksk: 50% woohoo
+
+kaushiksk : Ok so most of you would've already read about the basic stats i'll cover today but i'll do it anyway because i'll use that to get you familiar with python scripting ?
+
+kaushiksk : Ok. So before we get into ML and all its glory, we need to be able to look at any random dataset and be able to make some sort of conclusions right ?
+
+kaushiksk : We'll do that today
+
+kaushiksk : We'll need three things.
+
+kaushiksk : 1. Data set
+2. Tools
+3. Ideas
+
+kaushiksk : Data set : 
+data = [255, 168, 125, 11102, 59, 120, 500, 2, 98, 25]
+
+kaushiksk : That's from a nice little website i was reading through. I'll link it later. I'm using the same data to show you the proof of concept.
+
+kaushiksk : You can consider those as response times for requests made on a server.
+
+kaushiksk : Cool ?
+
+gurupunskill : Okay
+
+ag_1709 : :+1: 
+
+harsha_1810 : yea fine
+
+anmol.jindal13 : :+1: 
+
+kaushiksk : Also take note, that's how a python list is represented
+
+shashankp : :+1: 
+
+kaushiksk : Now we'll dive right in. data is a variable name that represents our data here.
+
+kaushiksk : In python terms that is what is called a list
+
+kaushiksk : comma seperated values inside square brackets.
+
+kaushiksk : More on lists later.
+
+kaushiksk : Everyone with me ?
+
+svarshini : Yes!
+
+ayush.work113 : yup
+
+harsha_1810 : yep
+
+ag_1709 : Yup
+
+gurupunskill : It's basically an array yes?
+
+kaushiksk : You can think of it as an array, but we'll know it behaves differently in a while :slightly_smiling_face:
+
+ag_1709 : Lists cannot be 2d, right?
+
+kaushiksk : Ok Python later, stats first.
+
+kaushiksk : So, before we do anything. Obligatory detour.
+
+kaushiksk : Data.
+
+kaushiksk : Lets just talk about data for a second.
+
+kaushiksk : Ok ?
+
+ag_1709 : :+1: 
+
+kaushiksk : <@U56N7T2F8|kaushiksk> shared a file: <https://mlieeesmp.slack.com/files/kaushiksk/F59NXAT9A/img_20170506_193707.jpg|IMG_20170506_193707.jpg>
+
+kaushiksk : there's two broad classifications. Qualitative (cue: Quality) and Quantitative(cue: Quantity)
+
+kaushiksk : (Any comments on my handwriting may be withheld)
+
+decisiontreehugger : You can put anything you want inside a list so you can even have things like a list of lists or even a list containing numbers, other lists and strings
+
+ag_1709 : decisiontreehugger: Got it!
+
+kaushiksk : Qualitative as the name suggests, describes Quality. This is not any sort of measured data.
+
+kaushiksk : Two types:
+
+kaushiksk : Nominal
+
+kaushiksk : Here. You just have categories. You can number them any way you want. The numbers dont have any significance
+
+kaushiksk : E.g
+
+kaushiksk : Male - 0
+Female - 1'
+
+kaushiksk : Doesnt mean Female is better than male
+
+kaushiksk : or anything like that
+
+kaushiksk : The other is Ordinal
+
+kaushiksk : Movie ratings
+
+kaushiksk : 5 - EPICCCCCC
+4 - Very good
+3 - Good
+2- Average
+1 - Bad
+0 - Dont even
+
+kaushiksk : You know that 5 is better than 4
+
+kaushiksk : 4 is better than 3
+
+kaushiksk : This is an improvement from Nominal
+
+kaushiksk : But then
+
+kaushiksk : How better is 5 than 4 ?
+
+kaushiksk : There's no way to say
+
+kaushiksk : Because these are not any kinds of concrete measurements
+
+kaushiksk : Everyone still with me ?
+
+svarshini : Yeah
+
+samyak : Yup
+
+ag_1709 : :+1: 
+
+ayush.work113 : kaushiksk: yes
+
+harsha_1810 : :+1:
+
+shashankp : :+1: 
+
+kaushiksk : Individual messages can be reacted upon. Like facebook posts.
+
+kaushiksk : So to reduce clutter like <@U5872KL73> suggest just react on my message !
+
+kaushiksk : Ok moving on.
+
+anmol.jindal13 : kaushiksk: So you defined them right?  Assigned a number to a quality
+
+gurupunskill : And messages can have replies, like comments.
+
+kaushiksk : We come to Quantitative Data.
+
+kaushiksk : Yup. For someone else 5 can mean something else. That's why it's not reliable.
+
+kaushiksk : Now quantitative data can be discrete or sontinuous
+
+gurupunskill : Yeah but can't that be said for eny and every unit ?
+
+kaushiksk : *continuous
+
+kaushiksk : discrete - specific integer values
+
+kaushiksk : say age in years, temperature in celcius
+
+kaushiksk : continous - age
+
+gurupunskill : Like 1kg can mean something to someone else, It's more about how we defined and let the other person know yeah?
+
+kaushiksk : 5 years 10 months 4 days 22 hours 3 mins 4 seconds
+
+kaushiksk : ...
+
+kaushiksk : you can go on
+
+kaushiksk : basically some data that can take any value within a range
+
+kaushiksk : Still with me ?
+
+kaushiksk : Because now we get to do something interesting
+
+kaushiksk : Let me grab the data again.
+
+kaushiksk : data = [255, 168, 125, 11102, 59, 120, 500, 2, 98, 25]
+
+kaushiksk : Now we'll cover Measures of Dispersion and talk a bit about Histograms.
+
+kaushiksk : Ok so I give you that data. What do you do with it? How do you get a birds eye view ?
+
+kaushiksk : Anybody know what are the measures of dispersion ?
+
+ag_1709 : kaushiksk: Mean median mode
+
+kaushiksk : Awesome
+
+ag_1709 : kaushiksk: Standard deviation also maybe
+
+kaushiksk : You all know it: Mean, Median Mode
+
+gurupunskill : Variance as well
+
+kaushiksk : Its just a fancy term to describe them. Measures of Dispersion. Makes you sound cool :stuck_out_tongue:
+
+kaushiksk : That's measure of Central Tendency. We'll leave that for later.
+
+samyak : isnt it only std deviation and variance as mean mode median is called measure of central tendency
+
+kaushiksk : Uh. My bad. Mixed it up :smile:
+
+kaushiksk : . Thanks for pointing that out <@U584D9FT2>
+
+kaushiksk : #facepalm
+
+gurupunskill : isskay xD
+
+kaushiksk : Right. Measures of Central Tendency.
+
+kaushiksk : Pardon the mistake.
+
+kaushiksk : Ok so for our data we'll find the Mean median and mode
+
+kaushiksk : data = [255, 168, 125, 11102, 59, 120, 500, 2, 98, 25]
+
+kaushiksk : Mean: 1245.40
+Median: 122.5
+
+kaushiksk : Mode: anything. We only have unique values.
+
+kaushiksk : Mean : Avg of all values.
+Median : Middlemost value in the data when it is sorted.
+Mode: Most repeating term.
+
+kaushiksk : If we have even number of data points we just take the avg of the two middle values for median, which is what we've done here.
+
+kaushiksk : Anybody want to tell me for what kind of data mode is a good way to convey some meaning ?
+
+kaushiksk : Anybody wants to comment on this? What do you observe ?
+
+gurupunskill : It implies the list is varied I guess?
+
+gurupunskill : Since the median is much far from the mode or something?
+
+kaushiksk : Wouldn't we use Variance or stddev for that ?
+
+kaushiksk : Takers ?
+
+ag_1709 : All the more, you have multiple modes, you cannot comment
+
+kaushiksk : Ok we'll look at the histogram for our data. Which is taken from the same site.
+
+kaushiksk : <https://cldup.com/CLt8N20YIH.png>
+
+kaushiksk : Now, can someone make a comment about the mean and median ?
+
+shashankp : kaushiksk: Because there is an extreme value 11102?
+
+kaushiksk : Wrong thread ? :stuck_out_tongue:
+
+kaushiksk : Mode is a good indicator for Qualitative data, where you use numbers as indicators. Large number of 5s just tells you people liked the movie.
+
+arvindsaik : <@U5872KL73> try 
+100,100,100,5,5,100,100,100
+median and mean are far apart but dont vary much
+
+shashankp : kaushiksk: There is an extreme value 11102 which shifts the mean towards greater side
+
+kaushiksk : Awesome!
+
+ag_1709 : Maybe the extent to which the data is scattered...
+
+gurupunskill : <@U58GN7DDX> Yeah I realized
+
+gurupunskill : <@U58DY3T7A> see <@U58GN7DDX> reply in the other thread
+
+kaushiksk : Right <@U58NYR47L> is right. (check thread)
+
+gurupunskill : You can't judge the variance of  data set with just the mean and median
+
+kaushiksk : There is an outlier(a value that is much much different from all other values)
+
+kaushiksk : And Mean is giving weightage to that
+
+ag_1709 : Ok
+
+kaushiksk : while Median doesnt care about outliers
+
+kaushiksk : So mean is biased towards outliers, median is not.
+
+kaushiksk : this is not good because outliers are data points we'd genrally want to discard.
+
+kaushiksk : We clear till here ?
+
+kaushiksk : Bring up doubts if you have right now. We'll move to scripting in a while
+
+anmol.jindal13 : Didn't get it
+
+anmol.jindal13 : What does the histogram signify? 
+
+gurupunskill : kaushiksk: Because they're probably random occurrences that does not affect the general behavior of a program?
+
+kaushiksk : Say you're recording temperature on 5 consecutive days. It's 23,25,22,23,98
+
+vilas : <@U59T4ACNQ|vilas> has joined the channel
+
+kaushiksk : The last one because someone put it in a hot tea cup while you were away. Now if you were to say I'll take the mean of all my values and use that as a way to understand my data, you'd be tricked. Because mean will give a lot of preference to 98, which is a value you would otherwise discard
+
+gurupunskill : Like ml is used to predict the nature of something right? The random outlier is probably a rogue occurrence yes?
+
+anmol.jindal13 : Yeah okay. So how do i interpret it by this graph? 
+
+kaushiksk : Mean without 98 - 23.25
+Mean with 98 - 38.2
+
+Median would still be in the twenties in both cases.
+
+kaushiksk : So in a histogram if you were to plot this. You will have one long bar in the 20-30 range. Nothing from 30-90. Then a sudden peak from 90-100.
+
+kaushiksk : That's an outlier. Lie outside. Simple as that. Clear ?
+
+anmol.jindal13 : Yes
+
+kaushiksk : Check the thread above if you had any doubts. Tried to clear what <@U586X7GLR>  came up with.
+
+kaushiksk : And this is where you'll learn most. Bring up most
+
+kaushiksk : Now bonus question for browny points.
+
+kaushiksk : data = [255, 168, 125, 11102, 59, 120, 500, 2, 98, 25]
+
+kaushiksk : As we go on, we'll see that this is not exactly how we use ML. If you train your model on Rare occurences, You're missing out on the basic thing youre trying to predict. Normal Values.
+
+kaushiksk : What if
+
+kaushiksk : data = [255, 168, 125, 11102, 59, 120, 500, 2, x, 25]
+
+kaushiksk : Continuing on our previous discusiion
+
+gurupunskill : Cool :+1:
+
+kaushiksk : What value would you replace the missing value with ?
+
+anmol.jindal13 : Mean of all the values excluding11102? 
+
+decisiontreehugger : <@U5872KL73> Outliers can normally really horribly mess with the model training. Whether to drop them or not depends on the dataset and the algorithm you are using. Some algorithms are really robust and can deal with outliers easily, most can't.
+
+shashankp : kaushiksk: median?
+
+kaushiksk : And this is something you will come across very often. Consider a dataset with 3 columns. Age, Income, Gender. Every other column is completely filled. Except for this one cell. We dont want to discard that entire entry. So we try to replace x with the most suitable value we can
+
+gurupunskill : Median
+
+kaushiksk : What do we choose ?
+
+kaushiksk : anmol.jindal13: What if i have 111102 data points and 32 outliers ? Wont it be too much work to cherry pick them all? How do you choose what to pick and what not to ?
+
+samyak : Median
+
+harsha_1810 : median
+
+gurupunskill : Wow xD
+
+kaushiksk : We could do that. But that just works here. Removing one big value is fine.  When you have a data set in the count of thousands having 30 outliers is a possibility. We cant sit and pick each one
+
+kaushiksk : Awesome 1
+
+kaushiksk : We replace x with the median of the dataset. Remember this when we have a session on data cleaning later. Browny points to everyone who answered right!
+
+kaushiksk : Anyone wants to tell us why ? Obligatory.
+
+gurupunskill : Why not mode because, that would be the most probable income yes? We can choose the mode in a specific range? But then how would we choose the range?
+
+gurupunskill : Median makes the most sense because it isn't biased to outliers
+
+gurupunskill : But neither is mode and hence my previous question
+
+kaushiksk : Yes. Median makes most sense because it isnt biased to outliers. We can safely assign a missing value the value of median and it wont drastically effect the entire data.
+
+kaushiksk : Alright
+
+swapnil8424 : Sorry for coming in late. I have read all the messages of the session and have got some idea of the stuff discussed. I will make sure that I don't miss any further session
+
+kaushiksk : If you guys have understood so much, we're more than good to get started.
+
+kaushiksk : swapnil8424: No problem. You can check the logs later. These messages will stay here. We'll move onto python now. So you're right on time
+
+kaushiksk : Alright. Time to code. Time for Python !
+
+decisiontreehugger : I'd just like to add a disclaimer here: There are a variety of ways to deal with holes in the data. While in some cases its a good idea to fill it up with a measure of central tendency(median, mean or mode in that order). There are several cases where it'd probably be better to drop that observation or if there are too many holes in the column, dropping the column itself.
+
+kaushiksk : <@U56N7T2F8|kaushiksk> shared a file: <https://mlieeesmp.slack.com/files/kaushiksk/F59P0HWEQ/mean.py|Mean>
+
+decisiontreehugger : We'll get more in depth on that when applying ML
+
+kaushiksk : Everyone go through that piece of code.
+
+kaushiksk : I'll assume none of you have started off learning python and proceed. Giving only basic info. I'll let yopu explore on your own and give resources. Cool ?
+
+kaushiksk : We'll try drawing analogy with C since you all already know that language.
+
+kaushiksk : That right there is an executable python code. 
+You can save it as mean.py or whatever.py and execute it on a terminal by typing `python mean.py`
+
+kaushiksk : First thing we notice, no obligatory headers. Neat right ? Get right to business.
+
+kaushiksk : Ok. Everyone with me ?
+
+kaushiksk : Give a +1 so i know current count :stuck_out_tongue:
+
+kaushiksk : Ok.
+
+kaushiksk : So yeah. You can just get coding. No headers.
+
+kaushiksk : You can open a python interpreter and start typing in that snippet of code line by line and see the output
+
+kaushiksk : or run the entire code as a .py file
+
+kaushiksk : ok
+
+kaushiksk : we'll go line by line
+
+kaushiksk : Line 1. 
+data = [255, 168, 125, 11102, 59, 120, 500, 2, 98, 25]
+
+kaushiksk : Whats the biggest difference from C here ?
+
+ag_1709 : kaushiksk: didn't have to declare data before
+
+kaushiksk : Right <@U58DY3T7A> We didn't declare the variable data before.
+
+svarshini : We did not have to specify data type of the list
+
+harsha_1810 : kaushiksk: there's no declaration of the variable data
+
+kaushiksk : Python variables can just spawn anywhere and everywhere. So you need to be extra careful when you use them so you dont misuse them :stuck_out_tongue:
+
+shashankp : kaushiksk: 1246.4
+
+kaushiksk : <@U58R2AR8C> Right again! We didnt specify a data type for the list.
+
+kaushiksk : Two things here. Python variables dont need to be specified their type.
+
+kaushiksk : i = 0
+
+kaushiksk : i = '0'
+
+kaushiksk : i="Myname"
+
+kaushiksk : Are all valid statements. A variable can be assigned any type of data. No declaration required. No specification of datatypes required.
+
+kaushiksk : But to answer what <@U58R2AR8C> brought up, that there was no data type associated with the list, that's because a python list can hold any type of value
+
+kaushiksk : for e.g data = [23,54, 'c', "Haha"] is a valid list!
+
+kaushiksk : Pretty cool right?
+
+kaushiksk : <@U5872KL73>  Now you'll start seeing why its different from an array
+
+kaushiksk : Also, python list is supposed to be a linked list, a data structure you'll learn next year.
+
+kaushiksk : More on lists on section 3.2 here
+<http://www.diveintopython.net/toc/index.html>
+
+gurupunskill : kaushiksk: Okay. But shouldn't an element in a linked list point to the next one? Like how would we access that in pythin?
+
+gurupunskill : python*
+
+kaushiksk : supposed to be *more like a linked list than an array. It's a python basic data type. With properties of its own. Read up.
+
+kaushiksk : <@U56N7T2F8|kaushiksk> shared a file: <https://mlieeesmp.slack.com/files/kaushiksk/F59P0HWEQ/mean.py|Mean>
+
+kaushiksk : Line 4. n is an int that holds the length of the list data
+
+kaushiksk : len() does what it seems it should be doing, giving you the length of whatever variable you supply it with
+
+kaushiksk : Now the for loops
+
+kaushiksk : Anyone with an interpreter open can tell me what typing range(10) outputs ina python interpreter ?
+
+harsha_1810 : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+kaushiksk : yes. `for i in range(10)` is just another way of saying `for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`
+
+kaushiksk : the in operator does one simple thing. Give i the value of each item in the list in order.
+
+kaushiksk : <@U56N7T2F8|kaushiksk> shared a file: <https://mlieeesmp.slack.com/files/kaushiksk/F59KHSK6X/img_20170506_202609.jpg|IMG_20170506_202609.jpg>
+
+kaushiksk : You can try printing i inside the for loop to check what is happening
+
+kaushiksk : That's again an analogy between a C for loop and a python one
+
+kaushiksk : key points:
+1. for i in range(n):
+the ':' at the end . Very important.
+
+2. No braces.
+Everything inside the for loop should be indented. All the lines in the same indentation level are like them being inside a flower bracket in C.
+
+kaushiksk : Go through that slide lkater. Shows different parameters you can pass to range() and how it works.
+
+kaushiksk : Any doubts till here? It's very important you understand these simple things clearly
+
+anmol.jindal13 : Nope
+
+kaushiksk : Line 6 is just what it means in C.
+
+kaushiksk : Obligatory thumbs up. I want to see how many of you are here :stuck_out_tongue:
+
+kaushiksk : <@U56N7T2F8|kaushiksk> shared a file: <https://mlieeesmp.slack.com/files/kaushiksk/F59P0HWEQ/mean.py|Mean>
+
+harsha_1810 : float
+
+ag_1709 : Float
+
+samyak : Float
+
+anmol.jindal13 : Floar
+
+kaushiksk : Check comments.
+
+anmol.jindal13 : Float*
+
+samyak : int now prev float
+
+kaushiksk : But i could still avoid it
+
+kaushiksk : meanvalue = float(sum)/n
+
+kaushiksk : would do it
+
+kaushiksk : That's how you do explicit type conversion
+
+decisiontreehugger : Anyone here has python 3?
+
+samyak : Basically float is truncated to int right
+
+kaushiksk : Yes this ^
+
+harsha_1810 : yea got it
+
+shashankp : decisiontreehugger: yes
+
+ayush.work113 : decisiontreehugger: i do
+
+kaushiksk : Anyone has any doubts with that snippet of code now ?
+
+kaushiksk : I hope it all makes sense ?
+
+decisiontreehugger : try dividing 5/4 and tell me what you get
+
+ayush.work113 : 1.25
+
+shashankp : decisiontreehugger: 1.25
+
+decisiontreehugger : Anyone with python 2?
+
+harsha_1810 : python 2 gives 1
+
+decisiontreehugger : Right :slightly_smiling_face:
+
+gurupunskill : I see your point xD
+
+decisiontreehugger : Just remember
+
+ayush.work113 : cool
+
+kaushiksk : This is where the python interpreter comes in handy
+
+kaushiksk : 'When yoiu have a doubt. TRY IT OUT
+
+kaushiksk : Few lines of code anyway.
+
+kaushiksk : That's how you'll learn python :smile:
+
+kaushiksk : Before I proceed. Any doubts, bring them up now. Be absolutely clear with everything till now.
+
+decisiontreehugger : Incase people didn't read the thread what kaushik says stands for python 2 not python 3 you do not have to cast int to float in python 3 during division
+
+decisiontreehugger : This one
+
+kaushiksk : i.e 
+Python 2 : 5/4 = 1
+Python 3: 5/4 = 1.25
+
+kaushiksk : ok I'll take that as all doubts cleared then ?
+
+kaushiksk : You can pm us or discuss later in the <#C59GM664E|python> channel later on. Or google group. But discuss. Early days you'll be exploring loads of cool stuff in python.
+
+kaushiksk : <@U56N7T2F8|kaushiksk> shared a file: <https://mlieeesmp.slack.com/files/kaushiksk/F59MLG5M0/mean_2.py|Mean 2>
+
+kaushiksk : Now you'll see why i made you print out the output of the range(). Do you guys observe how i takes the value of each entry in the list in every iteration of the loop ?
+
+kaushiksk : This makes python code very very reader friendly. Because I can now write
+```
+for value in data:
+    sum += value
+```
+
+kaushiksk : And you know whats happening in your loop. Try to make sure that when you write python code someone can just read it and understand what youre doing :slightly_smiling_face:
+
+kaushiksk : And as for all the print statemjents, you can choose to ignore them now. I included them for completion sake. Print formatting here : <https://pyformat.info/>
+
+kaushiksk : Compare the two versions of the code. The second is the norm that is called "pythonic". Neat, without clutter and easy to read.
+
+kaushiksk : Any reactions? :stuck_out_tongue:
+
+gurupunskill : kaushiksk: I'm surprised python is used as an adjective
+
+kaushiksk : Is the code clear guys ? 
+So forget indexing and say hello to the "in" operator :smile: Cause that's how we'll roll now :stuck_out_tongue:
+
+kaushiksk : It's 8:15. I wanted to cover dictionaries but i guess youre better off reading on your own. They're handy data structures. Basically key:value pairs
+
+kaushiksk : You can index lists as data[2], data[0] like you do with arrays
+
+kaushiksk : with dictionaries you access values by keys
+
+kaushiksk : Example
+
+gurupunskill : <@U58R173NY> 6:45 xD
+
+kaushiksk : data = {"kaushiksk" : "Kaushik",
+ "decisiontreehugger":"Ambareesh", 
+"arvindsaik":Arvind"}
+
+kaushiksk : sorry
+
+kaushiksk : data = {"kaushiksk" : "Kaushik",
+"decisiontreehugger":"Ambareesh",
+"arvindsaik":"Arvind"}
+
+kaushiksk : If i want the ouput to be "Arvind" how should i access that data item ?
+
+ayush.work113 : data["arvindsaik"]
+
+kaushiksk : Right. That should give you a basic idea.
+
+anmol.jindal13 : kaushiksk: what does the colon represent here? 
+
+shashankp : kaushiksk: data[arvindsaik]
+
+kaushiksk : And you can a list of dictionaires. Lists within dictionaries. Any combination you like
+
+kaushiksk : <http://www.diveintopython.net/toc/index.html>
+
+kaushiksk : Go through chapter 3 here.
+
+kaushiksk : Explains lists and dictionaries and basic data types
+
+kaushiksk : Thats Assignment 1.
+
+kaushiksk : \:p
+
+kaushiksk : But then no one other than you can grade that one :stuck_out_tongue:
+
+kaushiksk : So. We covered different types of data. Mean, Median , Mode, Histograms, Python Basics. Looping, variables, and basic scripting etiquette.
+
+kaushiksk : <https://kadira.io/blog/other/mean-histogram-and-percentiles>
+
+kaushiksk : Hope that was fun and you learnt something new.
+
+kaushiksk : Any doubts ?
+
+gurupunskill : <@U5872KL73|gurupunskill> pinned a message to this channel.
+
+gurupunskill : <@U5872KL73|gurupunskill> pinned a message to this channel.
+
+gurupunskill : <@U5872KL73|gurupunskill> pinned a message to this channel.
+
+kaushiksk : Oh one final thing!
+
+kaushiksk : functions!!
+
+kaushiksk : heres how you define functions in python
+
+kaushiksk : <@U56N7T2F8|kaushiksk> uploaded a file: <https://mlieeesmp.slack.com/files/kaushiksk/F5997P80Z/mean_function.py|Mean function> and commented: Again indentation = flower brackets. No specifying data types. No specifying parameter type.
+
+kaushiksk : def keyword is important.
+
+kaushiksk : <http://www.py4inf.com/>
+
+kaushiksk : Chapter 4 here. That video should suffice.
+
+kaushiksk : Are we all sane ?
+
+kaushiksk : Or does anyone want to get the hell out ? :stuck_out_tongue:
+
+decisiontreehugger : The next session will be introduction to ML we'll also try to cover a little bit up of ML theory if we can. We'll have it either tomorrow or day after so let me know when you want it.
+
+decisiontreehugger : You can tell me now guys :slightly_smiling_face:
+
+gurupunskill : in <#C5617RDN1|general>
+
+kaushiksk : <@U56N7T2F8|kaushiksk> shared a file: <https://mlieeesmp.slack.com/files/kaushiksk/F5AGQFL23/histograms.png|histograms.png>
+
+kaushiksk : I hope the question and the ouput are clear enough to tell you what exactly you have to do yeah ?
+
+kaushiksk : Do this by the end of this week. It'll help us know that you've learnt your basics right as well.
+
+gurupunskill : <@U5872KL73|gurupunskill> pinned a file comment to this channel.
+
+gurupunskill : <@U5872KL73|gurupunskill> pinned <@U56N7T2F8|kaushiksk>’s Image <https://mlieeesmp.slack.com/files/kaushiksk/F5AGQFL23/histograms.png|histograms.png> to this channel.
+
+kaushiksk : If you're having trouble, discuss!!
+
+kaushiksk : Google
+
+kaushiksk : Learn :stuck_out_tongue:
+
+kaushiksk : And have fun
+
+kaushiksk : So I guess that's about it for today. Hope you guys had fun! Try to do the Assignments. It's for you learn that's all.
+
+kaushiksk : If you guys have any feedback about the session, positive or negative please do let us know. :slightly_smiling_face:
+
+ag_1709 : kaushiksk: A very well organised session.
+
+kaushiksk : <@U56N7T2F8|kaushiksk> shared a file: <https://mlieeesmp.slack.com/files/kaushiksk/F58LVC35E/Session_1_links|Session 1 links>
+
+anmol.jindal13 : kaushiksk: ?
+
+kaushiksk : That's it for today guys. Any guidelines will be posted in <#C5617RDN1|general>. I'll mail the important links in the google group.
+
+kaushiksk : Check the Post. "Session 1 Links"
+
+kaushiksk : <@U56N7T2F8|kaushiksk> pinned a message to this channel.
+
+kaushiksk : All the important messages have been pinned. All the files shared can also be accessed in the 'View Channel Details' tab.
+
+kaushiksk : That's it for today then. Hope you guys learnt something! Take your time getting the basics right. And ask doubts and discuss! See you during the next session!
+
+mahirjain25 : For assignment 2, do we need to take user input for the list or we can directly take those values ?
+

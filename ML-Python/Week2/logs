@@ -1,0 +1,851 @@
+
+
+kaushiksk : Just take them. 
+
+ckeshava : <@U5A1FHK53|ckeshava> has joined the channel
+
+kaushiksk : <@U58NYR47L> data["arvindsaik"] actually :)
+
+kaushiksk : <@U586X7GLR> the colon separates the keys and values. Keys are to the left of the colon. These are used to access your values. Values are any data you would want to store. 
+
+aditya_a : <@U5A3SFLP3|aditya_a> has joined the channel
+
+ckeshava : <@U5A1FHK53|ckeshava> set the channel purpose: This channel is where all the sessions will be held.
+
+decisiontreehugger : Hi guys
+
+decisiontreehugger : So today's session will be taken by me and <@U58GN7DDX>
+
+decisiontreehugger : We'll be taking a look at what machine learning is
+
+decisiontreehugger : and hopefully cover simple linear regression as well
+
+arvindsaik : show of hands ..those who are present
+
+sanathk : :+1::skin-tone-2:
+
+ayush.work113 : :hand: 
+
+harsha_1810 : :+1:
+
+samyak : :+1: 
+
+gurupunskill : Guys umm just react no pls
+
+ckeshava : :+1:
+
+mahirjain25 : :+1:
+
+darshandv10 : :hand: 
+
+svarshini : :+1:
+
+decisiontreehugger : I think we have about 50% if not more so lets begin
+
+decisiontreehugger : Machine learning is a type of artificial intelligence that aims at giving "computers the ability to learn without being explicitly programmed"
+
+decisiontreehugger : We have three major types of machine learning
+
+decisiontreehugger : <@U58R173NY|decisiontreehugger> uploaded a file: <https://mlieeesmp.slack.com/files/decisiontreehugger/F5BHG5ZST/screen_shot_2017-05-09_at_3.39.34_pm.png|Three Types of Machine Learning>
+
+decisiontreehugger : In supervised learning we are given a bunch of input and output pairs and our goal is to approximate a function f that maps the input to the output
+
+decisiontreehugger : In short find an f so that y = f(x)
+
+decisiontreehugger : In unsupervised learning we have to find a function that in some way describes the data X
+
+decisiontreehugger : In short find an f to describe X
+
+decisiontreehugger : There is still no proper definition of unsupervised learning and you will see why when you look through the different kinds of unsupervised learning algorithms. I've given you probably the least triggering definition of unsupervised learning.
+
+decisiontreehugger : In reinforcement learning we are given a bunch of input,reward pairs(X and Z) and we are to get the system to output y given it's current state
+
+decisiontreehugger : We will mostly be focusing on supervised learning in this SMP and a bit of unsupervised learning and we will not be touching reinforcement learning. We will however give you links on the topic if you are interested.
+
+decisiontreehugger : Cool so far?
+
+gurupunskill : decisiontreehugger: I don't understand this. What are reward pairs? 
+
+decisiontreehugger : Z is basically a reward function
+
+decisiontreehugger : X describes your current state
+
+sanathk : what is that??
+
+gurupunskill : What does a reward function do?
+
+sanathk : reward function 
+
+decisiontreehugger : I'll give you links on rl later if you guys are interested but that'll take a session on it's own
+
+decisiontreehugger : Supervised Learning can again be split further into several topics but to keep it simple I will only be talking about regression and classification
+
+gurupunskill : Okay xD
+
+decisiontreehugger : We use regression techniques when the output we want to predict is a continuos value
+
+decisiontreehugger : We use classification techniques when the output we want to predict is  a discrete value
+
+decisiontreehugger : Here are a few examples of machine learning problems I want you to tell me the possible input features that can be used, what the output will be and whether it's classification or regression
+
+decisiontreehugger : Predicting the value of a house
+
+decisiontreehugger : Checking for a disease
+
+mahirjain25 : decisiontreehugger: regression
+
+ag_1709 : Continuous
+
+decisiontreehugger : Recognising hand written digits
+
+decisiontreehugger : what do you think are the input features we can take?
+
+ag_1709 : Soory regression
+
+ag_1709 : Sorry*
+
+mahirjain25 : decisiontreehugger: classification
+
+ag_1709 : Range of prices
+
+ckeshava : area of the plot
+
+shashankp : Inputs can be area, no. of bedrooms, location
+
+decisiontreehugger : What do you think are the possible input features we can take for this problem?
+
+mahirjain25 : age of house, that is how old it is
+
+ag_1709 : decisiontreehugger: classification
+
+decisiontreehugger : good good
+
+decisiontreehugger : good what do you think will be the input features?
+
+mahirjain25 : simple binary , like whether disease is present or not
+
+ag_1709 : Whether someone suffers from it or not
+
+shashankp : Body temperature
+
+decisiontreehugger : Good <@U58NYR47L>
+
+gurupunskill : Symptoms
+
+harsha_1810 : symptoms
+
+decisiontreehugger : Right
+
+decisiontreehugger : Any Ideas?
+
+gurupunskill : Curves? Irregularities to standard digits?
+
+gurupunskill : Basically accept a small curve and trying to match it with a number.
+
+decisiontreehugger : <@U5872KL73> how would you calculate these things?
+
+shashankp : Darkness of each pixel
+
+decisiontreehugger : <@U58NYR47L> right
+
+decisiontreehugger : We can give the image as an input
+
+kaushiksk : <@U5862FK17> as you'll see later, classification need not be binary, it could so be that given a list of symptoms, age , gender we might have to classify what is the most probable disease he/she might have among disease A,B,C,D etc
+
+decisiontreehugger : Having all the pixel intensities as the features
+
+decisiontreehugger : So is everyone quite comfortable with problem formulation?
+
+mahirjain25 : What if the pixel intensity is continuously varying?
+
+decisiontreehugger : Alright now I'll move on to the basic building blocks of a supervised learning problem
+
+decisiontreehugger : Any model will make use of 3 basic things
+
+decisiontreehugger : *Loss Function* or Error Function or Objective Function or whatever alias this thing has
+
+mahirjain25 : Like if it progressively gets darker or something?
+
+gurupunskill : Yeah but each pixel will still have only one intensity
+
+decisiontreehugger : <@U5862FK17> imagine an image of a hand written digit
+
+decisiontreehugger : Optimization Method
+
+gurupunskill : A pixel is the smallest possible unit in an inage. It can hold only one RGB value...
+
+decisiontreehugger : *The Hypothesis Function*
+
+mahirjain25 : ok..
+
+decisiontreehugger : You need a way to tell how good your model is doing or in other words how well your function f is mapping input values to output values
+
+decisiontreehugger : This is often going to be a function of the distance between the output your model predicted and the actual output it should have given
+
+decisiontreehugger : You can imagine yourself trying to find the best fit line for any generic experiment you might have done in the past
+
+decisiontreehugger : You try to minimise the distance between the line and the points
+
+decisiontreehugger : Is the definition of a loss function clear? Because this is pretty important!
+
+decisiontreehugger : Arvind will go on to explain a loss function soon
+
+decisiontreehugger : So if you want examples don't worry
+
+decisiontreehugger : Next up is the hypothesis function
+
+kaushiksk : Just starting a thread so someone might say something :stuck_out_tongue:
+
+decisiontreehugger : This is basically what your f is going to look like
+
+decisiontreehugger : Btw f is the hypothesis function
+
+darshandv10 : Yeah. So basically what type of curve are we going to work on? Is it just a line or any other curve?
+
+decisiontreehugger : First we will take a look at GLMs
+
+darshandv10 : decisiontreehugger:  Cool
+
+decisiontreehugger : Your f is going to be parameterised by some values we will keep them in a vector and call them W for now
+
+decisiontreehugger : This is where most models vary
+
+decisiontreehugger : It is in their choice of a hypothesis function
+
+decisiontreehugger : We will take a look at the hypothesis function of a glm soon
+
+decisiontreehugger : Is it clear so far?
+
+decisiontreehugger : Finally you need a way to *OPTIMIZE* your *MODEL* to minimise *LOSS*
+
+decisiontreehugger : Your model will be parameterised by W. The question is for what combination of values of W will we get the minimal loss
+
+decisiontreehugger : There are a bunch of different optimisation methods
+
+decisiontreehugger : But for today <@U58GN7DDX> will be covering the steepest descent method
+
+decisiontreehugger : Is this concept making some sense?
+
+decisiontreehugger : Next up I'll take a look at the GLM's hypothesis function
+
+decisiontreehugger : And hopefully it'll become more clear
+
+harsha_1810 : decisiontreehugger: Loss of what?
+
+decisiontreehugger : The loss function that is a measure of how well your model is doing
+
+mahirjain25 : so basically minimise the error between actual and hypothetical right?
+
+gurupunskill : Yep
+
+decisiontreehugger : So the hypothesis function of a GLM generally looks like this I say generally because there are often slight variations
+
+decisiontreehugger : f(X;W) = w1x1 + w2x2 + ...... + wnxn + w0
+
+decisiontreehugger : Now for a single input variable it'll look like f(X;W) = w1x1 + w0
+
+decisiontreehugger : Which is nothing but y = mx + c
+
+gurupunskill : decisiontreehugger: What is a GLM
+
+mahirjain25 : general linear model
+
+decisiontreehugger : Generalized Linear Model
+
+decisiontreehugger : So you can kind of translate it to 2D space
+
+decisiontreehugger : So we want our *OPTIMIZATION* method to find us the best W for our *MODEL* so that it can best minimize the *LOSS*
+
+decisiontreehugger : I hope this above concept is clear for everyone because all models come back to this again and again
+
+sanathk : <@U58R173NY> the loss function and hypothesis function are of same degree..?
+
+kaushiksk : Here x1,x2,x3,x4 ... xn are the input values. w1,w2,w3, ... wn are weights we assign to each input so they predict the right ouput.
+
+decisiontreehugger : Be it Neural Nets Decision Trees or SVMs
+
+ag_1709 : what decides the values contained in W?
+
+gurupunskill : Okay so we simulate different values of w1, w2 .. etc to find our function right?
+
+decisiontreehugger : Your loss function looks at how well X is being mapped to y. Your hypothesis maps X to y
+
+darshandv10 : decisiontreehugger: SVM??
+
+gurupunskill : We simulate different values of W to get our f(x)
+
+gurupunskill : ^ <@U58DY3T7A>
+
+decisiontreehugger : <@U58DY3T7A> that's the goal we need to find the best W values guided by our purpose to minimize Loss function
+
+decisiontreehugger : Support Vector Machines they're another ML algorithm
+
+decisiontreehugger : Is the idea clear so far?
+
+decisiontreehugger : Please do ask questions if still not clear
+
+decisiontreehugger : Alright now over to <@U58GN7DDX> he'll give an explanation of a GLM that we'll get you guys to code soon
+
+gurupunskill : The loss function is basically L = f(x,w)-y. Objective is to make L -&gt; 0 for all x. The degree should be the same <@U59JHRLAJ>
+
+arvindsaik : hi guys
+
+arvindsaik : ok so now let us say our hypothesis is h(x)
+
+arvindsaik : We have a function h(x) which is trying to predict the value y given x.
+
+arvindsaik : So how do you think we can make h(x) as close to y(actual value in dataset)?
+
+arvindsaik : because if we achieve this our model is ready for prediction
+
+arvindsaik : guys ?
+So how do you think we can make h(x) as close to y(actual value in dataset)?
+
+kaushiksk : Anyone who still isn't clear on what the hypothesis and loss functions are head over here and put up your doubts.
+
+arvindsaik : ok first off did you guys understand hypothesis function and what it signifies ?
+
+shashankp : arvindsaik: changing the values of co-efficients(w1,w0) after each iteration to minimise error
+
+ckeshava : can we take the mod of differences between the predicted and actual values, and then try to reduce it ?
+
+decisiontreehugger : <@U58NYR47L> nice
+
+arvindsaik : thats correct but diving into detail what are u achieving by chnaging weights?
+
+kaushiksk : <@U5872KL73> they need not be of the same degree.. We'll discuss this further. For now listen to what arvind is teaching.
+
+arvindsaik : *changing
+
+gurupunskill : Okay xD
+
+arvindsaik : thats a good idea ..
+
+arvindsaik : mod is essentially root(square(x))
+
+arvindsaik : so we will be taking x^2
+
+decisiontreehugger : ckeshava: You can! It's one way this is called Mean Absolute Error however it isn't appealing for most optimisation methods since it's not easily differentiable.
+
+shashankp : arvindsaik: by changing weights hypothesis function h(x) is made closer to y
+
+arvindsaik : correct !
+we are reducing the error !
+
+ckeshava : oh okay
+
+arvindsaik : am i going too fast ?
+
+ckeshava : oh ok, thanks for thanks for the info :grinning:
+
+arvindsaik : i see only 2 of u replying so..
+
+gurupunskill : L(x,w) = f(x,w) - y(x) 
+Okay so I guess it's dependent on y(x) as well? I don't think the degree matters at all. Knowing the degree for L wouldn't help you in any way would it?
+
+mahirjain25 : so we take square of the error ?
+
+ayush.work113 : arvindsaik: I think it's fine.
+
+arvindsaik : yup
+
+gurupunskill : I went to get something to eat xD
+
+darshandv10 : arvindsaik: We are following.:v:
+
+arvindsaik : so if we say the hypothesis is
+
+arvindsaik : <@U58GN7DDX|arvindsaik> uploaded a file: <https://mlieeesmp.slack.com/files/arvindsaik/F5A6WRXUH/pasted_image_at_2017_05_09_07_19_pm.png|Pasted image at 2017-05-09, 7:19 PM>
+
+decisiontreehugger : Here the thetas are basically w
+
+arvindsaik : we are trying to  minimise the cost function which is basically square of error
+
+arvindsaik : <@U58GN7DDX|arvindsaik> uploaded a file: <https://mlieeesmp.slack.com/files/arvindsaik/F5APLGJ1G/pasted_image_at_2017_05_09_07_20_pm.png|Pasted image at 2017-05-09, 7:20 PM>
+
+arvindsaik : where m is the number of datapoints on the graph or no. of training examples
+
+arvindsaik : This approach is called linear regression
+
+arvindsaik : formally
+
+arvindsaik : linear regression is an approach for modeling the relationship between a scalar dependent variable y and one or more explanatory variables (or independent variables) denoted X.
+
+arvindsaik : all clear ?
+
+samyak : Loss function maps x to y??
+
+arvindsaik : hypothesis maps x to y
+
+decisiontreehugger : samyak: Thats the hypothesis
+
+decisiontreehugger : Loss tells you how well hypothesis is doing
+
+svarshini : Okay so, 
+The hypothesis function is basically the one which maps the given input values to the output y
+The loss function gives the amount of deviation of the predicted output from the actual output
+The optimisation method chosen helps to minimise the loss function
+Did I get this right?
+
+samyak : Ok so error square and its summation gives u loss function and hypothesis function maps it
+
+arvindsaik : carry on ?
+
+decisiontreehugger : <@U58R173NY|decisiontreehugger> uploaded a file: <https://mlieeesmp.slack.com/files/decisiontreehugger/F5A434Z40/reg_error.gif|reg_error.gif>
+
+decisiontreehugger : For anyone still in doubt
+
+kaushiksk : The 2 in the denominator is for mere convenience as you will see when we get to gradient descent.
+
+decisiontreehugger : black line is hypothesis
+
+decisiontreehugger : Loss is sum of distance marked in pretty colors
+
+arvindsaik : <@U58GN7DDX|arvindsaik> uploaded a file: <https://mlieeesmp.slack.com/files/arvindsaik/F5APRRGCS/pasted_image_at_2017_05_09_07_28_pm.png|Pasted image at 2017-05-09, 7:28 PM>
+
+arvindsaik : coming back to h(x) here we have assumed only one feature which we think y depends on
+
+arvindsaik : what if there are multiple features
+
+arvindsaik : what if cost of a flat depended not only on square feet
+
+arvindsaik : but also no. of bedrroms etc .. ?
+
+kaushiksk : <@U58R2AR8C> absolutely.
+
+arvindsaik : with one variable method is called : simple linear regression
+
+arvindsaik : with multiple variables : multiple linear regression
+
+darshandv10 : arvindsaik: Maybe we can use y= w1x + w2x +w3  I guess
+
+gurupunskill : Yeah
+
+arvindsaik : correct
+
+gurupunskill : so f(x,w0,w1,w2)
+
+arvindsaik : refer to hypothesis in <@U58337ESC> 's comment
+
+arvindsaik : one method to get the right hypothesis from loss/cost function is gradient descent
+
+arvindsaik : which i will be doing now..
+
+arvindsaik : proceed ?
+
+kaushiksk : <@U5872KL73> the thing you need to realize is, the values y need not come from a polynomial function. Or from any function for that matter. Take housing prices. Do they obey a formula? They may not in general. These are just discrete values collected from a survey, say. So what we are trying to do with our hypothesis function is *FIT* a function that will actually help us map our input to the given ouput and see if there actually is a relationship between the two :slightly_smiling_face:
+
+arvindsaik : ok so now given the cost function
+
+arvindsaik : actually given any function how would u minimise it
+
+kaushiksk : For those still in doubt.
+
+gurupunskill : I understand. 
+
+arvindsaik : as you all probably learnt in 12th grade
+
+arvindsaik : we differentiate it get to know the slope at that point and try moving closer and closer to slope 0
+
+arvindsaik : which will be the minima
+
+arvindsaik : clear ?
+
+arvindsaik : what do we differentiate wrt ?
+
+arvindsaik : we do it wrt to theta
+
+arvindsaik : as we need to find the right weights
+
+darshandv10 : arvindsaik: Slope 0 is a constant function right. What if our data doesn't cluster around this line?
+
+arvindsaik : we are not clustering data around this line
+the slope 0 is just to make sure we are at the lowest possible value of the cost function 
+thereby helping us to get a good hypothesis
+
+darshandv10 : arvindsaik: Why do we move towards slope 0 ? We need to get the slope fit to the minimum difference right?
+
+arvindsaik : we keep changing theta till the cost function comes to its minimum
+
+kaushiksk : Ok. So let's make it clear where the cost function and gradient descent fits in here.
+
+kaushiksk : Read what <@U58GN7DDX> had said till now and relate it to what I'm going to say.
+
+kaushiksk : <@U58337ESC> move on to main thread
+
+arvindsaik : slope doesnt mean anything to us it is just helping us find the minimum cost 
+i am not quite sure if u are visualising it properly
+
+kaushiksk : Ok. So i did a survey and got Prices of 100 houses.
+
+kaushiksk : I got some additional info. Height width and Age of the house
+
+kaushiksk : So x1 - height
+
+kaushiksk : x2- width
+x3 - age
+
+kaushiksk : y - price
+
+kaushiksk : hold on to that.
+
+arvindsaik : how do we implement the change of theta so that cost function reaches least value
+
+arvindsaik : <@U58GN7DDX|arvindsaik> uploaded a file: <https://mlieeesmp.slack.com/files/arvindsaik/F5AMYS4BV/pasted_image_at_2017_05_09_07_45_pm.png|Pasted image at 2017-05-09, 7:45 PM>
+
+arvindsaik : basically for each weight we are moving closer to minimum 
+and once differential reaches 0 we have trained our weights to reduce the cost/loss function
+
+arvindsaik : clear ?
+
+darshandv10 : arvindsaik: Oh Ok now I understand better.
+
+arvindsaik : here alpha is called the learning rate 
+the higher it is faster the learning 
+but there might be problems with very high alpha
+
+arvindsaik : so we need to choose an optimum value for alpha
+
+arvindsaik : good :slightly_smiling_face:
+
+arvindsaik : and for those of u interested in the math of differential here goes
+
+arvindsaik : <@U58GN7DDX|arvindsaik> uploaded a file: <https://mlieeesmp.slack.com/files/arvindsaik/F5ASZC7PF/pasted_image_at_2017_05_09_07_48_pm.png|Pasted image at 2017-05-09, 7:48 PM>
+
+arvindsaik : I know it might be a little over board but feel free to ask doubts and refer to the links which i will be posting
+
+arvindsaik : over to kaushik
+
+kaushiksk : Ok. So I know that all of you understand each of the parts to an extent but are waiting for it to make sense.
+
+kaushiksk : Everybody still holding on to the hypothetical data i collected ? 
+100 examples of x1,x2,x3 y .
+
+kaushiksk : Show of hands please.
+
+kaushiksk : Cool now i have the data.
+
+kaushiksk : So I get this idea that maybe the price y of a house is dependent linearly on the age of the house.
+
+kaushiksk : What do you think my hypothesis will look like ?
+
+ag_1709 : =w1x1+x0 (if age is the only parameter)
+
+ayush.work113 : kaushiksk: a function of x3
+
+kaushiksk : x1 - Height
+x2 - weight
+x3 - Age
+
+ag_1709 : w0*
+
+kaushiksk : Gimme h(x,w)
+
+gurupunskill : h = w0 + w1x1+ w2x2 + w3x3
+
+kaushiksk : Here I'll only be using age. So i'll call this x for convenience.
+
+mahirjain25 : = w0 + x1w1 +x2w2 + x3w3
+
+ag_1709 : h(x,w)= w3x3+w2x2+w1x1+w0
+
+harsha_1810 : =w0+x1w1+x2w2+x3w3
+
+kaushiksk : What made you change your answer <@U58DY3T7A> ?
+
+kaushiksk : "So I get this idea that maybe the price y of a house is dependent linearly on the age of the house."
+
+
+Which is another way of saying I dont want anything to do with height or width here :stuck_out_tongue:.
+
+
+So now, what is h(x,w) ?
+
+ag_1709 : because age wasnt the only factor influencing the cost, there were other parameters too
+
+piyush : Same as what <@U58DY3T7A> said before
+
+gurupunskill : h = w0 + xw1
+
+mahirjain25 : ^
+
+kaushiksk : Right. You'll see what I'm doing in a moment.
+
+ag_1709 : if only age is considered, I stand by my previous answer
+
+kaushiksk : So I take all the 100 values of age and represented by x
+
+kaushiksk : So my hypothesis is h(x,w) = w0 + w1x
+
+kaushiksk : Which just another way of saying "I think there is a function h(x) which has weights w1,w0 (which we shall find) which i think will help me give exactly those values in y for each example
+
+kaushiksk : I don't know what w1,w0 are. I'll find them later. Right now i'm just making a hypothesis that there actually is some sort of linear relationship between Age x and price y and this relationship will be defined by w1,w0
+
+kaushiksk : So that's what your weights are. They define the relationship between two variables. How good your weights are, will depict the strength of your model, i.e given any example x(i), how close is h(x(i)) to y.
+
+kaushiksk : If it's very close, my job is done :slightly_smiling_face:
+
+kaushiksk : Cool ?
+
+kaushiksk : So take a deep breathand read that again. :stuck_out_tongue:
+
+kaushiksk : Ok so now, I'll just assume random values for w1,w0 
+I'll say w1 = 0.5, w0 = 0.4 for no apparent reason.
+
+decisiontreehugger : And always remember the basic to any ML model *OPTIMIZE* the vector W which parameterises the *HYPOTHESIS* to minimize *LOSS*
+
+kaushiksk : ^ We'll see that in action now. And this is very very important. Again, I hope you remember what <@U58GN7DDX> has taught you today.
+
+kaushiksk : Right so with those weights, my hypothesis is now h(x) = 0.4 + 0.5x
+
+kaushiksk : I'm way too confident about my guesses so i declare that gimme any value of x (Age) I'll tell you the price for y.
+
+kaushiksk : Do you think Im doing a wise thing ?
+
+kaushiksk : Fine.
+
+kaushiksk : So how will you tell me i'm not doing a wise thing ?
+
+shashankp : kaushiksk: calculate the error
+
+kaushiksk : How will you prove it to me mathematically ?
+
+gurupunskill : Show that your variance is high
+
+darshandv10 : kaushiksk: The cost function must be minimum which doesn't happen by a random selection.
+
+svarshini : kaushiksk: By calculating the loss function?
+
+gurupunskill : Basically yeah ^
+
+ckeshava : try choosing another pair of w0 and w1 such that the loss is lesser in the latter case ?
+
+kaushiksk : You calculate the error. You take the 100 examples you have. For ever x(i) you find h(x(i), compare that with corresponding y, find the error.
+
+decisiontreehugger : <@U5872KL73> Loss is not your variance
+
+kaushiksk : Which is again just another way of saying, evaluate the loss function :slightly_smiling_face:
+
+decisiontreehugger : <@U5872KL73> you will understand when we actually get to bias and variance
+
+gurupunskill : Yeah I geddit xD
+
+kaushiksk : That's what a loss(cost) function is for. To tell you how good your hypothesis is. And since I've already convinced you that your hypotheis is completely dependent on your weights, the loss function measures how good your weights are.
+
+kaushiksk : Cool ?
+
+decisiontreehugger : <@U5872KL73> You can have 0 loss on your training data by fitting a polynomial of n+1 degree with n being your total number of data points resulting in a ridiculously high variance hypothesis function
+
+kaushiksk : Naice.
+
+kaushiksk : So now we see things falling into place.
+
+kaushiksk : But wait.
+
+kaushiksk : Why do we need something like gradient descent ?
+
+kaushiksk : The answer is one word long.
+
+kaushiksk : And has been said before :stuck_out_tongue: On the buzzer!
+
+shashankp : kaushiksk: optimize
+
+gurupunskill : Why? How would loss be 0?
+
+piyush : Accuracy
+
+ayush.work113 : Optimisation
+
+svarshini : Optimization
+
+kaushiksk : And the answer IS
+
+kaushiksk : *OPTIMIZATION*
+
+darshandv10 : Optimize
+
+mahirjain25 : optimise
+
+gurupunskill : If loss is 0 doesn't that mean our model predicted everything correctly? I'm assuming the definition of variance is something else entirely?
+
+kaushiksk : I dont want ANY hypothesis. I want THE hypothesis. The one that predicts the right values.
+
+kaushiksk : Which again is another way of saying
+
+kaushiksk : I need h(x) = w0 + w1x
+
+kaushiksk : with values w0,w1
+
+kaushiksk : such that
+
+kaushiksk : when i evaluate the loss function
+
+kaushiksk : I get a very very low value.
+
+kaushiksk : So that is why, *MINIMIZING THE LOSS FUNCTION* is such a big deal.
+
+mahirjain25 : Yeah I'm not clear about how variance would be high in that case?
+
+kaushiksk : *MINIMIZING THE LOSS FUNCTION* = getting right values of w0,w1
+
+kaushiksk : And this is where gradient descent comes in.
+
+kaushiksk : <@U56N7T2F8|kaushiksk> shared a file: <https://mlieeesmp.slack.com/files/arvindsaik/F5AMYS4BV/pasted_image_at_2017_05_09_07_45_pm.png|Pasted image at 2017-05-09, 7:45 PM>
+
+kaushiksk : Notice that here, we change the values of theta. Which is just like saying, "Ok my random values gave me high loss, so i need to shift to some other value"
+
+kaushiksk : Again, notice that in the next step, we are still jumping to two arbitrary values, only difference here is, they are controlled by the loss function ( i.e how well my hypothesis predicts ouput)
+
+kaushiksk : So now it shouldnt be hard to notice that as my loss function reaches zero, I will no longer be updating my weights.
+
+kaushiksk : That is *drumrolls* I have reached my optimum set of weights!
+
+kaushiksk : Ok. I tried my best. That's as far as my understanding helps me dumb it down :joy:
+
+kaushiksk : Now obviously, since I have optimum values, give me any x(i) among the 100, I can confidently say i'll give a near perfect value of y Right ?
+
+kaushiksk : Moral of the story: Never trust a guy who guesses without the right math to back it up.
+
+kaushiksk : Now. Do you know whats the most exciting thing about my hypothesis right now ?
+
+kaushiksk : Anyone ?
+
+kaushiksk : Give me 50 more values for x that you just collected from another survey. Now based on the fact that my hypothesis correctly predicts y values for the 100 examples i trained it on, I can confidently tell you that I can predict y values for these 50 examples without you telling me at all.
+
+kaushiksk : And there we have reached the end of the ML pipeline.
+
+kaushiksk : The 100 values i trained on - Training set.
+The 50 new values i test on - Test Set. 
+The true awesomeness of your model is actually measured on how well it can predict on inputs it has never seen before, that is, the test set. You'll see a lot of this as we go along.
+
+kaushiksk : For now, is Gradient Descent clear ?
+
+kaushiksk : It's up to you to figure out the math.
+
+kaushiksk : I want you to be clearwith what Hypothesis, Loss Function. Optimization and weights and predicted and actua loutputs mean. And how you go about fitting the right weights.
+
+kaushiksk : After that its just a matter of which loss function or which optimization technique or which ML algorithm for that matter.
+
+kaushiksk : Now. To your wrong answers. I found that the age predicts prices fine. BUt maybe i should include more features. So i include the width and height. Whats my hypothesis now ? :stuck_out_tongue:
+
+kaushiksk : h = w0 + w1x1 + w2x2 + w3x3
+
+kaushiksk : All i need to do now is find the best ws using the same approach i used earlier.
+
+kaushiksk : Clear ?
+
+decisiontreehugger : Alright now for the exciting part
+
+decisiontreehugger : This weeks assignment
+
+decisiontreehugger : You guys have to code a GLM from scratch using numpy
+
+decisiontreehugger : You guys will have to learn numpy on your own(it's pretty simple if you guys have doubts you can post on slack)
+
+decisiontreehugger : <@U58R173NY|decisiontreehugger> uploaded a file: <https://mlieeesmp.slack.com/files/decisiontreehugger/F5AU0GNKF/train_data.csv|train_data.csv>
+
+kaushiksk : This will be a good time to use the channels to post messages like "Did any of you find a good reference for numpy?" or "Did any of you figure out how to multiple matrices in numpy elementwise?"
+
+decisiontreehugger : <@U58R173NY|decisiontreehugger> uploaded a file: <https://mlieeesmp.slack.com/files/decisiontreehugger/F5ASNQ2DS/test_input.csv|test_input.csv>
+
+decisiontreehugger : You will have to train using examples from train data
+
+decisiontreehugger : And predict on test input
+
+gurupunskill : kaushiksk: <http://www.holehouse.org/mlclass/03_Linear_algebra_review.html> Much?
+
+decisiontreehugger : We have the solutions to the test input with us so we'll let you know your errors
+
+decisiontreehugger : lol that's tiny
+
+decisiontreehugger : Also this assignment will be peer reviewed
+
+gurupunskill : Yeah xD I saw a video on why you need to know Linear algebra for ML and I'm like whoa pls no
+
+decisiontreehugger : Each of you will have to review 3 of your fellow SMP mates code
+
+decisiontreehugger : And give a rating from 1-10
+
+decisiontreehugger : Giving reasons why
+
+kaushiksk : This is so much fun.
+
+decisiontreehugger : This assignment will be very very hard
+
+decisiontreehugger : So the faster you get started the better
+
+decisiontreehugger : The time is 1 week
+
+kaushiksk : ALso don't get too competitive. :stuck_out_tongue: Focus on learning together. Implement it your own way :slightly_smiling_face:
+
+decisiontreehugger : We'll let you know which of your peers' assignments you will be grading
+
+decisiontreehugger : Daily updates will have to be posted on the assignment page based on your progress so far
+
+decisiontreehugger : Things you will have to learn: numpy and pandas
+
+arvindsaik : Also if you are still having issues understanding today's session 
+Go through videos in Coursera ML course by Andrew ng
+
+decisiontreehugger : If any of you know OOP making the GLM in an object will be a big plus +
+
+decisiontreehugger : If not just do it in functions
+
+decisiontreehugger : Is that clear so far?
+
+kaushiksk : Ok im a nice guy so ill tel you how to start. The first sentence to type on google will be "How to read data from csv file into a numpy array " :stuck_out_tongue:
+
+gurupunskill : kaushiksk: Done xDDDD
+
+decisiontreehugger : Don't expect too much help from us on this assignment we want to test your googling capabilities :stuck_out_tongue:
+
+kaushiksk : Once you're there it's you and your peers. Make very very good use of all the channels. THis will really help us assess how well you can learn among yourself and what pace we have to proceed with.
+
+decisiontreehugger : Again daily posts on assignments page showing your current progress
+
+decisiontreehugger : We really want to be able to see the pace you guys are moving with. Is that clear?
+
+kaushiksk : You can come to us if none of you are able to solve anything. But first make sure you've discussed amongst yourselves.
+
+decisiontreehugger : We'll be looking at the groups :stuck_out_tongue:
+
+decisiontreehugger : Also by showing I mean posting code
+
+kaushiksk : If you're not excited right now you might as well give up on engineering.
+
+decisiontreehugger : I highly suggest the use of jupyter notebooks for this assignment
+
+decisiontreehugger : You can convert your ipynb to a .py file and post it in <#C5A4MD7HN|assignments>
+
+decisiontreehugger : <@U58R173NY|decisiontreehugger> pinned their CSV <https://mlieeesmp.slack.com/files/decisiontreehugger/F5AU0GNKF/train_data.csv|train_data.csv> to this channel.
+
+decisiontreehugger : <@U58R173NY|decisiontreehugger> pinned their CSV <https://mlieeesmp.slack.com/files/decisiontreehugger/F5ASNQ2DS/test_input.csv|test_input.csv> to this channel.
+
+kaushiksk : Or just upload it to <http://gist.github.com|gist.github.com> and send us the link. Github renders then notebooks so its very very convenient.
+
+decisiontreehugger : We want to see all your posts by 9 pm tomorrow
+
+kaushiksk : Like this. <https://gist.github.com/kaushiksk/a1f0a0d6bb2a32c214f6a80d98d5c312>
+
+decisiontreehugger : glhf
+
+decisiontreehugger : That'll be all
+
+decisiontreehugger : With that session 2 is now complete
+
+kaushiksk : Have fun over the week! Hope it was a good session!
+
+kaushiksk : This.
+
+kaushiksk : Show of hands just to make sure you guys still know what show of hands means at the end of this.
+
+ckeshava : :+1:
+
+ckeshava : :joy:
+
+piyush : :+1: 
+
+ckeshava : thanks a lot for the wonderful session !! good night
+
+kaushiksk : We'll be here if you have any doubts on todays session.
+

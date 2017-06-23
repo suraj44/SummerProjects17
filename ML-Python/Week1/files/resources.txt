@@ -1,0 +1,11 @@
+https://pyformat.info/
+
+http://www.mymarketresearchmethods.com/types-of-data-nominal-ordinal-interval-ratio/
+
+http://ocw.metu.edu.tr/pluginfile.php/2408/mod_resource/content/0/lectures/2-frequency%20distribution-NC.pdf
+
+https://www.wyzant.com/resources/lessons/math/statistics_and_probability/averages/cumulative_frequency_percentiles_and_quartiles
+
+https://kadira.io/blog/other/mean-histogram-and-percentiles
+
+http://www.diveintopython.net/toc/index.html
