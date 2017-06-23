@@ -13,6 +13,7 @@ files/
 ├── ex3data1.mat (One vs All)
 └── ex3.pdf (Instructions from Andrew Ng course)
 
-Follow the same procedure for sending PRs as you did for previous assignments.
+Create a folder with your name in Week3-4/Submissions/A4/ and save the files as A4_a.ipynb and A4_b.ipynb
+
 
 
