@@ -44,7 +44,7 @@ Enter git pull upstream master. This should pull all the latest files.
 
 STEP 10:
 
-Navigate to NetworkSecurity/Session3/Assignment3 and create a folder with its name as your name
+Navigate to NetworkSecurity/Session5/Assignment5 and create a folder with its name as your name
 
 STEP 11:
  

@@ -1,0 +1,233 @@
+swathi : Hello everyone ! Guess I'm the only one online :p
+swathi : 10 more minutes and we start off 
+swathi : Okay! Let's begin
+swathi : I hope all of you have downloaded the files?
+surajsingh : yep
+swathi : And have an idea about using wireshark now
+swathi : Today, we'll try to make sense of what the packet captures tell us
+swathi : Can anyone explain how ARP works?
+nihalh55 : to obtain the MAc address when ip address is known
+swathi : Correct
+swathi : ARP messages are of 2 types request and response
+swathi : request is a message that is broadcast asking the mac address of a machine having so and so ip
+swathi : Response is unicast
+swathi : Everyone open arp_resolution.pcapng and tell me all your obsevations
+swathi : observations
+nihalh55 : whats unicast
+swathi : Communication between a single sender and receiver
+surajsingh : Honhai is asking for the physical address corresponding to 192.168.0.1
+swathi : Yes
+nihalh55 : yup
+swathi : Also when you see the second column having packet details, it has an opcode of 1
+swathi : opcode 1 stands for request
+swathi : When you send an ARP packet it has certain required info as part of its header
+swathi : They include:
+swathi : <@U5CCNE9P1|swathi> uploaded a file: <https://networksecurity-ieee.slack.com/files/swathi/F5Q4FQ0RY/pasted_image_at_2017_06_07_09_24_pm.png|Pasted image at 2017-06-07, 9:24 PM>
+swathi : If you carefully see all the packet details these info are clearly shown
+nihalh55 : whats bit offset
+nihalh55 : ?
+swathi : Bit offset refers to the bit number from where the respective info starts.
+swathi : Ex- hardware type takes bits 0-15 i.e 16 bits
+swathi : Protocol type takes bits 16-31 i.e another 16 bits
+nihalh55 : okay
+swathi : On clicking the second packet you observe that it communications from a single sender to receiver
+swathi : Also opcode=2 i.e ARP response
+swathi : Clear?
+surajsingh : where is the op code mentioned?
+nihalh55 : where is the second column?
+swathi : *communicates
+swathi : <@U5BNQKM53> what 2nd column?
+nihalh55 : for op code
+nihalh55 : where is it?
+swathi : Make sure you've clicked on packet number 2 in the packet list column(1st column). Then expand the details in 2nd column
+swathi : i.e the packet details column
+surajsingh : got it thanks
+swathi : <@U5CCNE9P1|swathi> uploaded a file: <https://networksecurity-ieee.slack.com/files/swathi/F5PEF53A4/pasted_image_at_2017_06_07_09_32_pm.png|Pasted image at 2017-06-07, 9:32 PM>
+nihalh55 : yess
+swathi : It should be something like this
+nihalh55 : thanks ^^
+aryanhimanshu : Thanks
+swathi : So the next file arp_gratituous is very easy
+swathi : I'll leave it to you
+swathi : *gratuitous
+swathi : gratuitous ARP is a broadcast sent when the ip of a system changes
+swathi : IP addresses need not remain constant. Hence the ip-mac mapping in the cache of other systems must be updated to prevent errors during subsequent communication
+swathi : So this arp request from a system whose ip has been updated informs all other systems to make the change in their corresponding entries
+swathi : Clear?
+surajsingh : :+1:
+nihalh55 : 24...is whose ip?
+surajsingh : the system itself right?
+nihalh55 : ok so the system just says my new ip is 24..
+nihalh55 : via gratuitous arp
+swathi : Yes
+swathi : Any more doubts?
+aryanhimanshu : Ok
+aryanhimanshu : No
+nihalh55 : nope
+swathi : So let's move on to the next protocol
+swathi : Internet protocol
+swathi : Can anyone tell me if there is some specific information given by different parts of an ip address
+swathi : ?
+nihalh55 : umm
+nihalh55 : network adress
+nihalh55 : and host address
+swathi : Yes. Correct!
+surajsingh : isn't that subnet
+surajsingh : in the sense what a subnet mask does
+swathi : Now how do you determine which part is network and which is host
+nihalh55 : via subnet masks na?
+swathi : <@U5ATP83CG> subnet mask is used to obtain these 2 addresses
+nihalh55 : host is usually 0.0..
+nihalh55 : other is 255...
+nihalh55 : ?
+swathi : <@U5BNQKM53> that's subnet mask you're talking about
+swathi : ip can be anything
+nihalh55 : ohhkay
+nihalh55 : true
+swathi : Example: say my ip is 10.10.1.22
+swathi : and mask is 255.255.0.0
+swathi : i.e 11111111 11111111 00000000 00000000 in binary
+swathi : So the portion of the mask having consecutive 1s corresponds to network address in the ip
+swathi : i.e ip = 00001010 00001010 00000001 00010110
+surajsingh : then it performs logical AND right?
+swathi : Which means the first 16bits corresponds to network and the last 16 to host
+nihalh55 : sooo
+nihalh55 : 10.10 is for network?0.o
+swathi : Yup
+nihalh55 : what do we get after logical AND then?
+surajsingh : since the network bits of the mask are 1s and the host bits are 0s
+When you AND the two, you'll get only the network part
+that's how it separates they two i guess
+swathi : <@U5ATP83CG> correct
+nihalh55 : nice nice
+swathi : Does anyone know what ttl is?
+swathi : ttl=time to live
+swathi : TTL value defines a period of time that can be elapsed or a maximum number of routers a packet can traverse before the packet is discarded.
+swathi : From this formal definition, why do you think we need ttl?
+gautamrk : if a packet is too old it becomes irrelevent?
+aryanhimanshu : Timout
+surajsingh : timeout makes sense
+suraj7 : Prevents data packet from circulating infinitely..
+swathi : Exactly! All of your points make sense
+swathi : If the number of looping packets increase, it leads to a wastage of bandwidth
+swathi : They could keep accumulating and cause a DoS attack
+swathi : So how exactly does this work?
+surajsingh : what does a DoS attack mean?
+nihalh55 : basically all your network reaources get used up
+nihalh55 : and your network doesnt respond anymore
+nihalh55 : denial of service attack
+swathi : DoS=denial of service . Too many requests flooding which leads to a crash
+swathi : ttl is defined when a packet is created and is generally decremented by 1 every time it passes through a router
+aryanhimanshu : What if it is negative?
+aryanhimanshu : Ok it won't be my bad
+swathi : ttl is initialized to a positive number
+swathi : The packet is discarded once ttl=0
+swathi : Now open ip_ttl_source file
+swathi : What is the ttl?
+suraj7 : 128
+swathi : Correct
+swathi : So the packet can be forwarded by a maximum of 128 routers
+nihalh55 : where is it?
+surajsingh : info
+swathi : expand the ip header
+nihalh55 : oh sorry
+swathi : This packet was captured at the source side
+swathi : Now open ip_ttl_dest
+swathi : Tell me the ttl now
+surajsingh : 127
+nihalh55 : 127
+swathi : Yes. So even without looking at the network architecture, we can conclude that there is 1 router between the source and det
+swathi : *dest
+aryanhimanshu : Yes
+swathi : Any doubts?
+nihalh55 : noo
+swathi : Cool. Let's move on to ip fragmentation then
+swathi : The network layer has a maximum transmission unit size
+swathi : Packets having data above MTU are fragmented and sent across the network
+swathi : We need to have some mechanism that lets the destination know that the incoming packets are fragmented parts
+swathi : How does it convey this?
+swathi : Open ip_fragment file and tell me what you observe from each packet
+aryanhimanshu : MTU?
+swathi : Max transmission unit=mtu
+aryanhimanshu : Ok
+nihalh55 : they have off and ID value
+nihalh55 : sameid value means they were same packet?
+swathi : Any new information in these packets that were not set before?
+swathi : <@U5BNQKM53> correct- packets 1 and 2 have more fragments flag set
+swathi : Ethernet has mtu=1500
+swathi : observe the offset for packet 2
+swathi : 1480 right?
+swathi : 1500-20 for ip header
+swathi : so 1480
+swathi : <@U5BNQKM53> same id means same packet. Good!
+swathi : Also 3rd packet does not have more fragments flag set which implies it is the last fragment of the packet
+swathi : Any doubts?
+gautamrk : why does the 3rd packet look different from the first two?
+swathi : Different in what sense?
+gautamrk : it says icmp instead of data
+gautamrk : isnt the third packed just a combination of the first two?
+swathi : It's not a combination.
+swathi : All the fragments use icmp protocol
+swathi : The last packet just summarizes the packet info
+gautamrk : oh ok
+swathi : Any more doubts?
+gautamrk : nope
+swathi : Does anyone know about tcp handshake?
+gautamrk : ya
+swathi : <@U5B3HALU9> explain
+gautamrk : client sends an syn packet to server
+gautamrk : responds with acknowledgement packet
+gautamrk : initializes further communication
+swathi : <@U5CCNE9P1|swathi> uploaded a file: <https://networksecurity-ieee.slack.com/files/swathi/F5PJNPBFT/pasted_image_at_2017_06_07_10_32_pm.png|Pasted image at 2017-06-07, 10:32 PM>
+swathi : Good!
+swathi : so tcp_handshake file demonstrates this
+swathi : Pretty simple. Analyze when you're free
+swathi : Similarly there is tcp teardown
+swathi : <@U5B3HALU9> can you tell what teardown does?
+gautamrk : no clue
+swathi : tcp handshake initiates the communication, tear down does just the opposite
+gautamrk : oh
+swathi : <@U5CCNE9P1|swathi> uploaded a file: <https://networksecurity-ieee.slack.com/files/swathi/F5R0UKMT9/pasted_image_at_2017_06_07_10_35_pm.png|Pasted image at 2017-06-07, 10:35 PM>
+swathi : Precisely this
+swathi : Since you guys now have an idea as to how to make sense of packet captures, let's move to the interesting part. Applying this in security!
+swathi : Is this session boring? :stuck_out_tongue:
+aryanhimanshu : Not yet:see_no_evil:
+swathi : Thanks :stuck_out_tongue:
+swathi : So before an attacker attacks a system, it is important for him to be ready with all the info he can get about the network he is going to attack
+swathi : Sort of like preparing a plan
+swathi : One of the foremost things to learn about a network first is to gauge it's ports
+swathi : This is done mostly using TCP SYN scan or stealth scan
+swathi : The TCP SYN scan relies on the three-way handshake process to determine which ports are open on a target host. The attacker sends a TCP SYN
+packet to a range of ports on the victim, as if trying to establish a channel for normal communication on the ports.
+swathi : One of the following things can happen as a result of the scan
+swathi : <@U5CCNE9P1|swathi> uploaded a file: <https://networksecurity-ieee.slack.com/files/swathi/F5Q3ZK35H/pasted_image_at_2017_06_07_10_42_pm.png|Pasted image at 2017-06-07, 10:42 PM>
+aryanhimanshu : Ok
+swathi : If the port is open, the victim replies with syn/ack flag.
+swathi : The attacker upon receiving this flag knows for sure that the port is open. He no longer needs to communicate with the victim until the attack
+swathi : So he does not complete the tcp handshake
+swathi : Sometimes a firewall may prevent the victim from replying. In such cases it cannot be determined for sure if the port is open or closed
+swathi : SYN scan can be performed using a tool called 'nmap'
+swathi : Install the tool and try to make sense of the output
+swathi : The file synscan.pcapng performs the stealth scan
+swathi : So I'll leave it to you guys as today's assignment to find out ports that are open,closed and not deterministic from the packet capture
+swathi : Try using the functionalities you used in the 1st session on wireshark
+swathi : That's all for today. This completes the tutorial for wireshark :slightly_smiling_face:
+swathi : I hope it wasn't too boring
+gautamrk : wait where is the synscan.pcapng file?
+swathi : <@U5B3HALU9> I'll upload it on github now under assignments
+gautamrk : oh ok
+gautamrk : thanks for the session
+aryanhimanshu : Thank you for the session
+suraj7 : Thank u
+swathi : Assignment5- identify the open and closed ports determined through the syn scan
+swathi : Also, explain in brief as to how you got to the conclusion
+swathi : Screenshots of your results can also be attached
+swathi : Good night!
+swathi : Assignment4 will also have capture files. It will be put up on github too
+swathi : I have added another question for assignment5
+swathi : The synscan.pcapng is very simple and straight forward
+swathi : The second question has some attack going on.
+swathi : Identify what it does and justify how you came to the conclusion using screenshots from your analysis
+swathi : i.e I want to know what is happening in the capture and how you identified it
+swathi : Any doubts about the assignments can be asked
+
