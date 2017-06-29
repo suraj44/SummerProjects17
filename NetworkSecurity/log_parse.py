@@ -29,7 +29,7 @@ names = {'U5D5UAT1S':'adithyabhatk',
 	}
 
 # Open and read the file
-with open('2017-05-17.json') as json_file:
+with open('2017-06-19.json') as json_file:
 	data = json.load(json_file)
 	for p in data:
 		print(names[p['user']] + " : " + p['text'])
