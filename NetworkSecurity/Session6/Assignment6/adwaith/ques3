@@ -1,0 +1,26 @@
+Executable 3 could be this..
+
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("\nEnter an integer\n");
+	scanf("%d",&a);
+	
+	printf("%d",5*a);
+	return 0;
+}
+
+
+--The executable simply computes and prints 5 times the entered integer.
+
+--This is how it's being done in the machine level:
+
+	--The entered integer is first stored from stack to register edx.Then,
+	--mov eax,edx.    The integer is copied into eax register.
+	--shl eax,0x2.    The value in eax is right shifted by 2 bits.so if the number is x,then if it is right shifted by y bits,then the result is x*2^y .So eax is now $eax*2^2 = $eax*4.
+
+	--add eax,edx    .In the previous step,value stored in eax was multiplied by 4 and stored back in eax.Now,if edx(The original integer) is added to eax,Then eax = $eax + $edx,which is $edx*4 + $edx = 5*$edx.The job is done.The result is stored in eax.
+
+	--mov esi,eax.  eax is used for unsigned integers.esi and edi are special registers to store strings.So esi has the result in it for printf function.
