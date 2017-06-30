@@ -1,8 +1,8 @@
-<h1><b>ASSIGNMENT 3</b><h1><br><br>
+<h1><b>ASSIGNMENT 3</b><h1><br>
 <h1> Yogi And Jinx <h1><br>
-Solving recursive function we obtain A(n)=(7.(2^n)+8.(-1^n))/6<br>
-Modular Multiplicative Inverse of 6 is 166666668<br>
-<h3>Used Modular Exponentiation<h3><br><br>
+<h3>*Solving recursive function we obtain A(n)=(7.(2^n)+8.(-1^n))/6<br>
+*Modular Multiplicative Inverse of 6 is 166666668<br>
+*Used Modular Exponentiation</h3><br><br>
 <h2><b>Timer Results<b><h2>
 <h5>2^1 - 120 (in microsecs)<br>
 2^10 - 146 (in microsecs)<br>
