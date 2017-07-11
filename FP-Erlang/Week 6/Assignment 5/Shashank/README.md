@@ -54,6 +54,7 @@ true
 3. #### Currying in higher order functions
 - ##### fold
   `fold(Function, Acc)`
+
   Example : To multiply all elements in list [6,4,8,2,5]
 ```
 > MulElem = higherorder:fold(fun(A, B) -> A * B end, 1).
@@ -63,6 +64,7 @@ true
 ```
 - ##### filter
   `filter(Pred)`
+
   Example : To find all numbers in list[32,7,12,14,63,23] which are divisible by 7  
 ```
 > Divisible7 = higherorder:filter(fun(X) -> X rem 7 == 0 end).
@@ -72,6 +74,7 @@ true
 ```
 - ##### map
   `map(Function)`
+
   Example : To increment all numbers in list[2,3,5,8,13,21] by 3  
 ```
 > Inc3 = higherorder:map(fun(X) -> X + 3 end).
@@ -82,6 +85,7 @@ true
 - ##### all
   `all(Pred)` <br/>
 Returns a function that takes a list as input. Returns true if Pred(Elem) returns true for all elements Elem in list, otherwise false <br/>
+
   Example : Check if all numbers in list[2, 3, 5, 8, 13, 21] are even  
 ```
 > AllEven = higherorder:all(fun(X) -> X rem 2 == 0 end).
@@ -92,6 +96,7 @@ true
 - ##### takewhile
   `takewhile(Pred) -> takewhile(Pred)` <br/>
 Returns a function that takes a list as input. Takes elements Elem from a list while Pred(Elem) returns true, that is, the function returns the longest prefix of the list for which all elements satisfy the predicate. <br/>
+
  Example : Find the longest prefix of the list for which all elements in list[7, 4, 8, 1, 9, 3, 13, 6, 8, 2] is less than 10  
 ```
 > LessThan10 = higherorder:takewhile(fun(X) -> X < 10 end).
@@ -158,7 +163,8 @@ would be written in erlang as follows (with n = 20)
 
 ### 4) foldl using foldr
 
-`foldl(Function, Acc, List)` <br/>
+`foldl(Function, Acc, List)`
+
 Example: To add all elements of list[7, 2, 17, 12, 9, 13]
 ```
 > higherorder:foldl(fun(A,B) -> A + B end, 0, [7,2,17,12,9,13]).
