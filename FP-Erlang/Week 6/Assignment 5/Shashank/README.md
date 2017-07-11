@@ -80,8 +80,8 @@ true
 [5,6,8,11,16,24]
 ```
 - ##### all
-  `all(Pred)`
-Returns a function that takes a list as input. Returns true if Pred(Elem) returns true for all elements Elem in list, otherwise false
+  `all(Pred)` <br/>
+Returns a function that takes a list as input. Returns true if Pred(Elem) returns true for all elements Elem in list, otherwise false <br/>
   Example : Check if all numbers in list[2, 3, 5, 8, 13, 21] are even  
 ```
 > AllEven = higherorder:all(fun(X) -> X rem 2 == 0 end).
@@ -90,8 +90,8 @@ Returns a function that takes a list as input. Returns true if Pred(Elem) return
 true
 ```
 - ##### takewhile
-  `takewhile(Pred) -> takewhile(Pred)`
-Returns a function that takes a list as input. Takes elements Elem from a list while Pred(Elem) returns true, that is, the function returns the longest prefix of the list for which all elements satisfy the predicate.
+  `takewhile(Pred) -> takewhile(Pred)` <br/>
+Returns a function that takes a list as input. Takes elements Elem from a list while Pred(Elem) returns true, that is, the function returns the longest prefix of the list for which all elements satisfy the predicate. <br/>
  Example : Find the longest prefix of the list for which all elements in list[7, 4, 8, 1, 9, 3, 13, 6, 8, 2] is less than 10  
 ```
 > LessThan10 = higherorder:takewhile(fun(X) -> X < 10 end).
@@ -106,7 +106,7 @@ The derivative of a function f(x) with respect to variable x is defined as:
 ![f'(x)](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20f%27%28x%29%20%3D%20lim_%7Bh%20-%3E%200%7D%5Cfrac%7Bf%28x&plus;h%29%20-%20f%28x%29%7D%7Bh%7D)
 where f must be a continuous function.
 
-`derive(Function, H)`
+`derive(Function, H)` <br/>
 Returns a new function that takes X as input and represents the derivative of Function (must be continuous) for a given  value of H, where H is the limiting value.
 
 
@@ -136,12 +136,12 @@ Simpson's rule is a method for numeric integration:
 ![Simpson's rule](https://latex.codecogs.com/gif.latex?%5Cint_%7Ba%7D%5E%7Bb%7Df%20%3D%20%5Cfrac%7Bh%7D%7B3%7D%28y_%7B0%7D%20&plus;%204y_%7B1%7D&plus;2y_%7B2%7D&plus;4y_%7B3%7D&plus;2y_%7B4%7D&plus;...&plus;2y_%7Bn-2%7D&plus;4y_%7Bn-1%7D&plus;y_%7Bn%7D%29)
 where ![h](https://latex.codecogs.com/gif.latex?%5Cdpi%7B80%7D%20h%20%3D%20%5Cfrac%7Ba%20-%20b%7D%7Bn%7D)  for a given even positive integer n and ![yk](https://latex.codecogs.com/gif.latex?%5Cdpi%7B80%7D%20y_%7Bk%7D%20%3D%20f%28a%20&plus;%20k%20*%20h%29).
 
-`integral(A, B, N, Function)`
+`integral(A, B, N, Function)` <br/>
 Performs Simpson's rule to return the value of integral of Function from limits A to B.
 
 For example:
 ##### Single Integral
-![ex1](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Cint_%7B1%7D%5E%7B2%7Dx%5E%7B2%7D%20&plus;%20x%20&plus;%201%20%3D%20%5Cfrac%7B29%7D%7B6%7D)
+![ex1](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Cint_%7B1%7D%5E%7B2%7Dx%5E%7B2%7D%20&plus;%20x%20&plus;%201%20%3D%20%5Cfrac%7B29%7D%7B6%7D) <br/>
 would be written in erlang as follows (with n = 20)
 ```
 > higherorder:integral(1,2,20,fun(X) -> X*X + X + 1 end).
@@ -149,7 +149,7 @@ would be written in erlang as follows (with n = 20)
 ```
 ##### Double Integral
 
-![](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Cint_%7B3%7D%5E%7B4%7D%5Cint_%7B1%7D%5E%7B2%7D%20%28x%5E%7B2%7D%20&plus;%20y%5E%7B2%7D%29%20dxdy%20%3D%20%5Cfrac%7B44%7D%7B3%7D)
+![](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Cint_%7B3%7D%5E%7B4%7D%5Cint_%7B1%7D%5E%7B2%7D%20%28x%5E%7B2%7D%20&plus;%20y%5E%7B2%7D%29%20dxdy%20%3D%20%5Cfrac%7B44%7D%7B3%7D) <br/>
 would be written in erlang as follows (with n = 20)
 ```
 > higherorder:integral(3,4,20, fun(X)-> higherorder:integral(1,2,20, fun(Y) -> X*X + Y*Y end) end).
@@ -158,7 +158,7 @@ would be written in erlang as follows (with n = 20)
 
 ### 4) foldl using foldr
 
-`foldl(Function, Acc, List)`
+`foldl(Function, Acc, List)` <br/>
 Example: To add all elements of list[7, 2, 17, 12, 9, 13]
 ```
 > higherorder:foldl(fun(A,B) -> A + B end, 0, [7,2,17,12,9,13]).
