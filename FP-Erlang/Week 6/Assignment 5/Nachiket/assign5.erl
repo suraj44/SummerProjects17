@@ -21,18 +21,33 @@ add(X) ->
     AddX = fun(Y) -> X + Y end,
     AddX.
 
+add(X,Y)->
+	A= add(X),
+	A(Y).
+
 subtract(X)->
 	SubX = fun(Y) -> X-Y end,
 	SubX.
+
+subtract(X,Y)->
+	S = subtract(X),
+	S(Y).
 
 multiply(X)->
 	MulX = fun(Y) -> X*Y end,
 	MulX.
 
+multiply(X,Y)->
+	M = multiply(X),
+	M(Y).
+
 divide(X)->
 	DivX = fun(Y) -> X/Y end,
 	DivX.
 
+divide(X,Y)->
+	D = divide(X),
+	D(Y).
 %     i) greaterThanX()
 %     ii) lessThanX()
 %
