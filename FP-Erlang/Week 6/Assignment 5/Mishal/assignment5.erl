@@ -1,14 +1,29 @@
 -module (assignment5).
--export ([add/1,subtract/1,multiply/1,divide/1,greaterThanX/1,lessThanX/1,three_a/2,three_b/1,three_c/1,derive/2,integral/4,foldl/3]).
+-export ([add/2,add/1,subtract/2,subtract/1,multiply/2,multiply/1,divide/2,divide/1,greaterThanX/1,lessThanX/1,three_a/2,three_b/1,three_c/1,derive/2,integral/4,foldl/3]).
 
 %%%%%%%%%%%%%%%%%%%%%%%%  QUESTION 1  %%%%%%%%%%%%%%%%%%%%%%%%
 
 % Part 1 %
-add(X) -> fun(Y) -> X+Y end.
-subtract(X) -> fun(Y) -> X-Y end.
-multiply(X) -> fun(Y) -> X*Y end.
-divide(X) -> fun(Y) -> X/Y end.
+add(X) -> fun(Y) -> X + Y end.
+add(X,Y) -> 
+		F=add(X),
+		F(Y).
 
+subtract(X) -> fun(Y) -> X-Y end.
+subtract(X,Y) -> 
+		F=subtract(X),
+		F(Y).
+
+multiply(X) -> fun(Y) -> X*Y end.
+multiply(X,Y) -> 
+		F=multiply(X),
+		F(Y).
+
+divide(X) -> fun(Y) -> X/Y end.
+divide(X,Y) -> 
+		F=divide(X),
+		F(Y).
+		
 % Part 2 %
 greaterThanX(X) -> fun(Y) -> case Y>X of true -> true; false -> false end end.
 lessThanX(X) -> fun(Y) -> case Y<X of true -> true; false -> false end end.
