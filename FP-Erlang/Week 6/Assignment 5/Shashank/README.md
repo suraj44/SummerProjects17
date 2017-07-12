@@ -183,11 +183,16 @@ Returns a function that takes a List as argument and returns true if Pred(Elem) 
 - `all(Pred, List)` <br/>
 Returns true if Pred(Elem) returns true for all elements Elem in List, otherwise returns false.
 
-  Example : Check if all numbers in list[2, 3, 5, 8, 13, 21] are even  
+  Example : Check if all numbers in list[6,2,8,4] are even  
 ```
 > AllEven = higherorder:all(fun(X) -> X rem 2 == 0 end).
 #Fun<higherorder.9.44357095>
 > AllEven([6,2,8,4]).
+true
+```
+OR
+```
+> higherorder:all(fun(X) -> X rem 2 == 0 end, [6,2,8,4]).
 true
 ```
 ##### takewhile
@@ -270,7 +275,7 @@ would be written in erlang as follows (with n = 20)
 ### 4) foldl using foldr
 
 `foldl(Function, AccStart, List)` <br/>
-Calls Function(Elem, AccIn) on successive elements(Elem) of List from left to right, starting with AccIn == AccStart. The function returns the final value of the accumulator. AccStart is returned if the list is empty.
+Calls Function(Elem, AccIn) on successive elements(Elem) of List from left to right, starting with AccIn == AccStart. The function returns the final value of the accumulator. AccStart is returned if the list is empty. </br>
 **Note**: Function/2 must return a new accumulator, which is passed to the next call.
 
 Example: To add all elements of list[7, 2, 17, 12, 9, 13]
