@@ -1,21 +1,36 @@
 -module(assignment5).
--export([add/1, subtract/1, multiply/1, divide/1, greaterThanX/1, lessThanX/1,
+-export([add/1, add/2, subtract/1, subtract/2, multiply/1, multiply/2, divide/1,
+ divide/2, greaterThanX/1, greaterThanX/2, lessThanX/1, lessThanX/2, isremdr/1, isremdr/2,
  derive/2, integral/4, foldl/3, map/2, filterl/2, lessthanList/2, sumList/1,
  squareList/1, evenList/1, factList/1, foldr/3, foldl2/3]).
 
 add(X) -> fun(Y) -> X+Y end.
 
+add(X,Y) -> G = add(X), G(Y).
+
 subtract(X) -> fun(Y) -> X-Y end.
+
+subtract(X,Y) -> G = subtract(X), G(Y).
 
 multiply(X) -> fun(Y) -> X*Y end.
 
+multiply(X,Y) -> G = multiply(X), G(Y).
+
 divide(X) -> fun(Y) -> X/Y end.
+
+divide(X,Y) -> G = divide(X), G(Y).
 
 isremdr(X) -> fun(Y) -> Y rem X == 0 end.
 
+isremdr(X,Y) -> G = isremdr(X), G(Y).
+
 greaterThanX(X) -> fun(Y) -> Y>X end.
 
+greaterThanX(X,Y) -> G = greaterThanX(X), G(Y).
+
 lessThanX(X) -> fun(Y) -> X>Y end.
+
+lessThanX(X,Y) -> G = lessThanX(X), G(Y).
 
 fact(X) -> fact(X,1).
 fact(0,Prod) -> Prod;
