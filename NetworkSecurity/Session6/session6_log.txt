@@ -1,0 +1,338 @@
+jeshventh : Hello everyone!
+adwait1_g : hello
+surajsingh : hey!
+jeshventh : We will start the session in 5 minutes
+jeshventh : Please let your friends know the session is starting
+aryanhimanshu : Hello
+jeshventh : Today we will have an introduction to assembly language
+nihalh55 : Hello 
+jeshventh : I guess we will start the session now
+jeshventh : Why and what is assembly language?
+aryanhimanshu : Middle level language
+surajsingh : it's needed because low level binary languages are unreadable to humans
+aryanhimanshu : It coNtains Mnemonics
+jeshventh : Good
+jeshventh : It was developed to make programming easier compared to writing the binary code directly.
+adwait1_g : binaries created using assembly language are smaller and efficient
+jeshventh : Smaller when compares to binaries but larger when compared to high level language
+jeshventh : Why effiecient <@U5AUG5J8Y> ?
+adwait1_g : They are more precise and we can write the code to the point.
+jeshventh : Very nice
+jeshventh : We will see how precise in a while
+jeshventh : Now that we have high level languages, why do we still need to learn assembly language?
+amalbyju98 : Assembly language is used to make bootloader for OSes
+adwait1_g : To know what is actually happening when an executable is run for example.Which registers are used etc.,
+jeshventh : Correct <@U5E8J6VAA> <@U5AUG5J8Y>
+jeshventh : You can add compilers too. And many devices can be directly programmed using assembly language
+jeshventh : Example - microprocessors
+jeshventh : ECE students will be doing this in their fourth sem!
+jeshventh : One problem with assembly language is that they are processor specific
+jeshventh : That is, they depend on the architecture which is used by the processor
+jeshventh : Now, what is architecture. More specifically computer architecture?
+jeshventh : It is a set of rules and methods that describe the functionality, organization, and implementation of computer systems.
+jeshventh : This is what wikipedia says :stuck_out_tongue:
+jeshventh : More questions now! What is organization?
+jeshventh : What is functionality?
+surajsingh : functionality just means all the operations a computer can perform
+jeshventh : Try looking at the image. It will help
+adwait1_g : organisation is how the software(OS) is linked with the underlying hardware to give optimal result
+jeshventh : Correct <@U5ATP83CG> <@U5AUG5J8Y>
+amalbyju98 : Functionality is the extent of uses or applications a computer can do for a user
+jeshventh : You will understand more when the image uploads :sweat_smile:
+jeshventh : True <@U5E8J6VAA> . But in this context, we can be more specific. It tells us about the possible commands we can use in our program
+jeshventh : And organization tells us how the components are organised defining the path taken by an instruction
+jeshventh : Some of the main components here will be Instruction memory, Main memory, ALU, etc.
+jeshventh : <@U5C2P3WMR|jeshventh> uploaded a file: <https://networksecurity-ieee.slack.com/files/jeshventh/F5VUF4K0C/2.jpg|2.jpg>
+jeshventh : Pic loaded atlast! :confused: xD
+jeshventh : Here you can see the process is split into five main parts
+jeshventh : instruction fetch, decode,execute and the other two
+jeshventh : Don't worry about that complicated picture for now. A simplified explanation will do
+jeshventh : Suppose you give an instruction to add two number stored in two registers
+jeshventh : Whose format is
+jeshventh : add &lt;reg&gt;,&lt;reg&gt;
+jeshventh : In the first step, the instruction is understood by the computer, what it requires to do
+jeshventh : In the second step, any values that need to be taken from the registers is passed on to *A* and *B* as you see in the picture
+jeshventh : In the third step, the required operation takes place. In this case, addition if values stored in A and B
+jeshventh : ALU performs this function
+jeshventh : In the fourth step, reading and writing to the memory happens. In this case, it is not required
+jeshventh : In the fifth step, any writing back into memory happens
+jeshventh : Any doubts anyone?
+aryanhimanshu : Nope
+surajsingh : ALU stands for what?
+adwait1_g : arithmetic and logic unit
+aryanhimanshu : Arithmetic and logic unit
+surajsingh : thanks guys
+jeshventh : You saw that in the instruction we used for the example, we directly used the registers
+jeshventh : Why? How does it help?
+aryanhimanshu : Faster execution
+jeshventh : Because?
+aryanhimanshu : Quick access time compared to memory
+jeshventh : Good
+jeshventh : How many registers do you think are there in a processor?
+jeshventh : Not fixed. But an approximation
+adwait1_g : depends on the processor.16 reg
+jeshventh : Yes. It is usually 8
+jeshventh : And each one of them is 32bits
+jeshventh : Why dont we have the whole memory as registers then?
+jeshventh : Wouldn't that be awesome!? :stuck_out_tongue:
+aryanhimanshu : Costly
+aryanhimanshu : Plus management would be cumbersome
+jeshventh : Yes <@U5BFS7Q2X>
+aryanhimanshu : I am not sure about management part though
+jeshventh : Say you have 8 registers
+jeshventh : You can represent 8 in 4 bits
+jeshventh : So, an instruction which references to a register requires only 4 bits to represent it
+jeshventh : We can increase it to 15 with 4 bits, but this is not the only reason
+jeshventh : And with these many registers itself, efficient ways are developed to do required stuff
+jeshventh : And I sticking to this standard which has been developed for so long is a good option :stuck_out_tongue:
+jeshventh : <@U5C2P3WMR|jeshventh> uploaded a file: <https://networksecurity-ieee.slack.com/files/jeshventh/F5WNLLKU7/3.jpg|3.jpg>
+jeshventh : You can see this picture which gives you the hierarchy of the memory
+jeshventh : As you go from top to bottom, the access speed decreases, cost decreases
+jeshventh : And by offline storage, it means that it doesn't require power to store information
+jeshventh : Basically your secondary memory
+jeshventh : <@U5C2P3WMR|jeshventh> uploaded a file: <https://networksecurity-ieee.slack.com/files/jeshventh/F5VV2H9U4/5.png|5.png>
+jeshventh : And this is how your registers look
+jeshventh : There are mainly 8 32 bits registers
+jeshventh : The top four are divided into sub registers
+jeshventh : of 8 bits
+jeshventh : You will be able to understand how these registers are used when we look into assembly programs
+jeshventh : Do you all know about the memory stack?
+jeshventh : And any doubts?
+gautamrk : no doubts
+jeshventh : <@U5C2P3WMR|jeshventh> uploaded a file: <https://networksecurity-ieee.slack.com/files/jeshventh/F5W17NUA1/6.png|6.png>
+jeshventh : This is how memory is divided
+jeshventh : Variables, global variables, temporary variables are stored in different sections of the memory
+jeshventh : I will tell you about how functions are executed to understand the need of stack
+jeshventh : Let's say the main function is stored in the address range 100-200
+jeshventh : A function add is stored in the range 250-300
+jeshventh : two more function divide is stored in the range 350-400
+jeshventh : When you jump to a function, you need to know where to come back and hence you store that address into a register
+jeshventh : For example, an instruction at address 150 calls add function
+jeshventh : You need to store 151 so that you can jump back
+jeshventh : After the function is completed, you jump to the address stored in that register
+jeshventh : But what if you have to use both functions?
+jeshventh : Let's say you need to calculate the average of two values
+jeshventh : you use both add and divide functions
+jeshventh : How will you store two return addresses now?
+gautamrk : store in stack
+aryanhimanshu : With the help of stack
+gautamrk : pop as you return
+jeshventh : Good!
+jeshventh : Another example now
+jeshventh : Say you have a recursive function
+jeshventh : The variable values need to overwritten everytime
+jeshventh : Hence, when you jump to a function, you store the values into the stack, and bring them back to the variables when you return back
+jeshventh : Everything clear?
+gautamrk : yes
+adwait1_g : Yes
+
+jeshventh : Nice
+jeshventh : When you write a assembly program, you will divide it into sections
+jeshventh : The two main sections are the data and text section
+jeshventh : You define your variables in .data section
+jeshventh : And write your code in .text section
+jeshventh : We will look into examples later
+jeshventh : We will go through a few commands now
+aryanhimanshu : Ok
+jeshventh : For this, we will be using x86 intel assembly language
+jeshventh : This is one of the two main x86 class assembly language
+jeshventh : The other one is AT&amp;T
+jeshventh : <@U5C2P3WMR|jeshventh> uploaded a file: <https://networksecurity-ieee.slack.com/files/jeshventh/F5VU4GZ42/1.png|1.png>
+jeshventh : You can go through the picture to know the differences
+jeshventh : <http://www.cs.virginia.edu/~evans/cs216/guides/x86.html>
+jeshventh : I am using this site for referring to the instructions
+jeshventh : mov &lt;reg&gt;,&lt;reg&gt;
+jeshventh : This is the move instruction which moves a value from the right register to the one in left
+jeshventh : When you want to use a value from the memory, you will use
+jeshventh : mov &lt;reg&gt;,&lt;mem&gt;
+jeshventh : examples
+jeshventh : mov eax, ebx
+jeshventh : Which moves the value stored in ebx to eax
+jeshventh : Any guess what mov eax, [ebx] means?
+amalbyju98 : Moving data to 
+Eax from ebx label
+jeshventh : Nope. In intel assembly language, the destination is on the left
+aryanhimanshu : Fetch from memory
+adwait1_g : address of data in ebx to eax
+aryanhimanshu : Ohh
+jeshventh : correct <@U5BFS7Q2X>
+aryanhimanshu : Adress specified by ebx
+jeshventh : A register can store a value or an address
+jeshventh : It can store a complete instruction too!
+jeshventh : Because an instruction is of the length 32 bits
+jeshventh : When you want to use a value directly
+jeshventh : yo can use mov eax, 100
+jeshventh : Next the push instruction
+jeshventh : push eax
+jeshventh : or push [eax]
+jeshventh : or push 5
+jeshventh : Push will push the address,value or immediate value into the stack
+jeshventh : a number is referenced as immediate value in computer architecture
+jeshventh : Similarly, there is pop
+jeshventh : which pops the value from the stack into the variable specified
+jeshventh : pop eax will pop the value into eax
+jeshventh : pop [eax] will pop the value into the memory
+jeshventh : any doubts?
+aryanhimanshu : What if we just want to peek the value
+aryanhimanshu : Do we have to pop it and push it again?
+surajsingh : is peek there as well?
+jeshventh : Not sure. But i think you can use mov instruction
+jeshventh : mov the value from the stack into the register you want and print it
+aryanhimanshu : OK
+jeshventh : Moving on to arithmetic instructions
+jeshventh : add eax,ebx
+jeshventh : does eax = eax + ebx
+jeshventh : I will not define it seperately for memory and immediate values. You can look at them in the reference i gave. Any doubts, feel free to ask:)
+jeshventh : sub eax,ebx does eax = eax - ebx
+jeshventh : Do you want me to go through these instructions or it's fine for you to use the website?
+adwait1_g : we will use the website
+jeshventh : What about others?
+gautamrk : website should be fine if it is detailed enough
+amalbyju98 : We will learn from website
+jeshventh : Cool
+aryanhimanshu : Website 
+jeshventh : Just remember the destination is in the left here. Might be confusing sometimes
+jeshventh : It's better if you guys look at it now itself
+jeshventh : Just go through and let me know when it is done
+jeshventh : We can finish off with any doubts in this session itself
+gautamrk : what is lea
+jeshventh : lea is used to store an address after arithmetic calculation
+jeshventh : lea edi, [ebx+4*esi]
+jeshventh : The arithmetic operations takes place first and the result is stored in edi
+gautamrk : what do you mean by storing an address?
+amalbyju98 : What does EDX:EAX mean?
+adwait1_g : as these are 32 bits registers,a 64 bit number is stored as 32bits in EDX and 32 bits in EAX
+jeshventh : I am sorry. Storing from address
+jeshventh : The value which is stored in the address which is present in the register
+amalbyju98 : Ok thanks
+jeshventh : got it <@U5B3HALU9> ?
+jeshventh : You might see dword, qword
+jeshventh : They specify size
+gautamrk : got it
+jeshventh : <@U5C2P3WMR|jeshventh> uploaded a file: <https://networksecurity-ieee.slack.com/files/jeshventh/F5W13HRNG/4.png|4.png>
+jeshventh : Put a :+1: when done
+jeshventh : When done, install radare2 using these instructions
+jeshventh : $ git clone <https://github.com/radare/radare2.git>
+$ cd radare2
+$ ./sys/install.sh
+amalbyju98 : :+1: 
+jeshventh : *without the $ symbols!*
+jeshventh : We will use radare2 for disassembling executables
+gautamrk : :+1:
+surajsingh : :+1:
+jeshventh : Installation done?
+adwait1_g : :+1:
+jeshventh : We will resume the session at 10:30
+jeshventh : Sorry for the break
+jeshventh : We will resume now
+jeshventh : We will use radare2( in short r2)
+jeshventh : we will start with a c program
+jeshventh : hello world
+jeshventh : #include &lt;stdio.h&gt;
+
+int main()
+{
+	printf("Hello world");
+}
+jeshventh : Everyone use this. The assembly code will be uniform and make it easy for me to explain
+jeshventh : Next, compile it to get an executable: *a.out*
+jeshventh : Put a :+1: when done
+gautamrk : :+1:
+adwait1_g : :+1: 
+amalbyju98 : :+1: 
+jeshventh : Nice
+jeshventh : now use the command
+jeshventh : r2 a.out
+jeshventh : done?
+adwait1_g : Done
+
+jeshventh : Then use the command: *v*
+jeshventh : <@U5C2P3WMR|jeshventh> uploaded a file: <https://networksecurity-ieee.slack.com/files/jeshventh/F5VDDHDKK/7.png|7.png>
+jeshventh : You will see something like this
+gautamrk : ya
+jeshventh : Now use: p
+amalbyju98 : Yes
+jeshventh : It will show you the disassembly
+jeshventh : Forgot a command
+jeshventh : use *q* to go back
+jeshventh : And then use aaa
+jeshventh : This will do the analysis of the code to find functions for us
+jeshventh : now use v again
+jeshventh : and v once more
+jeshventh : You will see this
+jeshventh : <@U5C2P3WMR|jeshventh> uploaded a file: <https://networksecurity-ieee.slack.com/files/jeshventh/F5WQZ4K55/image.png|image.png>
+jeshventh : On the right side of th screen, you can see the name of the function which it is pointing to
+jeshventh : I guess it is entry0 for all right
+jeshventh : ?
+gautamrk : unable to get this
+gautamrk : could you repeat the order again
+jeshventh : Use q to go back and then use v twice
+jeshventh : Use did aaa before right?
+gautamrk : got it
+gautamrk : ya
+jeshventh : Now use your up and down arrow keys to move to sys.main
+adwait1_g : I didn't get that V command?
+jeshventh : and then use g to go to that function
+amalbyju98 : Where is sys.main ?
+jeshventh : You can see the functions on the left
+jeshventh : The second function
+jeshventh : <@U5AUG5J8Y>  just type *v* and enter
+amalbyju98 : I see sym.main
+amalbyju98 : Ok
+jeshventh : use *g* to go to that function
+jeshventh : <@U5C2P3WMR|jeshventh> uploaded a file: <https://networksecurity-ieee.slack.com/files/jeshventh/F5WQL8WT0/image.png|image.png>
+jeshventh : You can see the main function at the top now
+jeshventh : Everyone reached here?
+gautamrk : ya
+jeshventh : Now try going through that function
+jeshventh : rbp and rsp be are special registers used to store the bottom and top of the stack respectively
+jeshventh : Hope everyone has reached this stage
+jeshventh : We already discussed that when we move to a function, we need to store the data in the stack. Therefore a part of the stack is dedicated to a function
+jeshventh : Say the stack is filled till 1000
+jeshventh : Our main function will start from 1001
+jeshventh : Now the first instruction push rbp pushes 1000 into the stack
+jeshventh : now we move the base pointer to 1001 with the help of second instruction
+jeshventh : In the third instruction, we are storing the address of the string "Hello World" into the register edi
+jeshventh : The fourth instruction puts the value 0 into eax
+jeshventh : The fifth instruction calls the print function
+jeshventh : The sixth is the same as fourth
+jeshventh : Once the main function is over, we need to return to the previous function's base
+jeshventh : Which is the value we pushed in the beginning
+jeshventh : Therefore we pop that value into rbp
+jeshventh : and use *ret* to move to return to that value
+jeshventh : Everyone followed till here?
+jeshventh : Any doubts?
+gautamrk : what do you mean when you said
+gautamrk : stack is filled till 1000
+jeshventh : Stack is used uptil 1000 bytes
+jeshventh : Other programs might be running and hence using the stack
+gautamrk : so rsp and rbp represent the address of top and bottom?
+gautamrk : of the function
+jeshventh : Of the stack
+gautamrk : oh ya
+jeshventh : which the function is using
+jeshventh : So you can see how the hello world program actually takes place
+jeshventh : assembly language doesnt hide what it is actually doing in the computer
+jeshventh : But yeah, its a tedious job
+jeshventh : Wonder where you can use this?
+jeshventh : You can reverse engineer a executable. Say you didn't know what the program was. You could have fount it out using this!
+jeshventh : We will see some CTF questions later on. It will be fun!
+jeshventh : CTF - Capture The Flag competition host questions based on reverse engineering, web, cryptography, etc
+jeshventh : They give u some files or executables and your job is to find a flag( a string) which is your answer
+jeshventh : We will try some questions later on. For fun :stuck_out_tongue:
+jeshventh : <http://sushant94.me/2015/05/31/Introduction_to_radare2/>
+jeshventh : You can go through this link for starting with r2
+jeshventh : Try different programs. start with addition - first by assigning values to varailbles. Then by inputting the value from the user
+jeshventh : See how the assembly code changes
+jeshventh : basically, make one change at a time to make it easier
+jeshventh : Any doubts?
+gautamrk : nope
+jeshventh : We will end the session here. Try to get yourself comfortable with assembly language.
+adwait1_g : no
+jeshventh : We will have the next session soon
+jeshventh : And about the assignments, i will inform you later
+jeshventh : Ok everyone
+jeshventh : Bye
+jeshventh : Have a good night
+jeshventh : :slightly_smiling_face:
+
