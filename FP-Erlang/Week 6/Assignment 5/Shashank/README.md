@@ -1,32 +1,72 @@
 # Assignment 5
 
 ### 1) Currying
-1. #### Arithmetic operations
-- Addition
-  Example : To add 9 and 5
+#### a) Arithmetic operations
+ ##### Addition
+- `add(X)`
+   Returns a function that takes another number Y as argument and returns X +  Y.
+
+- `add(X, Y)`
+   Returns X + Y.
+
+  For example : To add 9 and 5
 ```
 > Add9 = higherorder:add(9).
 #Fun<higherorder.0.44357095>
 > Add9(5).
 14
 ```
-- Subtraction
-  Example : To subtract 6 from 10
+OR
+```
+> higherorder:add(9,5).
+14
+```
+
+##### Subtraction
+- `subtract(X)`
+   Returns a function that takes another number Y as argument and returns X - Y.
+
+- `subtract(X, Y)`
+   Returns X - Y.
+
+  For example : To subtract 6 from 10
 ```
 > Sub10 = higherorder:subtract(10).
 #Fun<higherorder.1.44357095>
 > Sub10(6).                        
 4
 ```
-- Multiplication
-  Example : To multiply 3 and 7
+OR
+```
+> higherorder:subtract(10,6).
+4
+```
+##### Multiplication
+- `multiply(X)`
+   Returns a function that takes another number Y as argument and returns X * Y.
+
+- `multiply(X, Y)`
+   Returns X * Y.
+
+  For example : To multiply 3 and 7
 ```
 > Mul3 = higherorder:multiply(3).
 #Fun<higherorder.2.44357095>
 > Mul3(7).
 21
 ```
-- Division
+OR
+```
+> higherorder:multiply(3,7).
+21
+```
+##### Division
+- `divide(X)`
+Returns a function that takes another number Y as argument and returns X / Y.
+
+- `divide(X, Y)`
+   Returns X / Y.
+
   Example : To divide 8 by 5
 ```
 > Div8 = higherorder:divide(8).
@@ -34,8 +74,19 @@
 > Div8(5).
 1.6
 ```
-2. #### Comparison
-- Greater than
+OR
+```
+> higherorder:divide(8,5).
+1.6
+```
+#### b) Comparison
+##### Greater than
+- `greaterThanX(Y)`
+Returns a function that takes another number X as argument and returns true if X > Y, else returns false.
+
+- `greaterThanX(X, Y)`
+   Returns true is X > Y, else returns false.
+
   Example : To check if 3 is greater than 8
 ```
 > Gt8 = higherorder:greaterThanX(8).
@@ -43,7 +94,18 @@
 > Gt8(3).
 false
 ```
-- Lesser than
+OR
+```
+> higherorder:greaterThanX(3,8).
+false
+```
+##### Lesser than
+- `lessThanX(Y)`
+Returns a function that takes another number X as argument and returns true if X < Y, else returns false.
+
+- `lessThanX(X, Y)`
+   Returns true is X < Y, else returns false.
+
   Example : To check if 4 is less than 7
 ```
 > Lt7 = higherorder:lessThanX(7).
@@ -51,9 +113,19 @@ false
 > Lt7(4).                        
 true
 ```
-3. #### Currying in higher order functions
-- ##### fold
-  `fold(Function, Acc)`
+OR
+```
+> higherorder:lessThanX(4,7).
+true
+```
+#### c) Currying in higher order functions
+##### fold
+- `fold(Function, Acc)`
+   Returns a function that takes a List as argument and calls Function(Elem, Answer) on successive elements(Elem) A of List, starting with Answer == Acc. The function returns the final value of the accumulator, which is Answer. Acc is returned if the list is empty.
+**Note**: Function/2 must return a new accumulator, which is passed to the next call.
+- `fold(Function, Acc, List)`
+  Calls Function(Elem, Answer) on successive elements(Elem) A of List, starting with Answer == Acc. The function returns the final value of the accumulator, which is Answer. Acc is returned if the list is empty.
+**Note**: Function/2 must return a new accumulator, which is passed to the next call.
 
   Example : To multiply all elements in list [6,4,8,2,5]
 ```
@@ -62,8 +134,16 @@ true
 > MulElem([6,4,8,2,5]).
 1920
 ```
-- ##### filter
-  `filter(Pred)`
+OR
+```
+> higherorder:fold(fun(A, B) -> A * B end, 1, [6,4,8,2,5]).
+1920
+```
+##### filter
+- `filter(Pred)`
+  Returns a function that takes a List as argument and returns a list of all elements Elem in List for which Pred(Elem) returns true.
+- `filter(Pred, List)`
+  Returns a list of all elements Elem in List for which Pred(Elem) returns true.
 
   Example : To find all numbers in list[32,7,12,14,63,23] which are divisible by 7  
 ```
@@ -72,8 +152,17 @@ true
 > Divisible7([32,7,12,14,63,23]).
 [7,14,63]
 ```
-- ##### map
-  `map(Function)`
+OR
+```
+> higherorder:filter(fun(X) -> X rem 7 == 0 end, [32,7,12,14,63,23]).
+[7,14,63]
+```
+##### map
+- `map(Function)`
+   Returns a function that takes a List as argument and returns a list of values of Function(Elem) for each element Elem of List.
+
+- `map(Function, List)`
+   Returns a list of values of Function(Elem) for each element Elem of List.
 
   Example : To increment all numbers in list[2,3,5,8,13,21] by 3  
 ```
@@ -82,9 +171,17 @@ true
 > Inc3([2,3,5,8,13,21]).
 [5,6,8,11,16,24]
 ```
-- ##### all
-  `all(Pred)` <br/>
-Returns a function that takes a list as input. Returns true if Pred(Elem) returns true for all elements Elem in list, otherwise false <br/>
+OR
+```
+> higherorder:map(fun(X) -> X + 3 end, [2,3,5,8,13,21]).
+[5,6,8,11,16,24]
+```
+##### all
+- `all(Pred)` <br/>
+Returns a function that takes a List as argument and returns true if Pred(Elem) returns true for all elements Elem in List, otherwise returns false. <br/>
+
+- `all(Pred, List)` <br/>
+Returns true if Pred(Elem) returns true for all elements Elem in List, otherwise returns false.
 
   Example : Check if all numbers in list[2, 3, 5, 8, 13, 21] are even  
 ```
@@ -93,16 +190,25 @@ Returns a function that takes a list as input. Returns true if Pred(Elem) return
 > AllEven([6,2,8,4]).
 true
 ```
-- ##### takewhile
-  `takewhile(Pred) -> takewhile(Pred)` <br/>
-Returns a function that takes a list as input. Takes elements Elem from a list while Pred(Elem) returns true, that is, the function returns the longest prefix of the list for which all elements satisfy the predicate. <br/>
+##### takewhile
+- `takewhile(Pred)` <br/>
+Returns a function that takes a List as argument and takes elements Elem from the List while Pred(Elem) returns true, that is, the function returns the longest prefix of the List for which all elements satisfy the predicate.
 
- Example : Find the longest prefix of the list for which all elements in list[7, 4, 8, 1, 9, 3, 13, 6, 8, 2] is less than 10  
+- `takewhile(Pred, List)` <br/>
+Returns a function that takes a List as argument and takes elements Elem from the List while Pred(Elem) returns true, that is, the function returns the longest prefix of the List for which all elements satisfy the predicate.
+
+  Example : Find the longest prefix of the list for which all elements in list[7, 4, 8, 1, 9, 3, 13, 6, 8, 2] is less than 10  
 ```
 > LessThan10 = higherorder:takewhile(fun(X) -> X < 10 end).
 #Fun<higherorder.10.44357095>
 > LessThan10([7,4,8,1,9,3,13,6,8,2]).
 [7,4,8,1,9,3]
+```
+OR
+```
+> higherorder:takewhile(fun(X) -> X < 10 end, [7, 4, 8, 1, 9, 3, 13, 6, 8, 2]).
+[7,4,8,1,9,3]
+
 ```
 
 ### 2) Derivative
@@ -112,7 +218,7 @@ The derivative of a function f(x) with respect to variable x is defined as:
 where f must be a continuous function.
 
 `derive(Function, H)` <br/>
-Returns a new function that takes X as input and represents the derivative of Function (must be continuous) for a given  value of H, where H is the limiting value.
+Returns a new function that takes X as argument and represents the derivative of Function (must be continuous) for a given  value of H, where H is the limiting value.
 
 
 Example:
@@ -164,6 +270,8 @@ would be written in erlang as follows (with n = 20)
 ### 4) foldl using foldr
 
 `foldl(Function, Acc, List)`
+Calls Function(Elem, Answer) on successive elements(Elem) A of List from left to right, starting with Answer == Acc. The function returns the final value of the accumulator, which is Answer. Acc is returned if the list is empty.
+**Note**: Function/2 must return a new accumulator, which is passed to the next call.
 
 Example: To add all elements of list[7, 2, 17, 12, 9, 13]
 ```
