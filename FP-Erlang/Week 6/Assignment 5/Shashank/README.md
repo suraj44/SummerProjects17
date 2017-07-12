@@ -3,10 +3,10 @@
 ### 1) Currying
 #### a) Arithmetic operations
  ##### Addition
-- `add(X)`
+- `add(X)` <br/>
    Returns a function that takes another number Y as argument and returns X +  Y.
 
-- `add(X, Y)`
+- `add(X, Y)` <br/>
    Returns X + Y.
 
   For example : To add 9 and 5
@@ -23,10 +23,10 @@ OR
 ```
 
 ##### Subtraction
-- `subtract(X)`
+- `subtract(X)` <br/>
    Returns a function that takes another number Y as argument and returns X - Y.
 
-- `subtract(X, Y)`
+- `subtract(X, Y)` <br/>
    Returns X - Y.
 
   For example : To subtract 6 from 10
@@ -42,10 +42,10 @@ OR
 4
 ```
 ##### Multiplication
-- `multiply(X)`
+- `multiply(X)` <br/>
    Returns a function that takes another number Y as argument and returns X * Y.
 
-- `multiply(X, Y)`
+- `multiply(X, Y)` <br/>
    Returns X * Y.
 
   For example : To multiply 3 and 7
@@ -61,13 +61,13 @@ OR
 21
 ```
 ##### Division
-- `divide(X)`
+- `divide(X)` <br/>
 Returns a function that takes another number Y as argument and returns X / Y.
 
-- `divide(X, Y)`
+- `divide(X, Y)` <br/>
    Returns X / Y.
 
-  Example : To divide 8 by 5
+  For example : To divide 8 by 5
 ```
 > Div8 = higherorder:divide(8).
 #Fun<higherorder.3.44357095>
@@ -81,10 +81,10 @@ OR
 ```
 #### b) Comparison
 ##### Greater than
-- `greaterThanX(Y)`
+- `greaterThanX(Y)` <br/>
 Returns a function that takes another number X as argument and returns true if X > Y, else returns false.
 
-- `greaterThanX(X, Y)`
+- `greaterThanX(X, Y)` <br/>
    Returns true is X > Y, else returns false.
 
   Example : To check if 3 is greater than 8
@@ -100,10 +100,10 @@ OR
 false
 ```
 ##### Lesser than
-- `lessThanX(Y)`
+- `lessThanX(Y)` <br/>
 Returns a function that takes another number X as argument and returns true if X < Y, else returns false.
 
-- `lessThanX(X, Y)`
+- `lessThanX(X, Y)` <br/>
    Returns true is X < Y, else returns false.
 
   Example : To check if 4 is less than 7
@@ -120,11 +120,11 @@ true
 ```
 #### c) Currying in higher order functions
 ##### fold
-- `fold(Function, Acc)`
-   Returns a function that takes a List as argument and calls Function(Elem, Answer) on successive elements(Elem) A of List, starting with Answer == Acc. The function returns the final value of the accumulator, which is Answer. Acc is returned if the list is empty.
+- `fold(Function, AccStart)` <br/>
+   Returns a function that takes a List as argument and calls Function(Elem, AccIn) on successive elements(Elem) of List, starting with AccIn == AccStart. The function returns the final value of the accumulator. AccStart is returned if the list is empty.  <br/>
 **Note**: Function/2 must return a new accumulator, which is passed to the next call.
-- `fold(Function, Acc, List)`
-  Calls Function(Elem, Answer) on successive elements(Elem) A of List, starting with Answer == Acc. The function returns the final value of the accumulator, which is Answer. Acc is returned if the list is empty.
+- `fold(Function, AccStart, List)` <br/>
+  Calls Function(Elem, AccIn) on successive elements(Elem) of List, starting with AccIn == AccStart. The function returns the final value of the accumulator. AccStart is returned if the list is empty.  <br/>
 **Note**: Function/2 must return a new accumulator, which is passed to the next call.
 
   Example : To multiply all elements in list [6,4,8,2,5]
@@ -140,9 +140,9 @@ OR
 1920
 ```
 ##### filter
-- `filter(Pred)`
+- `filter(Pred)` <br/>
   Returns a function that takes a List as argument and returns a list of all elements Elem in List for which Pred(Elem) returns true.
-- `filter(Pred, List)`
+- `filter(Pred, List)` <br/>
   Returns a list of all elements Elem in List for which Pred(Elem) returns true.
 
   Example : To find all numbers in list[32,7,12,14,63,23] which are divisible by 7  
@@ -158,10 +158,10 @@ OR
 [7,14,63]
 ```
 ##### map
-- `map(Function)`
+- `map(Function)` <br/>
    Returns a function that takes a List as argument and returns a list of values of Function(Elem) for each element Elem of List.
 
-- `map(Function, List)`
+- `map(Function, List)` <br/>
    Returns a list of values of Function(Elem) for each element Elem of List.
 
   Example : To increment all numbers in list[2,3,5,8,13,21] by 3  
@@ -192,10 +192,10 @@ true
 ```
 ##### takewhile
 - `takewhile(Pred)` <br/>
-Returns a function that takes a List as argument and takes elements Elem from the List while Pred(Elem) returns true, that is, the function returns the longest prefix of the List for which all elements satisfy the predicate.
+Returns a function that takes a List as argument and returns  a list of elements Elem from the List while Pred(Elem) returns true, that is, the function returns the longest prefix of the List for which all elements satisfy the predicate.
 
 - `takewhile(Pred, List)` <br/>
-Returns a function that takes a List as argument and takes elements Elem from the List while Pred(Elem) returns true, that is, the function returns the longest prefix of the List for which all elements satisfy the predicate.
+Returns a list of elements Elem from the List while Pred(Elem) returns true, that is, the function returns the longest prefix of the List for which all elements satisfy the predicate.
 
   Example : Find the longest prefix of the list for which all elements in list[7, 4, 8, 1, 9, 3, 13, 6, 8, 2] is less than 10  
 ```
@@ -269,8 +269,8 @@ would be written in erlang as follows (with n = 20)
 
 ### 4) foldl using foldr
 
-`foldl(Function, Acc, List)`
-Calls Function(Elem, Answer) on successive elements(Elem) A of List from left to right, starting with Answer == Acc. The function returns the final value of the accumulator, which is Answer. Acc is returned if the list is empty.
+`foldl(Function, AccStart, List)` <br/>
+Calls Function(Elem, AccIn) on successive elements(Elem) of List from left to right, starting with AccIn == AccStart. The function returns the final value of the accumulator. AccStart is returned if the list is empty.
 **Note**: Function/2 must return a new accumulator, which is passed to the next call.
 
 Example: To add all elements of list[7, 2, 17, 12, 9, 13]
