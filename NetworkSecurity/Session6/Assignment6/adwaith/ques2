@@ -1,0 +1,81 @@
+The executable 2 could be this:
+
+#include<stdio.h>
+int main()
+{
+	char ch1,ch2,ch3,ch4,ch5;
+	printf("\nEnter a character\n");
+	scanf("%c",&ch1);
+	scanf("%c",&ch1);
+	
+	if(ch1=='G')
+	{
+		printf("\nGood. Enter the next\n");
+		scanf("%c",&ch2);
+		scanf("%c",&ch2);
+		if(ch2=='r')
+		{
+			printf("\nNext?\n");
+			scanf("%c",&ch3);
+			scanf("%c",&ch3);
+			if(ch3=='3')
+			{
+				printf("\nClose. Next\n");
+				scanf("%c",&ch4);
+				scanf("%c",&ch4);
+				if(ch4=='4')
+				{
+					printf("\nThe last one!\n");
+					scanf("%c",&ch5);
+					scanf("%c",&ch5);
+					if(ch5=='t')
+					{
+						printf("Congrats :)\n");
+					}
+					else 
+					{
+						printf("\nYou can guess it now! Got to try again\n");
+						exit(1);
+					}
+				}
+				else 
+				{
+					printf("\nSooooo close!!! Try again\n");
+					exit(1);
+				}
+			}
+			else
+			{
+				printf("\Close! Try again\n");
+				exit(1);
+			}
+		}
+		else
+		{
+			printf("\nOne down, few more to go.Try again\n");
+			exit(1);
+		}
+	}
+	else
+	{
+		printf("\nwrong character\n");
+		exit(1);
+	}
+	return 0;
+}
+
+
+--There are 5 cmp statements.Following them are 5 corresponding jmp/jne(jump if not equal to ) statements.
+
+
+--The first cmp statement is cmp al,0x47.al refers to the 2 bytes.0x47 is ascii equivalent hex of 'G'.
+
+--In the same way the next 4 cmp statements.
+
+	--cmp al,0x72.   0x72 is equivalent to 'r'.
+	--cmp al,0x33.   0x33 is equivalent to '3'.
+	--cmp al,0x34.   0x72 is equivalent to '4'.
+	--cmp al,0x74.   0x72 is equivalent to 't'.
+
+
+--This is the solution to win .

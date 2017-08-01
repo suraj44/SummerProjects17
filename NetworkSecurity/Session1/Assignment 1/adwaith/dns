@@ -1,0 +1,57 @@
+1.What is DNS ?What are DNS servers?
+	-DNS stands for Domain Name System.
+	-It is a naming scheme which is used for mapping Domain names to corresponding IP addresses.
+	
+DNS server:A server which contains the domain names and corresponding IP addresses and many more details(CNAME,The type of service provided by that domain name etc.,) about a particular domain name.
+
+DNS client:A machine which requests the DNS server for the IP address(or other details such as canonical name) of a domain name is the DNS client.
+
+How does this work?
+
+--Every DNS client will have a function/library procedure called the RESOLVER (eg:gethostbyname("www.google.com") in C or socket.gethostbyname("www.google.com") in python) .
+--Whenever required,The DNS client sends a request(the DNS query) for the IP address to the local DNS server which looks into its records and sends back a reply(the DNS response for the above DNS query) to the DNS client.Now,the client has the Ip address of the server/another machine it wants to communicate with.
+
+--The DNS query-response generally(most of the times) are sent as UDP packets .If there are unexpected packet losses,then TCP packets are used to get the job done.The default port (both in DNS client and server) is port 53.So any DNS query from the client is sent through port 53 to port 53 of the DNS server.
+
+--Different domains include the 
+	--com:commercial
+	--edu:educational institutions
+	--org:organisations etc.,
+	
+--The computer science depatment of NITK:cse.nitk.ac.in
+					--UNIX style:in/ac/nitk/cse  
+
+
+--In the DNS server,every domain has a set of records/details associated to it.These are known as Resource Records(RRs).
+--Usually,a resorce record is like the following:
+	DOMAIN_NAME   TIME_TO_LIVE  CLASS  TYPE   VALUE
+
+--Domain name tells the domain to which this record is associated with.eg cse.nitk.ac.in.
+--TIME_TO_LIVE:this tells for how long this record is stable ie.,after how much time this particular record has to be refreshed and updated.This is in seconds.Very stable info like the static IP addresses will be given large values whereas very volatile info will be given small values for TIME_TO_LIVE.
+--CLASS :###I didnt understand this properly###
+--TYPE :What type of information does this record give about this domain.
+	--If TYPE is A ,Then this gives the IPv4 address of the domain.
+	--AAAA:IPv6 address
+	--CNAME:canonical name	
+	--MX:This tells that this particular domain is willing to accept emails.
+
+--VALUE:If TYPE is A,then VALUE contains the IPv4 address.
+
+EXAMPLE:  cse.nitk.ac.in   86400    IN    NS   linux1
+	  linux1           86400    IN    A    14.139.155.215
+
+--In this example,the information that domain_name  "cse.nitk.ac.in" is represented by linux1(name of a particular machine) is given by the first record.
+--In the second,the IPv4 of that machine is given.
+--NS stands for name server.
+--TIME_TO_LIVE is 86400 seconds because this is stable information about the domain.
+--IN stands for internet related information.
+--A:IPv4
+
+
+--The DNS server can not only have information about websites,they(especially the local DNS servers) can also have info about printers and other peripherals connected to the network.
+
+EXAMPLE: hp_inkjet     ###notimetolive###     IN   A   10.4.1.15
+
+--From the IP address of the printer,it is safe to say that the info is from a local DNS server giving information about a subnet.            
+	
+	
