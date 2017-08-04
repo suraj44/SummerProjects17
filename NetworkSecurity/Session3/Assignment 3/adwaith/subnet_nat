@@ -1,0 +1,66 @@
+1.What is subnetting and explain the process of NAT.
+
+
+--Every IP address constitutes of 2 portions.The network portion and host portion.If the first "x" bits make up the network portion,then the next "32-x" bits make up the host portion.
+--Network portion is constant for all devices on that particular network.Host portion is the differentiating factor among hosts as it is different for different host machines.
+
+--The network portion is also known as the prefix.
+
+TAKING AN EXAMPLE:
+
+--The information we get using the "ifconfig" command should be analysed.
+--Consider a host machine with inet addr=192.168.1.5   .Mask=255.255.255.0  .What does this mask mean?
+
+--When the network byte order of mask is "bitwise ANDed" with network byte order of given IP address,we get the network portion.
+--The rest is the host portion.
+
+IP ADDRESS:      192.168.1.5      NETWORK BYTE ORDER:11000000 10101000 00000001 00000101
+MASK      :      255.255.255.0    NETWORK BYTE ORDER:11111111 11111111 11111111 00000000
+NETWORK PORTION: 192.168.1.0      NETWORK BYTE ORDER:11000000 10101000 00000001 00000000
+HOST PORTION:    0.0.0.5          NETWORK BYTE ORDER:00000000 00000000 00000000 00000101
+
+--So,The host portion here can vary from 0 to 255.ie.,This network has the capacity to handle 256 connections.But 192.168.1.0 refers to this network and 192.168.1.255 refers to BROADCAST.So with the information from ifconfig,we got to know that only 254 devices can be connected to this network.
+--This makes it a small-network or (sub-network) in the huge internetwork(internet).This small network is known as a SUBNET.
+
+--Another notation:Instead of giving the mask,the following notation is also acceptable.  192.168.1.5/24  means the first 24 bits constitute the network portion and rest is host portion.
+SUBNETTING:
+
+--Consider an example where NITK has a /16 address with it.Let it have only 1 department.The cse dept./16 means first 16 bits make up the network portion.So 16 bits are up for the host portion.So totally (2^16 -2)=65534 hosts can get connected to the network.
+
+--In the beginning,There was only 1 dept.So there was no problem.When the electrical dept was established,They wanted connections.
+One way to do this is to allot random IP addresses to the electrical department .So the rest if the IP addresses stay with the cse dept.
+
+-OR,SOMETHING KNOWN AS SUBNETTING CAN BE DONE.As we know,a subnet is a smaller network in a current large network.So the process of splitting the IP addresses into different blocks to get different subnets/multiple networks while still acting like a single network to the outside world.THIS IS KNOWN AS SUBNETTING.
+
+--Consider that nitk initially had 192.168.1.1/16 address.So,it can handle maximum of 65534 connections.When the electrical dept is established,
+
+	--192.168.0.0/18 subnet can be given to electrical dept.--(2^14-2)=16382 devices
+	--192.168.128.0/17 subnet can be given to cse dept      --(2^15-2)=32766 devices.
+	
+--The rest can be kept for a new dept or can be used by the 2 depts if required.This is how and why subnetting is done.
+
+NAT--NETWORK ADDRESS TRANSLATION.
+
+--We are falling short of IP addresses(IPv4-this is currently in use).The only fix/the long term fix is to use IPv6 which is happing slowly but due to sudden increase in the number of devices wanting to get connected to the internet,definitely a quick solution is required.One approach is to dynamically allocate the IP address based on their ON time in the network.This might be an efficient solution keeping home networks in mind.But with business and MNCs' perspective,this is not a good solution.That is because,for example,google servers,techmahindra servers will be have to be up all night or 365 days continuosly and should respond at a moment's notice.So a solution came up-NAT.
+
+--Again taking example of airtel(or any ISP).Let it have a /16 address with it.So it can support a maximum of 65534 connections.But in reality,It is definite that airtel has way more customers than 65534.So how is this being done?
+
+--THE BASIC IDEA:What airtel does is it assigns a unique IP address(PUBLIC IP ADDRESS) to home or business network.Then within the business network,each device connected to it gets a unique IP address(PRIVATE IP ADDRESS).This PRIVATE IP ADDRESS is sufficient for intranetwork communication.But when packets have to go out into the outside world,just before the a packet exits the business network,the PRIVATE IP address is replaced by the PUBLIC IP ADDRESS and then the packets are sent to the real world.
+
+--There are 3 ranges of IP addresses which can be used as PRIVATE IP ADDRESSES.
+	--10.0.0.0/8     --16777216 hosts
+	--172.16.0.0/12  --1048576 hosts
+	--192.168.0.0/16 --65536 hosts.
+
+--Usually,the first range if IP addresses are demanded by the business organisations and institutes because it gives the maximum capacity.Alloting this range even for a small home network doesn't harm the network because none of this is seen to the outside world.
+--When a http packet from say 192.168.1.5 inside a /24 network is addressed to a google server,then an instrument called NAT box(usually the gateway router of the home network replaces the private IP address with the alloted public IP address.So a packet sent out is sent successfully.
+--But when a response packet from the google server comes back,it is addressed to the PUBLIC IP ADDRESS.So how will the packet come back to 192.168.1.5?Solution is that the NAT box makes a note of (PRIVATE_IP_ADDRESS,SOURCE PORT) of the packet.This helps in solving the problem.
+
+--If for some reason,the google server wants to initiate the communication with 192.168.1.5(my device) ,that can never be done with the above mechanism of NAT.Few NAT traversal techniques are used to allow this backward communication.
+
+--ADVANTAGES OF NAT AND NATBOX:
+	--This successfully solves the problem of scarcity of IPv4 addresses.
+	--The NAT box comes with the network firewall and other security measures which is intended to protect the home or business network.
+
+--One thing people are critical about this model is that 2 different machines connected to 2 different networks can have the same IP address.This was not intended when the concept of IP addressing was introduced.
+--This mechanism doesnt allow the end-to-end connection which was intended when IP addressing was introduced.

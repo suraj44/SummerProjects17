@@ -1,0 +1,72 @@
+1. Write about various ciphers.
+
+Classical ciphers -
+
+  Transposition ciphers
+	
+	Letters themselves are kept unchanged, but their order within the message is scrambled according to some well-defined scheme.
+	Example : Scytale
+
+  Substitution ciphers - 
+	
+	Letters (or groups of letters) are systematically replaced throughout the message for other letters (or groups of letters). 
+
+	Caesar cipher 
+	- Each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
+
+	ROT13
+	- A special case of the Caesar cipher, it replaces a letter with the letter 13 letters after it in the alphabet.
+
+	Vigenère cipher (Polyalphabetic substitution)
+	- consists of several Caesar ciphers in sequence with different shift values.
+	- A table of alphabets can be used, termed a tabula recta, Vigenère square, or Vigenère table.
+
+	Playfair
+	- Uses a 5 by 5 key table
+	- To generate it, first fill in the spaces in the table with the letters of the keyword (dropping any duplicate letters), 
+	- Then fill the remaining spaces with the rest of the letters of the alphabet in order (usually omitting "Q" to reduce the alphabet to fit; 
+	  other versions put both "I" and "J" in the same space). 
+	- The key can be written in the top rows of the table, from left to right, or in some other pattern,  
+	- The keyword together with the conventions for filling in the 5 by 5 table constitute the cipher key.
+	- To encrypt a message, one would break the message into digrams (groups of 2 letters).
+	- Then apply the following 4 rules, in order, to each pair of letters in the plaintext:
+		1. If both letters are the same (or only one letter is left), add an "X" after the first letter. 
+		   Encrypt the new pair and continue. Some variants of Playfair use "Q" instead of "X", but any letter, itself uncommon as a repeated pair, will do.
+		2. If the letters appear on the same row of your table, replace them with the letters to their immediate right respectively 
+		   (wrapping around to the left side of the row if a letter in the original pair was on the right side of the row).
+		3. If the letters appear on the same column of your table, replace them with the letters immediately below respectively 
+		   (wrapping around to the top side of the column if a letter in the original pair was on the bottom side of the column).
+		4. If the letters are not on the same row or column, replace them with the letters on the same row respectively but at the other pair of corners of the rectangle defined by the original pair. 
+		   The order is important – the first letter of the encrypted pair is the one that lies on the same row as the first letter of the plaintext pair.
+
+Other examples: Rail Fence, Beaufort, Bacon, Autokey, etc.
+
+
+
+2. Why do ciphers fail?
+
+Most classical ciphers can be easily cracked if there is enough text.
+
+	Simple ciphers such as Caesar, ROT13 can be solved using frequency analysis, brute force attack, etc.
+ 	
+	The primary weakness of the Vigenère cipher is the repeating nature of its key. 
+	If a cryptanalyst correctly guesses the key's length, then the cipher text can be treated as interwoven Caesar ciphers, 
+	which individually are easily broken.
+
+	For playfair, frequency analysis is possible, but difficult. 
+	Another approach is shotgun hill climbing method.
+
+
+
+3. How do you achieve message confidentiality using symmetric and asymmetric encryption methods?
+
+   In symmetric methods, only the sender and recipient know the key, hence confideniality is maintained.
+   Using a complex key and frequently changing the key also help in security.
+
+   In asymmetric methods, a public key is used in encryption and a corresponding private key is used to decrypt.
+   Only the recipient knows the decryption key thus achieving confidentiality.
+
+		  
+ 
+  	 
+

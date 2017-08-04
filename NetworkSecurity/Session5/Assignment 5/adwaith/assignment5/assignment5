@@ -1,0 +1,11 @@
+1.Taking a look at the screenshot "sshot1.png",The machine 172.16.0.107 is getting IP addresses of the different services provided by google.There is much more services than what is seen on the screen shot.
+
+2.By adding the filter "ip.addr=74.125.95.147"   ,We come to know that machine 172.16.0.107 is sending huge number of packets to 74.125.95.147 --one of the IP addresses of google.  --screenshot:  tcp_packets.png 
+
+3.By adding the filter dnsserver,We come to know that machine 172.17.0.107 has sent huge number of DNS queries to get tha IP addresses of google servers of different services.screenshot:  dnsserver.png
+
+4.From the endpoints.png ,the fact that 172.16.0.107 is the highest traffic creator is proved.
+
+5.From the covnersations.png,the google server and the machine 172.16.9.107 have communicated a lot.
+
+Conclusion:a.From fact 4,The machine 172.16.0.107 is the attacker.That google server is the victim.THIS IS A DOS ATTACK.

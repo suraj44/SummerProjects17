@@ -1,0 +1,22 @@
+The exdcutable 1 could be this:
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("\nEnter an integer");
+	scanf("%d",&a);
+	
+	printf("\nTry again");
+	return 0;
+}
+
+
+
+Explanation:
+	
+	--In this executable,it is just taking an integer and printing the string "Try again" .
+	--This conclusion was made when the entered integer was not compared with any other integer(no cmp) .
+	--There was no unconditional jump or anything as in executable 2.
+	
+	--So there is no way to win.

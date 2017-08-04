@@ -1,0 +1,55 @@
+This could be executable 4:
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("\nEnter an integer\n");
+	scanf("%d",&a);
+	
+	printf("%d",a/3);
+	return 0;
+}
+
+
+EXPLANATION:
+   0x0000000000400662 <+28>:	call   0x4004f0 <puts@plt>
+   0x0000000000400667 <+33>:	lea    rax,[rbp-0xc]
+   0x000000000040066b <+37>:	mov    rsi,rax
+   0x000000000040066e <+40>:	mov    edi,0x400756
+   0x0000000000400673 <+45>:	mov    eax,0x0
+   0x0000000000400678 <+50>:	call   0x400530 <__isoc99_scanf@plt>
+   0x000000000040067d <+55>:	mov    ecx,DWORD PTR [rbp-0xc]
+   0x0000000000400680 <+58>:	mov    edx,0x55555556
+   0x0000000000400685 <+63>:	mov    eax,ecx
+   0x0000000000400687 <+65>:	imul   edx
+   0x0000000000400689 <+67>:	mov    eax,ecx
+   0x000000000040068b <+69>:	sar    eax,0x1f
+   0x000000000040068e <+72>:	sub    edx,eax
+   0x0000000000400690 <+74>:	mov    eax,edx
+   0x0000000000400692 <+76>:	mov    esi,eax
+   0x0000000000400694 <+78>:	mov    edi,0x400756
+   0x0000000000400699 <+83>:	mov    eax,0x0
+   0x000000000040069e <+88>:	call   0x400510 <printf@plt>
+   0x00000000004006a3 <+93>:	mov    eax,0x0
+
+
+	--The number entered is first stored in [$rbp-0xc] and then copied to register "ecx".
+	--edx = 0x55555556.This is the magic number which should be multiplied with the number entered to get the number/3.
+	
+	--eax=$ecx=entered number.[0x400685]
+	--imul edx.   Here value in edx is multiplied by eax and it is stored in edx:eax.This means the The 32 lower bits(Out of a 64 bit integer) is stored in eax and 32 higher bits are stored in eax.
+
+	--Our quotient is stored in edx .
+	--in the instruction 0x40068b sar eax,0x1f.The value in eax is right shifted by 31 bits.So essentially,eax=0 after this.
+
+	--sub edx,eax .means subtracting 0 from our quotient(I dont know why this step is done..)
+	
+
+	--mov eax,edx  :Copying quotient into eax .
+	--mov esi,eax  :Copying quotient into esi.This is done as esi is used for string functions.
+
+	--I dont understand what is stored in 0x400756(instruction 0x400694);
+	--In 0x40069e ,The quotient is printed.
+	
+	--mov eax,0x0;vlaue in eax is set to 0 as there is return 0;
