@@ -1,0 +1,4 @@
+The attack shown in the current capture is a Man in the Middle Attack.
+The HP device spoofs its ip address as that of the CISCO router.
+After that instance, all communication from CISCO to DELL stops and starts from DELL to HP.
+
