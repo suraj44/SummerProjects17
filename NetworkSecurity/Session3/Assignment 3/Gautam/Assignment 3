@@ -1,0 +1,5 @@
+Subnet Mask:
+It is used to separate a network into separate logical networks. By applying a subnet mask, it splits an ip address into host address and extended network portion. A subnet mask contains 32 bits, which are all 1 from the left and 0 from the right. 
+
+NAT:
+Network Address Translation is a process of mapping an ip address over another. It helps to limit the number of ip addresses used.

@@ -1,0 +1,14 @@
+1. Various ciphers are:
+   a) Atbash Cipher:
+      A cipher where 'a' becomes 'z', 'b' becomes 'y' and so on.
+   a) Ceasar Cipher:
+      In Ceasar Cipher, every alphabet is shifted by a particular fixed value. Example: secret will be written as tfdsfu when shifted by one    	place.
+   b) Vigenere Cipher:
+      It combines multiple Ceasar Ciphers. It contains an encryption key, which determines how much an alphabet is shifted.
+   c) Playfair Cipher:
+      It uses a 5 X 5 grid to encrypt and decrypt messages. A known sequence of alphabets is arragned in the grid, with duplicates removed. 
+      Remaining spaces are filled with unused alphabets in alphabetical order.
+   d) Trifid Cipher:
+      It uses a cube of side 3 instead of a 5x5 grid.
+
+2. Ciphers fail due to frequency analysis of the characters in the encrypted message. With increasing computation power, it becomes increasingly easier to brute force and decrypt the message.       
