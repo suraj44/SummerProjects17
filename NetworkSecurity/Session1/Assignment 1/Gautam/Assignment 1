@@ -1,0 +1,3 @@
+DNS - Domain Name System, is a system to match domain names to their respective IP addresses.
+
+DNS servers are servers which maintain a directory of domain names and IP addresses. When a device makes a request to a particular domain name, it sends a DNS query to a DNS server. If the particular record is indexed, the DNS server returns it, else, it forwards the request to another DNS server.

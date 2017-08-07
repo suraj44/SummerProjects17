@@ -1,0 +1,30 @@
+OPEN PORTS:
+
+--When SYN packets are sent to a server,the ports which are open respond back with SYN/ACK packets.So to find this,the filter is 
+
+(tcp.flags.syn==1 and tcp.flags.ack==1). screenshot :openports.png .
+
+From filtering,open ports are 80(http),22(ssh) and 53(domain).
+
+CLOSED PORTS:
+
+--When SYN packets are sent to a server,ports which are closed respond with connection termination ACK/RST packet.
+--So to find this,the filter (tcp.flags.syn==1 && tcp.flags.reset==1) should be applied.  screenshot:closedports.png
+
+From this filter,closed ports are 113(auth),smtp(25),31337,70(gopher).
+
+gopher system:The Gopher protocol is a TCP/IP application layer protocol for distributing,searching and retriving documents over the internet.This was proposed as an alternative for world wide web , but http became the dominant protocol.
+
+port 113(auth) :The IDENT PROTOCOL.This port is used for identification/authorisation service.When a client program contacts remote machine for services such as FTP,POP etc., The remote machine sends back a query on port 113 to the client sking for the identification of the system.
+	--This port poses some serious security concerns.So,it is best to close this port.(Our observation).
+
+
+FILTERED PORTS:
+
+--The ports which are not responding to the SYN packets are known as filtered ports.We dont know whether the ports are closed or open.
+
+The logic used is (all ports-open and closed ports).
+
+filter:    !(tcp.port==80 && tcp.port==22 && udp.port==53 && tcp.port==31337 && tcp.port==113 && tcp.port==70 && tcp.port==25)
+
+--So,all other ports are filtered ports.  screenshot:  filteredports.png
